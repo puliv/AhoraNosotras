@@ -1,14 +1,15 @@
-import React from 'react';
-import './App.css';
-import { Button } from 'antd'
+import React from 'react'
+import './App.css'
+import { connect } from 'react-redux'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
-    <div>
-      <h1>Ahora Nosotras</h1>
-      <Button type="primary">hola</Button>
+    <div className="App">
+
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default connect()(App)
