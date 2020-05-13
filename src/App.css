@@ -1,7 +1,16 @@
 @import "~antd/dist/antd.css";
 
+/* ---------- App ---------- */
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/quarter-kanagawa-g.png");
+  background-size: cover;
+}
+
 /* ---------- Subscribe ---------- */
 .subscribe {
+  /* display: none; */
   background-color: brown;
   bottom: auto;
   width: 100%;
@@ -20,10 +29,11 @@
   width: 100% !important;
   display: flex;
   justify-content: center;
+  color: aliceblue;
 }
 
 .subscribe-form {
-  padding: 20px 100px;
+  padding: 20px 22vw;
 }
 
 .ant-form-item {
@@ -32,6 +42,7 @@
 
 .subscribe-h3 {
   margin: 3px 0px;
+  color: aliceblue;
 }
 
 .subscribe-btn {
@@ -42,7 +53,7 @@
 .footer {
   position: absolute;
   bottom: 0px;
-  background-color: brown;
+  background-color: black;
   width: 100%;
   height: auto;
   display: flex;

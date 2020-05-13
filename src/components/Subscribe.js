@@ -11,9 +11,9 @@ export class Subscribe extends Component {
           <h2 className="subscribe-h1">Súmate!</h2>
           <span className="subscribe-span">Suscríbete a nuestro newsletter</span>
         </div>
-        <Form className="subscribe-form">
+        <Form className="subscribe-form" required={true}>
           <div>
-            <h3 className="subscribe-h3">Nombre</h3>
+            <h3 className="subscribe-h3">Nombre y apellido</h3>
             <Input />
           </div>
           <div>
@@ -21,10 +21,14 @@ export class Subscribe extends Component {
             <Input />
           </div>
           <div>
+            <h3 className="subscribe-h3">Comuna/Ciudad</h3>
+            <Input />
+          </div>
+          <div>
             <h3 className="subscribe-h3">Comentarios</h3>
             <TextArea />
           </div>
-          <Button className="subscribe-btn">Enviar</Button>
+          <Button className="subscribe-btn" type="primary">Enviar</Button>
         </Form>
       </div>
     )
