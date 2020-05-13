@@ -1,16 +1,32 @@
 @import "~antd/dist/antd.css";
 
-/* ---------- App ---------- */
+/* ---------- Header ---------- */
 .header {
   width: 100%;
-  height: 100%;
-  background-image: url("/src/assets/quarter-kanagawa-g.png");
-  background-size: cover;
+  height: auto;
+  background-color: #630164;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-social-media-div,
+.header-menu-div {
+  padding: 15px;
+}
+
+.header-img-anlogo {
+  width: 70px;
+  margin: 15px;
+}
+
+.header-icon {
+  font-size: 20px;
+  color: #f6f6f6;
+  margin: 5px;
 }
 
 /* ---------- Subscribe ---------- */
 .subscribe {
-  /* display: none; */
   background-color: brown;
   bottom: auto;
   width: 100%;
