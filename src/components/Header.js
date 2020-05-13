@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Drawer } from 'antd'
 import { MenuOutlined } from '@ant-design/icons'
 import { InstagramOutlined, FacebookOutlined, TwitterOutlined } from '@ant-design/icons'
-import anlogo from '../assets/anlogo.png'
+import anlogo from '../assets/logos/ahora-nosotras.png'
 
 
 export class Header extends Component {
