@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import anlogo from '../assets/logos/ahora-nosotras.png'
 import falogo from '../assets/logos/frente-amplio.png'
 import rdlogo from '../assets/logos/revolucion-democratica.png'
-import { InstagramOutlined, FacebookOutlined, TwitterOutlined, LinkedinOutlined } from '@ant-design/icons'
+import { InstagramOutlined, FacebookFilled, TwitterOutlined, LinkedinFilled } from '@ant-design/icons'
 
 
 export class Footer extends Component {
@@ -18,14 +18,14 @@ export class Footer extends Component {
             />
           </div>
           <div className="footer-social-media-div">
-            <a href="https://www.instagram.com/AhoraNosotrasRD">
-              <InstagramOutlined className="footer-icon social" />
-            </a>
             <a href="https://www.facebook.com/AhoraNosotrasRD/">
-              <FacebookOutlined className="footer-icon social" />
+              <FacebookFilled className="footer-icon social" />
             </a>
             <a href="https://twitter.com/AhoraNosotrasRD">
               <TwitterOutlined className="footer-icon social" />
+            </a>
+            <a href="https://www.instagram.com/AhoraNosotrasRD">
+              <InstagramOutlined className="footer-icon social" />
             </a>
           </div>
         </div>
@@ -46,12 +46,12 @@ export class Footer extends Component {
           <div className="footer-span-div-bottom">
             <span className="footer-span">Diseño: Francisca Mora&nbsp;
             <a href="https://www.linkedin.com/in/franmora/">
-                <LinkedinOutlined className="footer-icon" />
+                <LinkedinFilled className="footer-icon" />
               </a>
             </span>
             <span className="footer-span">Desarrollo: Paulina Vera&nbsp;
             <a href="https://www.linkedin.com/in/pulie/">
-                <LinkedinOutlined className="footer-icon" />
+                <LinkedinFilled className="footer-icon" />
               </a>
             </span>
           </div>

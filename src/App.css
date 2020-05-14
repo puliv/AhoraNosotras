@@ -11,7 +11,7 @@
 
 .header-social-media-div,
 .header-menu-div {
-  padding: 15px;
+  padding: 15px 30px;
 }
 
 .header-img-anlogo {
@@ -25,9 +25,55 @@
   margin: 5px;
 }
 
+.drawer-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.drawer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50%;
+}
+
+.drawer-close-icon {
+  cursor: pointer;
+}
+
+.drawer-h3 {
+  font-family: "Roboto", sans-serif;
+  color: #f6f6f6;
+  padding-top: 20px;
+  cursor: pointer;
+
+  text-decoration: none;
+  background-image: linear-gradient(#35cc05, #35cc05);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  transition: background-size 0.3s;
+}
+
+.drawer-h3:hover,
+.drawer-h3:focus {
+  background-size: 100% 3px;
+}
+
+.drawer-h3.contact {
+  padding-top: 70px;
+}
+
+.drawer-icon {
+  color: #f6f6f6;
+  font-size: 26px;
+  padding: 0 10px;
+}
+
 /* ---------- Subscribe ---------- */
 .subscribe {
-  background-color: brown;
+  background-color: #f6f6f6;
   bottom: auto;
   width: 100%;
   height: auto;
@@ -42,10 +88,17 @@
 
 .subscribe-h1,
 .subscribe-span {
+  font-family: "Roboto", sans-serif;
   width: 100% !important;
   display: flex;
   justify-content: center;
-  color: aliceblue;
+  color: #000;
+}
+
+.subscribe-h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1px;
 }
 
 .subscribe-form {
@@ -57,12 +110,15 @@
 }
 
 .subscribe-h3 {
+  font-family: "Roboto", sans-serif;
   margin: 3px 0px;
-  color: aliceblue;
+  color: #808080;
 }
 
 .subscribe-btn {
   margin: 10px 0px;
+  background-color: #630164;
+  border-color: #630164;
 }
 
 /* ---------- Footer ---------- */
@@ -79,7 +135,7 @@
   justify-content: space-between;
   width: 100%;
   height: auto;
-  padding: 10px 50px;
+  padding: 10px 10vw;
 }
 
 .footer-bottom {
@@ -88,7 +144,7 @@
   display: flex;
   border-top: solid #808080;
   border-width: 1px;
-  margin: 0px 50px;
+  margin: 0px 10vw;
   padding: 25px 0px !important;
 }
 
@@ -128,6 +184,7 @@
 }
 
 .footer-span {
+  font-family: Arial, Helvetica, sans-serif;
   color: #808080;
   display: flex;
   font-size: 13px;
