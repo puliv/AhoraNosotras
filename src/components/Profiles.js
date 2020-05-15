@@ -19,14 +19,18 @@ export class Profiles extends Component {
         protag: protagonistas.map((x) => {
           return (
             <div className="profile-div" key={x.id}>
-              <img
-                className="profile-img-x"
-                src={x.img}
-                alt="img"
-              />
-              <h3 className="profile-h3">{x.name}</h3>
-              <span className="profile-span-x">{x.from}</span>
-              <span className="profile-span-x roll">{x.rollover}</span>
+              <div className="profile-img-div">
+                <img
+                  className="profile-img-x"
+                  src={x.img}
+                  alt="img"
+                />
+              </div>
+              <div className="profile-text-div">
+                <h3 className="profile-h3">{x.name}</h3>
+                <span className="profile-span-x">{x.from}</span>
+                <span className="profile-span-x roll">{x.rollover}</span>
+              </div>
             </div>
           )
         })
