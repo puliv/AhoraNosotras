@@ -1,46 +1,91 @@
 import React, { Component } from 'react'
+import howThisWork from '../assets/img/IMAGEN_1.2.png'
+import flowers from '../assets/flowers.png'
 
 export class AboutUs extends Component {
   render() {
     return (
-      <div className="about-us">
-        <div className="about-us-img"></div>
-        <div className="about-us-text">
-          <h2 className="about-us-h2">NOSOTRAS</h2>
-          <span className="about-us-span">
-            Somos muchas voces quienes desde el feminismo y la militancia estamos transformando Chile y nuestro partido. <br />
-          Por eso juntas decidimos crear #AhoraNosotras, nuestra propuesta para hacer de
-          Revolución Democrática el primer partido realmente feminista,<br /> capaz de transformar
-          Chile en lo público y en lo privado.<br />
-          Lo hacemos nosotras porque hemos pasado de vivir la desigualdad de género a
-          entenderla y organizarnos para disputar el poder y así transformarlo todo.
-          </span>
+      <React.Fragment>
+        <div className="about-us-first-img">
+          {/* Primera imagen de fondo */}
         </div>
-        <div className="about-us-second-img"></div>
-        <div className="about-us-second-text">
-          <h2 className="about-us-h2">NOS CONSTITUÍMOS</h2>
-          <span className="about-us-span">Las mujeres conformaremos Poder Constituyente Feminista para repensar la
+        <div className="about-us">
+          <div className="about-us-text-div">
+            <img
+              src={flowers}
+              alt="flores"
+              className="about-us-flower left"
+            />
+            <div className="about-us-text">
+              <h2 className="about-us-h2 us">NOSOTRAS</h2>
+              <span className="about-us-span us">
+                Somos muchas voces quienes desde el feminismo y la militancia estamos transformando Chile y nuestro partido. Por eso juntas decidimos crear #AhoraNosotras, nuestra propuesta para hacer de
+                Revolución Democrática el primer partido realmente feminista, capaz de transformar
+                Chile en lo público y en lo privado.
+                Lo hacemos nosotras porque hemos pasado de vivir la desigualdad de género a
+                entenderla y organizarnos para disputar el poder y así transformarlo todo.
+                </span>
+            </div>
+            <img
+              src={flowers}
+              alt="flores"
+              className="about-us-flower right"
+            />
+          </div>
+
+          <div className="about-us-img-div">
+            <h2 className="about-us-h2 how-work">¿Cómo funciona la comunidad #AhoraNosotras?</h2>
+            <img
+              src={howThisWork}
+              alt="Como funciona la comunidad"
+              className="about-us-img"
+            />
+          </div>
+
+          <div className="about-us-date-div">
+            <h2 className="about-us-h2 date">NOS CONSTITUÍMOS</h2>
+            <span className="about-us-span date">Las mujeres conformaremos Poder Constituyente Feminista para repensar la
           convivencia, nuestra comunidad y la construcción del poder. Juntas imaginaremos un Nuevo Chile.</span>
-          <h4 className="about-us-h4">Fechas son claves:</h4>
-          <ul>
-            <li>
-              6 de junio de 2020: Cierre de plazo para cambio de domicilio electoral.
-            </li>
-            <li>
-              25 de octubre de 2020: Plebiscito Constitucional.
-            </li>
-            <li>
-              29 de noviembre de 2020: Primarias Alcaldes/as.
-            </li>
-            <li>
-              11 de abril de 2021: Elección alcaldes/as, concejales/as. gobernadores/as y convencionales constituyentes.
-            </li>
-            <li>
-              2 de mayo de 2021: Segunda vuelta gobernadores/as.
-            </li>
-          </ul>
+            <h4 className="about-us-h4">Fechas Claves</h4>
+            <ul className="about-us-ul">
+              <li className="about-us-li">
+                <span className="about-us-span-date">06 JUN <br />&nbsp;2020</span>
+                <span className="about-us-span-text">
+                  Cierre de plazo para cambio de domicilio electoral.
+                  </span>
+              </li>
+              <li className="about-us-li">
+                <span className="about-us-span-date">25 OCT <br />&nbsp;2020</span>
+                <span className="about-us-span-text">
+                  Plebiscito Constitucional.
+                  </span>
+              </li>
+              <li className="about-us-li">
+                <span className="about-us-span-date">29 NOV <br />&nbsp;2020</span>
+                <span className="about-us-span-text">
+                  Primarias Alcaldes/as.
+                  </span>
+              </li>
+              <li className="about-us-li">
+                <span className="about-us-span-date">11 ABR <br />&nbsp;2021</span>
+                <span className="about-us-span-text">
+                  Elección alcaldes/as, concejales/as. gobernadores/as y convencionales constituyentes.
+                  </span>
+              </li>
+              <li className="about-us-li">
+                <span className="about-us-span-date">02 MAY <br />&nbsp;2021</span>
+                <span className="about-us-span-text">
+                  Segunda vuelta gobernadores/as.
+                  </span>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+
+        <div className="about-us-second-img">
+          {/* Segunda imagen de fondo */}
+        </div>
+      </React.Fragment>
     )
   }
 }
