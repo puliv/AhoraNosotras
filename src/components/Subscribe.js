@@ -51,10 +51,10 @@ export class Subscribe extends Component {
   }
 
 
-  handleSubcribeItems = () => {
-    const { subsName, subsEmail, subsCity, subsComment } = this.state
-    this.props.getSubscribeItems(subsName, subsEmail, subsCity, subsComment)
-  }
+  // handleSubcribeItems = () => {
+  //   const { subsName, subsEmail, subsCity, subsComment } = this.state
+  //   this.props.getSubscribeItems(subsName, subsEmail, subsCity, subsComment)
+  // }
 
 
 

@@ -57,7 +57,7 @@ export class Header extends Component {
             />
           </div>
           <div className="drawer-main">
-            <h3 className="boombiddy">NOSOTRAS</h3>
+            <h3 className="drawer-h3">NOSOTRAS</h3>
             <h3 className="drawer-h3">REVISTA</h3>
             <h3 className="drawer-h3">APRENDEMOS</h3>
             <h3 className="drawer-h3">PROTAGONISTAS</h3>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import howThisWork from '../assets/img/IMAGEN_1.2.png'
+import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import flowers from '../assets/flowers.png'
 
 export class AboutUs extends Component {
