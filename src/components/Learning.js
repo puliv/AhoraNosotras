@@ -1,13 +1,24 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 import vimeo from '../assets/vimeo_logo.png'
+import COMUNICACION_ESTRATEGICA from '../assets/PDF/COMUNICACION_ESTRATEGICA/1COMUNICACION_ESTRATEGICA.pdf'
+import RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL from '../assets/PDF/COMUNICACION_ESTRATEGICA/2RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL.pdf'
+import COMUNICACIÓN_POLÍTICA from '../assets/PDF/COMUNICACION_ESTRATEGICA/3COMUNICACIÓN_POLÍTICA.pdf'
+import FEMINISMOS_TENSIONES_Y_FORMAS from '../assets/PDF/HISTORIA_FEMINISTA/1FEMINISMOS_TENSIONES_Y_FORMAS.pdf'
+import VIOLENCIA_DE_GÉNERO_Y_FEMINISMOS from '../assets/PDF/HISTORIA_FEMINISTA/2VIOLENCIA_DE_GÉNERO_Y_FEMINISMOS.pdf'
+import HERRAMIENTAS_PARA_LA_COMPRENSION from '../assets/PDF/PROCESO_CONSTITUYENTE/1HERRAMIENTAS_PARA_LA_COMPRENSION.pdf'
+import PODER_FEMINISTA_CONSTITUYENTE from '../assets/PDF/PROCESO_CONSTITUYENTE/2PODER_FEMINISTA_CONSTITUYENTE.pdf'
+import PROCESOS_CONSTITUYENTES_CONSTITUCIONES from '../assets/PDF/PROCESO_CONSTITUYENTE/3PROCESOS_CONSTITUYENTES_CONSTITUCIONES.pdf'
+import FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE from '../assets/PDF/PROCESO_CONSTITUYENTE/4FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE.pdf'
+import Ingreso_familiar_de_emergencia_1 from '../assets/PDF/OTRAS_EXPERIENCIAS/Ingreso_familiar_de_emergencia_1.pdf'
+import MUJERES from '../assets/MUJERES.png'
 
 export class Learning extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-
+      COMUNICACION_ESTRATEGICA
     }
   }
 
@@ -55,41 +66,70 @@ export class Learning extends Component {
             <button className="learning-btn">Ir al canal</button>
           </div>
         </div>
-        <div className="learninr-div-pdf">
-          <h2>El conocimiento se comparte</h2>
-          <div className="learning-pdf ce">
+
+        <div className="learning-div-pdf">
+          <h2 className="learning-h2">El conocimiento se comparte</h2>
+          <div className="learning-pdf">
             <h3 className="learning-h3">Comunicación estratégica</h3>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Comunicación estratégica y construcción del discurso político</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Recomendaciones para construir una estrategia comunicacional</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Comunicación política</a>
-            <p className="learning-pdf-author"></p>
+            <a className="learning-pdf-a" href={COMUNICACION_ESTRATEGICA} target="/blank">[PDF] Comunicación estratégica y construcción del discurso político</a>
+            <p className="learning-pdf-author">
+              Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
+            </p>
+            <a className="learning-pdf-a" href={RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL} target="/blank">[PDF] Recomendaciones para construir una estrategia comunicacional</a>
+            <p className="learning-pdf-author">
+              Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
+            </p>
+            <a className="learning-pdf-a" href={COMUNICACIÓN_POLÍTICA} target="/blank">[PDF] Comunicación política</a>
+            <p className="learning-pdf-author">
+              Por Sebastian Kraljevich.
+            </p>
           </div>
-          <div className="learning-pdf hf">
+          <div className="learning-pdf">
             <h3 className="learning-h3">Historia Feminista</h3>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Feminismos, tensiones y formas de participación política</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Violencia de género y feminismos en Chile, 1970 - Presente</a>
-            <p className="learning-pdf-author"></p>
+            <a className="learning-pdf-a" href={FEMINISMOS_TENSIONES_Y_FORMAS} target="/blank">[PDF] Feminismos, tensiones y formas de participación política</a>
+            <p className="learning-pdf-author">
+              Por María Stella Toro, septiembre 2019.
+            </p>
+            <a className="learning-pdf-a" href={VIOLENCIA_DE_GÉNERO_Y_FEMINISMOS} target="/blank">[PDF] Violencia de género y feminismos en Chile, 1970 - Presente</a>
+            <p className="learning-pdf-author">
+              Por Hillary Hiner, diciembre 2019.
+            </p>
           </div>
-          <div className="learning-pdf pc">
+          <div className="learning-pdf">
             <h3 className="learning-h3">Proceso Constituyente</h3>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Herramientas para la comprensión sobre el acuerdo por una nueva constitución</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Poder feminista constituyente</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Procesos constituyentes y constituciones: una lectura de género</a>
-            <p className="learning-pdf-author"></p>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Feminismo y Asamblea Constituyente</a>
-            <p className="learning-pdf-author"></p>
+            <a className="learning-pdf-a" href={HERRAMIENTAS_PARA_LA_COMPRENSION} target="/blank">[PDF] Herramientas para la comprensión sobre el acuerdo por una nueva constitución</a>
+            <p className="learning-pdf-author">
+              Por Claudia Heiss, diciembre 2019.
+            </p>
+            <a className="learning-pdf-a" href={PODER_FEMINISTA_CONSTITUYENTE} target="/blank">[PDF] Poder feminista constituyente</a>
+            <p className="learning-pdf-author">
+              Por Gloria María, diciembre 2019.
+            </p>
+            <a className="learning-pdf-a" href={PROCESOS_CONSTITUYENTES_CONSTITUCIONES} target="/blank">[PDF] Procesos constituyentes y constituciones: una lectura de género</a>
+            <p className="learning-pdf-author">
+              Por Yanira Zúñiga, abril 2019.
+            </p>
+            <a className="learning-pdf-a" href={FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE} target="/blank">[PDF] Feminismo y Asamblea Constituyente</a>
+            <p className="learning-pdf-author">
+              Por Unidad de Género, 2016.
+            </p>
           </div>
-          <div className="learning-pdf oe">
+          <div className="learning-pdf">
             <h3 className="learning-h3">Otras Experiencias</h3>
-            <a className="learning-pdf-a" href="www.hola.com">[PDF] Ingreso familiar de emergencia</a>
-            <p className="learning-pdf-author"></p>
+            <a className="learning-pdf-a" href={Ingreso_familiar_de_emergencia_1} target="/blank">[PDF] Ingreso familiar de emergencia</a>
+            <p className="learning-pdf-author">
+              Por Mercedes D'Alessandro, abril 2020.
+            </p>
           </div>
         </div>
+
+        {/* <div className="learning-div-image">
+          <img
+            src={MUJERES}
+            alt="MUJERES"
+            className="learning-img-women"
+          />
+        </div> */}
       </div>
     )
   }
