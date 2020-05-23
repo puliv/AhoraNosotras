@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
-import flowers from '../assets/flowers.png'
+import flowers from '../assets/details/flowers.png'
 
 export class AboutUs extends Component {
   render() {

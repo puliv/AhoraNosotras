@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import protagonistas from '../protagonistas.json'
-import flower_1 from '../assets/flower_1.svg'
+import flower_1 from '../assets/details/flower_1.svg'
 
 export class Profiles extends Component {
   constructor(props) {

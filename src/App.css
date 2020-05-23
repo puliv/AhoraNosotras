@@ -229,24 +229,35 @@
   flex-direction: column !important;
   text-align: justify !important;
   align-items: center !important;
-  padding-bottom: 60px;
   font-family: "Roboto", sans-serif;
 }
 
-.learning-div-text,
+.learnin-flower-div {
+  width: 20%;
+}
+
+.learnin-flower-div.left {
+  width: 20%;
+}
+
+.learning-div-text {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
 .learning-div-talk {
   width: 100%;
   height: auto;
 }
 
 .learning-div-talk {
-  padding: 0px 10vw;
+  padding: 60px 10vw;
   display: flex;
   flex-direction: column;
-}
-
-.learning-div-text {
-  padding: 50px 20vw;
+  background-color: #f6f6f6;
 }
 
 .learning-video-div {
@@ -255,12 +266,63 @@
 }
 
 .learning-div-pdf {
+  background-color: #f6f6f6;
   width: 100%;
-  padding: 100px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 30vw 0px;
 }
 
 .learning-div-image {
+  background-color: #f6f6f6;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learning-flower {
+  object-fit: cover;
+}
+
+.learning-flower.left {
+  object-fit: scale-down;
+  width: 250px;
+  object-position: -1vw -35px;
+  position: absolute;
+}
+
+.learning-flower.left-2 {
+  transform: rotate(200deg);
+  object-fit: scale-down;
+  width: 180px;
+  position: absolute;
+  object-position: 4vw -29px;
+}
+
+.learning-text {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12% 190px;
+}
+
+.learning-flower.right {
+  object-fit: contain;
+  width: 250px;
+  transform: rotate(180deg);
+  right: -140px;
+  top: 65%;
+  position: absolute;
+}
+
+.learning-flower.right-2 {
+  object-fit: contain;
+  width: 180px;
+  right: -75px;
+  top: 30%;
+  position: absolute;
 }
 
 .learning-talk-title,
@@ -275,11 +337,18 @@
   align-items: center;
 }
 
+.learning-img-women {
+  padding: 0px 50px 0px 70px;
+  width: 100%;
+  height: 100%;
+}
+
 .learning-h2,
 .learning-span {
   display: flex;
   justify-content: center !important;
   font-family: "Roboto", sans-serif;
+  text-align: center !important;
 }
 
 .learning-h2 {
@@ -335,7 +404,7 @@
 }
 
 .learning-pdf {
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .learning-pdf-a {
@@ -353,6 +422,7 @@
 .profile {
   width: 100%;
   height: auto;
+  background-color: #f6f6f6;
 }
 
 .profile-main {

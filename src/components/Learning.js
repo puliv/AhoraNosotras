@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
-import vimeo from '../assets/vimeo_logo.png'
+import vimeo from '../assets/logos/vimeo_logo.png'
 import COMUNICACION_ESTRATEGICA from '../assets/PDF/COMUNICACION_ESTRATEGICA/1COMUNICACION_ESTRATEGICA.pdf'
 import RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL from '../assets/PDF/COMUNICACION_ESTRATEGICA/2RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL.pdf'
 import COMUNICACIÓN_POLÍTICA from '../assets/PDF/COMUNICACION_ESTRATEGICA/3COMUNICACIÓN_POLÍTICA.pdf'
@@ -11,7 +11,9 @@ import PODER_FEMINISTA_CONSTITUYENTE from '../assets/PDF/PROCESO_CONSTITUYENTE/2
 import PROCESOS_CONSTITUYENTES_CONSTITUCIONES from '../assets/PDF/PROCESO_CONSTITUYENTE/3PROCESOS_CONSTITUYENTES_CONSTITUCIONES.pdf'
 import FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE from '../assets/PDF/PROCESO_CONSTITUYENTE/4FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE.pdf'
 import Ingreso_familiar_de_emergencia_1 from '../assets/PDF/OTRAS_EXPERIENCIAS/Ingreso_familiar_de_emergencia_1.pdf'
-import MUJERES from '../assets/MUJERES.png'
+import MUJERES from '../assets/details/MUJERES.png'
+import flower_2 from '../assets/details/flower_2.png'
+import flower_3 from '../assets/details/flower-3.png'
 
 export class Learning extends Component {
   constructor(props) {
@@ -27,10 +29,34 @@ export class Learning extends Component {
     return (
       <div className="learning">
         <div className="learning-div-text">
-          <h2 className="learning-h2">APRENDEMOS</h2>
-          <span className="learning-span">
-            #AhoraNosotras es un también un encuentro, un intercambio, en el que juntas aprendemos y desarrollamos todas nuestras habilidades e intereses. Aquí podrás encontrar todos los materiales formativos de nuestra Escuela Nacional y las charlas virtuales que estamos desarrollando.
-        </span>
+          <div className="learnin-flower-div left">
+            <img
+              src={flower_2}
+              alt="flores"
+              className="learning-flower left"
+            />
+            <img
+              src={flower_3}
+              alt="flores"
+              className="learning-flower left-2"
+            />
+            <img
+              src={flower_2}
+              alt="flores"
+              className="learning-flower right"
+            />
+            <img
+              src={flower_3}
+              alt="flores"
+              className="learning-flower right-2"
+            />
+          </div>
+          <div className="learning-text">
+            <h2 className="learning-h2">APRENDEMOS</h2>
+            <span className="learning-span">
+              #AhoraNosotras es un también un encuentro, un intercambio, en el que juntas aprendemos y desarrollamos todas nuestras habilidades e intereses. Aquí podrás encontrar todos los materiales formativos de nuestra Escuela Nacional y las charlas virtuales que estamos desarrollando.
+            </span>
+          </div>
         </div>
 
         <div className="learning-div-talk">
@@ -123,13 +149,13 @@ export class Learning extends Component {
           </div>
         </div>
 
-        {/* <div className="learning-div-image">
+        <div className="learning-div-image">
           <img
             src={MUJERES}
             alt="MUJERES"
             className="learning-img-women"
           />
-        </div> */}
+        </div>
       </div>
     )
   }

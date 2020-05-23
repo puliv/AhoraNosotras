@@ -3,7 +3,7 @@ import { Drawer } from 'antd'
 import { MenuOutlined } from '@ant-design/icons'
 import { InstagramOutlined, FacebookFilled, TwitterOutlined } from '@ant-design/icons'
 import anlogo from '../assets/logos/ahora-nosotras.png'
-import closeIcon from '../assets/close-icon.svg'
+import closeIcon from '../assets/icons/close-icon.svg'
 
 
 export class Header extends Component {
