@@ -14,6 +14,10 @@ import Ingreso_familiar_de_emergencia_1 from '../assets/PDF/OTRAS_EXPERIENCIAS/I
 import MUJERES from '../assets/details/MUJERES.png'
 import flower_2 from '../assets/details/flower_2.png'
 import flower_3 from '../assets/details/flower-3.png'
+import pdf_icon_1 from '../assets/icons/Grupo.svg'
+import pdf_icon_2 from '../assets/icons/Grupo_2.svg'
+import pdf_icon_3 from '../assets/icons/Grupo_3.svg'
+import pdf_icon_4 from '../assets/icons/Grupo_4.svg'
 
 export class Learning extends Component {
   constructor(props) {
@@ -96,56 +100,95 @@ export class Learning extends Component {
         <div className="learning-div-pdf">
           <h2 className="learning-h2">El conocimiento se comparte</h2>
           <div className="learning-pdf">
-            <h3 className="learning-h3">Comunicación estratégica</h3>
-            <a className="learning-pdf-a" href={COMUNICACION_ESTRATEGICA} target="/blank">[PDF] Comunicación estratégica y construcción del discurso político</a>
-            <p className="learning-pdf-author">
-              Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
+            <div className="learning-pdf-div-icon">
+              <img
+                src={pdf_icon_1}
+                alt="pdf_icon"
+                className="pdf-icon"
+              />
+            </div>
+            <div className="learning-pdf-div-text">
+              <h3 className="learning-h3">Comunicación estratégica</h3>
+              <a className="learning-pdf-a" href={COMUNICACION_ESTRATEGICA} target="/blank">[PDF] Comunicación estratégica y construcción del discurso político</a>
+              <p className="learning-pdf-author">
+                Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
             </p>
-            <a className="learning-pdf-a" href={RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL} target="/blank">[PDF] Recomendaciones para construir una estrategia comunicacional</a>
-            <p className="learning-pdf-author">
-              Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
+              <a className="learning-pdf-a" href={RECOMENDACIONES_PARA_ESTRATEGIA_COMUNICACIONAL} target="/blank">[PDF] Recomendaciones para construir una estrategia comunicacional</a>
+              <p className="learning-pdf-author">
+                Por Juanita Rojas, Auska Ovando y Camila Rodriguez, diciembre 2019.
             </p>
-            <a className="learning-pdf-a" href={COMUNICACIÓN_POLÍTICA} target="/blank">[PDF] Comunicación política</a>
-            <p className="learning-pdf-author">
-              Por Sebastian Kraljevich.
+              <a className="learning-pdf-a" href={COMUNICACIÓN_POLÍTICA} target="/blank">[PDF] Comunicación política</a>
+              <p className="learning-pdf-author">
+                Por Sebastian Kraljevich.
             </p>
+            </div>
           </div>
+
           <div className="learning-pdf">
-            <h3 className="learning-h3">Historia Feminista</h3>
-            <a className="learning-pdf-a" href={FEMINISMOS_TENSIONES_Y_FORMAS} target="/blank">[PDF] Feminismos, tensiones y formas de participación política</a>
-            <p className="learning-pdf-author">
-              Por María Stella Toro, septiembre 2019.
+            <div className="learning-pdf-div-icon">
+              <img
+                src={pdf_icon_2}
+                alt="pdf_icon"
+                className="pdf-icon"
+              />
+            </div>
+            <div className="learning-pdf-div-text">
+              <h3 className="learning-h3">Historia Feminista</h3>
+              <a className="learning-pdf-a" href={FEMINISMOS_TENSIONES_Y_FORMAS} target="/blank">[PDF] Feminismos, tensiones y formas de participación política</a>
+              <p className="learning-pdf-author">
+                Por María Stella Toro, septiembre 2019.
             </p>
-            <a className="learning-pdf-a" href={VIOLENCIA_DE_GÉNERO_Y_FEMINISMOS} target="/blank">[PDF] Violencia de género y feminismos en Chile, 1970 - Presente</a>
-            <p className="learning-pdf-author">
-              Por Hillary Hiner, diciembre 2019.
+              <a className="learning-pdf-a" href={VIOLENCIA_DE_GÉNERO_Y_FEMINISMOS} target="/blank">[PDF] Violencia de género y feminismos en Chile, 1970 - Presente</a>
+              <p className="learning-pdf-author">
+                Por Hillary Hiner, diciembre 2019.
             </p>
+            </div>
           </div>
+
           <div className="learning-pdf">
-            <h3 className="learning-h3">Proceso Constituyente</h3>
-            <a className="learning-pdf-a" href={HERRAMIENTAS_PARA_LA_COMPRENSION} target="/blank">[PDF] Herramientas para la comprensión sobre el acuerdo por una nueva constitución</a>
-            <p className="learning-pdf-author">
-              Por Claudia Heiss, diciembre 2019.
+            <div className="learning-pdf-div-icon">
+              <img
+                src={pdf_icon_3}
+                alt="pdf_icon"
+                className="pdf-icon"
+              />
+            </div>
+            <div className="learning-pdf-div-text">
+              <h3 className="learning-h3">Proceso Constituyente</h3>
+              <a className="learning-pdf-a" href={HERRAMIENTAS_PARA_LA_COMPRENSION} target="/blank">[PDF] Herramientas para la comprensión sobre el acuerdo por una nueva constitución</a>
+              <p className="learning-pdf-author">
+                Por Claudia Heiss, diciembre 2019.
             </p>
-            <a className="learning-pdf-a" href={PODER_FEMINISTA_CONSTITUYENTE} target="/blank">[PDF] Poder feminista constituyente</a>
-            <p className="learning-pdf-author">
-              Por Gloria María, diciembre 2019.
+              <a className="learning-pdf-a" href={PODER_FEMINISTA_CONSTITUYENTE} target="/blank">[PDF] Poder feminista constituyente</a>
+              <p className="learning-pdf-author">
+                Por Gloria María, diciembre 2019.
             </p>
-            <a className="learning-pdf-a" href={PROCESOS_CONSTITUYENTES_CONSTITUCIONES} target="/blank">[PDF] Procesos constituyentes y constituciones: una lectura de género</a>
-            <p className="learning-pdf-author">
-              Por Yanira Zúñiga, abril 2019.
+              <a className="learning-pdf-a" href={PROCESOS_CONSTITUYENTES_CONSTITUCIONES} target="/blank">[PDF] Procesos constituyentes y constituciones: una lectura de género</a>
+              <p className="learning-pdf-author">
+                Por Yanira Zúñiga, abril 2019.
             </p>
-            <a className="learning-pdf-a" href={FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE} target="/blank">[PDF] Feminismo y Asamblea Constituyente</a>
-            <p className="learning-pdf-author">
-              Por Unidad de Género, 2016.
+              <a className="learning-pdf-a" href={FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE} target="/blank">[PDF] Feminismo y Asamblea Constituyente</a>
+              <p className="learning-pdf-author">
+                Por Unidad de Género, 2016.
             </p>
+            </div>
           </div>
+
           <div className="learning-pdf">
-            <h3 className="learning-h3">Otras Experiencias</h3>
-            <a className="learning-pdf-a" href={Ingreso_familiar_de_emergencia_1} target="/blank">[PDF] Ingreso familiar de emergencia</a>
-            <p className="learning-pdf-author">
-              Por Mercedes D'Alessandro, abril 2020.
+            <div className="learning-pdf-div-icon">
+              <img
+                src={pdf_icon_4}
+                alt="pdf_icon"
+                className="pdf-icon"
+              />
+            </div>
+            <div className="learning-pdf-div-text">
+              <h3 className="learning-h3">Otras Experiencias</h3>
+              <a className="learning-pdf-a" href={Ingreso_familiar_de_emergencia_1} target="/blank">[PDF] Ingreso familiar de emergencia</a>
+              <p className="learning-pdf-author">
+                Por Mercedes D'Alessandro, abril 2020.
             </p>
+            </div>
           </div>
         </div>
 
