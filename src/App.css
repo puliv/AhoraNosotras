@@ -232,6 +232,28 @@
   background-size: cover;
 }
 
+/* ---------- Magazine ---------- */
+.magazine {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.mag-cover {
+  width: 50%;
+  display: flex;
+  padding: 50px 0px;
+}
+
+.mag-inside {
+  width: 50%;
+}
+
+.mag-img-cover {
+  display: flex;
+  width: 400px;
+}
+
 /* ---------- Learning ---------- */
 .learning {
   width: 100%;
