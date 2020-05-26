@@ -26,6 +26,8 @@
   background-color: #630164;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 }
 
 .header-social-media-div {
@@ -102,8 +104,24 @@
   padding: 0 10px;
 }
 
-/* ---------- About Us ---------- */
+/* ---------- Home ---------- */
+.home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 192, 53);
+  padding: 120px 0px 50px;
+  position: relative;
+}
 
+.home-cover-img {
+  width: 400px;
+  object-fit: contain;
+  box-shadow: 0px 15px 25px #070606f3;
+}
+
+/* ---------- About Us ---------- */
 .about-us {
   width: 100%;
   height: auto;
@@ -143,6 +161,7 @@
 
 .about-us-flower {
   width: 25vw;
+  object-position: -2px 0px;
 }
 
 .about-us-flower.right {
@@ -164,6 +183,9 @@
 .about-us-span {
   display: flex;
   justify-content: center;
+}
+
+.about-us-span.us {
   text-align: justify !important;
 }
 
@@ -235,23 +257,162 @@
 /* ---------- Magazine ---------- */
 .magazine {
   width: 100%;
+  padding: 1px;
   height: auto;
   display: flex;
 }
 
 .mag-cover {
   width: 50%;
+  height: auto;
   display: flex;
   padding: 50px 0px;
+  justify-content: flex-end;
+  background-color: #f6f6f6;
 }
 
 .mag-inside {
   width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f6f6f6;
 }
 
 .mag-img-cover {
   display: flex;
   width: 400px;
+  box-shadow: 0px 6px 6px #00000028;
+}
+
+.mag-scroll {
+  width: 450px;
+  height: 520px;
+  background-color: #f6f6f6;
+  overflow: scroll;
+  padding: 0px 15px;
+}
+
+.mag-scroll-row-vertical {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px 0px; */
+}
+
+.mag-scroll-row-horizontal {
+  width: 100%;
+  height: 200px;
+  /* margin: 10px 0px; */
+  background-color: #f6f6f6;
+  padding: 10px;
+  box-shadow: 0px 6px 6px #00000028;
+}
+
+.mag-scroll-row-backcover {
+  width: 100%;
+  height: auto;
+  /* margin: 10px 0px; */
+}
+
+.mag-ver-div-col.left {
+  padding-right: 5px;
+  height: 100%;
+}
+
+.mag-ver-div-col.right {
+  height: 100%;
+  padding-left: 5px;
+}
+
+.mag-ver-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.mag-ver-img.despiertas {
+  object-fit: cover;
+  height: 158px;
+}
+
+.mag-ver-text {
+  height: 50%;
+  background-color: #f6f6f6;
+  box-shadow: 0px 6px 6px #00000028;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px 5px 10px;
+}
+
+.mag-h3 {
+  height: 20%;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  color: #4d4d4d;
+}
+
+.mag-h2 {
+  height: 50%;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Open Sans;
+  color: #630164;
+  line-height: 1;
+}
+
+.mag-h4 {
+  height: 30%;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  color: #4d4d4d;
+}
+
+.mag-hor-div-col {
+  width: 100%;
+  display: flex;
+}
+
+.mag-hor-img {
+  width: 50%;
+  max-width: 190px;
+  height: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.mag-hor-text {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.mag-backcover-col {
+  width: 100%;
+  padding: 5px;
+  background-color: #f6f6f6;
+  box-shadow: 0px 6px 6px #00000028;
+}
+
+.mag-backcover-img {
+  width: 100%;
+  object-fit: contain;
 }
 
 /* ---------- Learning ---------- */
@@ -267,15 +428,12 @@
 }
 
 .learnin-flower-div {
-  width: 20%;
-}
-
-.learnin-flower-div.left {
-  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .learning-div-text {
-  width: 100%;
+  width: 80%;
   height: 550px;
   display: flex;
   position: relative;
@@ -313,16 +471,16 @@
 .learning-flower.left {
   object-fit: scale-down;
   width: 250px;
-  object-position: -1vw -35px;
+  object-position: -5vw -35px;
   position: absolute;
 }
 
 .learning-flower.left-2 {
-  transform: rotate(200deg);
+  transform: rotate(180deg);
   object-fit: scale-down;
   width: 180px;
   position: absolute;
-  object-position: 4vw -29px;
+  object-position: 5vw -29px;
 }
 
 .learning-text {
@@ -331,14 +489,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12% 190px;
+  padding: 12% 200px;
 }
 
 .learning-flower.right {
   object-fit: contain;
   width: 250px;
   transform: rotate(180deg);
-  right: -140px;
+  right: -100px;
   top: 65%;
   position: absolute;
 }
@@ -374,7 +532,7 @@
   display: flex;
   justify-content: center !important;
   font-family: "Roboto", sans-serif;
-  text-align: center !important;
+  text-align: justify !important;
 }
 
 .learning-h2 {
@@ -386,7 +544,6 @@
 .learning-span {
   color: #4d4d4d;
   font-size: 20px;
-  text-align: justify;
 }
 
 .learning-span-video {
