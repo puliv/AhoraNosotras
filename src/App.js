@@ -10,21 +10,39 @@ import { AboutUs } from './components/AboutUs.js'
 import { Learning } from './components/Learning.js'
 import { Magazine } from './components/Magazine.js'
 // import { UnderConstruction } from './components/UnderConstruction.js'
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      {/* <UnderConstruction /> */}
-      <Header />
-      <Home />
-      <AboutUs />
-      <Magazine />
-      <Learning />
-      <Profiles />
-      <Subscribe />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        {/* <UnderConstruction /> */}
+        <Header />
+        <Switch>
+          <Route path="/">
+            <Home />
+            <AboutUs />
+            <Magazine />
+            <Learning />
+            <Profiles />
+          </Route>
+          <Route path="/aboutUs">
+            <AboutUs />
+          </Route>
+          <Route path="/magazine">
+            <Magazine />
+          </Route>
+          <Route path="/learning" component={Learning}>
+            <Learning />
+          </Route>
+          <Route path="/profiles">
+            <Profiles />
+          </Route>
+        </Switch>
+        <Subscribe />
+        <Footer />
+      </div>
+    </Router>
   )
 }
 

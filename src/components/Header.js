@@ -4,6 +4,7 @@ import { MenuOutlined } from '@ant-design/icons'
 import { InstagramOutlined, FacebookFilled, TwitterOutlined } from '@ant-design/icons'
 import anlogo from '../assets/logos/ahora-nosotras.png'
 import closeIcon from '../assets/icons/close-icon.svg'
+import { Link } from 'react-router-dom'
 
 
 export class Header extends Component {
@@ -59,16 +60,24 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li>
-                <span className="drawer-h3">NOSOTRAS</span>
+                <Link to="/aboutUs">
+                  <span className="drawer-h3">NOSOTRAS</span>
+                </Link>
               </li>
               <li>
-                <span className="drawer-h3">REVISTA</span>
+                <Link to="/magazine">
+                  <span className="drawer-h3">REVISTA</span>
+                </Link>
               </li>
               <li>
-                <span className="drawer-h3">APRENDEMOS</span>
+                <Link to="/learning">
+                  <span className="drawer-h3">APRENDEMOS</span>
+                </Link>
               </li>
               <li>
-                <span className="drawer-h3">PROTAGONISTAS</span>
+                <Link to="/profiles">
+                  <span className="drawer-h3">PROTAGONISTAS</span>
+                </Link>
               </li>
             </ul>
           </div>

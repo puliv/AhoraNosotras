@@ -12,8 +12,7 @@ import PROCESOS_CONSTITUYENTES_CONSTITUCIONES from '../assets/PDF/PROCESO_CONSTI
 import FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE from '../assets/PDF/PROCESO_CONSTITUYENTE/4FEMINISMO_Y_ASAMBLEA_CONSTITUYENTE.pdf'
 import Ingreso_familiar_de_emergencia_1 from '../assets/PDF/OTRAS_EXPERIENCIAS/Ingreso_familiar_de_emergencia_1.pdf'
 import MUJERES from '../assets/details/MUJERES.png'
-import flower_2 from '../assets/details/flower_2.png'
-import flower_3 from '../assets/details/flower-3.png'
+import flower_2 from '../assets/details/Flores_amarillas.svg'
 import pdf_icon_1 from '../assets/icons/Grupo.svg'
 import pdf_icon_2 from '../assets/icons/Grupo_2.svg'
 import pdf_icon_3 from '../assets/icons/Grupo_3.svg'
@@ -33,34 +32,22 @@ export class Learning extends Component {
     return (
       <div className="learning">
         <div className="learning-div-text">
-          <div className="learnin-flower-div left">
-            <img
-              src={flower_2}
-              alt="flores"
-              className="learning-flower left"
-            />
-            <img
-              src={flower_3}
-              alt="flores"
-              className="learning-flower left-2"
-            />
-            <img
-              src={flower_2}
-              alt="flores"
-              className="learning-flower right"
-            />
-            <img
-              src={flower_3}
-              alt="flores"
-              className="learning-flower right-2"
-            />
-          </div>
+          <img
+            src={flower_2}
+            alt="flores"
+            className="learning-flower left"
+          />
           <div className="learning-text">
             <h2 className="learning-h2">APRENDEMOS</h2>
             <span className="learning-span">
               #AhoraNosotras es un también un encuentro, un intercambio, en el que juntas aprendemos y desarrollamos todas nuestras habilidades e intereses. Aquí podrás encontrar todos los materiales formativos de nuestra Escuela Nacional y las charlas virtuales que estamos desarrollando.
             </span>
           </div>
+          <img
+            src={flower_2}
+            alt="flores"
+            className="learning-flower right"
+          />
         </div>
 
         <div className="learning-div-talk">

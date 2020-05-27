@@ -20,7 +20,7 @@ export class AboutUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="about-us-first-img">
+        <div className="about-us-first-img" id="1">
           {/* Primera imagen de fondo */}
         </div>
         <div className="about-us">
