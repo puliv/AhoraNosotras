@@ -57,12 +57,30 @@ export class Header extends Component {
             />
           </div>
           <div className="drawer-main">
-            <h3 className="drawer-h3">NOSOTRAS</h3>
-            <h3 className="drawer-h3">REVISTA</h3>
-            <h3 className="drawer-h3">APRENDEMOS</h3>
-            <h3 className="drawer-h3">PROTAGONISTAS</h3>
-            <h3 className="drawer-h3 contact">CONTACTO</h3>
-            <h3 className="drawer-h3">NEWSLETTER</h3>
+            <ul className="drawer-ul">
+              <li>
+                <span className="drawer-h3">NOSOTRAS</span>
+              </li>
+              <li>
+                <span className="drawer-h3">REVISTA</span>
+              </li>
+              <li>
+                <span className="drawer-h3">APRENDEMOS</span>
+              </li>
+              <li>
+                <span className="drawer-h3">PROTAGONISTAS</span>
+              </li>
+            </ul>
+          </div>
+          <div className="drawer-main">
+            <ul className="drawer-ul">
+              <li>
+                <span className="drawer-h3 contact">CONTACTO</span>
+              </li>
+              <li>
+                <span className="drawer-h3">NEWSLETTER</span>
+              </li>
+            </ul>
           </div>
           <div className="drawer-bottom">
             <a href="https://www.facebook.com/AhoraNosotrasRD/">

@@ -61,6 +61,7 @@
 }
 
 .drawer-main {
+  width: 100%;
   margin-left: 20px;
 }
 
@@ -75,11 +76,24 @@
   cursor: pointer;
 }
 
+.drawer-ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin: 10px 0px;
+}
+
 .drawer-h3 {
   font-family: "Roboto", sans-serif;
   color: #f6f6f6;
-  padding-top: 20px;
+  padding: 20px 0px 3px;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
 
   text-decoration: none;
   background-image: linear-gradient(#35cc05, #35cc05);
@@ -92,10 +106,6 @@
 .drawer-h3:hover,
 .drawer-h3:focus {
   background-size: 100% 3px;
-}
-
-.drawer-h3.contact {
-  padding-top: 70px;
 }
 
 .drawer-icon {
@@ -227,6 +237,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .about-us-span-date {
@@ -299,13 +310,12 @@
   height: 350px;
   display: flex;
   justify-content: space-between;
-  /* margin: 10px 0px; */
 }
 
 .mag-scroll-row-horizontal {
   width: 100%;
   height: 200px;
-  /* margin: 10px 0px; */
+  margin: 0px 0px 10px;
   background-color: #f6f6f6;
   padding: 10px;
   box-shadow: 0px 6px 6px #00000028;
@@ -314,7 +324,6 @@
 .mag-scroll-row-backcover {
   width: 100%;
   height: auto;
-  /* margin: 10px 0px; */
 }
 
 .mag-ver-div-col.left {
@@ -623,6 +632,16 @@
   margin-right: 5px;
 }
 
+.pdf-h2,
+.pdf-span {
+  margin-bottom: 40px;
+}
+
+.pdf-span {
+  padding: 0px 20px;
+  text-align: center !important;
+}
+
 /* ---------- Profiles ---------- */
 .profile {
   width: 100%;
@@ -646,9 +665,9 @@
 }
 
 .profile-img-flower.right {
-  width: 17vw;
+  width: 12vw;
   object-fit: cover;
-  object-position: 10vw 0;
+  object-position: 5vw 0;
   height: 500px;
 }
 
@@ -656,8 +675,8 @@
   margin-top: 12vw;
   transform: scaleX(-1);
   object-fit: cover;
-  width: 17vw;
-  object-position: 10vw 0;
+  width: 12vw;
+  object-position: 4vw 0;
   height: 500px;
 }
 
@@ -671,6 +690,7 @@
   height: 70%;
   display: flex;
   margin-top: 50px;
+  justify-content: space-evenly;
 }
 
 .profile-div-text {
@@ -700,9 +720,40 @@
   text-align: center;
 }
 
-/* --- protagonistas --- */
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  max-height: 300px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #bc0e24;
+}
+
+.profile-div:hover .profile-overlay {
+  opacity: 0.6;
+}
+
+.profile-span-x.roll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f6f6f6;
+  font-size: 13px;
+}
+
+/* - protagonistas - */
 .profile-div {
   width: 100%;
+  position: relative;
   margin: 10px;
 }
 
@@ -732,11 +783,6 @@
   margin-bottom: 0px;
   display: flex;
   justify-content: center !important;
-}
-
-.profile-span-x.roll {
-  text-align: justify !important;
-  padding-top: 15px;
 }
 
 /* ---------- Subscribe ---------- */

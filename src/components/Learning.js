@@ -98,7 +98,8 @@ export class Learning extends Component {
         </div>
 
         <div className="learning-div-pdf">
-          <h2 className="learning-h2">El conocimiento se comparte</h2>
+          <h2 className="learning-h2 pdf-h2">El conocimiento se comparte</h2>
+          <span className="learning-span pdf-span">Si quieres profundizar en los contenidos de nuestras Escuelas y Charlas Virtuales. Revisa los materiales preparados por las y los profesores y ponentes de #AhoraNosotras</span>
           <div className="learning-pdf">
             <div className="learning-pdf-div-icon">
               <img

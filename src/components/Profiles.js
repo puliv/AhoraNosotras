@@ -27,10 +27,12 @@ export class Profiles extends Component {
                   alt="Protagonistas"
                 />
               </div>
+              <div className="profile-overlay">
+                <span className="profile-span-x roll">{x.rollover}</span>
+              </div>
               <div className="profile-text-div">
                 <h3 className="profile-h3">{x.name}</h3>
                 <span className="profile-span-x">{x.from}</span>
-                <span className="profile-span-x roll">{x.rollover}</span>
               </div>
             </div>
           )
