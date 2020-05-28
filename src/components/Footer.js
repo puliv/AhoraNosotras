@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import anlogo from '../assets/logos/ahora-nosotras.png'
-import falogo from '../assets/logos/frente-amplio.png'
+import logo_ug from '../assets/logos/logo_ug.svg'
 import rdlogo from '../assets/logos/revolucion-democratica.png'
 import { InstagramOutlined, FacebookFilled, TwitterOutlined, LinkedinFilled } from '@ant-design/icons'
 
@@ -33,14 +33,14 @@ export class Footer extends Component {
         <div className="footer-bottom">
           <div className="footer-img-div-bottom">
             <img
+              src={logo_ug}
+              alt="Unidad de Genero"
+              className="footer-img-falogo"
+            />
+            <img
               src={rdlogo}
               alt="Revolución Democrática"
               className="footer-img-rdlogo"
-            />
-            <img
-              src={falogo}
-              alt="Frente Amplio"
-              className="footer-img-falogo"
             />
           </div>
           <div className="footer-span-div-bottom">

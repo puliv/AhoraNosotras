@@ -33,11 +33,13 @@ export class Header extends Component {
           </a>
         </div>
         <div className="header-img-div">
-          <img
-            src={anlogo}
-            alt="Ahora Nosotras"
-            className="header-img-anlogo"
-          />
+          <Link to="/">
+            <img
+              src={anlogo}
+              alt="Ahora Nosotras"
+              className="header-img-anlogo"
+            />
+          </Link>
         </div>
         <div className="header-menu-div">
           <MenuOutlined className="header-icon menu" onClick={() => { this.setState({ openMenu: true }) }} />
@@ -79,15 +81,10 @@ export class Header extends Component {
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </Link>
               </li>
-            </ul>
-          </div>
-          <div className="drawer-main">
-            <ul className="drawer-ul">
               <li>
-                <span className="drawer-h3 contact">CONTACTO</span>
-              </li>
-              <li>
-                <span className="drawer-h3">NEWSLETTER</span>
+                <Link to="/newsletter">
+                  <span className="drawer-h3">NEWSLETTER</span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -102,8 +99,8 @@ export class Header extends Component {
               <InstagramOutlined className="drawer-icon social" />
             </a>
           </div>
-        </Drawer>
-      </div>
+        </Drawer >
+      </div >
     )
   }
 }

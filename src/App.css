@@ -268,89 +268,94 @@ li {
 /* ---------- Magazine ---------- */
 .magazine {
   width: 100%;
-  padding: 1px;
+  padding: 40px 0px;
   height: auto;
   display: flex;
-}
-
-.mag-cover {
-  width: 50%;
-  height: auto;
-  display: flex;
-  padding: 50px 0px;
-  justify-content: flex-end;
+  flex-direction: column;
   background-color: #f6f6f6;
 }
 
-.mag-inside {
-  width: 50%;
+.mag-top {
+  width: 100%;
   height: auto;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  padding: 50px 10vw;
+  justify-content: center;
   background-color: #f6f6f6;
-}
-
-.mag-img-cover {
-  display: flex;
-  width: 400px;
-  box-shadow: 0px 6px 6px #00000028;
 }
 
 .mag-scroll {
-  width: 450px;
-  height: 520px;
+  width: 800px;
+  height: 515px;
   background-color: #f6f6f6;
   overflow: scroll;
-  padding: 0px 15px;
-}
-
-.mag-scroll-row-vertical {
-  width: 100%;
-  height: 350px;
   display: flex;
   justify-content: space-between;
 }
 
-.mag-scroll-row-horizontal {
-  width: 100%;
-  height: 200px;
-  margin: 0px 0px 10px;
-  background-color: #f6f6f6;
-  padding: 10px;
+.mag-scroll-left,
+.mag-scroll-right {
+  width: 50%;
+  height: 100%;
+  padding: 5px;
+}
+
+.mag-img-cover-div,
+.mag-img-backcover-div {
+  display: flex;
+  width: 390px;
+  height: auto;
   box-shadow: 0px 6px 6px #00000028;
 }
 
-.mag-scroll-row-backcover {
-  width: 100%;
-  height: auto;
+.mag-img-backcover-div {
+  margin-top: 10px;
 }
 
+.mag-img-cover,
+.mag-backcover-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.mag-scroll-row-vertical {
+  width: 100%;
+  height: 300px;
+  margin: 0px 0px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mag-ver-div-col.right,
 .mag-ver-div-col.left {
-  padding-right: 5px;
-  height: 100%;
+  /* height: 100%; */
+  height: auto;
+  width: 50%;
 }
 
 .mag-ver-div-col.right {
-  height: 100%;
   padding-left: 5px;
+}
+.mag-ver-div-col.left {
+  padding-right: 5px;
 }
 
 .mag-ver-img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 150px;
+  object-fit: cover;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .mag-ver-img.despiertas {
   object-fit: cover;
-  height: 158px;
+  height: 150px;
 }
 
 .mag-ver-text {
   height: 50%;
+  max-height: 150px;
   background-color: #f6f6f6;
   box-shadow: 0px 6px 6px #00000028;
   display: flex;
@@ -385,15 +390,25 @@ li {
   height: 30%;
   margin-bottom: 0px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   font-size: 11px;
   font-weight: lighter;
   font-family: "Roboto", sans-serif;
   color: #4d4d4d;
 }
 
+.mag-scroll-row-horizontal {
+  width: 100%;
+  height: 200px;
+  margin: 0px 0px 5px;
+  background-color: #f6f6f6;
+  padding: 10px;
+  box-shadow: 0px 6px 6px #00000028;
+}
+
 .mag-hor-div-col {
   width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -412,16 +427,26 @@ li {
   padding-left: 20px;
 }
 
+.mag-scroll-row-backcover {
+  width: 100%;
+  margin: 0px 0px 10px;
+  height: 200px;
+}
+
 .mag-backcover-col {
   width: 100%;
-  padding: 5px;
+  padding: 10px 25px;
   background-color: #f6f6f6;
   box-shadow: 0px 6px 6px #00000028;
 }
 
-.mag-backcover-img {
+.mag-span {
+  font-size: 12px;
+}
+
+.mag-main {
   width: 100%;
-  object-fit: contain;
+  height: auto;
 }
 
 /* ---------- Learning ---------- */
@@ -435,11 +460,6 @@ li {
   align-items: center !important;
   font-family: "Roboto", sans-serif;
 }
-
-/* .learnin-flower-div {
-  display: flex;
-  justify-content: space-evenly;
-} */
 
 .learning-div-text {
   width: 100%;
@@ -480,7 +500,7 @@ li {
 .learning-flower.left {
   object-fit: cover;
   width: 250px;
-  object-position: right -66px;
+  object-position: right -20px;
 }
 
 .learning-text {
@@ -628,6 +648,7 @@ li {
   width: 100%;
   height: auto;
   background-color: #f6f6f6;
+  padding-top: 50px;
 }
 
 .profile-main {
@@ -743,7 +764,7 @@ li {
 }
 
 .profile-text-div {
-  height: 250px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;

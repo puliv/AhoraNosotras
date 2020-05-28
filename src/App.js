@@ -8,9 +8,10 @@ import { Header } from './components/Header'
 import { Profiles } from './components/Profiles.js'
 import { AboutUs } from './components/AboutUs.js'
 import { Learning } from './components/Learning.js'
-import { Magazine } from './components/Magazine.js'
-// import { UnderConstruction } from './components/UnderConstruction.js'
+import { Magazine } from './components/Magazine/Magazine.js'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// import { UnderConstruction } from './components/UnderConstruction.js'
 
 function App() {
   return (
@@ -19,27 +20,30 @@ function App() {
         {/* <UnderConstruction /> */}
         <Header />
         <Switch>
-          <Route path="/">
-            <Home />
-            <AboutUs />
-            <Magazine />
-            <Learning />
-            <Profiles />
-          </Route>
           <Route path="/aboutUs">
             <AboutUs />
           </Route>
           <Route path="/magazine">
             <Magazine />
           </Route>
-          <Route path="/learning" component={Learning}>
+          <Route path="/newsletter">
+            <Subscribe />
+          </Route>
+          <Route path="/learning">
             <Learning />
           </Route>
           <Route path="/profiles">
             <Profiles />
           </Route>
+          <Route
+            path="/home">
+            <Home />
+          </Route>
+          <Route
+            path="/">
+            <Home />
+          </Route>
         </Switch>
-        <Subscribe />
         <Footer />
       </div>
     </Router>
