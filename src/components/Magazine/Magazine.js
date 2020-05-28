@@ -9,6 +9,7 @@ import despiertas from '../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIER
 import contraportada from '../../assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png'
 import Editorial from './Editorial'
 import './Magazine.css'
+import { DownOutlined } from '@ant-design/icons'
 
 
 
@@ -25,13 +26,6 @@ export class Magazine extends Component {
                     src={portada}
                     alt="cover"
                     className="mag-img-cover"
-                  />
-                </div>
-                <div className="mag-img-backover-div">
-                  <img
-                    src={contraportada}
-                    alt="backcover"
-                    className="mag-backcover-img"
                   />
                 </div>
               </div>
@@ -104,8 +98,27 @@ export class Magazine extends Component {
                 </Row>
                 <Row className="mag-scroll-row-backcover">
                   <Col span={24} className="mag-backcover-col">
-                    <span className="mag-span">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <img
+                      src={contraportada}
+                      alt="backcover"
+                      className="mag-backcover-img"
+                    />
+                    <span>HISTÓRICAS <DownOutlined /></span>
+                  </Col>
+                </Row>
+              </div>
+
+              <div className="mag-scroll-historicas">
+                <Row className="mag-hist-row">
+                  <Col span={24} className="mag-hist-col">
+                    <span className="mag-hist-span">
+                      En tiempos de pandemia, las mujeres se han convertido en la primera línea en la defensa de la salud y la vida. Sin embargo, este protagonismo de doctoras, enfermeras y asistentes no es azaroso, sino que se lo debemos a mujeres pioneras que se atrevieron a dar un paso al frente y ser parte de disciplinas del conocimiento históricamente masculinizadas como las ciencias.
+                    </span>
+                    <span className="mag-hist-span">
+                      Recordemos que, en el siglo XIX la mujer chilena no podía acceder a una educación profesional pues ésta se encontraba limitada por una ley que impedía a las mujeres ingresar a la universidad. Finalmente, en 1877, y después de una larga batalla de las mujeres de la época, se permite a las mujeres poder formarse profesionalmente. Es por ello que, en esta primera versión de históricas, queremos reconocer a Eloísa Díaz, la primera mujer estudiante de medicina de la Universidad de Chile y la primera mujer médico de Chile y América del Sur, quien abrió las puertas para muchas compañeras pudiesen ingresaran a estos campos. Décadas más tarde, podemos decir que el legado de Eloísa sigue vigente gracias a otro liderazgo que ha destacado por su rol en esta crisis.
+                    </span>
+                    <span className="mag-hist-span">
+                      Hablamos de la Izkia Siches, ariqueña, médica cirujana chilena de la Universidad de Chile, primera presidenta del Colegio Médico de Chile y la más joven en ocupar un cargo que por más de 70 años fue sólo ocupado por hombres. Izkia no sólo ha destacado por ser pionera en este puesto directivo, sino porque lo ha ejercido tenazmente a pesar de la oposición en el propio sector de salud. Su figura ha sido clave para mostrar a la ciudadanía y al gobierno, los caminos más seguros y eficaces en la presente crisis sanitaria.
                     </span>
                   </Col>
                 </Row>
