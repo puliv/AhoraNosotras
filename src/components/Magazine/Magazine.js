@@ -9,11 +9,12 @@ import despiertas from '../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIER
 import contraportada from '../../assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png'
 import Editorial from './Editorial'
 import Protagonistas from './Protagonistas'
-// import Hablamos from './Hablamos'
+import Hablamos from './Hablamos'
 import './Magazine.css'
-import { DownOutlined } from '@ant-design/icons'
+import { DownOutlined, UpOutlined } from '@ant-design/icons'
 import classNames from 'classnames'
-
+import Creamos from './Creamos'
+import Despiertas from './Despiertas'
 
 
 export class Magazine extends Component {
@@ -44,12 +45,15 @@ export class Magazine extends Component {
       "historical-section": historicasIcon
     })
 
+    const MagScrollActive = classNames("mag-scroll", {
+      "mag-scroll-active": historicasIcon
+    })
 
     return (
       <React.Fragment>
         <div className="magazine">
           <div className="mag-top">
-            <div className="mag-scroll">
+            <div className={MagScrollActive}>
               <Row className={scrollRowTop}>
                 <div className="mag-scroll-left">
                   <div className="mag-img-cover-div">
@@ -134,7 +138,7 @@ export class Magazine extends Component {
                         alt="backcover"
                         className="mag-backcover-img"
                       />
-                      <span className="mag-h2 historicas" onClick={this.handleOnClick}>HISTÓRICAS&nbsp; <DownOutlined /></span>
+                      <span className="mag-h2 historicas" onClick={this.handleOnClick}>HISTÓRICAS&nbsp; {historicasIcon ? <UpOutlined /> : <DownOutlined />}</span>
                     </Col>
                   </Row>
                 </div>
@@ -164,6 +168,9 @@ export class Magazine extends Component {
           <div className="mag-main">
             <Editorial />
             <Protagonistas />
+            <Hablamos />
+            <Creamos />
+            <Despiertas />
           </div>
         </div>
       </React.Fragment>

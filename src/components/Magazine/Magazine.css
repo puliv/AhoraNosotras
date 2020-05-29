@@ -109,6 +109,39 @@
   text-align: justify;
 }
 
+/* ---------- Credits ---------- */
+.credits {
+  padding-top: 150px;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.credits-div {
+  width: 100%;
+  border-top: solid #afaeae 1px;
+  padding: 0 50px;
+}
+
+.credits-h2 {
+  color: #707070;
+  font-family: Open Sans;
+  margin: 60px 0px 20px;
+}
+
+.credits-div > ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.credits-div > ul > li {
+  margin: 0;
+}
+
+.credits-span {
+  font-family: Open Sans;
+  font-weight: lighter;
+}
+
 /* ---------- Protagonistas ---------- */
 .protagonistas {
   width: 100%;
@@ -143,7 +176,7 @@
 .protag-div-aurora {
   width: 100%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #d969d966;
@@ -152,7 +185,7 @@
 .protag-div-top {
   width: 100%;
   height: auto;
-  margin: 50px 0px;
+  margin: 100px 0px 30px;
 }
 
 .protag-div-main {
@@ -160,12 +193,13 @@
   height: auto;
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .protag-div-bottom {
   width: 100%;
   height: auto;
-  margin: 50px 0px;
+  margin: 50px 0px 100px;
 }
 
 .protag-div-left {
@@ -248,7 +282,7 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #000000;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .protag-h3 {
@@ -256,7 +290,7 @@
   color: #000000;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
+  margin: 10px 0px 20px;
 }
 
 .protag-h3.title {
@@ -277,7 +311,7 @@
   font-size: 18px;
   width: 100%;
   height: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .protag-span-image {
@@ -285,7 +319,6 @@
   font-family: "Roboto", sans-serif;
   color: #000000;
   text-align: justify;
-  font-size: 18px;
   padding: 10px 25px;
   font-style: italic;
   font-size: 25px;
@@ -354,35 +387,132 @@
   font-weight: bold;
 }
 
-/* ---------- Credits ---------- */
-.credits {
-  padding-top: 150px;
+/* ---------- Hablamos ---------- */
+.hablamos {
   width: 100%;
+  height: auto;
+  padding: 30px 150px !important;
   background-color: #f6f6f6;
 }
 
-.credits-div {
+.hablamos-div-text {
   width: 100%;
-  border-top: solid #afaeae 1px;
-  padding: 0 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.credits-h2 {
-  color: #707070;
-  font-family: Open Sans;
-  margin: 60px 0px 20px;
+.hablamos-span {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 35px;
 }
 
-.credits-div > ul {
-  list-style: none;
-  padding-left: 0px;
+/* ---------- Creamos ---------- */
+.creamos {
+  width: 100%;
+  height: auto;
+  padding: 30px 150px !important;
+  background-color: #f6f6f6;
 }
 
-.credits-div > ul > li {
-  margin: 0;
+.creamos-text-div-micro {
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
-.credits-span {
-  font-family: Open Sans;
+.creamos-div-left,
+.creamos-div-right {
+  width: 50%;
+  height: 100%;
+  text-align: justify;
+}
+
+.creamos-div-left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 0px;
+}
+
+.creamos-div-right {
+  line-height: 2;
+  word-spacing: -2px;
+  padding: 20px 0px 20px 10px;
+}
+
+.creamos-text-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.creamos-h2-micro {
+  color: #4b8241;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.creamos-h3-micro {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: italic;
   font-weight: lighter;
+}
+
+.creamos-span.fabiola {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.creamos-span {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.creamos-text-span {
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  text-align: justify;
+  font-size: 19px;
+  padding: 0px 25px;
+  font-style: italic;
+  line-height: 1.2;
+  word-spacing: 4.5px;
+}
+
+/* ---------- Despiertas ---------- */
+.despiertas {
+  width: 100%;
+  height: auto;
+  padding: 30px 150px !important;
+  background-color: #f6f6f6;
+}
+
+.despiertas-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.despiertas-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
