@@ -19,6 +19,12 @@ function App() {
       <div className="App">
         {/* <UnderConstruction /> */}
         <Header />
+        <Home />
+        <AboutUs />
+        <Magazine />
+        <Learning />
+        <Profiles />
+
         <Switch>
           <Route path="/aboutUs">
             <AboutUs />
@@ -35,15 +41,16 @@ function App() {
           <Route path="/profiles">
             <Profiles />
           </Route>
-          <Route
+          {/* <Route
             path="/home">
             <Home />
           </Route>
           <Route
             path="/">
             <Home />
-          </Route>
+          </Route> */}
         </Switch>
+        <Subscribe />
         <Footer />
       </div>
     </Router>

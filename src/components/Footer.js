@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import anlogo from '../assets/logos/ahora-nosotras.png'
-import logo_ug from '../assets/logos/logo_ug.svg'
+import logo_ug from '../assets/logos/logo_ug.png'
 import rdlogo from '../assets/logos/revolucion-democratica.png'
 import { InstagramOutlined, FacebookFilled, TwitterOutlined, LinkedinFilled } from '@ant-design/icons'
 

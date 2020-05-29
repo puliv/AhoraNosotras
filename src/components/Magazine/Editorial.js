@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import editorial from '../../assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png'
+import { Credits } from './Credits.js'
+
 
 export class Editorial extends Component {
   render() {
@@ -58,6 +60,7 @@ export class Editorial extends Component {
               En esa tarea los hombres también han de participar, porque este modelo se ha de derrumbar asumiendo ellos también esa toma de consciencia. No tenemos duda, otro Chile es posible si los cuidados y el trabajo doméstico no remunerado son reconocidos y valorizados; sin son asumidos como una responsabilidad colectiva de una sociedad que pone en el centro la vida, garantizando la seguridad social de todos quienes la componen, sin distinción. #AhoraNosotras pretende ser, entonces, no solo una revista feminista, sino que ese espacio de construcción entre mujeres, en que todas y todes estamos invitadas a sacar la voz. A relatar nuestra vida en primera persona. Porque la experiencia de cada una es también nuestra y nos permite delinear un nuevo futuro alegre, justo y digno.
             </span>
           </div>
+          <Credits />
         </div>
       </div>
     )
