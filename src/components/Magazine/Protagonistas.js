@@ -6,114 +6,121 @@ import protagonistas from '../../assets/REVISTA_AHORA_NOSOTRAS/3_PROTAGONISTAS/p
 export class Protagonistas extends Component {
   render() {
     return (
-      <div className="protangonistas">
+      <div className="protagonistas">
         <div className="edit-top">
           <img src={back} alt="back" className="edit-back-icon" />
         </div>
         <div className="protag-main">
           <div className="protag-titles">
-            <h2 className="protag-h2">
+            <h3 className="protag-h3">
               PROTAGONISTAS
-            </h2>
+            </h3>
             <h1 className="protag-h1">
               Aurora Pardo: “Chile es un mal empleador”.
             </h1>
-            <h3 className="protag-h3">
+            <h2 className="protag-h2">
               Por Javiera López Layana.
-            </h3>
+            </h2>
           </div>
 
-          <div className="protag-image">
+          <div className="protag-div-image">
             <img
               src={protagonistas}
               alt="protagonistas"
               className="protagonistas-img"
             />
-            <span>
+            <span className="protag-span-image">
               En medio de esta crisis social y económica, en cada rincón de Chile hay mujeres que frente al abandono del Estado dejan a un lado el miedo para buscar soluciones. En este primer número de Ahora Nosotras, conversamos con Aurora Pardo, dirigenta social y sindical que entre el ajetreo del supermercado y las ollas comunes en su población diariamente se pregunta “¿Cómo puede ser posible que algunos se crean dueños de nuestras vidas?”
             </span>
           </div>
 
-          <div className="protag-div">
-            <span className="protag-span">
+          <div className="protag-div-aurora">
+            <span className="protag-span-aurora">
               Sea cara a cara o por medio de una pantalla de computador, Aurora Pardo González sonríe para hacer frente a la vida. Aurora tiene 44 años y vive en la población Las Turbinas, ubicada en el límite de las comunas de Lo Espejo y San Bernardo, en la periferia de Santiago.
             </span>
-            <span className="protag-span">
+            <span className="protag-span-aurora">
               En el 2004 ingresó a trabajar como cajera al supermercado Líder del paradero 17 de Gran Avenida, San Miguel. Cuatro años más tarde participó en la creación del primer sindicato autónomo en “DyS”, grupo controlador de la cadena los hermanos Felipe Ibáñez Scott y Nicolás Ibañez Scott, hasta el 2009. A pesar de la compra de la marca Líder en manos de Wal-Mart, uno de los operadores de supermercados más grande en los Estados Unidos, siempre ha trabajado en el mismo lugar.
             </span>
-            <span className="protag-span">
-              “Durante los años que llevo presente en el sindicato y cuando Wal-Mart ha tratado de vulnerar los derechos fundamentales de los trabajadores y trabajadoras siempre he tratado de estar presente en las demandas que van en favor de mis compañeros y compañeras”,
-            </span>
-            <span className="protag-span">
-              explica Aurora Pardo, quien actualmente se desempeña como estudiante de Derecho en la Universidad Autónoma. Su motivación para estudiar esa carrera fue aprender cómo se redactan las reglas del juego de un país desigual.
+            <span className="protag-span-aurora">
+              <span className="protag-span-aurora bold">
+                “Durante los años que llevo presente en el sindicato y cuando Wal-Mart ha tratado de vulnerar los derechos fundamentales de los trabajadores y <span className="p-aurora">trabajadoras</span> siempre he tratado de estar presente en las demandas que van en favor de mis compañeros y <span className="p-aurora">compañeras</span>
+              </span>
+            ”, explica Aurora Pardo, quien actualmente se desempeña como estudiante de Derecho en la Universidad Autónoma. Su motivación para estudiar esa carrera fue aprender cómo se redactan las reglas del juego de un país desigual.
               </span>
           </div>
 
-          <div className="protag-div">
-            <span className="protag-span">
+          <div className="protag-div-top">
+            <span className="protag-span-top">
               Para hacer frente a la crisis, el gobierno de Sebastián Piñera impulsó la Ley de Protección al empleo, medida que permite que los empleadores dejen de pagar los sueldos a sus trabajadores para que éstos lo cobren a través del seguro de cesantía y, de esta manera, no tengan que reducir su personal.
             </span>
           </div>
-
-          <div className="protag-div">
+          <div className="protag-div-main">
             <div className="protag-div-left">
-              <span className="protag-span">
+              <span className="protag-span-left">
                 “En medio de esta pandemia, hemos visto muchas empresas acogiéndose a la Ley de Protección al Empleo. El problema es que muchas nunca han sido ni pymes, mini-pymes o negocios familiares. Son grandes empresas internacionales que tienen lucas como para poder pagar las remuneraciones justas a los trabajadores”
             </span>
             </div>
             <div className="protag-div-right">
-              <span className="protag-span">
+              <span className="protag-span-right">
                 Tras su promulgación, varias empresas, entre ellas grandes tiendas del retail o multinacionales como Ripley, La Polar, Starbucks, H&M, Corona, entre otras decidieron sumarse a la normativa para “proteger a los trabajadores ante la posibilidad de quedar sin trabajo”.
             </span>
-              <span className="protag-span">
+              <span className="protag-span-right">
                 Según la última actualización realizada por la ministra del Trabajo, María José Zaldívar, hasta el viernes 15 de mayo, 593.615 trabajadores habían hecho solicitudes para estar bajo la normativa, mientras que 86.070 empresas ingresaron peticiones, de acuerdo con el último informe de la Superintendencia de Pensiones.
             </span>
             </div>
           </div>
-          <div className="protag-div">
-            <span className="protag-span">
+          <div className="protag-div-bottom">
+            <span className="protag-span-bottom">
               “En medio de esta pandemia, hemos visto muchas empresas acogiéndose a la Ley de Protección al Empleo. El problema es que muchas nunca han sido ni pymes, mini-pymes o negocios familiares. Son grandes empresas internacionales que tienen lucas como para poder pagar las remuneraciones justas a los trabajadores” - reclama Aurora durante la videollamada.
             </span>
           </div>
 
-          <div className="protag-div">
-            <h2 className="protag-h2">El futuro del trabajo</h2>
+          <div className="protag-div-work-future">
+            <h2 className="protag-h2-work-future">El futuro del trabajo</h2>
 
-            <span className="protag-span">
+            <span className="protag-span-work-future">
               A diferencia de la situación laboral de más un millón de chilenos y chilenas que debido a la crisis han perdido su trabajo o tienen sus contratos suspendidos, esta dirigenta social reconoce que Wal - Mart “se ha portado bien con los trabajadores”. Para ella, la razón no es al azar y tiene su justificación en el tipo de productos que vende la empresa en la que labura.
             </span>
-            <span className="protag-span">
+            <span className="protag-span-work-future">
               “Si bien tenemos electrodomésticos, bazar o vestuario vendemos alimentos de primera necesidad. Entonces, Wal - Mart ha mantenido los trabajos de mis compañeros y compañeras a nivel nacional. Otra razón es que hoy enfrentamos una negociación colectiva a nivel nacional desde Arica hasta Punta Arenas y que debería estar terminada por junio o fines de julio”, explica Aurora Pardo.
             </span>
-            <span className="protag-span">
+            <span className="protag-span-work-future">
               La técnico jurídico y ahora estudiante de quinto año de derecho reconoce que aunque “faltan algunos detalles en la negociación” valora la importancia de la organización sindical para la conquista de mejoras para los trabajadores y trabajadoras. Debido a la reestructuración del mercado laboral y fenómenos como la automatización a Aurora Pardo también le preocupa el futuro del trabajo en Chile.
             </span>
-            <span className="protag-span">
+            <span className="protag-span-work-future">
               “Cuando era DyS sólo había remuneración. Hemos ido avanzando harto en las negociaciones colectivas, pero siempre hay que estar atentos con lo que se viene y sobretodo, con las contrataciones de las personas nuevas en Wal - Mart. Sin embargo, hay discusiones que ya están presentes como la llamada polifuncionalidad. Estas son contrataciones a 4 horas y con alta rotación que merman bastante las remuneraciones de los trabajadores del retail”, advierte.
             </span>
-            <span className="protag-span">
+            <span className="protag-span-work-future bold">
               Aurora mencionas lo indignante que te parece el actuar de algunas grandes empresas. Como dirigenta sindical y estudiante de derecho ¿De qué manera se vive ese proceso de negociación colectiva cuando en paralelo se crean leyes que finalmente desprotegen a los trabajadores y trabajadoras?
             </span>
-            <span className="protag-span">
+            <span className="protag-span-work-future">
               Como Sindicato de Autónomo de Wal-Mart pertenecemos a la Coordinadora de Sindicatos del Comercio y estuvimos presentes durante la últimas semanas cuando Cencosud suspendió los contratos con los trabajadores. Afortunadamente los compañeros y compañeras de Cencosud denunciaron a la empresa cuando ellos pretendían repartirse las utilidades de la empresa entre sus accionistas. Esta crisis no la pueden pagar los trabajadores. Por eso, el dirigente tiene que estar atento siempre y sobretodo en época de crisis. El empleador siempre va tratar de defender sus bolsillos, defender sus arcas, no querer repartirlas.
             </span>
           </div>
-
-          <div className="protag-div">
-            <h2 className="protag-h2">
+          <div className="protag-div-text">
+            <h2 className="protag-h2-crisis">
               La crisis en primera persona.
-          </h2>
-            <div>
-              <span className="protag-span">
-                "La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema"
-          </span>
-              <span className="protag-span">
-                Desde el inicio de la pandemia y al igual que en tiempos pasados, las mujeres han estado en la primera línea del combate al hambre e incertidumbre producto del COVID 19. De este modo, si en octubre de 2019 la frase “solo el pueblo ayuda al pueblo” resonó junto a las cacerolas, hoy está más vigente que nunca gracias a la generación de redes solidarias y el levantamiento de ollas comunes en barrios populares.
-          </span>
+            </h2>
+            <div className="protag-div-crisis">
+              <div className="crisis-left">
+                <span className="protag-span-left crisis-left-span">
+                  "La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema"
+              </span>
+              </div>
+              <div className="crisis-right">
+                <span className="protag-span-right crisis-right-span">
+                  Desde el inicio de la pandemia y al igual que en tiempos pasados, las mujeres han estado en la primera línea del combate al hambre e incertidumbre producto del COVID 19. De este modo, si en octubre de 2019 la frase “solo el pueblo ayuda al pueblo” resonó junto a las cacerolas, hoy está más vigente que nunca gracias a la generación de redes solidarias y el levantamiento de ollas comunes en barrios populares.
+              </span>
+              </div>
             </div>
+
+
+
             <span className="protag-span">
               Aurora aparte de ser dirigenta sindical, se desempeña como presidenta de la Unidad Vecinal de la población Las Turbinas de Lo Espejo. Ante la falta de internet de muchos pobladores, desde ese rol ayuda a sus vecinos a realizar trámites del seguro de cesantía, obtener clave única para acceder a beneficios, imprimir cotizaciones o sacar salvoconductos para aquellos vecinos que trabajan en la feria.
             </span>
+
+
 
             <h3 className="protag-h3">
               ¿Qué desafíos te ha traído en términos personales, familiares y laborales la pandemia?
