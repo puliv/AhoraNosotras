@@ -190,13 +190,27 @@
 
 .protag-div-text {
   width: 100%;
+  height: 100%;
+}
+
+.div-question {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.protag-div {
+  width: 100%;
   height: auto;
+  display: flex;
 }
 
 .protag-div-crisis {
   width: 100%;
   height: auto;
   display: flex;
+  margin-bottom: 40px;
 }
 
 .crisis-right,
@@ -204,10 +218,8 @@
   width: 50%;
   height: 100%;
   margin: 0px 5px 0px 5px;
-}
-
-.crisis-left {
-  word-spacing: 1;
+  text-align: justify;
+  padding: 0px 10px;
 }
 
 .protag-h1 {
@@ -236,14 +248,26 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #000000;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .protag-h3 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.protag-h3.title {
   color: #707070;
   font-family: Open Sans;
   font-weight: bold;
   font-size: 14px;
+}
+
+.protag-h3.last {
+  word-spacing: 13px;
 }
 
 .protag-span {
@@ -251,6 +275,9 @@
   color: #000000;
   text-align: justify;
   font-size: 18px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
 }
 
 .protag-span-image {
@@ -325,11 +352,6 @@
 
 .protag-span-work-future.bold {
   font-weight: bold;
-}
-
-.crisis-right-span,
-.crisis-left-span {
-  padding: 20px 0px;
 }
 
 /* ---------- Credits ---------- */

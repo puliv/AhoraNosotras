@@ -12,7 +12,7 @@ export class Protagonistas extends Component {
         </div>
         <div className="protag-main">
           <div className="protag-titles">
-            <h3 className="protag-h3">
+            <h3 className="protag-h3 title">
               PROTAGONISTAS
             </h3>
             <h1 className="protag-h1">
@@ -98,140 +98,162 @@ export class Protagonistas extends Component {
             </span>
           </div>
           <div className="protag-div-text">
-            <h2 className="protag-h2-crisis">
-              La crisis en primera persona.
+            <div className="div-question">
+              <h2 className="protag-h2-crisis">
+                La crisis en primera persona.
             </h2>
-            <div className="protag-div-crisis">
-              <div className="crisis-left">
-                <span className="protag-span-left crisis-left-span">
-                  "La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema"
+              <div className="protag-div-crisis">
+                <div className="crisis-left">
+                  <span className="protag-span-left crisis-left-span">
+                    "La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema"
               </span>
-              </div>
-              <div className="crisis-right">
-                <span className="protag-span-right crisis-right-span">
-                  Desde el inicio de la pandemia y al igual que en tiempos pasados, las mujeres han estado en la primera línea del combate al hambre e incertidumbre producto del COVID 19. De este modo, si en octubre de 2019 la frase “solo el pueblo ayuda al pueblo” resonó junto a las cacerolas, hoy está más vigente que nunca gracias a la generación de redes solidarias y el levantamiento de ollas comunes en barrios populares.
+                </div>
+                <div className="crisis-right">
+                  <span className="protag-span-right crisis-right-span">
+                    Desde el inicio de la pandemia y al igual que en tiempos pasados, las mujeres han estado en la primera línea del combate al hambre e incertidumbre producto del COVID 19. De este modo, si en octubre de 2019 la frase “solo el pueblo ayuda al pueblo” resonó junto a las cacerolas, hoy está más vigente que nunca gracias a la generación de redes solidarias y el levantamiento de ollas comunes en barrios populares.
               </span>
+                </div>
               </div>
+              <span className="protag-span">
+                Aurora aparte de ser dirigenta sindical, se desempeña como presidenta de la Unidad Vecinal de la población Las Turbinas de Lo Espejo. Ante la falta de internet de muchos pobladores, desde ese rol ayuda a sus vecinos a realizar trámites del seguro de cesantía, obtener clave única para acceder a beneficios, imprimir cotizaciones o sacar salvoconductos para aquellos vecinos que trabajan en la feria.
+            </span>
             </div>
 
+            <div className="div-question">
+              <h3 className="protag-h3">
+                ¿Qué desafíos te ha traído en términos personales, familiares y laborales la pandemia?
+            </h3>
+              <span className="protag-span">
+                No he podido hacer cuarentena total en mi casa producto del trabajo y me preocupa bastante lo que ocurre en mi población. Con otras dirigentas hemos creado dos veces ollas comunes. Juntamos unos recursos y salimos en ayuda de unas familias para darles mercadería. Nosotros siempre hemos tenido crisis en las casas, siempre han habido crisis, porque a la gente no le alcanza para comer. Para los insumos básicos, simplemente no tenemos.
+            </span>
+              <span className="protag-span">
+                “La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema. Necesitamos mitigar el estado de pobreza de las personas. Tampoco estamos diciendo que queremos todo gratis. Lo que necesitamos son necesidades básicas cubiertas por el Estado. El problema es que nosotros siempre vamos a aportar al Estado, estamos dando más que recibiendo y ellos no nos aportan nada. A nosotras todo nos cuesta”, reflexiona.
+            </span>
+            </div>
 
-
-            <span className="protag-span">
-              Aurora aparte de ser dirigenta sindical, se desempeña como presidenta de la Unidad Vecinal de la población Las Turbinas de Lo Espejo. Ante la falta de internet de muchos pobladores, desde ese rol ayuda a sus vecinos a realizar trámites del seguro de cesantía, obtener clave única para acceder a beneficios, imprimir cotizaciones o sacar salvoconductos para aquellos vecinos que trabajan en la feria.
+            <div className="div-question">
+              <h3 className="protag-h3">
+                ¿Has sentido miedo?
+            </h3>
+              <span className="protag-span">
+                Sí, hay bastante miedo en mi interior. No salgo ni a la esquina sin mascarilla, ni guantes, etc. Pero en todas estas semanas no me he dado cuenta de lo que pasa en mí, no he tenido tiempo para hacerlo. Estoy preocupada de la familia pero ellos igual han tomado harta conciencia. A veces creo que nos quieren matar y que quieren terminar con los que más puedan. Me da miedo pensar que nos están ganando a costa de mantener la economía, de mantener sus bolsillos.
+              </span>
+              <span className="protag-span">
+                Entonces, ¡Mira lo que nos ha costado estar en contra de estos grandes! Siempre he sabido que para ganar hemos tenido que morir varios pero antiguamente, uno moría de inmediato. Acá es distinto, morimos en agonía. Sentimos que nos falta el aire. Prefiero morir en Plaza Dignidad pero no morir así o cómo quieren. Con hambre, angustiados, desesperados o solos.
+            </span>
+              <span className="protag-span">
+                “¿Como tanto?”, se preocupa Aurora Pardo. Para la dirigenta, “ni siquiera estamos pidiendo la mitad del pan. Estamos pidiendo la mitad de la mitad del pan, pero tampoco estamos para pedir migajas. Si me voy a morir no les voy a pedir migajas, pero si me voy a morir les quiero pedir para unas cuantas generaciones. Si me voy a morir ahora prefiero reclamar y pelear lo que más pueda”, dice.
             </span>
 
+            </div>
 
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Una crisis con rostro de mujer
+            </h3>
+              <span className="protag-span">
+                Aurora es madre. Tiene un solo hijo y ya es abuela. En la actualidad también le toca criar a sus sobrinas de 14 y 10 años. Su realidad es la que viven miles de mujeres jefas de hogar que, en muchas ocasiones, sin redes de apoyo estatales o familiares deben hacerse cargo del cuidado de sus hijos desde la soledad.
+              </span>
+            </div>
 
-            <h3 className="protag-h3">
-              ¿Qué desafíos te ha traído en términos personales, familiares y laborales la pandemia?
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Parece que te había costado tener ese tiempo para preguntarte cómo te sentías. Estás arriba de la máquina todo el día, entre la pega, la casa y la dirigencia social.
             </h3>
-
-            <span className="protag-span">
-              No he podido hacer cuarentena total en mi casa producto del trabajo y me preocupa bastante lo que ocurre en mi población. Con otras dirigentas hemos creado dos veces ollas comunes. Juntamos unos recursos y salimos en ayuda de unas familias para darles mercadería. Nosotros siempre hemos tenido crisis en las casas, siempre han habido crisis, porque a la gente no le alcanza para comer. Para los insumos básicos, simplemente no tenemos.
-            </span>
-            <span className="protag-span">
-              “La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema. Necesitamos mitigar el estado de pobreza de las personas. Tampoco estamos diciendo que queremos todo gratis. Lo que necesitamos son necesidades básicas cubiertas por el Estado. El problema es que nosotros siempre vamos a aportar al Estado, estamos dando más que recibiendo y ellos no nos aportan nada. A nosotras todo nos cuesta”, reflexiona.
-            </span>
-
-            <h3 className="protag-h3">
-              ¿Has sentido miedo?
-            </h3>
-            <span className="protag-span">
-              Sí, hay bastante miedo en mi interior. No salgo ni a la esquina sin mascarilla, ni guantes, etc. Pero en todas estas semanas no me he dado cuenta de lo que pasa en mí, no he tenido tiempo para hacerlo. Estoy preocupada de la familia pero ellos igual han tomado harta conciencia. A veces creo que nos quieren matar y que quieren terminar con los que más puedan. Me da miedo pensar que nos están ganando a costa de mantener la economía, de mantener sus bolsillos.
-              </span>
-            <span className="protag-span">
-              Entonces, ¡Mira lo que nos ha costado estar en contra de estos grandes! Siempre he sabido que para ganar hemos tenido que morir varios pero antiguamente, uno moría de inmediato. Acá es distinto, morimos en agonía. Sentimos que nos falta el aire. Prefiero morir en Plaza Dignidad pero no morir así o cómo quieren. Con hambre, angustiados, desesperados o solos.
-            </span>
-            <span className="protag-span">
-              “¿Como tanto?”, se preocupa Aurora Pardo. Para la dirigenta, “ni siquiera estamos pidiendo la mitad del pan. Estamos pidiendo la mitad de la mitad del pan, pero tampoco estamos para pedir migajas. Si me voy a morir no les voy a pedir migajas, pero si me voy a morir les quiero pedir para unas cuantas generaciones. Si me voy a morir ahora prefiero reclamar y pelear lo que más pueda”, dice.
-            </span>
-
-
-            <h3 className="protag-h3">
-              Una crisis con rostro de mujer
-            </h3>
-            <span className="protag-span">
-              Aurora es madre. Tiene un solo hijo y ya es abuela. En la actualidad también le toca criar a sus sobrinas de 14 y 10 años. Su realidad es la que viven miles de mujeres jefas de hogar que, en muchas ocasiones, sin redes de apoyo estatales o familiares deben hacerse cargo del cuidado de sus hijos desde la soledad.
-              </span>
-            <h3 className="protag-h3">
-              Parece que te había costado tener ese tiempo para preguntarte cómo te sentías. Estás arriba de la máquina todo el día, entre la pega, la casa y la dirigencia social.
-            </h3>
-            <span className="protag-span">
-              Es difícil.
-              </span>
-            <h3 className="protag-h3">
-              ¿Piensas que existe alguna desigualdad respecto como las mujeres viven la crisis? ¿Qué implica ser mujer trabajadora en este tiempo?
-            </h3>
-            <span className="protag-span">
-              He estado acostumbrada a parar la olla toda la vida sola entonces tampoco me he puesto a pensar cien por ciento en el miedo de esta pandemia. Nada me impresiona y a muchas mujeres nada les queda grande. No me había puesto a pensar en mi, solo le doy. Obviamente me retengo un poco porque soy crónica pero nada más.
-              </span>
-            <h3 className="protag-h3">
-              ¿Las mujeres viven distinto la crisis o no?
-            </h3>
-            <span className="protag-span">
-              Hay muchas compañeras mías, mujeres solas, que tienen que cuidar a sus hijos y sin embargo, tienen que salir a trabajar igual. He visto que algunas han tenido hartos problemas con sus hijos que son más grandes. Sobre todo con los adolescentes porque algunos se van a la calle. He visto de todo un poco pero las mujeres siguen ahí de pie y firmes no más. Hoy en día, que estoy en quinto de derecho, también ayudo a perseguir pensiones de alimento de algunos lindos que se van olímpicamente y abandonan a mis compañeras. Estoy apoyando con mi conocimiento jurídico.
-              </span>
-            <span className="protag-span">
-              “Pero, acá en la población pienso que es distinto”, sentencia Aurora Pardo.
-              </span>
-            <span className="protag-span">
-              “En la población muchas mujeres no pueden acceder a una mejor remuneración porque muchas de ellas no tienen estudios y trabajan haciendo aseo en las fábricas de atrás como las bodegas de Ripley, poniendo alarmas o en las colas de la feria. Ahí están las mujeres jefas de hogar que trabajan en la población. Ellas tienen que ingeniárselas como sea”, señala al precisar entre las diferencias y similitudes de las mujeres trabajadoras.
-              </span>
-            <span className="protag-span">
-              Para Pardo, “otro distinto es en el lugar de trabajo, en el supermercado. La trabajadora igual es remunerada y gana un poquito más alto de lo que gana esta dueña de casa”, explica. Y agrega: “Suponte en el supermercado también tenemos asegurado alimento asegurado desayuno, almuerzo y once. En cambio la dueña de casa o la trabajadora de la cola de la feria no”.
-              </span>
-            <span className="protag-span">
-              Entonces, veo los dos campos que me ha tocado ver se viven distintos pero son parte del mismo problema del modelo. Es más sacrificado para la que vende sopaipillas acá en la casa afuera, completos, pan amasado que para la que está de cajera o reponedora en el supermercado. A las dos les cuesta lo mismo, pero pienso que la que tiene su kiosco acá en casa le cuesta más que la que está al otro lado.
+              <span className="protag-span">
+                Es difícil.
               </span>
 
-            <h3 className="protag-h3">
-              Hay menos herramientas y menos apoyo ...
+            </div>
+
+            <div className="div-question">
+              <h3 className="protag-h3">
+                ¿Piensas que existe alguna desigualdad respecto como las mujeres viven la crisis? ¿Qué implica ser mujer trabajadora en este tiempo?
             </h3>
-            <span className="protag-span">
-              Sobretodo porque hay vecinas que tienen segundo o tercer año básico. Dentro de sus posibilidades buscan acceder a una oportunidad de trabajo. Yo conozco dos realidades distintas pero, a pesar de ello, la vecina que está acá en la población igual tiene los beneficios del Estado. Ellas tienen los bonos, son parte del 40 por ciento más pobre y pueden postular a todo lo que está acá. A la inversa, a las trabajadoras del supermercado les falta para esos beneficios pero les sobra para endeudarse con los bancos.
+              <span className="protag-span">
+                He estado acostumbrada a parar la olla toda la vida sola entonces tampoco me he puesto a pensar cien por ciento en el miedo de esta pandemia. Nada me impresiona y a muchas mujeres nada les queda grande. No me había puesto a pensar en mi, solo le doy. Obviamente me retengo un poco porque soy crónica pero nada más.
+              </span>
+
+            </div>
+
+            <div className="div-question">
+              <h3 className="protag-h3">
+                ¿Las mujeres viven distinto la crisis o no?
+            </h3>
+              <span className="protag-span">
+                Hay muchas compañeras mías, mujeres solas, que tienen que cuidar a sus hijos y sin embargo, tienen que salir a trabajar igual. He visto que algunas han tenido hartos problemas con sus hijos que son más grandes. Sobre todo con los adolescentes porque algunos se van a la calle. He visto de todo un poco pero las mujeres siguen ahí de pie y firmes no más. Hoy en día, que estoy en quinto de derecho, también ayudo a perseguir pensiones de alimento de algunos lindos que se van olímpicamente y abandonan a mis compañeras. Estoy apoyando con mi conocimiento jurídico.
+              </span>
+              <span className="protag-span">
+                “Pero, acá en la población pienso que es distinto”, sentencia Aurora Pardo.
+              </span>
+              <span className="protag-span">
+                “En la población muchas mujeres no pueden acceder a una mejor remuneración porque muchas de ellas no tienen estudios y trabajan haciendo aseo en las fábricas de atrás como las bodegas de Ripley, poniendo alarmas o en las colas de la feria. Ahí están las mujeres jefas de hogar que trabajan en la población. Ellas tienen que ingeniárselas como sea”, señala al precisar entre las diferencias y similitudes de las mujeres trabajadoras.
+              </span>
+              <span className="protag-span">
+                Para Pardo, “otro distinto es en el lugar de trabajo, en el supermercado. La trabajadora igual es remunerada y gana un poquito más alto de lo que gana esta dueña de casa”, explica. Y agrega: “Suponte en el supermercado también tenemos asegurado alimento asegurado desayuno, almuerzo y once. En cambio la dueña de casa o la trabajadora de la cola de la feria no”.
+              </span>
+              <span className="protag-span">
+                Entonces, veo los dos campos que me ha tocado ver se viven distintos pero son parte del mismo problema del modelo. Es más sacrificado para la que vende sopaipillas acá en la casa afuera, completos, pan amasado que para la que está de cajera o reponedora en el supermercado. A las dos les cuesta lo mismo, pero pienso que la que tiene su kiosco acá en casa le cuesta más que la que está al otro lado.
+              </span>
+
+            </div>
+
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Hay menos herramientas y menos apoyo ...
+            </h3>
+              <span className="protag-span">
+                Sobretodo porque hay vecinas que tienen segundo o tercer año básico. Dentro de sus posibilidades buscan acceder a una oportunidad de trabajo. Yo conozco dos realidades distintas pero, a pesar de ello, la vecina que está acá en la población igual tiene los beneficios del Estado. Ellas tienen los bonos, son parte del 40 por ciento más pobre y pueden postular a todo lo que está acá. A la inversa, a las trabajadoras del supermercado les falta para esos beneficios pero les sobra para endeudarse con los bancos.
             </span>
 
-            <h3 className="protag-h3">
-              Uno podría pensar que esa cajera de Líder tal vez es un "poco más privilegiada". Pero vivir endeudada o tener que pagar la carne molida con tarjeta no es lo justo.
+            </div>
+
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Uno podría pensar que esa cajera de Líder tal vez es un "poco más privilegiada". Pero vivir endeudada o tener que pagar la carne molida con tarjeta no es lo justo.
             </h3>
-            <span className="protag-span">
-              Claro, a los trabajadores del supermercado con contrato nos bombardean con tarjetas. Todos tienen tarjetas y en cambio acá en la población no hay ese acceso. Siempre me he puesto a pensar de que existen diferentes realidades. Otros pueden tener vivienda y otros seguir toda la vida arrendando. Me alegra conocer las dos veredas y estar metida también conociendo varias realidades que son muy distintas.
+              <span className="protag-span">
+                Claro, a los trabajadores del supermercado con contrato nos bombardean con tarjetas. Todos tienen tarjetas y en cambio acá en la población no hay ese acceso. Siempre me he puesto a pensar de que existen diferentes realidades. Otros pueden tener vivienda y otros seguir toda la vida arrendando. Me alegra conocer las dos veredas y estar metida también conociendo varias realidades que son muy distintas.
+            </span>
+            </div>
+
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Son muy distintas pero también son parte del mismo problema que comentabas al inicio. La lógica del Estado subsidiario hace que el Estado aparezca sólo en forma de bonos para la vecina de Las Turbinas, quienes reciben estos beneficios que le llegan sólo cada cierto tiempo o por la cantidad de hijos que pueden tener.
+            </h3>
+              <span className="protag-span">
+                De acuerdo. No aparece de otra manera, de forma permanente donde se nos permita vivir bien y felices. Al Estado tampoco le interesa tener familias felices. Dicen que “somos el mejor lugar para trabajar” pero Chile no es el mejor país para vivir. Chile es un mal empleador.La gente de arriba es la que no quiere tener a la gente bien. Entre la dueña de casa que está en la población y la trabajadora que está en el retail, en el comercio, ninguna de las dos tiene nada bueno.
             </span>
 
-            <h3 className="protag-h3">
-              Son muy distintas pero también son parte del mismo problema que comentabas al inicio. La lógica del Estado subsidiario hace que el Estado aparezca sólo en forma de bonos para la vecina de Las Turbinas, quienes reciben estos beneficios que le llegan sólo cada cierto tiempo o por la cantidad de hijos que pueden tener.
-            </h3>
-            <span className="protag-span">
-              De acuerdo. No aparece de otra manera, de forma permanente donde se nos permita vivir bien y felices. Al Estado tampoco le interesa tener familias felices. Dicen que “somos el mejor lugar para trabajar” pero Chile no es el mejor país para vivir. Chile es un mal empleador.La gente de arriba es la que no quiere tener a la gente bien. Entre la dueña de casa que está en la población y la trabajadora que está en el retail, en el comercio, ninguna de las dos tiene nada bueno.
-            </span>
-
+            </div>
 
             <div className="protag-div">
-              <div className="protag-div">
-                <span className="protag-span">
+              <div className="protag-div-left">
+                <span className="protag-span protag-span-left">
                   “Al Estado tampoco le interesa tener familias felices somos el mejor lugar para trabajar” pero Chile no es el mejor país para vivir. Chile es un mal empleador.
                 </span>
               </div>
-              <div className="protag-div">
-                <h3 className="protag-h3">
+              <div className="protag-div-right">
+                <h3 className="protag-h3 last">
                   Imaginemos que la crisis termina mañana ¿Qué aprendizajes has obtenido durante este tiempo?
                 </h3>
-                <span className="protag-span">
+                <span className="protag-span protag-span-right">
                   Nos hemos dado cuenta de que hay que hacer cambios profundos. No se pueden hacer cambios por encima. Tiene que estructurarse el Estado respecto a sus prioridades y somos nosotros, el pueblo los primeros a considerar.
                 </span>
               </div>
             </div>
 
-            <h3 className="protag-h3">
-              Valorar aquello que no ha sido valorado...
+            <div className="div-question">
+              <h3 className="protag-h3">
+                Valorar aquello que no ha sido valorado...
             </h3>
-            <span className="protag-span">
-              Exacto, privilegiar a los que nunca se han privilegiado e invertir el orden de prioridades como la pirámide de Kelsen. En la universidad me enseñaron que ese es un triángulo que dice que arriba de las normas están los tratados internacionales, la constitución, las leyes y luego, las personas. Sin embargo, pienso que de ahora en adelante esa mayoría finalmente es la que debería tener más peso. Estos tontos, los de arriba, creen que el Estado son los gobiernos de turno y que a diestra y siniestra pueden administrar nuestros recursos.
+              <span className="protag-span">
+                Exacto, privilegiar a los que nunca se han privilegiado e invertir el orden de prioridades como la pirámide de Kelsen. En la universidad me enseñaron que ese es un triángulo que dice que arriba de las normas están los tratados internacionales, la constitución, las leyes y luego, las personas. Sin embargo, pienso que de ahora en adelante esa mayoría finalmente es la que debería tener más peso. Estos tontos, los de arriba, creen que el Estado son los gobiernos de turno y que a diestra y siniestra pueden administrar nuestros recursos.
             </span>
-            <span className="protag-span">
-              “Pero el Estado somos nosotros”, concluye Aurora en una entrevista marcada por el anuncio de cuarentena total en Santiago y que advierte que la pandemia requerirá de medidas económicas fuertes o nuevamente serán los pobres quienes paguen la crisis.
+              <span className="protag-span">
+                “Pero el Estado somos nosotros”, concluye Aurora en una entrevista marcada por el anuncio de cuarentena total en Santiago y que advierte que la pandemia requerirá de medidas económicas fuertes o nuevamente serán los pobres quienes paguen la crisis.
             </span>
-
+            </div>
           </div>
         </div>
       </div >
