@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import editorial from '../../assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png'
 import { Credits } from './Credits.js'
+import ReadNext from './ReadNext'
 
 
 export class Editorial extends Component {
@@ -61,6 +62,7 @@ export class Editorial extends Component {
             </span>
           </div>
           <Credits />
+          <ReadNext section={"Editorial"} />
         </div>
       </div>
     )

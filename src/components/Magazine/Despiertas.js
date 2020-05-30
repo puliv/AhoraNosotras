@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import despiertas from '../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIERTAS.png'
-
+import ReadNext from './ReadNext'
 
 
 export class Despiertas extends Component {
@@ -32,6 +32,7 @@ export class Despiertas extends Component {
             </div>
           </div>
         </div>
+        <ReadNext section={"Despiertas"} />
       </div>
     )
   }

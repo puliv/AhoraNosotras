@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import protagonistas from '../../assets/REVISTA_AHORA_NOSOTRAS/3_PROTAGONISTAS/protagonistaspng-03.png'
+import ReadNext from './ReadNext'
 
 
 export class Protagonistas extends Component {
@@ -256,6 +257,7 @@ export class Protagonistas extends Component {
             </div>
           </div>
         </div>
+        <ReadNext section={"Protagonistas"} />
       </div >
     )
   }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import creamos from '../../assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png'
+import ReadNext from './ReadNext'
 
 
 
@@ -65,6 +66,7 @@ export class Creamos extends Component {
             </span>
           </div>
         </div>
+        <ReadNext section={"Creamos"} />
       </div>
     )
   }

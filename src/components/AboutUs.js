@@ -4,7 +4,7 @@ import flowers from '../assets/details/flowers.png'
 import { Menu, Dropdown } from 'antd';
 
 const menu = (
-  <Menu>
+  <Menu style={{ width: "100%", marginTop: "13px", border: "1px solid #630164" }}>
     <Menu.Item key="0">
       <a href="http://www.alipay.com/">"Lorem ipsum dolor sit amet, consectetur adipiscing elit" </a>
     </Menu.Item>
@@ -20,7 +20,7 @@ export class AboutUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="about-us-first-img" id="1">
+        <div className="about-us-first-img" >
           {/* Primera imagen de fondo */}
         </div>
         <div className="about-us">
@@ -62,14 +62,14 @@ export class AboutUs extends Component {
           convivencia, nuestra comunidad y la construcción del poder. Juntas imaginaremos un Nuevo Chile.</span>
             <h4 className="about-us-h4">Fechas Claves</h4>
             <ul className="about-us-ul">
-              <Dropdown overlay={menu} trigger={['click']}>
-                <li className="about-us-li">
-                  <span className="about-us-span-date">06 JUN <br />&nbsp;2020</span>
+              <li className="about-us-li">
+                <span className="about-us-span-date">06 JUN <br />&nbsp;2020</span>
+                <Dropdown overlay={menu} trigger={['click']}>
                   <span className="about-us-span-text">
                     Cierre de plazo para cambio de domicilio electoral.
                   </span>
-                </li>
-              </Dropdown>
+                </Dropdown>
+              </li>
               <li className="about-us-li">
                 <span className="about-us-span-date">25 OCT <br />&nbsp;2020</span>
                 <span className="about-us-span-text">

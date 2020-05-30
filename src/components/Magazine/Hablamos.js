@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import hablamos from '../../assets/REVISTA_AHORA_NOSOTRAS/4_HABLAMOS/Hablamos.png'
+import ReadNext from './ReadNext'
 
 
 export class Hablamos extends Component {
@@ -78,6 +79,7 @@ export class Hablamos extends Component {
           </div>
         </div>
 
+        <ReadNext section={"Hablamos"} />
       </div>
 
     )

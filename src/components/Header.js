@@ -62,29 +62,29 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li>
-                <Link to="/aboutUs">
+                <a href="#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/magazine">
+                <a href="#Magazine">
                   <span className="drawer-h3">REVISTA</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/learning">
+                <a href="#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/profiles">
+                <a href="#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/newsletter">
+                <a href="#Subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

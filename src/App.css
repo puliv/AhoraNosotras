@@ -252,7 +252,7 @@ li {
 
 .about-us-span-text {
   width: 90%;
-  margin-left: 10px;
+  padding-left: 10px;
   font-weight: 400;
 }
 
@@ -356,7 +356,8 @@ li {
   border-top-left-radius: 5px;
 }
 
-.mag-ver-img.despiertas {
+.mag-ver-img.-prev {
+  width: 100%;
   object-fit: cover;
   height: 150px;
 }
@@ -491,6 +492,7 @@ li {
   color: #630164;
   font-family: Open Sans;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 /* ---------- Learning ---------- */
@@ -777,11 +779,11 @@ li {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #bc0e24;
+  background-color: #630164;
 }
 
 .profile-div:hover .profile-overlay {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .profile-span-x.roll {
