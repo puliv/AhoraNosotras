@@ -2,15 +2,22 @@ import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import creamos from '../../assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png'
 import ReadNext from './ReadNext'
+import { Link } from 'react-router-dom'
 
 
 
 export class Creamos extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="creamos">
         <div className="edit-top">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <Link to="/Home">
+            <img src={back} alt="back" className="edit-back-icon" />
+          </Link>
         </div>
         <div className="edit-main">
           <div className="edit-titles">
@@ -23,6 +30,11 @@ export class Creamos extends Component {
             <h2 className="protag-h2">
               Equipo Ahora Nosotras
             </h2>
+          </div>
+
+          <div >
+            <h2 className="creamos-h2-micro">Ilustración</h2>
+            <h3 className="creamos-h3-micro">Por Carolina Leira</h3>
           </div>
 
           <div className="creamos-image-div protag-div-image">
@@ -48,7 +60,7 @@ export class Creamos extends Component {
               </span>
             </div>
             <div className="creamos-div-right">
-              <span className="creamos-span fabiola">
+              <span className="creamos-span-fabiola">
                 Fabiola es una heroína como muchas mujeres que luchan día a día por su bienestar personal, familiar y también por su población, su barrio y a fin de cuentas, por su país.
               </span>
             </div>

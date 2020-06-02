@@ -2,14 +2,21 @@ import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import hablamos from '../../assets/REVISTA_AHORA_NOSOTRAS/4_HABLAMOS/Hablamos.png'
 import ReadNext from './ReadNext'
+import { Link } from 'react-router-dom'
 
 
 export class Hablamos extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="hablamos">
         <div className="edit-top">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <Link to="/Home">
+            <img src={back} alt="back" className="edit-back-icon" />
+          </Link>
         </div>
         <div className="edit-main">
           <div className="edit-titles">

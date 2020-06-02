@@ -2,14 +2,22 @@ import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import protagonistas from '../../assets/REVISTA_AHORA_NOSOTRAS/3_PROTAGONISTAS/protagonistaspng-03.png'
 import ReadNext from './ReadNext'
+import { Link } from 'react-router-dom'
 
 
 export class Protagonistas extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
+
   render() {
     return (
       <div className="protagonistas">
         <div className="edit-top">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <Link to="/Home">
+            <img src={back} alt="back" className="edit-back-icon" />
+          </Link>
         </div>
         <div className="protag-main">
           <div className="protag-titles">
@@ -105,7 +113,7 @@ export class Protagonistas extends Component {
             </h2>
               <div className="protag-div-crisis">
                 <div className="crisis-left">
-                  <span className="protag-span-left crisis-left-span">
+                  <span className="crisis-left-span">
                     "La crisis visibiliza la pobreza real que hay. Si no se hace una nueva Constitución, si no quitamos de raíz el Estado subsidiario de la Constitución nunca jamás se va a solucionar el problema"
               </span>
                 </div>
@@ -229,8 +237,8 @@ export class Protagonistas extends Component {
             </div>
 
             <div className="protag-div">
-              <div className="protag-div-left">
-                <span className="protag-span protag-span-left">
+              <div className="protag-last-div-left">
+                <span className="last-span-left">
                   “Al Estado tampoco le interesa tener familias felices somos el mejor lugar para trabajar” pero Chile no es el mejor país para vivir. Chile es un mal empleador.
                 </span>
               </div>

@@ -2,14 +2,21 @@ import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
 import despiertas from '../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIERTAS.png'
 import ReadNext from './ReadNext'
+import { Link } from 'react-router-dom'
 
 
 export class Despiertas extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="despiertas">
         <div className="edit-top">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <Link to="Home">
+            <img src={back} alt="back" className="edit-back-icon" />
+          </Link>
         </div>
         <div className="edit-main">
           <div className="edit-titles">

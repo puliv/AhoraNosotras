@@ -80,7 +80,9 @@ export class ReadNext extends Component {
             {previousSection}
           </span>}
           {previousSection && <span className="read-next-span-icon">
-            <ArrowLeftOutlined />
+            <Link to={previousSection}>
+              <ArrowLeftOutlined className="arrow-left" />
+            </Link>
           </span>}
         </div>
 
@@ -92,7 +94,9 @@ export class ReadNext extends Component {
             {nextSection}
           </span>}
           {nextSection && <span className="read-next-span-icon">
-            <ArrowRightOutlined />
+            <Link to={nextSection}>
+              <ArrowRightOutlined className="arrow-right" />
+            </Link>
           </span>}
         </div>
       </div>

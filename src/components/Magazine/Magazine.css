@@ -14,7 +14,7 @@
 .edit-top {
   width: 100%;
   height: 10%;
-  margin-bottom: 30px;
+  margin: 100px 0px 30px;
 }
 
 .edit-main {
@@ -99,14 +99,11 @@
   font-family: Open Sans;
   font-style: italic;
   font-weight: bold;
-  font-size: 40px;
-  padding: 40px 20px 0px;
-  text-indent: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 30px;
+  padding: 100px 20px 0px;
   color: #000000;
   text-align: justify;
+  line-height: normal;
 }
 
 /* ---------- Credits ---------- */
@@ -125,6 +122,7 @@
 .credits-h2 {
   color: #707070;
   font-family: Open Sans;
+  font-weight: 700;
   margin: 60px 0px 20px;
 }
 
@@ -140,6 +138,10 @@
 .credits-span {
   font-family: Open Sans;
   font-weight: lighter;
+}
+
+.credit-title {
+  font-weight: 550;
 }
 
 /* ---------- Protagonistas ---------- */
@@ -208,6 +210,12 @@
   text-align: justify;
 }
 
+.protag-last-div-left {
+  width: 50%;
+  text-align: justify;
+  padding: 50px 10px;
+}
+
 .protag-div-right {
   width: 50%;
   padding: 0px 10px;
@@ -251,9 +259,12 @@
 .crisis-left {
   width: 50%;
   height: 100%;
-  margin: 0px 5px 0px 5px;
   text-align: justify;
   padding: 0px 10px;
+}
+
+.crisis-left {
+  padding-top: 20px;
 }
 
 .protag-h1 {
@@ -319,11 +330,25 @@
   font-family: "Roboto", sans-serif;
   color: #000000;
   text-align: justify;
-  padding: 10px 25px;
   font-style: italic;
   font-size: 25px;
-  line-height: 1.2;
-  word-spacing: 5px;
+  font-weight: lighter;
+  line-height: normal;
+  word-spacing: -1px;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.crisis-left-span {
+  letter-spacing: -2px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 27px;
+  color: #000000;
+  text-align: justify;
+  line-height: normal;
 }
 
 .protag-span-aurora {
@@ -361,11 +386,26 @@
 }
 
 .protag-span-left {
+  color: #000000;
   font-family: Open Sans;
   font-style: italic;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: justify;
+  line-height: normal;
+  letter-spacing: -2px;
+  padding: 50px 20px 0px;
+}
+
+.last-span-left {
   color: #000000;
-  font-size: 23px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: justify;
+  line-height: normal;
+  letter-spacing: -2px;
 }
 
 .protag-span-bottom {
@@ -400,6 +440,18 @@
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.hablamos-text-span {
+  width: 50%;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 27px;
+  text-align: justify;
+  line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .hablamos-span {
@@ -440,9 +492,8 @@
 }
 
 .creamos-div-right {
-  line-height: 2;
-  word-spacing: -2px;
-  padding: 20px 0px 20px 10px;
+  padding-left: 20px;
+  padding-top: 70px;
 }
 
 .creamos-text-div {
@@ -450,6 +501,21 @@
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.creamos-h2-micro {
+  color: #4b8241;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+​ .creamos-h3-micro {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .creamos-h2-micro {
@@ -468,10 +534,13 @@
   font-weight: lighter;
 }
 
-.creamos-span.fabiola {
+.creamos-span-fabiola {
   font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
   font-size: 30px;
-  font-weight: 900;
+  color: #000000;
+  line-height: normal;
 }
 
 .creamos-span {
@@ -486,14 +555,17 @@
 
 .creamos-text-span {
   width: 50%;
-  font-family: "Roboto", sans-serif;
+  padding-left: 25px;
   color: #000000;
-  text-align: justify;
-  font-size: 19px;
-  padding: 0px 25px;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
-  line-height: 1.2;
-  word-spacing: 4.5px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: normal;
+  word-spacing: -1px;
+  display: flex;
+  align-items: center;
 }
 
 /* ---------- Despiertas ---------- */
@@ -553,4 +625,14 @@
   color: #630164;
   font-size: 60px;
   cursor: pointer;
+}
+
+.arrow-right,
+.arrow-left {
+  color: #630164;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  color: #d969d9;
 }

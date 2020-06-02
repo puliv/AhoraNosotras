@@ -1,16 +1,22 @@
 import React, { Component } from 'react'
 import back from '../../assets/icons/arrow-left.svg'
-import editorial from '../../assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png'
+import editorial from '../../assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial_banner.png'
 import { Credits } from './Credits.js'
 import ReadNext from './ReadNext'
-
+import { Link } from 'react-router-dom'
 
 export class Editorial extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="editorial">
         <div className="edit-top">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <Link to="/Home">
+            <img src={back} alt="back" className="edit-back-icon" />
+          </Link>
         </div>
         <div className="edit-main">
           <div className="edit-titles">

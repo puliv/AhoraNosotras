@@ -16,6 +16,10 @@ export class Header extends Component {
     }
   }
 
+  handleOnClickScroll = () => {
+    window.scrollTo(0, 0)
+  }
+
 
   render() {
     const { openMenu } = this.state
@@ -38,6 +42,7 @@ export class Header extends Component {
               src={anlogo}
               alt="Ahora Nosotras"
               className="header-img-anlogo"
+              onClick={() => window.scrollTo(0, 0)}
             />
           </Link>
         </div>
@@ -61,27 +66,27 @@ export class Header extends Component {
           </div>
           <div className="drawer-main">
             <ul className="drawer-ul">
-              <li>
+              <li onClick={() => { this.setState({ openMenu: false }) }}>
                 <a href="#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </a>
               </li>
-              <li>
+              <li onClick={() => { this.setState({ openMenu: false }) }}>
                 <a href="#Magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </a>
               </li>
-              <li>
+              <li onClick={() => { this.setState({ openMenu: false }) }}>
                 <a href="#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </a>
               </li>
-              <li>
+              <li onClick={() => { this.setState({ openMenu: false }) }}>
                 <a href="#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </a>
               </li>
-              <li>
+              <li onClick={() => { this.setState({ openMenu: false }) }}>
                 <a href="#Subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </a>

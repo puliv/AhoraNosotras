@@ -123,12 +123,20 @@ li {
   background-color: #ca465e;
   padding: 120px 0px 50px;
   position: relative;
+  scroll-snap-stop: start;
 }
 
 .home-cover-img {
   width: 400px;
   object-fit: contain;
   box-shadow: 0px 15px 25px #070606f3;
+}
+
+.home-scroll-container {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  scroll-snap-stop: start;
 }
 
 /* ---------- About Us ---------- */
@@ -638,6 +646,7 @@ li {
   display: flex;
   justify-content: center !important;
   border-radius: 20px;
+  border: solid #630164;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -751,11 +760,11 @@ li {
 .profile-h2 {
   display: flex;
   justify-content: center !important;
-  font-family: "Roboto", sans-serif;
 }
 
 .profile-h2 {
   padding-top: 40px;
+  font-family: "Roboto", sans-serif;
   color: #4b8241;
   font-weight: bold;
   font-size: 2em;
@@ -766,47 +775,61 @@ li {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+  font-family: Open Sans;
 }
 
-.profile-overlay {
+.profile-span-hover {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: auto;
-  max-height: 300px;
-  width: 100%;
+  visibility: hidden;
   opacity: 0;
-  transition: 0.5s ease;
-  background-color: #630164;
+  display: flex;
+  flex-direction: column;
+
+  transition: opacity 0.6s, visibility 0.2s;
 }
 
-.profile-div:hover .profile-overlay {
-  opacity: 0.8;
-}
-
-.profile-span-x.roll {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.roll_one {
+  text-align: left;
   color: #f6f6f6;
-  font-size: 13px;
+  font-size: 17px;
+  background: #630164;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 15px;
+}
+
+.roll_two {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: left;
+  color: #f6f6f6;
+  height: 100%;
+  background: #630164;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 15px;
 }
 
 /* - protagonistas - */
 .profile-div {
   width: 100%;
-  position: relative;
   margin: 10px;
 }
 
 .profile-img-div {
   height: 300px;
+  position: relative;
+}
+
+.profile-img-div:hover .profile-span-hover {
+  visibility: visible;
+  opacity: 0.8;
 }
 
 .profile-text-div {
@@ -839,10 +862,10 @@ li {
   bottom: auto;
   width: 100%;
   height: auto;
+  padding-top: 20px;
 }
 
 .subscribe-div {
-  padding-top: 20px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -860,7 +883,7 @@ li {
 .subscribe-h2 {
   font-weight: bold;
   font-size: 2em;
-  margin-bottom: 1px;
+  margin: 1px 0px;
 }
 
 .subscribe-form {
