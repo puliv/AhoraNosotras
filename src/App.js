@@ -11,32 +11,32 @@ import Hablamos from './components/Magazine/Hablamos'
 import Creamos from './components/Magazine/Creamos'
 import Despiertas from './components/Magazine/Despiertas'
 
-import { BrowserRouter as Router, Switch, Route, hashHistory } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
 
 import { MobileImage } from './components/MobileImage.js'
 
 function App() {
   return (
-    <Router history={hashHistory}>
+    <Router history={HashRouter}>
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/Editorial">
+          <Route exact path="/Editorial">
             <Editorial />
           </Route>
-          <Route path="/Protagonistas">
+          <Route exact path="/Protagonistas">
             <Protagonistas />
           </Route>
-          <Route path="/Hablamos">
+          <Route exact path="/Hablamos">
             <Hablamos />
           </Route>
-          <Route path="/Creamos">
+          <Route exact path="/Creamos">
             <Creamos />
           </Route>
-          <Route path="/Despiertas">
+          <Route exact path="/Despiertas">
             <Despiertas />
           </Route>
-          <Route path="/Home">
+          <Route exact path="/Home">
             <Home />
           </Route>
           <Route path="/">
