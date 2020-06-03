@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import flowers from '../assets/details/flowers.png'
-// import ahoraNosotras1 from '../assets/img/IMAGEN_1.1.png'
+import { Parallax } from "react-parallax"
 // import { Menu, Dropdown } from 'antd';
 
 // const menu = (
@@ -21,14 +21,9 @@ export class AboutUs extends Component {
   render() {
     return (
       <div className="about-us-container">
-        <div className="about-us-first-img" >
-          {/* Primera imagen de fondo */}
-          {/* <img
-            src={ahoraNosotras1}
-            alt="flores"
-            className="ahora-nosotras-top"
-          /> */}
-        </div>
+        <Parallax bgImage={require("../assets/img/IMAGEN_1.1.png")} strength={200}>
+          <div style={{ height: '600px' }} />
+        </Parallax>
 
         <div className="about-us">
           <div className="about-us-text-div">
@@ -105,9 +100,9 @@ export class AboutUs extends Component {
           </div>
         </div>
 
-        <div className="about-us-second-img">
-          {/* Segunda imagen de fondo */}
-        </div>
+        <Parallax bgImage={require("../assets/img/IMAGEN_1.3.png")} strength={200}>
+          <div style={{ height: '600px' }} />
+        </Parallax>
       </div >
     )
   }
