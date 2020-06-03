@@ -56,9 +56,19 @@ export class Subscribe extends Component {
   //   this.props.getSubscribeItems(subsName, subsEmail, subsCity, subsComment)
   // }
 
+  handleClick = () => {
+    this.setState({
+      subsName: "",
+      subsEmail: "",
+      subsCity: "",
+      subsComment: ""
+    })
+  }
+
 
 
   render() {
+    const { subsName, subsEmail, subsCity, subsComment } = this.state
 
     return (
       <div className="subscribe">
@@ -69,24 +79,26 @@ export class Subscribe extends Component {
         <Form className="subscribe-form" required={true}>
           <div>
             <h3 className="subscribe-h3">Nombre y apellido</h3>
-            <Input onChange={this.handleOnChange} id="name" />
+            <Input onChange={this.handleOnChange} id="name" value={subsName} />
           </div>
           <div>
             <h3 className="subscribe-h3">Correo</h3>
-            <Input onChange={this.handleOnChange} id="email" />
+            <Input onChange={this.handleOnChange} id="email" value={subsEmail} />
           </div>
           <div>
             <h3 className="subscribe-h3">Comuna/Ciudad</h3>
-            <Input onChange={this.handleOnChange} id="city" />
+            <Input onChange={this.handleOnChange} id="city" value={subsCity} />
           </div>
           <div>
             <h3 className="subscribe-h3">Comentarios</h3>
-            <TextArea onChange={this.handleOnChange} id="comment" />
+            <TextArea onChange={this.handleOnChange} id="comment" value={subsComment} />
           </div>
-          <Button
-            className="subscribe-btn"
-            type="primary"
-            onClick={this.handleSubcribeItems}>Enviar</Button>
+          <div className="btn-div">
+            <Button
+              className="subscribe-btn"
+              type="primary"
+              onClick={this.handleClick}>Enviar</Button>
+          </div>
         </Form>
       </div>
     )

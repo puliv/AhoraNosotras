@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import flowers from '../assets/details/flowers.png'
-import { Menu, Dropdown } from 'antd';
+// import { Menu, Dropdown } from 'antd';
 
-const menu = (
-  <Menu style={{ width: "100%", marginTop: "13px", border: "1px solid #630164" }}>
-    <Menu.Item key="0">
-      <a href="http://www.alipay.com/">"Lorem ipsum dolor sit amet, consectetur adipiscing elit" </a>
-    </Menu.Item>
-    <Menu.Item key="1">
-      <a href="http://www.taobao.com/">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</a>
-    </Menu.Item>
-    <Menu.Item key="2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</Menu.Item>
-  </Menu>
-);
+// const menu = (
+//   <Menu style={{ width: "100%", marginTop: "13px", border: "1px solid #630164" }}>
+//     <Menu.Item key="0">
+//       <a href="http://www.alipay.com/">"Lorem ipsum dolor sit amet, consectetur adipiscing elit" </a>
+//     </Menu.Item>
+//     <Menu.Item key="1">
+//       <a href="http://www.taobao.com/">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</a>
+//     </Menu.Item>
+//     <Menu.Item key="2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</Menu.Item>
+//   </Menu>
+// );
 
 
 export class AboutUs extends Component {
@@ -64,11 +64,11 @@ export class AboutUs extends Component {
             <ul className="about-us-ul">
               <li className="about-us-li">
                 <span className="about-us-span-date">06 JUN <br />&nbsp;2020</span>
-                <Dropdown overlay={menu} trigger={['click']}>
-                  <span className="about-us-span-text">
-                    Cierre de plazo para cambio de domicilio electoral.
+                {/* <Dropdown overlay={menu} trigger={['click']}> */}
+                <span className="about-us-span-text">
+                  Cierre de plazo para cambio de domicilio electoral.
                   </span>
-                </Dropdown>
+                {/* </Dropdown> */}
               </li>
               <li className="about-us-li">
                 <span className="about-us-span-date">25 OCT <br />&nbsp;2020</span>

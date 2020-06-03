@@ -27,6 +27,8 @@ export class Header extends Component {
     this.setState({
       openMenu: false
     })
+
+    console.log(section)
     scroller.scrollTo(section, scrollToSection)
   }
 
@@ -36,13 +38,13 @@ export class Header extends Component {
     return (
       <div className="header">
         <div className="header-social-media-div">
-          <a href="https://www.facebook.com/AhoraNosotrasRD/">
+          <a href="https://www.facebook.com/AhoraNosotrasRD/" target="_blank" rel="noopener noreferrer">
             <FacebookFilled className="header-icon" />
           </a>
-          <a href="https://twitter.com/AhoraNosotrasRD">
+          <a href="https://twitter.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
             <TwitterOutlined className="header-icon" />
           </a>
-          <a href="https://www.instagram.com/AhoraNosotrasRD">
+          <a href="https://www.instagram.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
             <InstagramOutlined className="header-icon" />
           </a>
         </div>
@@ -77,40 +79,40 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li onClick={() => this.handleOnClickScroll("AboutUs")}>
-                <a href="#AboutUs">
+                <a href="Home#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Magazine")}>
-                <a href="#Magazine">
+                <a href="Home#Magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Learning")}>
-                <a href="#Learning">
+                <a href="Home#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Profiles")}>
-                <a href="#Profiles">
+                <a href="Home#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Subscribe")}>
-                <a href="#Subscribe">
+                <a href="Home#Subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </a>
               </li>
             </ul>
           </div>
           <div className="drawer-bottom">
-            <a href="https://www.facebook.com/AhoraNosotrasRD/">
+            <a href="https://www.facebook.com/AhoraNosotrasRD/" target="_blank" rel="noopener noreferrer">
               <FacebookFilled className="drawer-icon social" />
             </a>
-            <a href="https://twitter.com/AhoraNosotrasRD">
+            <a href="https://twitter.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
               <TwitterOutlined className="drawer-icon social" />
             </a>
-            <a href="https://www.instagram.com/AhoraNosotrasRD">
+            <a href="https://www.instagram.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
               <InstagramOutlined className="drawer-icon social" />
             </a>
           </div>

@@ -80,7 +80,15 @@ export class Learning extends Component {
               Todas nuestras charlas las puedes encontrar en nuestro canal de
               <img src={vimeo} alt="vimeo" className="vimeo-logo" />
             </span>
-            <button className="learning-btn">Ir al canal</button>
+            <button className="learning-btn">
+              <a
+                className="learning-btn-a"
+                href="https://vimeo.com/user113675991"
+                target="_blank"
+                rel="noopener noreferrer">
+                Ir al canal
+              </a>
+            </button>
           </div>
         </div>
 

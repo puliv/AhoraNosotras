@@ -13,7 +13,7 @@ import Despiertas from './components/Magazine/Despiertas'
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-// import { UnderConstruction } from './components/UnderConstruction.js'
+import { MobileImage } from './components/MobileImage.js'
 
 function App() {
   return (
@@ -46,6 +46,7 @@ function App() {
 
         <Footer />
       </div>
+      <MobileImage />
     </Router>
   )
 }

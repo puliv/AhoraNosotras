@@ -10,6 +10,7 @@
 /* ---------- Temporal ---------- */
 
 .temporal-div {
+  display: none;
   width: 100%;
   height: auto;
 }
@@ -246,7 +247,7 @@ li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .about-us-span-date {
@@ -643,13 +644,23 @@ li {
   margin-top: 20px;
   width: 180px;
   background-color: #630164;
-  color: #f6f6f6;
   display: flex;
   justify-content: center !important;
   border-radius: 20px;
   border: solid #630164;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.learning-btn:hover {
+  background-color: #d969d9;
+  border-color: #d969d9;
+  color: #f6f6f6 !important;
+}
+
+.learning-btn-a:hover,
+.learning-btn-a {
+  color: #f6f6f6;
 }
 
 .learning-div-pdf {
@@ -889,6 +900,8 @@ li {
 
 .subscribe-form {
   padding: 20px 22vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .ant-form-item {
@@ -901,12 +914,22 @@ li {
   color: #f6f6f6;
 }
 
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .subscribe-btn {
   margin: 10px 0px;
   background-color: #1a1a1a;
   border-color: #808080;
-  color: 808080;
-  right: -640px; /* TODO: arreglar posicion de botón enviar*/
+  color: #f6f6f6;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #630164;
+  border-color: #630164;
 }
 
 /* ---------- Footer ---------- */
@@ -978,4 +1001,16 @@ li {
   display: flex;
   font-size: 13px;
   justify-content: flex-end;
+}
+
+/* ------------------------ Media Queries ------------------------ */
+
+@media only screen and (max-width: 1250px) {
+  .App {
+    display: none;
+  }
+
+  div.temporal-div {
+    display: block;
+  }
 }
