@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import flowers from '../assets/details/flowers.png'
+// import ahoraNosotras1 from '../assets/img/IMAGEN_1.1.png'
 // import { Menu, Dropdown } from 'antd';
 
 // const menu = (
@@ -19,10 +20,16 @@ import flowers from '../assets/details/flowers.png'
 export class AboutUs extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="about-us-container">
         <div className="about-us-first-img" >
           {/* Primera imagen de fondo */}
+          {/* <img
+            src={ahoraNosotras1}
+            alt="flores"
+            className="ahora-nosotras-top"
+          /> */}
         </div>
+
         <div className="about-us">
           <div className="about-us-text-div">
             <img
@@ -101,7 +108,7 @@ export class AboutUs extends Component {
         <div className="about-us-second-img">
           {/* Segunda imagen de fondo */}
         </div>
-      </React.Fragment >
+      </div >
     )
   }
 }
