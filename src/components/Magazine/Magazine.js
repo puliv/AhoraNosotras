@@ -17,7 +17,14 @@ const scrollHistoricas = {
   duration: 500,
   delay: 10,
   smooth: true, // linear “easeInQuint” “easeOutCubic” 
-  offset: -100
+  offset: 515
+}
+
+const scrollBackMagazine = {
+  duration: 500,
+  delay: 10,
+  smooth: true, // linear “easeInQuint” “easeOutCubic” 
+  offset: -10
 }
 
 
@@ -37,6 +44,9 @@ export class Magazine extends Component {
     this.setState({
       historicasIcon: !historicasIcon
     })
+
+    historicasIcon ? scroller.scrollTo("Magazine", scrollBackMagazine) :
+      scroller.scrollTo("Historicas", scrollHistoricas)
   }
 
 
@@ -155,7 +165,7 @@ export class Magazine extends Component {
                       <span className="mag-h2 historicas" onClick={this.handleOnClick}>
                         HISTÓRICAS&nbsp;
                         {historicasIcon ?
-                          <UpOutlined onClick={() => scroller.scrollTo("Magazine")} /> :
+                          <UpOutlined onClick={() => scroller.scrollTo("Magazine", scrollBackMagazine)} /> :
                           <DownOutlined onClick={() => scroller.scrollTo("Historicas", scrollHistoricas)} />}
                       </span>
                     </Col>

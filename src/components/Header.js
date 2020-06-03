@@ -5,8 +5,14 @@ import { InstagramOutlined, FacebookFilled, TwitterOutlined } from '@ant-design/
 import anlogo from '../assets/logos/ahora-nosotras.png'
 import closeIcon from '../assets/icons/close-icon.svg'
 import { Link } from 'react-router-dom'
-import { animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll, scroller } from 'react-scroll';
 
+const scrollToSection = {
+  duration: 600,
+  delay: 100,
+  smooth: true, // linear “easeInQuint” “easeOutCubic” 
+  offset: -10
+}
 
 export class Header extends Component {
   constructor(props) {
@@ -17,8 +23,11 @@ export class Header extends Component {
     }
   }
 
-  handleOnClickScroll = () => {
-    window.scrollTo(0, 0)
+  handleOnClickScroll = (section) => {
+    this.setState({
+      openMenu: false
+    })
+    scroller.scrollTo(section, scrollToSection)
   }
 
 
@@ -67,27 +76,27 @@ export class Header extends Component {
           </div>
           <div className="drawer-main">
             <ul className="drawer-ul">
-              <li onClick={() => { this.setState({ openMenu: false }) }}>
+              <li onClick={() => this.handleOnClickScroll("AboutUs")}>
                 <a href="#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </a>
               </li>
-              <li onClick={() => { this.setState({ openMenu: false }) }}>
+              <li onClick={() => this.handleOnClickScroll("Magazine")}>
                 <a href="#Magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </a>
               </li>
-              <li onClick={() => { this.setState({ openMenu: false }) }}>
+              <li onClick={() => this.handleOnClickScroll("Learning")}>
                 <a href="#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </a>
               </li>
-              <li onClick={() => { this.setState({ openMenu: false }) }}>
+              <li onClick={() => this.handleOnClickScroll("Profiles")}>
                 <a href="#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </a>
               </li>
-              <li onClick={() => { this.setState({ openMenu: false }) }}>
+              <li onClick={() => this.handleOnClickScroll("Subscribe")}>
                 <a href="#Subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </a>
