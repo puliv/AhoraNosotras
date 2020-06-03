@@ -130,6 +130,7 @@ li {
   width: 400px;
   object-fit: contain;
   box-shadow: 0px 15px 25px #070606f3;
+  cursor: pointer;
 }
 
 .home-scroll-container {

@@ -5,6 +5,7 @@ import { InstagramOutlined, FacebookFilled, TwitterOutlined } from '@ant-design/
 import anlogo from '../assets/logos/ahora-nosotras.png'
 import closeIcon from '../assets/icons/close-icon.svg'
 import { Link } from 'react-router-dom'
+import { animateScroll as scroll } from 'react-scroll';
 
 
 export class Header extends Component {
@@ -42,7 +43,7 @@ export class Header extends Component {
               src={anlogo}
               alt="Ahora Nosotras"
               className="header-img-anlogo"
-              onClick={() => window.scrollTo(0, 0)}
+              onClick={() => scroll.scrollToTop()}
             />
           </Link>
         </div>
