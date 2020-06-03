@@ -127,6 +127,11 @@ li {
   scroll-snap-stop: start;
 }
 
+.home-section {
+  width: 100%;
+  height: auto;
+}
+
 .home-cover-img {
   width: 400px;
   object-fit: contain;
@@ -145,6 +150,7 @@ li {
 .about-us-container {
   width: 100%;
   height: auto;
+  background-color: #f6f6f6;
 }
 
 .about-us {
