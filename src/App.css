@@ -140,7 +140,7 @@ li {
 }
 
 .home-scroll-container {
-  width: 101%;
+  width: 103%;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
   scroll-behavior: smooth;
