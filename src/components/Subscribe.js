@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 import { Form, Input, Button } from 'antd'
-import { getSubscribeData } from '../actions/index'
+import firebase from 'firebase';
+
 
 const { TextArea } = Input;
 
@@ -14,7 +14,9 @@ export class Subscribe extends Component {
         subsName: "",
         subsEmail: "",
         subsCity: "",
-        subsComment: ""
+        subsComment: "",
+        alert: false,
+        alertData: {}
       }]
     }
   }
@@ -50,35 +52,67 @@ export class Subscribe extends Component {
     }
   }
 
+  handleClickSend = (e) => {
+    const { subsName, subsEmail, subsCity, subsComment } = this.state
+    e.preventDefault();
 
-  // handleSubcribeItems = () => {
-  //   const { subsName, subsEmail, subsCity, subsComment } = this.state
-  //   this.props.getSubscribeItems(subsName, subsEmail, subsCity, subsComment)
-  // }
+    const subscribeItems = {
+      name: subsName,
+      email: subsEmail,
+      city: subsCity,
+      comment: subsComment
+    }
 
-  handleClickReset = () => {
-    this.setState({
-      subsName: "",
-      subsEmail: "",
-      subsCity: "",
-      subsComment: ""
-    })
+    if (subsName && subsEmail && subsCity && subsComment) {
+      firebase.database().ref('subscriptions').push(subscribeItems).then(() => {
+        this.setState({
+          subsName: "",
+          subsEmail: "",
+          subsCity: "",
+          subsComment: "",
+          alert: true,
+          alertData: {
+            type: "success",
+            message: "Tu solicitud fue procesada con éxito."
+          }
+        })
+      }).catch(() => {
+        this.setState({
+          alert: true,
+          alertData: {
+            type: "fail",
+            message: "No se pudo procesar tu solicitud, intenta nuvamente."
+          }
+        })
+      })
+    } else {
+      this.setState({
+        alert: true,
+        alertData: {
+          type: "fail",
+          message: "Debes completar todos los items del formulario."
+        }
+      })
+    }
   }
 
 
 
   render() {
-    const { subsName, subsEmail, subsCity, subsComment } = this.state
+    const { subsName, subsEmail, subsCity, subsComment, alert, alertData } = this.state
 
     return (
       <div className="subscribe">
+        <div className="subscribe-div-alert">
+          <span className="subscribe-span">{alertData.message}</span>
+        </div>
         <div className="subscribe-div">
           <h2 className="subscribe-h2">Súmate!</h2>
           <span className="subscribe-span">Suscríbete a nuestro newsletter</span>
         </div>
         <Form className="subscribe-form" required={true}>
           <div>
-            <h3 className="subscribe-h3">Nombre y apellido</h3>
+            <h3 className="subscribe-h3">Nombre y Apellido</h3>
             <Input onChange={this.handleOnChange} id="name" value={subsName} />
           </div>
           <div>
@@ -86,7 +120,7 @@ export class Subscribe extends Component {
             <Input onChange={this.handleOnChange} id="email" value={subsEmail} />
           </div>
           <div>
-            <h3 className="subscribe-h3">Comuna/Ciudad</h3>
+            <h3 className="subscribe-h3">Ciudad/Comuna</h3>
             <Input onChange={this.handleOnChange} id="city" value={subsCity} />
           </div>
           <div>
@@ -94,10 +128,11 @@ export class Subscribe extends Component {
             <TextArea onChange={this.handleOnChange} id="comment" value={subsComment} />
           </div>
           <div className="btn-div">
+            {alert && <span className="subscribe-span item">Debes rellenar todos los items</span>}
             <Button
               className="subscribe-btn"
               type="primary"
-              onClick={this.handleClickReset}>Enviar</Button>
+              onClick={this.handleClickSend}>Enviar</Button>
           </div>
         </Form>
       </div>
@@ -105,16 +140,4 @@ export class Subscribe extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    ...state
-  };
-}
-
-const mapActionsToProps = (dispatch) => {
-  return {
-    getSubscribeItems: getSubscribeData(dispatch)
-  }
-}
-
-export default connect(mapStateToProps, mapActionsToProps)(Subscribe)
+export default Subscribe

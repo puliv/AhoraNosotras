@@ -4,8 +4,7 @@ import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import * as firebase from 'firebase/app'
-import store from './store/store.js'
-import { Provider } from 'react-redux'
+
 
 // Config Firebase
 var firebaseConfig = {
@@ -24,9 +23,7 @@ firebase.initializeApp(firebaseConfig)
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )

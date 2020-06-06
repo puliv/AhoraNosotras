@@ -27,8 +27,6 @@ export class Header extends Component {
     this.setState({
       openMenu: false
     })
-
-    console.log(section)
     scroller.scrollTo(section, scrollToSection)
   }
 

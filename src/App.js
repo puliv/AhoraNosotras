@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import { connect } from 'react-redux'
 import { Home } from './components/Home'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
@@ -52,4 +51,4 @@ function App() {
   )
 }
 
-export default connect()(App)
+export default App
