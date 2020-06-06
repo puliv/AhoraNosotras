@@ -11,7 +11,7 @@ const scrollToSection = {
   duration: 600,
   delay: 100,
   smooth: true,
-  offset: -10
+  offset: -60
 }
 
 export class Header extends Component {
