@@ -869,7 +869,35 @@ li {
   bottom: auto;
   width: 100%;
   height: auto;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+.subscribe-div-alert {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-span-alert {
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.alert-success {
+  background-color: #d969d9;
+  color: #f6f6f6;
+}
+
+.alert-fail {
+  background-color: #ff0000;
+  color: #f6f6f6;
+}
+
+.alert-warning {
+  background-color: #f3e595;
+  color: #aa9a05;
 }
 
 .subscribe-div {
@@ -894,7 +922,7 @@ li {
 .subscribe-h2 {
   font-weight: bold;
   font-size: 2em;
-  margin: 1px 0px;
+  margin: 10px 0px;
 }
 
 .subscribe-form {
@@ -936,7 +964,7 @@ li {
   position: inherit;
   bottom: 0px;
   background-color: #1a1a1a;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
