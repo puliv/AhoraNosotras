@@ -10,7 +10,7 @@ import { animateScroll as scroll, scroller } from 'react-scroll';
 const scrollToSection = {
   duration: 600,
   delay: 100,
-  smooth: true, // linear “easeInQuint” “easeOutCubic” 
+  smooth: true,
   offset: -10
 }
 
@@ -79,27 +79,27 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li onClick={() => this.handleOnClickScroll("AboutUs")}>
-                <a href="Home#AboutUs">
+                <a href="/Home#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Magazine")}>
-                <a href="Home#Magazine">
+                <a href="/Home#Magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Learning")}>
-                <a href="Home#Learning">
+                <a href="/Home#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Profiles")}>
-                <a href="Home#Profiles">
+                <a href="/Home#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("Subscribe")}>
-                <Link href="Home#Subscribe">
+                <Link href="/Home#Subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </Link>
               </li>

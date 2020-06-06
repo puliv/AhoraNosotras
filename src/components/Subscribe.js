@@ -56,7 +56,7 @@ export class Subscribe extends Component {
   //   this.props.getSubscribeItems(subsName, subsEmail, subsCity, subsComment)
   // }
 
-  handleClick = () => {
+  handleClickReset = () => {
     this.setState({
       subsName: "",
       subsEmail: "",
@@ -97,7 +97,7 @@ export class Subscribe extends Component {
             <Button
               className="subscribe-btn"
               type="primary"
-              onClick={this.handleClick}>Enviar</Button>
+              onClick={this.handleClickReset}>Enviar</Button>
           </div>
         </Form>
       </div>
