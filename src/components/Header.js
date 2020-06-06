@@ -79,24 +79,24 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li onClick={() => this.handleOnClickScroll("AboutUs")}>
-                <a href="/Home#AboutUs">
+                <Link to="/Home#AboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
-                </a>
+                </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("Magazine")}>
-                <a href="/Home#Magazine">
+                <Link to="/Home#Magazine">
                   <span className="drawer-h3">REVISTA</span>
-                </a>
+                </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("Learning")}>
-                <a href="/Home#Learning">
+                <Link to="/Home#Learning">
                   <span className="drawer-h3">APRENDEMOS</span>
-                </a>
+                </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("Profiles")}>
-                <a href="/Home#Profiles">
+                <Link to="/Home#Profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
-                </a>
+                </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("Subscribe")}>
                 <Link to="/Home#Subscribe">
