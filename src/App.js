@@ -12,13 +12,13 @@ import Creamos from './components/Magazine/Creamos'
 import Despiertas from './components/Magazine/Despiertas'
 import { MobileImage } from './components/MobileImage.js'
 
-import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 
 function App() {
   return (
-    <Router history={HashRouter}>
+    <Router>
       <div className="App">
         <Header />
         <Switch>
