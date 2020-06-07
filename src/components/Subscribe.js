@@ -13,7 +13,7 @@ export class Subscribe extends Component {
       subsName: "",
       subsEmail: "",
       subsCity: "",
-      subsComment: "",
+      subsComment: "Escribe algo...",
       alert: false,
       alertData: {}
     }
@@ -30,12 +30,11 @@ export class Subscribe extends Component {
   }
 
   resetForm = () => {
-    // this.refs.contactForm.reset();
     this.setState({
       subsName: "",
       subsEmail: "",
       subsCity: "",
-      subsComment: ""
+      subsComment: "Escribe algo..."
     })
   }
 
@@ -78,10 +77,10 @@ export class Subscribe extends Component {
       name: subsName,
       email: subsEmail,
       city: subsCity,
-      comment: subsComment
+      comment: subsComment !== "Escribe algo..." ? subsComment : "No comment"
     }
 
-    if (subsName && subsEmail && subsCity && subsComment) {
+    if (subsName && subsEmail && subsCity) {
       firebase.database().ref('subscriptions').push(subscribeItems).then(() => {
         this.showAlert("success", "Tu solicitud fue procesada con éxito.")
         this.resetForm()
