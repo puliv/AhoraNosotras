@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Form, Input, Button } from 'antd'
-import firebase from 'firebase/app';
+import { Form, Input, Button } from 'antd';
+import firebase from 'firebase';
 
 
 const { TextArea } = Input;
@@ -13,7 +13,7 @@ export class Subscribe extends Component {
       subsName: "",
       subsEmail: "",
       subsCity: "",
-      subsComment: "Escribe algo...",
+      subsComment: "",
       alert: false,
       alertData: {}
     }
@@ -34,7 +34,7 @@ export class Subscribe extends Component {
       subsName: "",
       subsEmail: "",
       subsCity: "",
-      subsComment: "Escribe algo..."
+      subsComment: ""
     })
   }
 
@@ -77,10 +77,10 @@ export class Subscribe extends Component {
       name: subsName,
       email: subsEmail,
       city: subsCity,
-      comment: subsComment !== "Escribe algo..." ? subsComment : "No comment"
+      comment: subsComment
     }
 
-    if (subsName && subsEmail && subsCity) {
+    if (subsName && subsEmail && subsCity && subsComment) {
       firebase.database().ref('subscriptions').push(subscribeItems).then(() => {
         this.showAlert("success", "Tu solicitud fue procesada con éxito.")
         this.resetForm()
@@ -108,23 +108,28 @@ export class Subscribe extends Component {
             <h2 className="subscribe-h2">Súmate!</h2>
             <span className="subscribe-span">Suscríbete a nuestro newsletter</span>
           </div>
-          <Form className="subscribe-form" required={true} ref="contactForm">
-            <div>
+
+          <Form className="subscribe-form">
+            <Form.Item>
               <h3 className="subscribe-h3">Nombre y Apellido</h3>
               <Input onChange={this.handleOnChange} id="name" value={subsName} />
-            </div>
-            <div>
+            </Form.Item>
+            <Form.Item>
               <h3 className="subscribe-h3">Correo</h3>
               <Input onChange={this.handleOnChange} id="email" value={subsEmail} />
-            </div>
-            <div>
+            </Form.Item>
+            <Form.Item>
               <h3 className="subscribe-h3">Ciudad/Comuna</h3>
               <Input onChange={this.handleOnChange} id="city" value={subsCity} />
-            </div>
-            <div>
+            </Form.Item>
+            <Form.Item>
               <h3 className="subscribe-h3">Comentarios</h3>
-              <TextArea onChange={this.handleOnChange} id="comment" value={subsComment} />
-            </div>
+              <TextArea
+                onChange={this.handleOnChange}
+                placeholder="Escribe algo..."
+                id="comment"
+                value={subsComment} />
+            </Form.Item>
             <div className="btn-div">
               <Button
                 className="subscribe-btn"
