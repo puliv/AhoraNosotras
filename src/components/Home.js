@@ -19,37 +19,37 @@ export class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div id="Home" className="home">
+        <div id="home" className="home">
           <img
             src={portada}
             alt="portada"
             className="home-cover-img"
-            onClick={() => scroller.scrollTo("Magazine", scrollType)}
+            onClick={() => scroller.scrollTo("magazine", scrollType)}
           />
         </div>
         <div className="home-scroll-container">
-          <Element name="AboutUs">
-            <div id="AboutUs" className="home-section">
+          <Element name="aboutUs">
+            <div id="aboutUs" className="home-section">
               <AboutUs />
             </div>
           </Element>
-          <Element name="Magazine">
-            <div id="Magazine" className="home-section">
+          <Element name="magazine">
+            <div id="magazine" className="home-section">
               <Magazine />
             </div>
           </Element>
-          <Element name="Learning">
-            <div id="Learning" className="home-section">
+          <Element name="learning">
+            <div id="learning" className="home-section">
               <Learning />
             </div>
           </Element>
-          <Element name="Profiles">
-            <div id="Profiles" className="home-section">
+          <Element name="profiles">
+            <div id="profiles" className="home-section">
               <Profiles />
             </div>
           </Element>
-          <Element name="Subscribe">
-            <div id="Subscribe" className="home-section">
+          <Element name="subscribe">
+            <div id="subscribe" className="home-section">
               <Subscribe />
             </div>
           </Element>

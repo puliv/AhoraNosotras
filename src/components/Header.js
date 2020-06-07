@@ -76,28 +76,28 @@ export class Header extends Component {
           </div>
           <div className="drawer-main">
             <ul className="drawer-ul">
-              <li onClick={() => this.handleOnClickScroll("AboutUs")}>
-                <Link to="/Home#AboutUs">
+              <li onClick={() => this.handleOnClickScroll("aboutUs")}>
+                <Link to="/home#aboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </Link>
               </li>
-              <li onClick={() => this.handleOnClickScroll("Magazine")}>
-                <Link to="/Home#Magazine">
+              <li onClick={() => this.handleOnClickScroll("magazine")}>
+                <Link to="/home#magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </Link>
               </li>
-              <li onClick={() => this.handleOnClickScroll("Learning")}>
-                <Link to="/Home#Learning">
+              <li onClick={() => this.handleOnClickScroll("learning")}>
+                <Link to="/home#learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </Link>
               </li>
-              <li onClick={() => this.handleOnClickScroll("Profiles")}>
-                <Link to="/Home#Profiles">
+              <li onClick={() => this.handleOnClickScroll("profiles")}>
+                <Link to="/home#profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
                 </Link>
               </li>
-              <li onClick={() => this.handleOnClickScroll("Subscribe")}>
-                <Link to="/Home#Subscribe">
+              <li onClick={() => this.handleOnClickScroll("subscribe")}>
+                <Link to="/home#subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </Link>
               </li>
@@ -114,8 +114,8 @@ export class Header extends Component {
               <InstagramOutlined className="drawer-icon social" />
             </a>
           </div>
-        </Drawer >
-      </div >
+        </Drawer>
+      </div>
     )
   }
 }

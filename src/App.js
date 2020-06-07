@@ -13,37 +13,34 @@ import { MobileImage } from './components/MobileImage.js'
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
-
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/Editorial">
+          <Route path="/editorial">
             <Editorial />
           </Route>
-          <Route path="/Protagonistas">
+          <Route path="/protagonistas">
             <Protagonistas />
           </Route>
-          <Route path="/Hablamos">
+          <Route path="/hablamos">
             <Hablamos />
           </Route>
-          <Route path="/Creamos">
+          <Route path="/creamos">
             <Creamos />
           </Route>
-          <Route path="/Despiertas">
+          <Route path="/despiertas">
             <Despiertas />
           </Route>
-          <Route exact path="/Home">
+          <Route exact path="/home">
             <Home />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>
-
         <Footer />
       </div>
       <MobileImage />
