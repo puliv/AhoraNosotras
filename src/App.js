@@ -11,26 +11,27 @@ import Creamos from './components/Magazine/Creamos'
 import Despiertas from './components/Magazine/Despiertas'
 import { MobileImage } from './components/MobileImage.js'
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { createBrowserHistory } from 'history';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router history={createBrowserHistory}>
       <div className="App">
         <Header />
         <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/editorial" component={Editorial} />
           <Route path="/protagonistas" component={Protagonistas} />
           <Route path="/hablamos" component={Hablamos} />
           <Route path="/creamos" component={Creamos} />
           <Route path="/despiertas" component={Despiertas} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/" component={Home} />
         </Switch>
         <Footer />
       </div>
       <MobileImage />
-    </BrowserRouter>
+    </Router>
   )
 }
 
