@@ -19,27 +19,13 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/editorial">
-            <Editorial />
-          </Route>
-          <Route path="/protagonistas">
-            <Protagonistas />
-          </Route>
-          <Route path="/hablamos">
-            <Hablamos />
-          </Route>
-          <Route path="/creamos">
-            <Creamos />
-          </Route>
-          <Route path="/despiertas">
-            <Despiertas />
-          </Route>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <Route path="/editorial" component={Editorial} />
+          <Route path="/protagonistas" component={Protagonistas} />
+          <Route path="/hablamos" component={Hablamos} />
+          <Route path="/creamos" component={Creamos} />
+          <Route path="/despiertas" component={Despiertas} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
         <Footer />
       </div>
