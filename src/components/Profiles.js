@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import protagonistas from "../protagonistas.json";
-import flower_1 from "../assets/details/flower_1.svg";
 
 export class Profiles extends Component {
   constructor(props) {
@@ -46,29 +45,15 @@ export class Profiles extends Component {
     const { protag } = this.state;
     return (
       <div className="profile">
-        <div className="profile-main">
-          <img
-            src={flower_1}
-            alt="flores"
-            className="profile-img-flower left"
-          />
-          <div className="profile-center">
-            <div className="profile-header">
-              <h2 className="profile-h2">PROTAGONISTAS</h2>
-              <span className="profile-span">
-                Desde nuestros espacios y territorios, cada una de
+        <div className="profile-header">
+          <h2 className="profile-h2">PROTAGONISTAS</h2>
+          <span className="profile-span">
+            Desde nuestros espacios y territorios, cada una de
                 <br />
                 nosotras trabaja para cambiar la historia.
               </span>
-            </div>
-            <div className="profile-body">{protag}</div>
-          </div>
-          <img
-            src={flower_1}
-            alt="flores"
-            className="profile-img-flower right"
-          />
         </div>
+        <div className="profile-body">{protag}</div>
       </div>
     );
   }

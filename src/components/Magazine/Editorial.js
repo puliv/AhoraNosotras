@@ -14,7 +14,7 @@ export class Editorial extends Component {
     return (
       <div className="editorial">
         <div className="edit-top">
-          <Link to="/Home">
+          <Link to="/magazine">
             <img src={back} alt="back" className="edit-back-icon" />
           </Link>
         </div>
@@ -68,7 +68,7 @@ export class Editorial extends Component {
             </span>
           </div>
           <Credits />
-          <ReadNext section={"Editorial"} />
+          <ReadNext section={"editorial"} />
         </div>
       </div>
     )

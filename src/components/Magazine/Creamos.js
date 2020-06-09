@@ -15,7 +15,7 @@ export class Creamos extends Component {
     return (
       <div className="creamos">
         <div className="edit-top">
-          <Link to="/Home">
+          <Link to="/magazine">
             <img src={back} alt="back" className="edit-back-icon" />
           </Link>
         </div>
@@ -34,7 +34,7 @@ export class Creamos extends Component {
 
           <div >
             <h2 className="creamos-h2-micro">Ilustración</h2>
-            <h3 className="creamos-h3-micro">Por Carolina Leira</h3>
+            <h3 className="creamos-h3-micro">Por Carolina Leria</h3>
           </div>
 
           <div className="creamos-image-div protag-div-image">
@@ -78,7 +78,7 @@ export class Creamos extends Component {
             </span>
           </div>
         </div>
-        <ReadNext section={"Creamos"} />
+        <ReadNext section={"creamos"} />
       </div>
     )
   }

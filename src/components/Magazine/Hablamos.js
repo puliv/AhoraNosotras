@@ -14,7 +14,7 @@ export class Hablamos extends Component {
     return (
       <div className="hablamos">
         <div className="edit-top">
-          <Link to="/Home">
+          <Link to="/magazine">
             <img src={back} alt="back" className="edit-back-icon" />
           </Link>
         </div>
@@ -86,7 +86,7 @@ export class Hablamos extends Component {
           </div>
         </div>
 
-        <ReadNext section={"Hablamos"} />
+        <ReadNext section={"hablamos"} />
       </div>
 
     )

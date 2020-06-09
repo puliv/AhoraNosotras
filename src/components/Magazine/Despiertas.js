@@ -14,7 +14,7 @@ export class Despiertas extends Component {
     return (
       <div className="despiertas">
         <div className="edit-top">
-          <Link to="Home">
+          <Link to="/magazine">
             <img src={back} alt="back" className="edit-back-icon" />
           </Link>
         </div>
@@ -39,7 +39,7 @@ export class Despiertas extends Component {
             </div>
           </div>
         </div>
-        <ReadNext section={"Despiertas"} />
+        <ReadNext section={"despiertas"} />
       </div>
     )
   }

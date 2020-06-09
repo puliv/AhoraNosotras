@@ -30,9 +30,15 @@ export class Header extends Component {
     scroller.scrollTo(section, scrollToSection)
   }
 
+  handleHomeImg = () => {
+    // let history = useHistory();
+    // history.push('/home')
+  }
+
 
   render() {
     const { openMenu } = this.state
+
     return (
       <div className="header">
         <div className="header-social-media-div">
@@ -77,27 +83,27 @@ export class Header extends Component {
           <div className="drawer-main">
             <ul className="drawer-ul">
               <li onClick={() => this.handleOnClickScroll("aboutUs")}>
-                <Link to="/home#aboutUs">
+                <Link to="/aboutUs">
                   <span className="drawer-h3">NOSOTRAS</span>
                 </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("magazine")}>
-                <Link to="/home#magazine">
+                <Link to="/magazine">
                   <span className="drawer-h3">REVISTA</span>
                 </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("learning")}>
-                <Link to="/home#learning">
+                <Link to="/learning">
                   <span className="drawer-h3">APRENDEMOS</span>
                 </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("profiles")}>
-                <Link to="/home#profiles">
+                <a href="/profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
-                </Link>
+                </a>
               </li>
               <li onClick={() => this.handleOnClickScroll("subscribe")}>
-                <Link to="/home#subscribe">
+                <Link to="/subscribe">
                   <span className="drawer-h3">NEWSLETTER</span>
                 </Link>
               </li>

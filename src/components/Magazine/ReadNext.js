@@ -19,37 +19,37 @@ export class ReadNext extends Component {
 
     if (section) {
       switch (section) {
-        case "Editorial":
+        case "editorial":
           this.setState({
             previousSection: null,
-            nextSection: "Hablamos"
+            nextSection: "hablamos"
           })
           break;
 
-        case "Hablamos":
+        case "hablamos":
           this.setState({
-            previousSection: "Editorial",
-            nextSection: "Protagonistas"
+            previousSection: "editorial",
+            nextSection: "protagonistas"
           })
           break
 
-        case "Protagonistas":
+        case "protagonistas":
           this.setState({
-            previousSection: "Hablamos",
-            nextSection: "Creamos"
+            previousSection: "hablamos",
+            nextSection: "creamos"
           })
           break
 
-        case "Creamos":
+        case "creamos":
           this.setState({
-            previousSection: "Protagonistas",
-            nextSection: "Despiertas"
+            previousSection: "protagonistas",
+            nextSection: "despiertas"
           })
           break
 
-        case "Despiertas":
+        case "despiertas":
           this.setState({
-            previousSection: "Creamos",
+            previousSection: "creamos",
             nextSection: null
           })
           break
@@ -80,7 +80,7 @@ export class ReadNext extends Component {
             {previousSection}
           </span>}
           {previousSection && <span className="read-next-span-icon">
-            <Link to={previousSection}>
+            <Link to={`/magazine/${previousSection}`}>
               <ArrowLeftOutlined className="arrow-left" />
             </Link>
           </span>}
@@ -94,7 +94,7 @@ export class ReadNext extends Component {
             {nextSection}
           </span>}
           {nextSection && <span className="read-next-span-icon">
-            <Link to={nextSection}>
+            <Link to={`/magazine/${nextSection}`}>
               <ArrowRightOutlined className="arrow-right" />
             </Link>
           </span>}

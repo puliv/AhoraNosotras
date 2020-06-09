@@ -15,7 +15,7 @@ export class Protagonistas extends Component {
     return (
       <div className="protagonistas">
         <div className="edit-top">
-          <Link to="/Home">
+          <Link to="/magazine">
             <img src={back} alt="back" className="edit-back-icon" />
           </Link>
         </div>
@@ -265,7 +265,7 @@ export class Protagonistas extends Component {
             </div>
           </div>
         </div>
-        <ReadNext section={"Protagonistas"} />
+        <ReadNext section={"protagonistas"} />
       </div >
     )
   }
