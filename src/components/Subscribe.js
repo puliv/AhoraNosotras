@@ -20,6 +20,10 @@ export class Subscribe extends Component {
     }
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   showAlert = (type, message) => {
     this.setState({
       alert: true,

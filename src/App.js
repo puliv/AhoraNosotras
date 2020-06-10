@@ -11,6 +11,7 @@ import Profiles from './components/Profiles'
 
 import { MobileImage } from './components/MobileImage.js'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Subscribe from './components/Subscribe'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/learning" component={Learning} />
           <Route path="/magazine" component={Magazine} />
           <Route path="/profiles" component={Profiles} />
+          <Route path="/subscribe" component={Subscribe} />
         </Switch>
         <Footer />
       </div>

@@ -15,7 +15,7 @@ import Despiertas from './Despiertas'
 
 import { Row, Col } from 'antd'
 import classNames from 'classnames'
-import { scroller, Element } from 'react-scroll'
+import { scroller, Element, animateScroll as scroll } from 'react-scroll'
 import { DownOutlined, UpOutlined } from '@ant-design/icons'
 import { Link, Switch, Route } from "react-router-dom";
 
@@ -43,6 +43,9 @@ export class Magazine extends Component {
     }
   }
 
+  componentDidMount() {
+    scroll.scrollToTop();
+  }
 
   handleOnClick = () => {
     const { historicasIcon } = this.state
@@ -51,16 +54,13 @@ export class Magazine extends Component {
       historicasIcon: !historicasIcon
     })
 
-    historicasIcon ? scroller.scrollTo("Magazine", scrollBackMagazine) :
+    historicasIcon ? scroller.scrollTo("magazine", scrollBackMagazine) :
       scroller.scrollTo("Historicas", scrollHistoricas)
   }
 
 
   render() {
     const { historicasIcon } = this.state
-    const scrollRowTop = classNames("mag-scroll-row-top", {
-      "mag-scroll-row-top-active": historicasIcon
-    })
     const openHistSection = classNames("mag-scroll-row-bottom", {
       "historical-section": historicasIcon
     })
@@ -68,8 +68,6 @@ export class Magazine extends Component {
     const MagScrollActive = classNames("mag-scroll", {
       "mag-scroll-active": historicasIcon
     })
-
-    // const { path, url } = useRouteMatch();
 
 
     return (
@@ -80,7 +78,7 @@ export class Magazine extends Component {
             <Route exact path={"/magazine"}>
               <div className="mag-top">
                 <div className={MagScrollActive}>
-                  <Row className={scrollRowTop}>
+                  <Row className="mag-scroll-row-top">
                     <div className="mag-scroll-left">
                       <div className="mag-img-cover-div">
                         <img
@@ -176,8 +174,8 @@ export class Magazine extends Component {
                           />
                           <span className="mag-h2 historicas" onClick={this.handleOnClick}>
                             HISTÓRICAS&nbsp;
-                        {historicasIcon ?
-                              <UpOutlined onClick={() => scroller.scrollTo("Magazine", scrollBackMagazine)} /> :
+                            {historicasIcon ?
+                              <UpOutlined onClick={() => scroller.scrollTo("magazine", scrollBackMagazine)} /> :
                               <DownOutlined onClick={() => scroller.scrollTo("Historicas", scrollHistoricas)} />}
                           </span>
                         </Col>
@@ -191,6 +189,7 @@ export class Magazine extends Component {
                         <Element name="Historicas">
                           <Col span={24} className="mag-hist-col">
                             <h2 className="mag-hist-h2">Eloísa Díaz e Izkia Siches</h2>
+                            <h3 className="mag-hist-h3">Ilustración por:  Luisa Rivera</h3>
                             <span className="mag-hist-span">
                               En tiempos de pandemia, las mujeres se han convertido en la primera línea en la defensa de la salud y la vida. Sin embargo, este protagonismo de doctoras, enfermeras y asistentes no es azaroso, sino que se lo debemos a mujeres pioneras que se atrevieron a dar un paso al frente y ser parte de disciplinas del conocimiento históricamente masculinizadas como las ciencias.
                         </span>

@@ -48,10 +48,9 @@ export class Profiles extends Component {
         <div className="profile-header">
           <h2 className="profile-h2">PROTAGONISTAS</h2>
           <span className="profile-span">
-            Desde nuestros espacios y territorios, cada una de
-                <br />
-                nosotras trabaja para cambiar la historia.
-              </span>
+            Desde nuestros espacios y territorios, cada una de <br />
+            nosotras trabaja para cambiar la historia.
+          </span>
         </div>
         <div className="profile-body">{protag}</div>
       </div>

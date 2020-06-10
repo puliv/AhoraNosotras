@@ -45,7 +45,7 @@ export class Credits extends Component {
             </li>
             <li>
               <span className="credits-span colab">
-                <span className="credit-title">Colaboradoras:</span>
+                <span className="credit-title">Colaboradoras: </span>
                 Margarita Portuguez, Camila Castillo, Carolina Leria, Priscila
                 Olivares, Bárbara Bustos.
               </span>
