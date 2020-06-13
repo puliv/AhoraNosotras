@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 import "./Magazine.css";
-import portada from "../../assets/REVISTA_AHORA_NOSOTRAS/1_PORTADA/portada_revista.jpg";
-import editorial from "../../assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png";
-import protagonistas from "../../assets/REVISTA_AHORA_NOSOTRAS/3_PROTAGONISTAS/protagonistaspng-03.png";
-import hablamos from "../../assets/REVISTA_AHORA_NOSOTRAS/4_HABLAMOS/Hablamos.png";
-import fabiolaCampillay from "../../assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/creamos-04.png";
-import despiertas from "../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/despiertas-05.png";
-import contraportada from "../../assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png";
 import Editorial from "./Editorial";
 import Hablamos from "./Hablamos";
 import Creamos from "./Creamos";
