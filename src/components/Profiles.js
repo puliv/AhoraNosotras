@@ -26,13 +26,13 @@ export class Profiles extends Component {
                   alt="Protagonistas"
                 />
                 <span className="profile-span-hover">
-                  <span className="roll_one">{x.rollover}</span>
-                  <span className="roll_two">{x.rollover_two}</span>
+                  <span className="roll_one"> {x.rollover} </span>
+                  <span className="roll_two"> {x.rollover_two} </span>
                 </span>
               </div>
               <div className="profile-text-div">
-                <h3 className="profile-h3">{x.name}</h3>
-                <span className="profile-span-x">{x.from}</span>
+                <h3 className="profile-h3"> {x.name} </h3>
+                <span className="profile-span-x"> {x.from} </span>
               </div>
             </div>
           );
@@ -46,13 +46,13 @@ export class Profiles extends Component {
     return (
       <div className="profile">
         <div className="profile-header">
-          <h2 className="profile-h2">PROTAGONISTAS</h2>
+          <h2 className="profile-h2"> PROTAGONISTAS </h2>
           <span className="profile-span">
             Desde nuestros espacios y territorios, cada una de <br />
             nosotras trabaja para cambiar la historia.
           </span>
         </div>
-        <div className="profile-body">{protag}</div>
+        <div className="profile-body"> {protag} </div>
       </div>
     );
   }

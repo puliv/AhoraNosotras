@@ -1,0 +1,32 @@
+[
+  {
+    "id": "0",
+    "date": "06 JUN",
+    "year": "2020",
+    "description": "Cierre de plazo para cambio de domicilio electoral."
+  },
+  {
+    "id": "1",
+    "date": "25 OCT",
+    "year": "2020",
+    "description": "Plebiscito Constitucional."
+  },
+  {
+    "id": "2",
+    "date": "29 NOV",
+    "year": "2020",
+    "description": "Primarias Alcaldes/as."
+  },
+  {
+    "id": "3",
+    "date": "11 ABR",
+    "year": "2021",
+    "description": "Elección alcaldes/as, concejales/as. gobernadores/as y convencionales constituyentes."
+  },
+  {
+    "id": "4",
+    "date": "02 MAY",
+    "year": "2021",
+    "description": "Segunda vuelta gobernadores/as."
+  }
+]
