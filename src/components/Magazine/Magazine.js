@@ -7,10 +7,10 @@ import Protagonistas from "./Protagonistas";
 import Despiertas from "./Despiertas";
 
 import { Row, Col } from "antd";
-import classNames from "classnames";
 import { scroller, Element, animateScroll as scroll } from "react-scroll";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";
 import { Link, Switch, Route } from "react-router-dom";
+import classNames from "classnames";
 
 const scrollHistoricas = {
   duration: 500,

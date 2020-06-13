@@ -3,6 +3,7 @@ import howThisWork from "../assets/img/juntassomoscomunidad.png";
 import flowers from "../assets/details/flowers.png";
 import { Parallax } from "react-parallax";
 import keyDates from "../keyDates.json";
+import anlogo from "../assets/logos/ahora-nosotras.png";
 // import { Menu, Dropdown } from 'antd';
 
 // const menu = (
@@ -61,7 +62,11 @@ export class AboutUs extends Component {
           <div className="about-us-text-div">
             <img src={flowers} alt="flores" className="about-us-flower left" />
             <div className="about-us-text">
-              <h2 className="about-us-h2 us">NOSOTRAS</h2>
+              <img
+                src={anlogo}
+                alt="Ahora Nosotras"
+                className="about-us-title-logo"
+              />
               <span className="about-us-span us">
                 Somos muchas voces quienes desde el feminismo y la militancia
                 estamos transformando Chile y nuestro partido. Por eso juntas

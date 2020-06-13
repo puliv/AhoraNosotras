@@ -182,6 +182,14 @@ li {
   display: flex;
 }
 
+.about-us-title-logo {
+  width: 100px;
+  height: auto;
+  background-color: #630164;
+  display: flex;
+  justify-content: center;
+}
+
 .about-us-img-div {
   padding: 70px 0px 20px;
   width: 100%;

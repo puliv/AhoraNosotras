@@ -113,35 +113,10 @@
   background-color: #f6f6f6;
 }
 
-.credits-div {
+.credits-img {
   width: 100%;
-  border-top: solid #afaeae 1px;
-  padding: 0 50px;
-}
-
-.credits-h2 {
-  color: #707070;
-  font-family: Open Sans;
-  font-weight: 700;
-  margin: 60px 0px 20px;
-}
-
-.credits-div > ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.credits-div > ul > li {
-  margin: 0;
-}
-
-.credits-span {
-  font-family: Open Sans;
-  font-weight: lighter;
-}
-
-.credit-title {
-  font-weight: 550;
+  height: auto;
+  object-fit: contain;
 }
 
 /* ---------- Protagonistas ---------- */
@@ -510,6 +485,7 @@
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 ​ .creamos-h3-micro {
   color: #000000;
   font-family: "Roboto", sans-serif;
