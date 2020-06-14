@@ -116,10 +116,6 @@ export class Subscribe extends Component {
       alertData,
     } = this.state;
 
-    const subsStyle = classNames("subscribe", {
-      "subscribe-active": alert,
-    });
-
     const alertStyle = classNames(
       `subscribe-div-alert alert-${this.state.alertData.type}`,
       {

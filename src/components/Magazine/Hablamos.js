@@ -29,15 +29,15 @@ export class Hablamos extends Component {
             className="section-img "
           />
         </div>
-        <div className="hablamos-div-text">
-          <span className="hablamos-span">
+        <div className="section-div-span">
+          <span className="section-span">
             La emergencia sanitaria, por el Covid-19, me hizo saber que
             prontamente viviría en un Valdivia con mayores inequidades. Pero a
             la vez me mantenía inquieta pensando en cómo íbamos a trabajar
             socialmente en este nuevo contexto y así comenzó la solidaridad.
           </span>
 
-          <span className="hablamos-span">
+          <span className="section-span">
             La pandemia me mostró que la trabajadora de parquímetro de la
             empresa de Cristián Coronel no tenía el derecho de quedarse en casa
             para cuidar de su salud y la de su familia. También me hacía
@@ -45,7 +45,7 @@ export class Hablamos extends Component {
             de la comuna, decir que algunos “no morirán por el coronavirus pero
             sí de hambre”.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Situaciones como estas fueron forjando Valdivia Solidaria, una red
             que busca generar distintos apoyos a quienes por la pandemia se han
             visto afectados. Con dedicación, con mis compañeras y compañeros de
@@ -55,7 +55,7 @@ export class Hablamos extends Component {
             estricto a los protocolos de seguridad, salimos en busca de
             donaciones.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Pese a mi preocupación, los primeros días estaba contenta y sonreí
             al recibir mensajes de personas queriendo sumarse a la causa. Luego
             de eso, mi celular sonaba y ya no era grato contestar. Por el
@@ -63,7 +63,7 @@ export class Hablamos extends Component {
             respiración agitada me hacían saber que alguien con mucha
             complicaciones económicas nos escribía o llamaba para pedir ayuda.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             El sentido de injusticia se ha hecho presente con mayor fuerza en
             esta emergencia sanitaria, desnudando a un Chile brutalmente
             desigual y a un Valdivia que día a día vuelve su brecha social más
@@ -71,7 +71,7 @@ export class Hablamos extends Component {
             repartir las canastas que logramos reunir junto a valdivianas y
             valdivianos llegando a articulamos con más de 250 familias.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Fue ejemplificador ver cómo dirigentas y dirigentes de las
             organizaciones de la sociedad civil conocen a su gente, sabiendo con
             claridad sus necesidades. Este proceso reafirmó que con el
@@ -79,14 +79,14 @@ export class Hablamos extends Component {
             porque en el proceso de asignación de recursos quedó claro quién
             tiene el saber requerido para hacer las cosas bien.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Con Valdivia Solidaria logramos concretar relaciones horizontales
             colaborativas con líderes y lideresas sociales. Hay algo que me
             parece hermoso y que debiese estar más en política es hacer visible
             las voces que han sido negadas por el Estado chileno y por esa
             maquinaria asistencialista que solo busca negar derechos.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             En este momento de preguntas aparece una humilde convicción que
             viene de cuna, desde mi padre rescatista y una madre despierta
             socialmente. Ambos me enseñaron el significado de la solidaridad:
@@ -97,7 +97,7 @@ export class Hablamos extends Component {
             individual y que espero después de esta crisis sanitaria comience a
             terminarse.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Una de las contradicciones de esta pandemia ha sido la tensión entre
             solidaridad versus individualismo. Por décadas, nos hicieron creer
             que los intentos del neoliberalismo por producir personas
@@ -108,7 +108,7 @@ export class Hablamos extends Component {
             entredicho al individualismo a través de la creación y
             multiplicación de redes de solidaridad?
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Pasado unos días retomo mi relato… y comienzo a escribir
             quebrantada. Vividas las primeras entregas cómo no declararme
             indignada ¡Sí casa tras casa juntamos nuevas y dolorosas razones
@@ -116,7 +116,7 @@ export class Hablamos extends Component {
             rebelde y serlo si la realidad me golpea con cada historia que
             aparece ante nosotros.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             El Coronavirus dejará a Valdivia en un lugar del que será difícil
             salir, los años de estancamiento están quedando al descubierto. Solo
             hemos tenido administraciones municipales y no gobiernos locales,
@@ -126,7 +126,7 @@ export class Hablamos extends Component {
             sucede a doña María, gritaré guturalmente que este ¡no es el
             Valdivia que merecemos!
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Hoy me doy cuenta que mi puerta se cierra pero también se abre para
             responder al rol que la política demanda de cada una de nosotras.
             Las invito a activarse y a que Valdivia Solidaria se replique por
@@ -134,7 +134,7 @@ export class Hablamos extends Component {
             responsabilidad de articular redes de trabajo que permitan la
             solidaridad.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             Este hilo de emociones termina con una Tonha profundamente
             agradecida de muchos y muchas que han hecho posible la solidaridad.
             Diciendo que una mujer puede liderar un proceso como el que Valdivia
@@ -144,7 +144,7 @@ export class Hablamos extends Component {
             pandemia Covid-19. Por ahora, me despido privilegiada de estar junto
             a quienes luchan para poder ayudar.
           </span>
-          <span className="hablamos-span">
+          <span className="section-span">
             De ahora en adelante es tiempo que las voces negadas y oprimidas
             sean aquellas que entregan conducción a los espacios. Tenemos la
             responsabilidad de generar rupturas y continuidades como seres

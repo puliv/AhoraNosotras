@@ -32,8 +32,8 @@ export class Editorial extends Component {
             className="section-img"
           />
         </div>
-        <div className="edit-text">
-          <span className="edit-text-span">
+        <div className="section-div-span">
+          <span className="section-span">
             No cabe duda, la pandemia y el confinamiento revelaron de forma
             ineludible que limpiar y cuidar es trabajar. Podríamos pasar horas
             en cualquiera de estas labores sin que nadie lo reconociera, tal y
@@ -49,7 +49,7 @@ export class Editorial extends Component {
             estatus, que podría hacer cualquiera a un precio barato.
           </span>
 
-          <span className="edit-text-span">
+          <span className="section-span">
             Sin embargo, tú y yo sabemos que son esas labores las que han
             garantizado la subsistencia, desarrollo y estabilidad emocional de
             cualquier habitante en este mundo. Lo sabemos mucho antes de esta
@@ -87,7 +87,7 @@ export class Editorial extends Component {
         </div>
 
         <div className="edit-text">
-          <span className="edit-text-span">
+          <span className="section-span">
             Así, esta pandemia puede ser esta temida distopía que - tristemente-
             se hace realidad, pero también la oportunidad de quitarnos el
             vendaje. Y esa apertura no puede ser en solitario, porque si hay
@@ -100,7 +100,7 @@ export class Editorial extends Component {
             también porque la pobreza, el dolor y la esperanza se viven mejor
             compartidas.
           </span>
-          <span className="edit-text-span">
+          <span className="section-span">
             En esa tarea los hombres también han de participar, porque este
             modelo se ha de derrumbar asumiendo ellos también esa toma de
             consciencia. No tenemos duda, otro Chile es posible si los cuidados

@@ -17,8 +17,8 @@ export class Historicas extends Component {
           <h3 className="section-h3">Ilustración por: Luisa Rivera</h3>
         </div>
 
-        <div className="edit-text">
-          <span className="edit-text-span">
+        <div className="section-div-span ">
+          <span className="section-span">
             En tiempos de pandemia, las mujeres se han convertido en la primera
             línea en la defensa de la salud y la vida. Sin embargo, este
             protagonismo de doctoras, enfermeras y asistentes no es azaroso,
@@ -26,7 +26,7 @@ export class Historicas extends Component {
             paso al frente y ser parte de disciplinas del conocimiento
             históricamente masculinizadas como las ciencias.
           </span>
-          <span className="edit-text-span">
+          <span className="section-span">
             Recordemos que, en el siglo XIX la mujer chilena no podía acceder a
             una educación profesional pues ésta se encontraba limitada por una
             ley que impedía a las mujeres ingresar a la universidad. Finalmente,
@@ -40,7 +40,7 @@ export class Historicas extends Component {
             legado de Eloísa sigue vigente gracias a otro liderazgo que ha
             destacado por su rol en esta crisis.
           </span>
-          <span className="edit-text-span">
+          <span className="section-span">
             Hablamos de la Izkia Siches, ariqueña, médica cirujana chilena de la
             Universidad de Chile, primera presidenta del Colegio Médico de Chile
             y la más joven en ocupar un cargo que por más de 70 años fue sólo
@@ -61,6 +61,7 @@ export class Historicas extends Component {
             className="section-img historicas-img"
           />
         </div>
+
         <ReadNext section={"historicas"} />
       </div>
     );

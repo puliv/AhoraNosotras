@@ -76,7 +76,7 @@ export class Creamos extends Component {
         </div>
 
         <div className="creamos-text-div">
-          <span className="creamos-span">
+          <span className="section-span">
             Fabiola tenía un bajo sueldo, debía cumplir turnos extenuantes y una
             familia de quien preocuparse. Sin embargo, eso no fue impedimento
             para asumir otras responsabilidades o compromisos como dirigenta
@@ -86,7 +86,7 @@ export class Creamos extends Component {
             propias carencias, sino de trabajar y ayudar al prójimo
             anónimamente. Fabiola en esos momentos ya es una heroína.
           </span>
-          <span className="creamos-span">
+          <span className="section-span">
             Por ahora Fabiola, mujer de sangre diaguita, madre de 3 hijos, hija
             de María Isabel, hermana de Ana María y compañera de Marco tendrá
             otros desafíos en el día a día y percibirá el mundo de formas que
@@ -96,7 +96,7 @@ export class Creamos extends Component {
             día por su bienestar personal, familiar y también por su población,
             su barrio y a fin de cuentas, por su país.
           </span>
-          <span className="creamos-span">
+          <span className="section-span">
             Si queremos avanzar juntas en la construcción de un Chile consciente
             y sustentable, la reparación y justicia para Fabiola Campillay es
             indispensable y necesaria.

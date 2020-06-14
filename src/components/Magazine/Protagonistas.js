@@ -29,7 +29,7 @@ export class Protagonistas extends Component {
           />
         </div>
         <div className="protag-div-aurora">
-          <span className="protag-span-aurora">
+          <span className="section-span">
             En medio de esta crisis social y económica, en cada rincón de Chile
             hay mujeres que frente al abandono del Estado dejan a un lado el
             miedo para buscar soluciones. En este primer número de Ahora
@@ -39,14 +39,14 @@ export class Protagonistas extends Component {
             algunos se crean dueños de nuestras vidas?”
           </span>
 
-          <span className="protag-span-aurora">
+          <span className="section-span">
             Sea cara a cara o por medio de una pantalla de computador, Aurora
             Pardo González sonríe para hacer frente a la vida. Aurora tiene 44
             años y vive en la población Las Turbinas, ubicada en el límite de
             las comunas de Lo Espejo y San Bernardo, en la periferia de
             Santiago.
           </span>
-          <span className="protag-span-aurora">
+          <span className="section-span">
             En el 2004 ingresó a trabajar como cajera al supermercado Líder del
             paradero 17 de Gran Avenida, San Miguel. Cuatro años más tarde
             participó en la creación del primer sindicato autónomo en “DyS”,
@@ -56,8 +56,8 @@ export class Protagonistas extends Component {
             supermercados más grande en los Estados Unidos, siempre ha trabajado
             en el mismo lugar.
           </span>
-          <span className="protag-span-aurora">
-            <span className="protag-span-aurora bold">
+          <span className="section-span-aurora">
+            <span className="section-span-aurora bold">
               “Durante los años que llevo presente en el sindicato y cuando
               Wal-Mart ha tratado de vulnerar los derechos fundamentales de los
               trabajadores y <span className="p-aurora">trabajadoras</span>{" "}
@@ -73,7 +73,7 @@ export class Protagonistas extends Component {
         </div>
 
         <div className="protag-div-top">
-          <span className="protag-span-top">
+          <span className="section-span">
             Para hacer frente a la crisis, el gobierno de Sebastián Piñera
             impulsó la Ley de Protección al empleo, medida que permite que los
             empleadores dejen de pagar los sueldos a sus trabajadores para que
@@ -83,7 +83,7 @@ export class Protagonistas extends Component {
         </div>
         <div className="protag-div-main">
           <div className="protag-div-left">
-            <span className="protag-span-left">
+            <span className="section-span-left">
               “En medio de esta pandemia, hemos visto muchas empresas
               acogiéndose a la Ley de Protección al Empleo. El problema es que
               muchas nunca han sido ni pymes, mini-pymes o negocios familiares.
@@ -92,14 +92,14 @@ export class Protagonistas extends Component {
             </span>
           </div>
           <div className="protag-div-right">
-            <span className="protag-span-right">
+            <span className="section-span-right">
               Tras su promulgación, varias empresas, entre ellas grandes tiendas
               del retail o multinacionales como Ripley, La Polar, Starbucks,
               H&M, Corona, entre otras decidieron sumarse a la normativa para
               “proteger a los trabajadores ante la posibilidad de quedar sin
               trabajo”.
             </span>
-            <span className="protag-span-right">
+            <span className="section-span-right">
               Según la última actualización realizada por la ministra del
               Trabajo, María José Zaldívar, hasta el viernes 15 de mayo, 593.615
               trabajadores habían hecho solicitudes para estar bajo la
@@ -109,7 +109,7 @@ export class Protagonistas extends Component {
           </div>
         </div>
         <div className="protag-div-bottom">
-          <span className="protag-span-bottom">
+          <span className="section-span">
             “En medio de esta pandemia, hemos visto muchas empresas acogiéndose
             a la Ley de Protección al Empleo. El problema es que muchas nunca
             han sido ni pymes, mini-pymes o negocios familiares. Son grandes
@@ -122,7 +122,7 @@ export class Protagonistas extends Component {
         <div className="protag-div-work-future">
           <h2 className="protag-h2-work-future">El futuro del trabajo</h2>
 
-          <span className="protag-span-work-future">
+          <span className="section-span">
             A diferencia de la situación laboral de más un millón de chilenos y
             chilenas que debido a la crisis han perdido su trabajo o tienen sus
             contratos suspendidos, esta dirigenta social reconoce que Wal - Mart
@@ -130,7 +130,7 @@ export class Protagonistas extends Component {
             al azar y tiene su justificación en el tipo de productos que vende
             la empresa en la que labura.
           </span>
-          <span className="protag-span-work-future">
+          <span className="section-span">
             “Si bien tenemos electrodomésticos, bazar o vestuario vendemos
             alimentos de primera necesidad. Entonces, Wal - Mart ha mantenido
             los trabajos de mis compañeros y compañeras a nivel nacional. Otra
@@ -138,7 +138,7 @@ export class Protagonistas extends Component {
             nacional desde Arica hasta Punta Arenas y que debería estar
             terminada por junio o fines de julio”, explica Aurora Pardo.
           </span>
-          <span className="protag-span-work-future">
+          <span className="section-span">
             La técnico jurídico y ahora estudiante de quinto año de derecho
             reconoce que aunque “faltan algunos detalles en la negociación”
             valora la importancia de la organización sindical para la conquista
@@ -147,7 +147,7 @@ export class Protagonistas extends Component {
             automatización a Aurora Pardo también le preocupa el futuro del
             trabajo en Chile.
           </span>
-          <span className="protag-span-work-future">
+          <span className="section-span">
             “Cuando era DyS sólo había remuneración. Hemos ido avanzando harto
             en las negociaciones colectivas, pero siempre hay que estar atentos
             con lo que se viene y sobretodo, con las contrataciones de las
@@ -156,14 +156,14 @@ export class Protagonistas extends Component {
             contrataciones a 4 horas y con alta rotación que merman bastante las
             remuneraciones de los trabajadores del retail”, advierte.
           </span>
-          <span className="protag-span-work-future bold">
+          <span className="section-span section-span-work-future bold">
             Aurora mencionas lo indignante que te parece el actuar de algunas
             grandes empresas. Como dirigenta sindical y estudiante de derecho
             ¿De qué manera se vive ese proceso de negociación colectiva cuando
             en paralelo se crean leyes que finalmente desprotegen a los
             trabajadores y trabajadoras?
           </span>
-          <span className="protag-span-work-future">
+          <span className="section-span">
             Como Sindicato de Autónomo de Wal-Mart pertenecemos a la
             Coordinadora de Sindicatos del Comercio y estuvimos presentes
             durante la últimas semanas cuando Cencosud suspendió los contratos
@@ -189,7 +189,7 @@ export class Protagonistas extends Component {
                 </span>
               </div>
               <div className="crisis-right">
-                <span className="protag-span-right crisis-right-span">
+                <span className="section-span-right crisis-right-span">
                   Desde el inicio de la pandemia y al igual que en tiempos
                   pasados, las mujeres han estado en la primera línea del
                   combate al hambre e incertidumbre producto del COVID 19. De
@@ -200,7 +200,7 @@ export class Protagonistas extends Component {
                 </span>
               </div>
             </div>
-            <span className="protag-span">
+            <span className="section-span">
               Aurora aparte de ser dirigenta sindical, se desempeña como
               presidenta de la Unidad Vecinal de la población Las Turbinas de Lo
               Espejo. Ante la falta de internet de muchos pobladores, desde ese
@@ -216,7 +216,7 @@ export class Protagonistas extends Component {
               ¿Qué desafíos te ha traído en términos personales, familiares y
               laborales la pandemia?
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               No he podido hacer cuarentena total en mi casa producto del
               trabajo y me preocupa bastante lo que ocurre en mi población. Con
               otras dirigentas hemos creado dos veces ollas comunes. Juntamos
@@ -225,7 +225,7 @@ export class Protagonistas extends Component {
               siempre han habido crisis, porque a la gente no le alcanza para
               comer. Para los insumos básicos, simplemente no tenemos.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               “La crisis visibiliza la pobreza real que hay. Si no se hace una
               nueva Constitución, si no quitamos de raíz el Estado subsidiario
               de la Constitución nunca jamás se va a solucionar el problema.
@@ -240,7 +240,7 @@ export class Protagonistas extends Component {
 
           <div className="div-question">
             <h3 className="protag-h3">¿Has sentido miedo?</h3>
-            <span className="protag-span">
+            <span className="section-span">
               Sí, hay bastante miedo en mi interior. No salgo ni a la esquina
               sin mascarilla, ni guantes, etc. Pero en todas estas semanas no me
               he dado cuenta de lo que pasa en mí, no he tenido tiempo para
@@ -250,7 +250,7 @@ export class Protagonistas extends Component {
               nos están ganando a costa de mantener la economía, de mantener sus
               bolsillos.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               Entonces, ¡Mira lo que nos ha costado estar en contra de estos
               grandes! Siempre he sabido que para ganar hemos tenido que morir
               varios pero antiguamente, uno moría de inmediato. Acá es distinto,
@@ -258,7 +258,7 @@ export class Protagonistas extends Component {
               en Plaza Dignidad pero no morir así o cómo quieren. Con hambre,
               angustiados, desesperados o solos.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               “¿Como tanto?”, se preocupa Aurora Pardo. Para la dirigenta, “ni
               siquiera estamos pidiendo la mitad del pan. Estamos pidiendo la
               mitad de la mitad del pan, pero tampoco estamos para pedir
@@ -271,7 +271,7 @@ export class Protagonistas extends Component {
 
           <div className="div-question">
             <h3 className="protag-h3">Una crisis con rostro de mujer</h3>
-            <span className="protag-span">
+            <span className="section-span">
               Aurora es madre. Tiene un solo hijo y ya es abuela. En la
               actualidad también le toca criar a sus sobrinas de 14 y 10 años.
               Su realidad es la que viven miles de mujeres jefas de hogar que,
@@ -286,7 +286,7 @@ export class Protagonistas extends Component {
               te sentías. Estás arriba de la máquina todo el día, entre la pega,
               la casa y la dirigencia social.
             </h3>
-            <span className="protag-span">Es difícil.</span>
+            <span className="section-span">Es difícil.</span>
           </div>
 
           <div className="div-question">
@@ -295,7 +295,7 @@ export class Protagonistas extends Component {
               viven la crisis? ¿Qué implica ser mujer trabajadora en este
               tiempo?
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               He estado acostumbrada a parar la olla toda la vida sola entonces
               tampoco me he puesto a pensar cien por ciento en el miedo de esta
               pandemia. Nada me impresiona y a muchas mujeres nada les queda
@@ -308,7 +308,7 @@ export class Protagonistas extends Component {
             <h3 className="protag-h3">
               ¿Las mujeres viven distinto la crisis o no?
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               Hay muchas compañeras mías, mujeres solas, que tienen que cuidar a
               sus hijos y sin embargo, tienen que salir a trabajar igual. He
               visto que algunas han tenido hartos problemas con sus hijos que
@@ -319,11 +319,11 @@ export class Protagonistas extends Component {
               algunos lindos que se van olímpicamente y abandonan a mis
               compañeras. Estoy apoyando con mi conocimiento jurídico.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               “Pero, acá en la población pienso que es distinto”, sentencia
               Aurora Pardo.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               “En la población muchas mujeres no pueden acceder a una mejor
               remuneración porque muchas de ellas no tienen estudios y trabajan
               haciendo aseo en las fábricas de atrás como las bodegas de Ripley,
@@ -332,7 +332,7 @@ export class Protagonistas extends Component {
               ingeniárselas como sea”, señala al precisar entre las diferencias
               y similitudes de las mujeres trabajadoras.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               Para Pardo, “otro distinto es en el lugar de trabajo, en el
               supermercado. La trabajadora igual es remunerada y gana un poquito
               más alto de lo que gana esta dueña de casa”, explica. Y agrega:
@@ -340,7 +340,7 @@ export class Protagonistas extends Component {
               asegurado desayuno, almuerzo y once. En cambio la dueña de casa o
               la trabajadora de la cola de la feria no”.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               Entonces, veo los dos campos que me ha tocado ver se viven
               distintos pero son parte del mismo problema del modelo. Es más
               sacrificado para la que vende sopaipillas acá en la casa afuera,
@@ -355,7 +355,7 @@ export class Protagonistas extends Component {
             <h3 className="protag-h3">
               Hay menos herramientas y menos apoyo ...
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               Sobretodo porque hay vecinas que tienen segundo o tercer año
               básico. Dentro de sus posibilidades buscan acceder a una
               oportunidad de trabajo. Yo conozco dos realidades distintas pero,
@@ -374,7 +374,7 @@ export class Protagonistas extends Component {
               privilegiada". Pero vivir endeudada o tener que pagar la carne
               molida con tarjeta no es lo justo.
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               Claro, a los trabajadores del supermercado con contrato nos
               bombardean con tarjetas. Todos tienen tarjetas y en cambio acá en
               la población no hay ese acceso. Siempre me he puesto a pensar de
@@ -393,7 +393,7 @@ export class Protagonistas extends Component {
               Turbinas, quienes reciben estos beneficios que le llegan sólo cada
               cierto tiempo o por la cantidad de hijos que pueden tener.
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               De acuerdo. No aparece de otra manera, de forma permanente donde
               se nos permita vivir bien y felices. Al Estado tampoco le interesa
               tener familias felices. Dicen que “somos el mejor lugar para
@@ -418,7 +418,7 @@ export class Protagonistas extends Component {
                 Imaginemos que la crisis termina mañana ¿Qué aprendizajes has
                 obtenido durante este tiempo?
               </h3>
-              <span className="protag-span protag-span-right">
+              <span className="section-span section-span-right">
                 Nos hemos dado cuenta de que hay que hacer cambios profundos. No
                 se pueden hacer cambios por encima. Tiene que estructurarse el
                 Estado respecto a sus prioridades y somos nosotros, el pueblo
@@ -431,7 +431,7 @@ export class Protagonistas extends Component {
             <h3 className="protag-h3">
               Valorar aquello que no ha sido valorado...
             </h3>
-            <span className="protag-span">
+            <span className="section-span">
               Exacto, privilegiar a los que nunca se han privilegiado e invertir
               el orden de prioridades como la pirámide de Kelsen. En la
               universidad me enseñaron que ese es un triángulo que dice que
@@ -442,7 +442,7 @@ export class Protagonistas extends Component {
               son los gobiernos de turno y que a diestra y siniestra pueden
               administrar nuestros recursos.
             </span>
-            <span className="protag-span">
+            <span className="section-span">
               “Pero el Estado somos nosotros”, concluye Aurora en una entrevista
               marcada por el anuncio de cuarentena total en Santiago y que
               advierte que la pandemia requerirá de medidas económicas fuertes o
