@@ -1,8 +1,9 @@
 @import "~antd/dist/antd.css";
 
-/* ---------- Editorial ---------- */
-.editorial,
-.hablamos {
+
+/* ---------- Section's Headers ---------- */
+
+.section {
   width: 100%;
   height: auto;
   padding: 30px 135px;
@@ -11,30 +12,19 @@
   flex-direction: column;
 }
 
-.edit-top {
-  width: 100%;
-  height: 10%;
-  margin: 10px 0px 30px;
-}
-
-.edit-main {
-  width: 100%;
-  height: 90%;
-}
-
-.edit-titles {
+.section-titles {
   width: 100%;
   height: auto;
   padding-bottom: 30px;
 }
 
-.edit-h1 {
+.section-h1 {
   font-family: Open Sans;
   color: #4d4d4d;
   font-size: 35px;
 }
 
-.edit-h2 {
+.section-h2 {
   font-size: 20px;
   color: #707070;
   font-family: Open Sans;
@@ -42,20 +32,30 @@
   margin-bottom: 20px;
 }
 
-.edit-h3 {
+.section-h3 {
   color: #4d4d4d;
   font-family: "Roboto", sans-serif;
   font-style: italic;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.edit-image {
+.section-img-div {
   width: 100%;
 }
 
-.editorial-img {
+.section-img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+
+
+/* ---------- Editorial ---------- */
+.edit-top {
+  width: 100%;
+  height: 10%;
+  margin: 10px 0px 30px;
 }
 
 .edit-text {
@@ -120,23 +120,6 @@
 }
 
 /* ---------- Protagonistas ---------- */
-.protagonistas {
-  width: 100%;
-  height: auto;
-  padding: 30px 150px !important;
-  background-color: #f6f6f6;
-}
-
-.protag-main {
-  width: 100%;
-  height: auto;
-}
-
-.protag-titles {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
 .protag-div-image {
   width: 100%;
   height: auto;
@@ -153,7 +136,8 @@
 .protag-div-aurora {
   width: 100%;
   height: auto;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #d969d966;
@@ -403,18 +387,12 @@
 }
 
 /* ---------- Hablamos ---------- */
-.hablamos {
-  width: 100%;
-  height: auto;
-  padding: 30px 150px !important;
-  background-color: #f6f6f6;
-}
-
 .hablamos-div-text {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .hablamos-text-span {
@@ -440,12 +418,6 @@
 }
 
 /* ---------- Creamos ---------- */
-.creamos {
-  width: 100%;
-  height: auto;
-  padding: 30px 150px !important;
-  background-color: #f6f6f6;
-}
 
 .creamos-text-div-micro {
   width: 100%;
@@ -545,13 +517,6 @@
 }
 
 /* ---------- Despiertas ---------- */
-.despiertas {
-  width: 100%;
-  height: auto;
-  padding: 30px 150px !important;
-  background-color: #f6f6f6;
-}
-
 .despiertas-div {
   width: 100%;
   display: flex;
@@ -564,6 +529,39 @@
   height: auto;
   object-fit: contain;
 }
+
+/* ---------- Opinamos ---------- */
+.opinamos-img-div {
+  width: 100%;
+}
+
+.opinamos-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.opinamos-h1 {
+  font-family: Open Sans;
+  color: #4d4d4d;
+  font-size: 35px;
+}
+
+.opinamos-h2 {
+  font-size: 20px;
+  color: #707070;
+  font-family: Open Sans;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.opinamos-h3 {
+  color: #4d4d4d;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+
 
 /* ---------- ReadNext ---------- */
 .read-next {
@@ -595,6 +593,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #000000;
+  text-transform: capitalize;
 }
 
 .read-next-span-icon {

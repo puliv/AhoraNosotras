@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import despiertas from "../../assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIERTAS.png";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 
@@ -10,23 +9,23 @@ export class Despiertas extends Component {
 
   render() {
     return (
-      <div className="despiertas">
+      <div className="section despiertas">
         <GoBack />
-        <div className="edit-main">
-          <div className="edit-titles">
-            <h3 className="protag-h3 title">DESPIERTAS</h3>
-            <h1 className="protag-h1">
-              Eso que llaman amor es trabajo no pagado.
-            </h1>
-            <h2 className="protag-h2">Equipo Ahora Nosotras</h2>
+        <div className="section-titles">
+          <h3 className="section-h2">DESPIERTAS</h3>
+          <h1 className="section-h1">
+            Eso que llaman amor es trabajo no pagado.
+          </h1>
+          <h2 className="section-h3">Por Equipo Ahora Nosotras</h2>
 
-            <div className="despiertas-div">
-              <img
-                src={despiertas}
-                alt="despiertas"
-                className="despiertas-img"
-              />
-            </div>
+          <div className="despiertas-div">
+            <img
+              src={
+                "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/DESPIERTAS.png?raw=true"
+              }
+              alt="despiertas"
+              className="despiertas-img"
+            />
           </div>
         </div>
         <ReadNext section={"despiertas"} />
