@@ -14,6 +14,8 @@ export class Profiles extends Component {
   componentDidMount() {
     const { protagonistas } = this.state;
 
+    window.scrollTo(0, 0);
+
     if (protagonistas) {
       this.setState({
         protag: protagonistas.map((x) => {
