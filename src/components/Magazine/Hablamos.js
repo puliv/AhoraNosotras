@@ -13,11 +13,11 @@ export class Hablamos extends Component {
         <GoBack />
 
         <div className="section-titles">
-          <h3 className="section-h2">HABLAMOS</h3>
+          <h3 className="section-h3">HABLAMOS</h3>
           <h1 className="section-h1">
             VALDIVIA SOLIDARIA: ABRIR LA PUERTA Y CERRAR EL PRIVILEGIO.
           </h1>
-          <h2 className="section-h3">Por @Vic_tonha_</h2>
+          <h2 className="section-h2">Por @Vic_tonha_</h2>
         </div>
 
         <div className="section-img-div">

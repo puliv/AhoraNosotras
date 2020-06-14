@@ -14,13 +14,13 @@ export class Editorial extends Component {
         <GoBack />
 
         <div className="section-titles">
-          <h2 className="section-h2">EDITORIAL</h2>
+          <h3 className="section-h3">EDITORIAL</h3>
           <h1 className="section-h1">
             Criar y cuidar también es trabajar, queremos seguridad social
           </h1>
-          <h3 className="section-h3">
-            Por Anita Martínez, directora Revista Ahora Nosotras
-          </h3>
+          <h2 className="section-h2">
+            Por Anita Martínez, Directora Revista Ahora Nosotras
+          </h2>
         </div>
 
         <div className="section-img-div">

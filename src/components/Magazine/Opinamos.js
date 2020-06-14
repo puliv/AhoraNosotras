@@ -15,12 +15,12 @@ export class Opinamos extends Component {
           <GoBack />
 
           <div className="section-titles">
-            <h2 className="section-h2">OPINAMOS</h2>
+            <h3 className="section-h3">OPINAMOS</h3>
             <h1 className="section-h1">
               Falta de correponsabilidad: Otro Síntoma de un mal pandémico
               llamado machismo
             </h1>
-            <h3 className="section-h3">Por Paula Tina Mente</h3>
+            <h2 className="section-h2">Por Paula Tina Mente</h2>
           </div>
 
           <div className="section-img-div">

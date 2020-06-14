@@ -12,9 +12,9 @@ export class Historicas extends Component {
       <div className="section historicas">
         <GoBack />
         <div className="section-titles">
-          <h2 className="section-h2">HISTÓRICAS</h2>
+          <h3 className="section-h3">HISTÓRICAS</h3>
           <h1 className="section-h1">Eloísa Díaz e Izkia Siches</h1>
-          <h3 className="section-h3">Ilustración por: Luisa Rivera</h3>
+          <h2 className="section-h2">Ilustración por: Luisa Rivera</h2>
         </div>
 
         <div className="section-div-span ">

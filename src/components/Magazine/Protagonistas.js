@@ -12,11 +12,11 @@ export class Protagonistas extends Component {
       <div className="section protagonistas">
         <GoBack />
         <div className="section-titles">
-          <h3 className="section-h2">PROTAGONISTAS</h3>
+          <h3 className="section-h3">PROTAGONISTAS</h3>
           <h1 className="section-h1">
             Aurora Pardo: “Chile es un mal empleador”.
           </h1>
-          <h2 className="section-h3">Por Javiera López Layana.</h2>
+          <h2 className="section-h2">Por Javiera López Layana.</h2>
         </div>
 
         <div className="section-img-div">
@@ -56,8 +56,8 @@ export class Protagonistas extends Component {
             supermercados más grande en los Estados Unidos, siempre ha trabajado
             en el mismo lugar.
           </span>
-          <span className="section-span-aurora">
-            <span className="section-span-aurora bold">
+          <span className="protag-span-aurora">
+            <span className="protag-span-aurora bold">
               “Durante los años que llevo presente en el sindicato y cuando
               Wal-Mart ha tratado de vulnerar los derechos fundamentales de los
               trabajadores y <span className="p-aurora">trabajadoras</span>{" "}
@@ -83,7 +83,7 @@ export class Protagonistas extends Component {
         </div>
         <div className="protag-div-main">
           <div className="protag-div-left">
-            <span className="section-span-left">
+            <span className="protag-span-left">
               “En medio de esta pandemia, hemos visto muchas empresas
               acogiéndose a la Ley de Protección al Empleo. El problema es que
               muchas nunca han sido ni pymes, mini-pymes o negocios familiares.
@@ -92,14 +92,14 @@ export class Protagonistas extends Component {
             </span>
           </div>
           <div className="protag-div-right">
-            <span className="section-span-right">
+            <span className="protag-span-right">
               Tras su promulgación, varias empresas, entre ellas grandes tiendas
               del retail o multinacionales como Ripley, La Polar, Starbucks,
               H&M, Corona, entre otras decidieron sumarse a la normativa para
               “proteger a los trabajadores ante la posibilidad de quedar sin
               trabajo”.
             </span>
-            <span className="section-span-right">
+            <span className="protag-span-right">
               Según la última actualización realizada por la ministra del
               Trabajo, María José Zaldívar, hasta el viernes 15 de mayo, 593.615
               trabajadores habían hecho solicitudes para estar bajo la
@@ -189,7 +189,7 @@ export class Protagonistas extends Component {
                 </span>
               </div>
               <div className="crisis-right">
-                <span className="section-span-right crisis-right-span">
+                <span className="protag-span-right crisis-right-span">
                   Desde el inicio de la pandemia y al igual que en tiempos
                   pasados, las mujeres han estado en la primera línea del
                   combate al hambre e incertidumbre producto del COVID 19. De

@@ -12,11 +12,11 @@ export class Despiertas extends Component {
       <div className="section despiertas">
         <GoBack />
         <div className="section-titles">
-          <h3 className="section-h2">DESPIERTAS</h3>
+          <h3 className="section-h3">DESPIERTAS</h3>
           <h1 className="section-h1">
             Eso que llaman amor es trabajo no pagado.
           </h1>
-          <h2 className="section-h3">Por Equipo Ahora Nosotras</h2>
+          <h2 className="section-h2">Por Equipo Ahora Nosotras</h2>
 
           <div className="despiertas-div">
             <img

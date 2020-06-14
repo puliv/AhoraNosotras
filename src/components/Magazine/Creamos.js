@@ -13,9 +13,9 @@ export class Creamos extends Component {
       <div className="section creamos">
         <GoBack />
         <div className="section-titles">
-          <h3 className="section-h2">CREAMOS</h3>
+          <h3 className="section-h3">CREAMOS</h3>
           <h1 className="section-h1">Homenaje a Fabiola Campillay</h1>
-          <h2 className="section-h3">Equipo Ahora Nosotras</h2>
+          <h2 className="section-h2">Equipo Ahora Nosotras</h2>
         </div>
 
         <div>
