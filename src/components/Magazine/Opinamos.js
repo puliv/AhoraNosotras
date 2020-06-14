@@ -4,6 +4,10 @@ import ReadNext from "./ReadNext";
 import opinamos from "../../assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png";
 
 export class Opinamos extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>

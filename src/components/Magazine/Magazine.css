@@ -561,6 +561,21 @@
   font-style: italic;
 }
 
+/* ---------- Historicas ---------- */
+.historicas-img-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.historicas-img {
+  width: 500px;
+  height: auto;
+  object-fit: scale-down;
+}
+
 
 
 /* ---------- ReadNext ---------- */

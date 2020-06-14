@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { Form, Input, Button } from 'antd';
-import firebase from 'firebase/app';
+import React, { Component } from "react";
+import { Form, Input, Button } from "antd";
+import firebase from "firebase/app";
 import "firebase/database";
-
+import classNames from "classnames";
 
 const { TextArea } = Input;
 
 export class Subscribe extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       subsName: "",
@@ -16,116 +16,156 @@ export class Subscribe extends Component {
       subsCity: "",
       subsComment: "",
       alert: false,
-      alertData: {}
-    }
+      alertData: {},
+    };
   }
 
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
 
   showAlert = (type, message) => {
     this.setState({
       alert: true,
-      alertData: { type, message }
+      alertData: { type, message },
     });
     setTimeout(() => {
       this.setState({ alert: false });
-    }, 4000)
-  }
+    }, 4000);
+  };
 
   resetForm = () => {
     this.setState({
       subsName: "",
       subsEmail: "",
       subsCity: "",
-      subsComment: ""
-    })
-  }
+      subsComment: "",
+    });
+  };
 
   handleOnChange = (e) => {
     switch (e.target.id) {
       case "name":
         this.setState({
-          subsName: e.target.value
-        })
-        break
+          subsName: e.target.value,
+        });
+        break;
 
       case "email":
         this.setState({
-          subsEmail: e.target.value
-        })
-        break
+          subsEmail: e.target.value,
+        });
+        break;
 
       case "city":
         this.setState({
-          subsCity: e.target.value
-        })
-        break
+          subsCity: e.target.value,
+        });
+        break;
 
       case "comment":
         this.setState({
-          subsComment: e.target.value
-        })
-        break
+          subsComment: e.target.value,
+        });
+        break;
 
       default:
-        break
+        break;
     }
-  }
+  };
 
   handleClickSend = (e) => {
-    const { subsName, subsEmail, subsCity, subsComment } = this.state
+    const { subsName, subsEmail, subsCity, subsComment } = this.state;
     e.preventDefault();
 
     const subscribeItems = {
       name: subsName,
       email: subsEmail,
       city: subsCity,
-      comment: subsComment
-    }
+      comment: subsComment,
+    };
 
     if (subsName && subsEmail && subsCity && subsComment) {
-      firebase.database().ref('subscriptions').push(subscribeItems).then(() => {
-        this.showAlert("success", "Tu solicitud fue procesada con éxito.")
-        this.resetForm()
-      }).catch(() => {
-        this.showAlert("fail", "No se pudo procesar tu solicitud, intenta nuvamente.")
-        this.resetForm()
-      })
+      firebase
+        .database()
+        .ref("subscriptions")
+        .push(subscribeItems)
+        .then(() => {
+          this.showAlert("success", "Tu solicitud fue procesada con éxito.");
+          this.resetForm();
+        })
+        .catch(() => {
+          this.showAlert(
+            "fail",
+            "No se pudo procesar tu solicitud, intenta nuvamente."
+          );
+          this.resetForm();
+        });
     } else {
-      this.showAlert("warning", "Debes completar todos los items.")
+      this.showAlert("warning", "Debes completar todos los items.");
     }
-  }
-
-
+  };
 
   render() {
-    const { subsName, subsEmail, subsCity, subsComment, alert, alertData } = this.state
+    const {
+      subsName,
+      subsEmail,
+      subsCity,
+      subsComment,
+      alert,
+      alertData,
+    } = this.state;
+
+    const subsStyle = classNames("subscribe", {
+      "subscribe-active": alert,
+    });
+
+    const alertStyle = classNames(
+      `subscribe-div-alert alert-${this.state.alertData.type}`,
+      {
+        "subscribe-div-alert-active": alert,
+      }
+    );
 
     return (
       <React.Fragment>
-        {alert && <div className={`subscribe-div-alert alert-${this.state.alertData.type}`}   >
-          <span className="subscribe-span-alert">{alertData.message}</span>
-        </div>}
         <div className="subscribe">
+          {alert && (
+            <div className={alertStyle}>
+              <span className="subscribe-span-alert">{alertData.message}</span>
+            </div>
+          )}
           <div className="subscribe-div">
             <h2 className="subscribe-h2">Súmate!</h2>
-            <span className="subscribe-span">Suscríbete a nuestro newsletter</span>
+            <span className="subscribe-span">
+              Suscríbete a nuestro newsletter
+            </span>
           </div>
 
           <Form className="subscribe-form">
             <Form.Item>
               <h3 className="subscribe-h3">Nombre y Apellido</h3>
-              <Input onChange={this.handleOnChange} id="name" value={subsName} />
+              <Input
+                onChange={this.handleOnChange}
+                id="name"
+                value={subsName}
+              />
             </Form.Item>
             <Form.Item>
               <h3 className="subscribe-h3">Correo</h3>
-              <Input onChange={this.handleOnChange} id="email" value={subsEmail} />
+              <Input
+                onChange={this.handleOnChange}
+                id="email"
+                value={subsEmail}
+              />
             </Form.Item>
             <Form.Item>
               <h3 className="subscribe-h3">Ciudad/Comuna</h3>
-              <Input onChange={this.handleOnChange} id="city" value={subsCity} />
+              <Input
+                onChange={this.handleOnChange}
+                id="city"
+                value={subsCity}
+              />
             </Form.Item>
             <Form.Item>
               <h3 className="subscribe-h3">Comentarios</h3>
@@ -133,19 +173,23 @@ export class Subscribe extends Component {
                 onChange={this.handleOnChange}
                 placeholder="Escribe algo..."
                 id="comment"
-                value={subsComment} />
+                value={subsComment}
+              />
             </Form.Item>
             <div className="btn-div">
               <Button
                 className="subscribe-btn"
                 type="primary"
-                onClick={this.handleClickSend}>Enviar</Button>
+                onClick={this.handleClickSend}
+              >
+                Enviar
+              </Button>
             </div>
           </Form>
         </div>
       </React.Fragment>
-    )
+    );
   }
 }
 
-export default Subscribe
+export default Subscribe;

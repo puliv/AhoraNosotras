@@ -17,16 +17,6 @@ export class Historicas extends Component {
           <h3 className="section-h3">Ilustración por: Luisa Rivera</h3>
         </div>
 
-        <div className="historicas-img-div">
-          <img
-            src={
-              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true"
-            }
-            alt="Historicas"
-            className="section-img historicas-img"
-          />
-        </div>
-
         <div className="edit-text">
           <span className="edit-text-span">
             En tiempos de pandemia, las mujeres se han convertido en la primera
@@ -60,6 +50,16 @@ export class Historicas extends Component {
             clave para mostrar a la ciudadanía y al gobierno, los caminos más
             seguros y eficaces en la presente crisis sanitaria.
           </span>
+        </div>
+
+        <div className="historicas-img-div">
+          <img
+            src={
+              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true"
+            }
+            alt="Historicas"
+            className="section-img historicas-img"
+          />
         </div>
         <ReadNext section={"historicas"} />
       </div>

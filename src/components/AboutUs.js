@@ -3,7 +3,6 @@ import howThisWork from "../assets/img/juntassomoscomunidad.png";
 import flowers from "../assets/details/flowers.png";
 import { Parallax } from "react-parallax";
 import keyDates from "../keyDates.json";
-import anlogo from "../assets/logos/ahora-nosotras.png";
 // import { Menu, Dropdown } from 'antd';
 
 // const menu = (
@@ -63,11 +62,13 @@ export class AboutUs extends Component {
             <img src={flowers} alt="flores" className="about-us-flower left" />
             <div className="about-us-text">
               <img
-                src={anlogo}
+                src={
+                  "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/logos/logo_morado.png?raw=true"
+                }
                 alt="Ahora Nosotras"
                 className="about-us-title-logo"
               />
-              <span className="about-us-span us">
+              <span className="about-us-span-us">
                 Somos muchas voces quienes desde el feminismo y la militancia
                 estamos transformando Chile y nuestro partido. Por eso juntas
                 decidimos crear #AhoraNosotras, nuestra propuesta para hacer de
