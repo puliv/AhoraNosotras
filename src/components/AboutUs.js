@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import howThisWork from "../assets/img/juntassomoscomunidad.png";
-import flowers from "../assets/details/flowers.png";
 import { Parallax } from "react-parallax";
 import keyDates from "../keyDates.json";
 // import { Menu, Dropdown } from 'antd';
@@ -30,6 +29,8 @@ export class AboutUs extends Component {
   componentDidMount() {
     const { keyDates } = this.state;
 
+    window.scrollTo(0, 0);
+
     if (keyDates) {
       this.setState({
         dates: keyDates.map((data) => {
@@ -58,29 +59,25 @@ export class AboutUs extends Component {
         </Parallax>
 
         <div className="about-us">
-          <div className="about-us-text-div">
-            <img src={flowers} alt="flores" className="about-us-flower left" />
-            <div className="about-us-text">
-              <img
-                src={
-                  "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/logos/logo_morado.png?raw=true"
-                }
-                alt="Ahora Nosotras"
-                className="about-us-title-logo"
-              />
-              <span className="about-us-span-us">
-                Somos muchas voces quienes desde el feminismo y la militancia
-                estamos transformando Chile y nuestro partido. Por eso juntas
-                decidimos crear #AhoraNosotras, nuestra propuesta para hacer de
-                Revolución Democrática el primer partido realmente feminista,
-                capaz de transformar Chile en lo público y en lo privado. Lo
-                hacemos nosotras porque hemos pasado de vivir la desigualdad de
-                género a entenderla y organizarnos para disputar el poder y así
-                transformarlo todo.
-              </span>
-            </div>
-            <img src={flowers} alt="flores" className="about-us-flower right" />
-          </div>
+          {/* <div className="about-us-text"> */}
+          <img
+            src={
+              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/logos/logo_morado.png?raw=true"
+            }
+            alt="Ahora Nosotras"
+            className="about-us-title-logo"
+          />
+          <span className="about-us-span-us">
+            Somos muchas voces quienes desde el feminismo y la militancia
+            estamos transformando Chile y nuestro partido. Por eso juntas
+            decidimos crear #AhoraNosotras, nuestra propuesta para hacer de
+            Revolución Democrática el primer partido realmente feminista, capaz
+            de transformar Chile en lo público y en lo privado. Lo hacemos
+            nosotras porque hemos pasado de vivir la desigualdad de género a
+            entenderla y organizarnos para disputar el poder y así transformarlo
+            todo.
+          </span>
+          {/* </div> */}
 
           <div className="about-us-img-div">
             <h2 className="about-us-h2 how-work">

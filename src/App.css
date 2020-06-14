@@ -176,12 +176,6 @@ li {
   align-items: center;
 }
 
-.about-us-text-div {
-  width: 100%;
-  height: auto;
-  display: flex;
-}
-
 .about-us-title-logo {
   width: 100%;
   height: 200px;
@@ -201,16 +195,6 @@ li {
   width: 100%;
   height: auto;
   padding: 60px 50px 100px;
-}
-
-.about-us-flower {
-  width: 20vw;
-  height: auto;
-  object-position: -1px 0px;
-}
-
-.about-us-flower.right {
-  transform: rotate(180deg);
 }
 
 .about-us-img {
@@ -242,8 +226,8 @@ li {
 
 .about-us-span-us {
   text-align: justify !important;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
   font-family: "Open Sans";
   display: flex;
   justify-content: center;
@@ -576,19 +560,6 @@ li {
   font-family: "Roboto", sans-serif;
 }
 
-.learning-div-text {
-  width: 100%;
-  height: 550px;
-  display: flex;
-  position: relative;
-  background-color: #f6f6f6;
-}
-
-.learning-div-talk {
-  width: 100%;
-  height: auto;
-}
-
 .learning-div-talk {
   padding: 60px 10vw;
   display: flex;
@@ -601,37 +572,13 @@ li {
   display: flex;
 }
 
-.learning-div-image {
-  background-color: #f6f6f6;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.learning-flower {
-  object-fit: cover;
-}
-
-.learning-flower.left {
-  object-fit: cover;
-  width: 250px;
-  object-position: right -20px;
-}
-
 .learning-text {
   width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12% 70px;
-}
-
-.learning-flower.right {
-  object-fit: cover;
-  width: 250px;
-  object-position: right -40px;
-  transform: rotate(180deg);
+  padding: 120px 0px 50px;
 }
 
 .learning-talk-title,
@@ -652,12 +599,22 @@ li {
   height: 100%;
 }
 
+
+.learning-h2-title {
+  display: flex;
+  justify-content: center !important;
+  font-family: "Roboto", sans-serif;
+  color: #4b8241;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
 .learning-h2,
 .learning-span {
   display: flex;
   justify-content: center !important;
   font-family: "Roboto", sans-serif;
-  text-align: justify !important;
 }
 
 .learning-h2 {
@@ -669,6 +626,11 @@ li {
 .learning-span {
   color: #4d4d4d;
   font-size: 20px;
+  text-align: justify;
+}
+
+.intro {
+  padding: 0px 200px;
 }
 
 .learning-span-video {

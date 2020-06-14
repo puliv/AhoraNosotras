@@ -60,9 +60,9 @@ export class Protagonistas extends Component {
             <span className="protag-span-aurora bold">
               “Durante los años que llevo presente en el sindicato y cuando
               Wal-Mart ha tratado de vulnerar los derechos fundamentales de los
-              trabajadores y <span className="p-aurora">trabajadoras</span>{" "}
+              trabajadores y <span className="p-aurora">trabajadoras</span>
               siempre he tratado de estar presente en las demandas que van en
-              favor de mis compañeros y{" "}
+              favor de mis compañeros y
               <span className="p-aurora">compañeras</span>
             </span>
             ”, explica Aurora Pardo, quien actualmente se desempeña como
@@ -81,7 +81,9 @@ export class Protagonistas extends Component {
             no tengan que reducir su personal.
           </span>
         </div>
-        <div className="protag-div-main">
+
+        {/* <div className="protag-div-main"> */}
+        <div className="section-div-split">
           <div className="protag-div-left">
             <span className="protag-span-left">
               “En medio de esta pandemia, hemos visto muchas empresas
@@ -108,6 +110,7 @@ export class Protagonistas extends Component {
             </span>
           </div>
         </div>
+
         <div className="protag-div-bottom">
           <span className="section-span">
             “En medio de esta pandemia, hemos visto muchas empresas acogiéndose
@@ -176,10 +179,12 @@ export class Protagonistas extends Component {
             querer repartirlas.
           </span>
         </div>
+
         <div className="protag-div-text">
           <div className="div-question">
             <h2 className="protag-h2-crisis">La crisis en primera persona.</h2>
-            <div className="protag-div-crisis">
+
+            <div className="section-div-split">
               <div className="crisis-left">
                 <span className="crisis-left-span">
                   "La crisis visibiliza la pobreza real que hay. Si no se hace
@@ -200,6 +205,7 @@ export class Protagonistas extends Component {
                 </span>
               </div>
             </div>
+
             <span className="section-span">
               Aurora aparte de ser dirigenta sindical, se desempeña como
               presidenta de la Unidad Vecinal de la población Las Turbinas de Lo
@@ -405,7 +411,7 @@ export class Protagonistas extends Component {
             </span>
           </div>
 
-          <div className="protag-div">
+          <div className="section-div-split">
             <div className="protag-last-div-left">
               <span className="last-span-left">
                 “Al Estado tampoco le interesa tener familias felices somos el

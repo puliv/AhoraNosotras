@@ -1,11 +1,18 @@
 @import "~antd/dist/antd.css";
 
+/* ---------- Go Back ---------- */
+.go-back-top {
+  width: 100%;
+  height: 10%;
+  margin: 10px 0px 30px;
+}
+
 /* ---------- Section's Headers ---------- */
 
 .section {
   width: 100%;
   height: auto;
-  padding: 30px 135px;
+  padding: 30px 150px 0px;
   background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
@@ -66,28 +73,41 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* ---------- Editorial ---------- */
-.edit-top {
-  width: 100%;
-  height: 10%;
-  margin: 10px 0px 30px;
-}
-
-.edit-text {
+/*-- Estilo para textos destacados dividos en dos bloques --*/
+.section-div-split {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
   padding: 30px 0px;
-}
-
-.edit-text.middle {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 0px;
 }
 
+.section-div-half {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.section-div-half-right {
+  letter-spacing: -2px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 100px 20px 0px;
+  color: #000000;
+  text-align: justify;
+  line-height: normal;
+}
+
+.section-div-half-left {
+  text-align: justify;
+  color: #000000;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+/* ---------- Editorial ---------- */
 .edit-text-span {
   color: #000000;
   font-size: 18px;
@@ -267,7 +287,6 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #000000;
-  margin-bottom: 50px;
 }
 
 .protag-h3 {
@@ -481,22 +500,6 @@
   font-weight: lighter;
 }
 
-.creamos-h2-micro {
-  color: #4b8241;
-  font-size: 22px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.creamos-h3-micro {
-  color: #000000;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: lighter;
-}
-
 .creamos-span-fabiola {
   font-family: Open Sans;
   font-style: italic;
@@ -529,6 +532,16 @@
   word-spacing: -1px;
   display: flex;
   align-items: center;
+}
+
+.creamos-div-img {
+  margin-bottom: 50px;
+}
+
+.creamos-img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
 }
 
 /* ---------- Despiertas ---------- */

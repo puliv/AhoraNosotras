@@ -18,18 +18,13 @@ export class Creamos extends Component {
           <h2 className="section-h2">Equipo Ahora Nosotras</h2>
         </div>
 
-        <div>
+        <div className="creamos-subtitles">
           <h2 className="creamos-h2-micro">Ilustración</h2>
           <h3 className="creamos-h3-micro">Por Carolina Leria</h3>
         </div>
 
-        <div className="creamos-image-div protag-div-image">
-          <img
-            src={creamos}
-            alt="creamos"
-            className="creamos-img protagonistas-img"
-          />
-          <span className="creamos-text-span">
+        <div className="section-div-span">
+          <span className="section-span">
             CREAMOS; es una sección pensada como un espacio de expresión,
             encuentro y desahogo entre compañeras por medio del arte. En este
             primer número de la Revista Ahora Nosotras dedicado al
@@ -44,10 +39,17 @@ export class Creamos extends Component {
           </span>
         </div>
 
-        <h2 className="creamos-h2-micro">Microcuento</h2>
-        <h3 className="creamos-h3-micro">
-          Por Margarita Portuguez G. Dirigenta Sindical
-        </h3>
+        <div className="creamos-div-img protag-div-aurora">
+          <img src={creamos} alt="creamos" className="creamos-img " />
+        </div>
+
+        <div className="creamos-subtitles">
+          <h2 className="creamos-h2-micro">Microcuento</h2>
+          <h3 className="creamos-h3-micro">
+            Por Margarita Portuguez G. Dirigenta Sindical
+          </h3>
+        </div>
+
         <div className="creamos-text-div-micro">
           <div className="creamos-div-left">
             <span className="creamos-span">

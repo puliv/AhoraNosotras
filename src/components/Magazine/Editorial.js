@@ -62,15 +62,15 @@ export class Editorial extends Component {
             susceptibles a la violencia y explotación.
           </span>
         </div>
-        <div className="edit-text  middle">
-          <div className="edit-text-div">
-            <span className="edit-text-span-middle right">
+        <div className="section-div-split">
+          <div className="section-div-half">
+            <span className="section-div-half-right">
               Más de la mitad de las mujeres se está haciendo cargo sola de las
               labores de cuidado y domésticas.
             </span>
           </div>
-          <div className="edit-text-div">
-            <span className="edit-text-span-middle left">
+          <div className="section-div-half">
+            <span className="section-div-half-left">
               Bajo el orden sexo-género imperante, el cuidado y el trabajo
               doméstico no remunerado prácticamente no tienen valoración y
               nuevamente, en plena cuarentena, se encuentra ejercido
@@ -86,7 +86,7 @@ export class Editorial extends Component {
           </div>
         </div>
 
-        <div className="edit-text">
+        <div className="section-div-split">
           <span className="section-span">
             Así, esta pandemia puede ser esta temida distopía que - tristemente-
             se hace realidad, pero también la oportunidad de quitarnos el

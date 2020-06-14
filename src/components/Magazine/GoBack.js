@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 export class GoBack extends Component {
   render() {
     return (
-      <div className="edit-top">
+      <div className="go-back-top">
         <Link to="/magazine">
-          <img src={back} alt="back" className="edit-back-icon" />
+          <img src={back} alt="back" className="go-back-icon" />
         </Link>
       </div>
     );
