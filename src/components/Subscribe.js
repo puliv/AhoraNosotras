@@ -132,9 +132,10 @@ export class Subscribe extends Component {
             </div>
           )}
           <div className="subscribe-div">
-            <h2 className="subscribe-h2">Súmate!</h2>
+            <h2 className="subscribe-h2">SÚMATE!</h2>
             <span className="subscribe-span">
-              Suscríbete a nuestro newsletter
+              Únete a la comunidad y entérate de todas las novedades de Ahora
+              Nosotras.
             </span>
           </div>
 

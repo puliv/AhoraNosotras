@@ -56,9 +56,7 @@ export class Magazine extends Component {
                               <h2 className="mag-h2">
                                 CRIAR Y CUIDAR TAMBIÉN ES TRABAJAR
                               </h2>
-                              <h4 className="mag-h4">
-                                POR EQUIPO AHORA NOSOTRAS
-                              </h4>
+                              <h4 className="mag-h4">POR ANITA MARTÍNEZ</h4>
                             </div>
                           </Link>
                         </Col>
@@ -119,7 +117,7 @@ export class Magazine extends Component {
                                 HOMENAJE A<br /> FABIOLA CAMPILLAY
                               </h2>
                               <h4 className="mag-h4">
-                                POR EQUIPO AHORA NOSOTRAS
+                                POR CARO LERIA Y MARGARITA PORTUGUEZ
                               </h4>
                             </div>
                           </Link>

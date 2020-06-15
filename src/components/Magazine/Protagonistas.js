@@ -14,7 +14,7 @@ export class Protagonistas extends Component {
         <div className="section-titles">
           <h3 className="section-h3">PROTAGONISTAS</h3>
           <h1 className="section-h1">
-            Aurora Pardo: “Chile es un mal empleador”.
+            Aurora Pardo: “Chile es un mal empleador”
           </h1>
           <h2 className="section-h2">Por Javiera López Layana</h2>
         </div>
@@ -60,10 +60,10 @@ export class Protagonistas extends Component {
             <span className="protag-span-aurora bold">
               “Durante los años que llevo presente en el sindicato y cuando
               Wal-Mart ha tratado de vulnerar los derechos fundamentales de los
-              trabajadores y <span className="p-aurora">trabajadoras</span>
+              trabajadores y <span className="p-aurora"> trabajadoras </span>
               siempre he tratado de estar presente en las demandas que van en
               favor de mis compañeros y
-              <span className="p-aurora">compañeras</span>
+              <span className="p-aurora"> compañeras</span>
             </span>
             ”, explica Aurora Pardo, quien actualmente se desempeña como
             estudiante de Derecho en la Universidad Autónoma. Su motivación para
