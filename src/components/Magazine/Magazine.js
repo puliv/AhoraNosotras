@@ -140,7 +140,7 @@ export class Magazine extends Component {
                                 <br /> NO PAGADO
                               </h2>
                               <h4 className="mag-h4">
-                                POR @Vic_tonha_ Y CAMILA CASTILLO GUERRERO
+                                POR EQUIPO AHORA NOSOTRAS
                               </h4>
                             </div>
                           </Link>

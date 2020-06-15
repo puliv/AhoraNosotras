@@ -16,7 +16,7 @@ export class Opinamos extends Component {
           <div className="section-titles">
             <h3 className="section-h3">OPINAMOS</h3>
             <h1 className="section-h1">
-              Falta de correponsabilidad: Otro Síntoma de un mal pandémico
+              Falta de correponsabilidad: Otro síntoma de un mal pandémico
               llamado machismo
             </h1>
             <h2 className="section-h2">Por Paula Tina Mente</h2>

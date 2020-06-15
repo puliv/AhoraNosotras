@@ -104,12 +104,14 @@ export class Editorial extends Component {
           doméstico no remunerado son reconocidos y valorizados; sin son
           asumidos como una responsabilidad colectiva de una sociedad que pone
           en el centro la vida, garantizando la seguridad social de todos
-          quienes la componen, sin distinción. #AhoraNosotras pretende ser,
-          entonces, no solo una revista feminista, sino que ese espacio de
-          construcción entre mujeres, en que todas y todes estamos invitadas a
-          sacar la voz. A relatar nuestra vida en primera persona. Porque la
-          experiencia de cada una es también nuestra y nos permite delinear un
-          nuevo futuro alegre, justo y digno.
+          quienes la componen, sin distinción.
+        </span>
+        <span className="section-span">
+          #AhoraNosotras pretende ser, entonces, no solo una revista feminista,
+          sino que ese espacio de construcción entre mujeres, en que todas y
+          todes estamos invitadas a sacar la voz. A relatar nuestra vida en
+          primera persona. Porque la experiencia de cada una es también nuestra
+          y nos permite delinear un nuevo futuro alegre, justo y digno.
         </span>
         <div className="credits">
           <img

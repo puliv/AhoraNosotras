@@ -58,7 +58,7 @@ export class Learning extends Component {
               />
             </div>
             <div className="learning-video-text">
-              <h3 className="learning-h3">Ingreso Familiar de Emergencia.</h3>
+              <h3 className="learning-h3">Ingreso Familiar de Emergencia</h3>
               <span className="learning-span-video">
                 En el contexto de la actual crisis sanitaria mundial por
                 Coronavirus, conversamos con Mercedes D Alessandro, quien
@@ -81,7 +81,7 @@ export class Learning extends Component {
             </div>
             <div className="learning-video-text">
               <h3 className="learning-h3">
-                Procesos Constituyentes y Constituciones: Una Lectura de Género.
+                Procesos Constituyentes y Constituciones: Una Lectura de Género
               </h3>
               <span className="learning-span-video">
                 Charla dirigida a reflexionar sobre cómo la perspectiva de

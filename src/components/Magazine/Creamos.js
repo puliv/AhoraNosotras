@@ -14,7 +14,7 @@ export class Creamos extends Component {
         <div className="section-titles">
           <h3 className="section-h3">CREAMOS</h3>
           <h1 className="section-h1">Homenaje a Fabiola Campillay</h1>
-          <h2 className="section-h2">Equipo Ahora Nosotras</h2>
+          <h2 className="section-h2">Por Caro Leria y Margarita Portuguez</h2>
         </div>
 
         <div className="creamos-subtitles">
@@ -25,8 +25,8 @@ export class Creamos extends Component {
         <div className="section-div-span">
           <span className="section-span">
             CREAMOS; es una sección pensada como un espacio de expresión,
-            encuentro y desahogo entre compañeras por medio del arte. En este
-            primer número de la Revista Ahora Nosotras dedicado al
+            encuentro y desahogo entre compañeras por medio de la creatividad.
+            En este primer número de la Revista Ahora Nosotras dedicado al
             reconocimiento de las mujeres trabajadoras de nuestro país,
             realizamos un homenaje a Fabiola Campillay. Con 36 años y 3 hijos,
             esta vecina de la población Cinco Pinos de San Bernardo, que en

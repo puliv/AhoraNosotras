@@ -16,7 +16,7 @@ export class Protagonistas extends Component {
           <h1 className="section-h1">
             Aurora Pardo: “Chile es un mal empleador”.
           </h1>
-          <h2 className="section-h2">Por Javiera López Layana.</h2>
+          <h2 className="section-h2">Por Javiera López Layana</h2>
         </div>
 
         <div className="section-img-div">
