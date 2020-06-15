@@ -118,9 +118,9 @@ export class Header extends Component {
                 </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("profiles")}>
-                <a href="/profiles">
+                <Link to="/profiles">
                   <span className="drawer-h3">PROTAGONISTAS</span>
-                </a>
+                </Link>
               </li>
               <li onClick={() => this.handleOnClickScroll("subscribe")}>
                 <Link to="/subscribe">

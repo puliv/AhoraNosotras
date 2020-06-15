@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
-import creditos from "../../assets/img/CREDITOS.png";
 
 export class Editorial extends Component {
   componentDidMount() {
@@ -116,7 +115,13 @@ export class Editorial extends Component {
           </span>
         </div>
         <div className="credits">
-          <img src={creditos} alt="Creditos" className="credits-img" />
+          <img
+            src={
+              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/img/CREDITOS.png?raw=true"
+            }
+            alt="Creditos"
+            className="credits-img"
+          />
         </div>
         <ReadNext section={"editorial"} />
       </div>

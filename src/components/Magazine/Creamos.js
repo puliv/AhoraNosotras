@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import creamos from "../../assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 
@@ -40,7 +39,13 @@ export class Creamos extends Component {
         </div>
 
         <div className="creamos-div-img protag-div-aurora">
-          <img src={creamos} alt="creamos" className="creamos-img " />
+          <img
+            src={
+              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png?raw=true"
+            }
+            alt="creamos"
+            className="creamos-img "
+          />
         </div>
 
         <div className="creamos-subtitles">

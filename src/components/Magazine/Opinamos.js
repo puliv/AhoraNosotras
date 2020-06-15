@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import GoBack from "./GoBack";
 import ReadNext from "./ReadNext";
-import opinamos from "../../assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png";
 
 export class Opinamos extends Component {
   componentDidMount() {
@@ -24,7 +23,13 @@ export class Opinamos extends Component {
           </div>
 
           <div className="section-img-div">
-            <img src={opinamos} alt="Opinamos" className="section-img" />
+            <img
+              src={
+                "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png?raw=true"
+              }
+              alt="Opinamos"
+              className="section-img"
+            />
           </div>
           <div className="section-div-span">
             <span className="section-span">
