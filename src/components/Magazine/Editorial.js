@@ -85,35 +85,32 @@ export class Editorial extends Component {
           </div>
         </div>
 
-        <div className="section-div-split">
-          <span className="section-span">
-            Así, esta pandemia puede ser esta temida distopía que - tristemente-
-            se hace realidad, pero también la oportunidad de quitarnos el
-            vendaje. Y esa apertura no puede ser en solitario, porque si hay
-            algo que nos ha legado el movimiento feminista ha sido,
-            precisamente, la capacidad de cuestionarnos el mundo en el que
-            vivimos, criticarlo e incomodarlo, nombrando lo que nadie se atreve
-            a nombrar. En ese camino de superación del patriarcado y sus
-            distintas formas de dominación, las redes de mujeres han cumplido y
-            cumplirán un rol vital, porque nos enseñan de solidaridad, pero
-            también porque la pobreza, el dolor y la esperanza se viven mejor
-            compartidas.
-          </span>
-          <span className="section-span">
-            En esa tarea los hombres también han de participar, porque este
-            modelo se ha de derrumbar asumiendo ellos también esa toma de
-            consciencia. No tenemos duda, otro Chile es posible si los cuidados
-            y el trabajo doméstico no remunerado son reconocidos y valorizados;
-            sin son asumidos como una responsabilidad colectiva de una sociedad
-            que pone en el centro la vida, garantizando la seguridad social de
-            todos quienes la componen, sin distinción. #AhoraNosotras pretende
-            ser, entonces, no solo una revista feminista, sino que ese espacio
-            de construcción entre mujeres, en que todas y todes estamos
-            invitadas a sacar la voz. A relatar nuestra vida en primera persona.
-            Porque la experiencia de cada una es también nuestra y nos permite
-            delinear un nuevo futuro alegre, justo y digno.
-          </span>
-        </div>
+        <span className="section-span">
+          Así, esta pandemia puede ser esta temida distopía que - tristemente-
+          se hace realidad, pero también la oportunidad de quitarnos el vendaje.
+          Y esa apertura no puede ser en solitario, porque si hay algo que nos
+          ha legado el movimiento feminista ha sido, precisamente, la capacidad
+          de cuestionarnos el mundo en el que vivimos, criticarlo e incomodarlo,
+          nombrando lo que nadie se atreve a nombrar. En ese camino de
+          superación del patriarcado y sus distintas formas de dominación, las
+          redes de mujeres han cumplido y cumplirán un rol vital, porque nos
+          enseñan de solidaridad, pero también porque la pobreza, el dolor y la
+          esperanza se viven mejor compartidas.
+        </span>
+        <span className="section-span">
+          En esa tarea los hombres también han de participar, porque este modelo
+          se ha de derrumbar asumiendo ellos también esa toma de consciencia. No
+          tenemos duda, otro Chile es posible si los cuidados y el trabajo
+          doméstico no remunerado son reconocidos y valorizados; sin son
+          asumidos como una responsabilidad colectiva de una sociedad que pone
+          en el centro la vida, garantizando la seguridad social de todos
+          quienes la componen, sin distinción. #AhoraNosotras pretende ser,
+          entonces, no solo una revista feminista, sino que ese espacio de
+          construcción entre mujeres, en que todas y todes estamos invitadas a
+          sacar la voz. A relatar nuestra vida en primera persona. Porque la
+          experiencia de cada una es también nuestra y nos permite delinear un
+          nuevo futuro alegre, justo y digno.
+        </span>
         <div className="credits">
           <img
             src={
