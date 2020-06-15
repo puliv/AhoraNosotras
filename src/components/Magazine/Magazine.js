@@ -75,9 +75,7 @@ export class Magazine extends Component {
                                 VALDIVIA
                                 <br /> SOLIDARIA
                               </h2>
-                              <h4 className="mag-h4">
-                                POR @Vic_tonha_ Y CAMILA CASTILLO GUERRERO
-                              </h4>
+                              <h4 className="mag-h4">POR @Vic_tonha_</h4>
                             </div>
                           </Link>
                         </Col>
