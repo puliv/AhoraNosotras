@@ -182,7 +182,7 @@ export class Protagonistas extends Component {
 
         <div className="protag-div-text">
           <div className="div-question">
-            <h2 className="protag-h2-crisis">La crisis en primera persona.</h2>
+            <h2 className="protag-h2-crisis">La crisis en primera persona</h2>
 
             <div className="section-div-split">
               <div className="crisis-left">
