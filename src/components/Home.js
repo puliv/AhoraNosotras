@@ -21,14 +21,16 @@ export class Home extends Component {
               />
             </Link>
           </div>
-          <div className="home-infography">
-            <h2 className="about-us-h2 how-work">¿Cómo funciona la comunidad #AhoraNosotras?</h2>
-            <img
-              src={howThisWork}
-              alt="Como funciona la comunidad"
-              className="home-info-img"
-            />
-          </div>
+          <Link to="/aboutUs">
+            <div className="home-infography">
+              <h2 className="about-us-h2 how-work">¿Cómo funciona la Comunidad Ahora Nosotras?</h2>
+              <img
+                src={howThisWork}
+                alt="Como funciona la comunidad"
+                className="home-info-img"
+              />
+            </div>
+          </Link>
           <Element name="profiles">
             <div id="profiles" className="home-section">
               <Profiles />

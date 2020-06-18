@@ -24,7 +24,7 @@ export class Creamos extends Component {
 
         <div className="section-div-span">
           <span className="section-span">
-            CREAMOS; es una sección pensada como un espacio de expresión,
+            Creamos es una sección pensada como un espacio de expresión,
             encuentro y desahogo entre compañeras por medio de la creatividad.
             En este primer número de la Revista Ahora Nosotras dedicado al
             reconocimiento de las mujeres trabajadoras de nuestro país,
@@ -38,7 +38,7 @@ export class Creamos extends Component {
           </span>
         </div>
 
-        <div className="creamos-div-img protag-div-aurora">
+        <div className="creamos-div-img">
           <img
             src={
               "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png?raw=true"

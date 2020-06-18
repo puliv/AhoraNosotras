@@ -1,7 +1,7 @@
 @import "~antd/dist/antd.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* ---------- Go Back ---------- */
+
 .go-back-top {
   width: 100%;
   height: 10%;
@@ -13,8 +13,8 @@
 .section {
   width: 100%;
   height: auto;
-  padding: 30px 150px 0px;
-  background-color: #f6f6f6;
+  padding: 20px 150px 0px;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -26,8 +26,7 @@
 }
 
 .section-h1 {
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #4d4d4d;
   font-size: 35px;
 }
@@ -77,6 +76,7 @@
 }
 
 /*-- Estilo para textos destacados dividos en dos bloques --*/
+
 .section-div-split {
   width: 100%;
   height: auto;
@@ -104,8 +104,7 @@
 }
 
 .section-div-half-left {
-  font-family: "Roboto",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: justify;
   color: #000000;
   padding: 0px 10px;
@@ -113,6 +112,7 @@
 }
 
 /* ---------- Editorial ---------- */
+
 .edit-text-span {
   color: #000000;
   font-size: 18px;
@@ -147,6 +147,7 @@
 }
 
 /* ---------- Credits ---------- */
+
 .credits {
   padding-top: 100px;
   width: 100%;
@@ -160,6 +161,7 @@
 }
 
 /* ---------- Protagonistas ---------- */
+
 .protag-div-image {
   width: 100%;
   height: auto;
@@ -254,8 +256,7 @@
   margin-bottom: 40px;
 }
 
-.crisis-right,
-.crisis-left {
+.crisis-right, .crisis-left {
   width: 50%;
   height: 100%;
   text-align: justify;
@@ -282,7 +283,7 @@
 
 .protag-h2-work-future {
   font-weight: bold;
-  color: #4b8241;
+  color: #35cc05;
   font-family: "Roboto", sans-serif;
   margin-bottom: 40px;
 }
@@ -291,7 +292,7 @@
   font-size: 25px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  color: #4b8241;
+  color: #35cc05;
 }
 
 .protag-h3 {
@@ -406,54 +407,18 @@
   letter-spacing: -2px;
 }
 
-.protag-span-bottom {
-  font-family: "Roboto", sans-serif;
-  color: #000000;
-  text-align: justify;
-  font-size: 18px;
-}
-
-.protag-span-work-future {
-  font-family: "Roboto", sans-serif;
-  color: #000000;
-  text-align: justify;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
 .protag-span-work-future.bold {
   font-weight: bold;
 }
 
 /* ---------- Hablamos ---------- */
+
 .hablamos-div-text {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-}
-
-.hablamos-text-span {
-  width: 50%;
-  color: #000000;
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-size: 27px;
-  text-align: justify;
-  line-height: normal;
-  display: flex;
-  align-items: center;
-}
-
-.hablamos-span {
-  width: 100%;
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-  color: #000000;
-  text-align: justify;
-  font-size: 18px;
-  margin-bottom: 35px;
 }
 
 /* ---------- Creamos ---------- */
@@ -464,8 +429,7 @@
   display: flex;
 }
 
-.creamos-div-left,
-.creamos-div-right {
+.creamos-div-left, .creamos-div-right {
   width: 50%;
   height: 100%;
   text-align: justify;
@@ -482,15 +446,8 @@
   padding-top: 70px;
 }
 
-.creamos-text-div {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-
 .creamos-h2-micro {
-  color: #4b8241;
+  color: #35cc05;
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -501,7 +458,7 @@
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-style: italic;
+  font-style: italic !important;
   font-weight: lighter;
 }
 
@@ -524,23 +481,14 @@
   margin-bottom: 35px;
 }
 
-.creamos-text-span {
-  width: 50%;
-  padding-left: 25px;
-  color: #000000;
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: lighter;
-  text-align: justify;
-  line-height: normal;
-  word-spacing: -1px;
-  display: flex;
-  align-items: center;
-}
-
 .creamos-div-img {
+  width: 100%;
+  height: auto;
   margin-bottom: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d969d966;
 }
 
 .creamos-img {
@@ -550,11 +498,12 @@
 }
 
 /* ---------- Despiertas ---------- */
+
 .despiertas-div {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 50px 10px;
+  padding: 30px 10px;
 }
 
 .despiertas-img {
@@ -564,6 +513,7 @@
 }
 
 /* ---------- Opinamos ---------- */
+
 .opinamos-img-div {
   width: 100%;
 }
@@ -595,6 +545,7 @@
 }
 
 /* ---------- Historicas ---------- */
+
 .historicas-img-div {
   height: 100%;
   width: 100%;
@@ -609,6 +560,7 @@
 }
 
 /* ---------- ReadNext ---------- */
+
 .read-next {
   width: 100%;
   height: auto;
@@ -647,12 +599,10 @@
   cursor: pointer;
 }
 
-.arrow-right,
-.arrow-left {
+.arrow-right, .arrow-left {
   color: #630164;
 }
 
-.arrow-left:hover,
-.arrow-right:hover {
+.arrow-left:hover, .arrow-right:hover {
   color: #d969d9;
 }

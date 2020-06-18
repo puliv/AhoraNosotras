@@ -154,6 +154,9 @@ export class Magazine extends Component {
                             />
                             <span className="mag-h2-historicas">
                               HISTÓRICAS
+                              <h4 className="mag-h4" style={{ paddingLeft: '10px' }}>
+                                POR LUISA RIVERA
+                              </h4>
                             </span>
                           </Col>
                         </Link>
