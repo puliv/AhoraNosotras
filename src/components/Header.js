@@ -1,41 +1,34 @@
-import React, { Component } from "react";
-import { Drawer } from "antd";
-import { MenuOutlined } from "@ant-design/icons";
+import React, { Component } from "react"
+import { Drawer } from "antd"
+import { MenuOutlined } from "@ant-design/icons"
 import {
   InstagramOutlined,
   FacebookFilled,
   TwitterOutlined,
-} from "@ant-design/icons";
-import anlogo from "../assets/logos/ahora-nosotras.png";
-import closeIcon from "../assets/icons/close-icon.svg";
-import { Link } from "react-router-dom";
-import { animateScroll as scroll, scroller } from "react-scroll";
+} from "@ant-design/icons"
+import anlogo from "../assets/logos/ahora-nosotras.png"
+import closeIcon from "../assets/icons/close-icon.svg"
+import { Link } from "react-router-dom"
+import { animateScroll as scroll } from "react-scroll"
 
-const scrollToSection = {
-  duration: 600,
-  delay: 100,
-  smooth: true,
-  offset: -60,
-};
 
 export class Header extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       openMenu: false,
-    };
+    }
   }
 
   handleOnClickScroll = (section) => {
     this.setState({
       openMenu: false,
-    });
-    scroller.scrollTo(section, scrollToSection);
-  };
+    })
+  }
 
   render() {
-    const { openMenu } = this.state;
+    const { openMenu } = this.state
 
     return (
       <div className="header">
@@ -76,7 +69,7 @@ export class Header extends Component {
           <MenuOutlined
             className="header-icon menu"
             onClick={() => {
-              this.setState({ openMenu: true });
+              this.setState({ openMenu: true })
             }}
           />
         </div>
@@ -85,7 +78,7 @@ export class Header extends Component {
           closable={false}
           width={300}
           onClose={() => {
-            this.setState({ openMenu: false });
+            this.setState({ openMenu: false })
           }}
           drawerStyle={{ backgroundColor: "#000" }}
           placement={"right"}
@@ -96,7 +89,7 @@ export class Header extends Component {
               alt="Cerrar"
               className="drawer-close-icon"
               onClick={() => {
-                this.setState({ openMenu: false });
+                this.setState({ openMenu: false })
               }}
             />
           </div>
@@ -154,8 +147,8 @@ export class Header extends Component {
           </div>
         </Drawer>
       </div>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header

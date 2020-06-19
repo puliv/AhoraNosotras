@@ -19,7 +19,7 @@ export class Creamos extends Component {
 
         <div className="creamos-subtitles">
           <h2 className="creamos-h2-micro">Ilustración</h2>
-          <h3 className="creamos-h3-micro">Por Carolina Leria</h3>
+          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>Por Carolina Leria</h3>
         </div>
 
         <div className="section-div-span">
@@ -50,7 +50,7 @@ export class Creamos extends Component {
 
         <div className="creamos-subtitles">
           <h2 className="creamos-h2-micro">Microcuento</h2>
-          <h3 className="creamos-h3-micro">
+          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>
             Por Margarita Portuguez G. Dirigenta Sindical
           </h3>
         </div>

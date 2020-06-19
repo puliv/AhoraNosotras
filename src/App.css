@@ -135,10 +135,19 @@ li {
 }
 
 .home-infography {
-  margin: 60px 0px 30px;
+  margin: 50px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.home-video {
+  background-color: #630164;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
 }
 
 .home-info-img {
@@ -446,6 +455,19 @@ li {
   color: #4d4d4d;
 }
 
+.mag-h4-historicas {
+  height: 30%;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  color: #4d4d4d;
+}
+
 .mag-scroll-row-horizontal {
   width: 100%;
   height: 200px;
@@ -485,9 +507,10 @@ li {
 .mag-backcover-col {
   width: 100%;
   height: 100%;
-  padding: 10px 5px;
-  box-shadow: 0px 6px 6px #00000028;
+  padding: 10px 5px 0px;
+  margin-bottom: 10px;
   cursor: pointer;
+  box-shadow: 0px 6px 6px #00000028;
 }
 
 .mag-backcover-img {
@@ -502,14 +525,11 @@ li {
 .mag-h2-historicas {
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   color: #630164;
   line-height: 1;
-  background-color: #f6f6f6;
-  box-shadow: 0px 6px 6px #00000028;
 }
 
 .historical-section {
@@ -861,10 +881,6 @@ li {
   padding-top: 60px;
 }
 
-/* .subscribe-active {
-  padding-top: 60px;
-} */
-
 .subscribe-div-alert {
   display: none;
 }
@@ -914,8 +930,8 @@ li {
   color: #f6f6f6;
 }
 
-.subscribe-span.item {
-  color: #d969d9;
+.subscribe-span {
+  font-size: 17px;
 }
 
 .subscribe-h2 {
@@ -949,13 +965,13 @@ li {
 .subscribe-btn {
   margin: 10px 0px;
   background-color: #1a1a1a;
-  border-color: #D969D9;
-  color: #D969D9;
+  border-color: #FFC801;
+  color: #FFC801;
 }
 
 .subscribe-btn:hover, .subscribe-btn:focus {
-  background-color: #D969D9;
-  border-color: #D969D9;
+  background-color: #FFC801;
+  border-color: #FFC801;
   color: #1a1a1a;
 }
 
@@ -981,7 +997,7 @@ li {
   width: auto;
   height: auto;
   display: flex;
-  border-top: solid #808080;
+  border-top: solid #FFC801;
   border-width: 1px;
   margin: 0px 10vw;
   padding: 25px 0px !important;

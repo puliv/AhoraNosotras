@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import protagonistas from "../protagonistas.json";
+import { animateScroll as scroll } from 'react-scroll'
 
 export class Profiles extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ export class Profiles extends Component {
   componentDidMount() {
     const { protagonistas } = this.state;
 
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
 
     if (protagonistas) {
       this.setState({

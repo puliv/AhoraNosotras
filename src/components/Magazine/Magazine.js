@@ -152,12 +152,15 @@ export class Magazine extends Component {
                               alt="backcover"
                               className="mag-backcover-img"
                             />
-                            <span className="mag-h2-historicas">
-                              HISTÓRICAS
-                              <h4 className="mag-h4" style={{ paddingLeft: '10px' }}>
+                            <div className="mag-backcover-text">
+                              <span className="mag-h2-historicas">
+                                HISTÓRICAS
+                            </span>
+                              <h4 className="mag-h4-historicas">
                                 POR LUISA RIVERA
                               </h4>
-                            </span>
+                            </div>
+
                           </Col>
                         </Link>
                       </Row>

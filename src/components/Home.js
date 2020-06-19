@@ -3,8 +3,8 @@ import { Profiles } from '../components/Profiles.js'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import { Subscribe } from './Subscribe.js'
 import portada from '../assets/REVISTA_AHORA_NOSOTRAS/1_PORTADA/portada_revista.jpg'
-import { Element } from 'react-scroll';
 import { Link } from 'react-router-dom';
+import ReactPlayer from "react-player";
 
 
 export class Home extends Component {
@@ -31,16 +31,20 @@ export class Home extends Component {
               />
             </div>
           </Link>
-          <Element name="profiles">
-            <div id="profiles" className="home-section">
-              <Profiles />
-            </div>
-          </Element>
-          <Element name="subscribe">
-            <div id="subscribe" className="home-section">
-              <Subscribe />
-            </div>
-          </Element>
+          <div className="home-video">
+            <ReactPlayer
+              url="https://vimeo.com/429805329"
+              controls
+              width={900}
+              height={550}
+            />
+          </div>
+          <div id="profiles" className="home-section">
+            <Profiles />
+          </div>
+          <div id="subscribe" className="home-section">
+            <Subscribe />
+          </div>
         </div>
       </React.Fragment>
     )
