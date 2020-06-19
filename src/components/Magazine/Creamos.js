@@ -14,12 +14,7 @@ export class Creamos extends Component {
         <div className="section-titles">
           <h3 className="section-h3">CREAMOS</h3>
           <h1 className="section-h1">Homenaje a Fabiola Campillay</h1>
-          <h2 className="section-h2">Por Caro Leria y Margarita Portuguez</h2>
-        </div>
-
-        <div className="creamos-subtitles">
-          <h2 className="creamos-h2-micro">Ilustración</h2>
-          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>Por Carolina Leria</h3>
+          <h2 className="section-h2">Por Carolina Leria y Margarita Portuguez</h2>
         </div>
 
         <div className="section-div-span">
@@ -36,6 +31,11 @@ export class Creamos extends Component {
             lacrimógena lanzada por el represivo actuar de Carabineros, a menos
             de 20 metros de su rostro, perdió sus dos ojos y exige justicia.
           </span>
+        </div>
+
+        <div className="creamos-subtitles">
+          <h2 className="creamos-h2-micro">Ilustración</h2>
+          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>Por Carolina Leria</h3>
         </div>
 
         <div className="creamos-div-img">

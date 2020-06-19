@@ -121,7 +121,7 @@ li {
   height: auto;
   display: flex;
   justify-content: center;
-  background-color: #FFC801;
+  background-color: #D969D9;
   padding: 120px 0px 50px;
   position: relative;
   scroll-snap-stop: start;
@@ -965,13 +965,13 @@ li {
 .subscribe-btn {
   margin: 10px 0px;
   background-color: #1a1a1a;
-  border-color: #FFC801;
-  color: #FFC801;
+  border-color: #D969D9;
+  color: #D969D9;
 }
 
 .subscribe-btn:hover, .subscribe-btn:focus {
-  background-color: #FFC801;
-  border-color: #FFC801;
+  background-color: #D969D9;
+  border-color: #D969D9;
   color: #1a1a1a;
 }
 
@@ -997,7 +997,7 @@ li {
   width: auto;
   height: auto;
   display: flex;
-  border-top: solid #FFC801;
+  border-top: solid #D969D9;
   border-width: 1px;
   margin: 0px 10vw;
   padding: 25px 0px !important;

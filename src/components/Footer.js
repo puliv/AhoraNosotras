@@ -19,13 +19,13 @@ export class Footer extends Component {
           </div>
           <div className="footer-social-media-div">
             <a href="https://www.facebook.com/AhoraNosotrasRD/" target="_blank" rel="noopener noreferrer">
-              <FacebookFilled className="footer-icon social" style={{ color: '#FFC801' }} />
+              <FacebookFilled className="footer-icon social" style={{ color: '#D969D9' }} />
             </a>
             <a href="https://twitter.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
-              <TwitterOutlined className="footer-icon social" style={{ color: '#FFC801' }} />
+              <TwitterOutlined className="footer-icon social" style={{ color: '#D969D9' }} />
             </a>
             <a href="https://www.instagram.com/AhoraNosotrasRD" target="_blank" rel="noopener noreferrer">
-              <InstagramOutlined className="footer-icon social" style={{ color: '#FFC801' }} />
+              <InstagramOutlined className="footer-icon social" style={{ color: '#D969D9' }} />
             </a>
           </div>
         </div>
