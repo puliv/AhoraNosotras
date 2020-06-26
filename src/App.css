@@ -205,6 +205,7 @@ li {
   width: 100%;
   height: auto;
   padding: 60px 50px 100px;
+  text-align: justify;
 }
 
 .about-us-img {
@@ -226,6 +227,7 @@ li {
 
 .about-us-span {
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 .about-us-h2, .about-us-span {
@@ -235,8 +237,8 @@ li {
 
 .about-us-span-us {
   text-align: justify !important;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 19vw;
+  padding-right: 19vw;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
@@ -251,11 +253,6 @@ li {
 
 .about-us-h2 {
   margin-bottom: 40px;
-}
-
-.about-us-span {
-  font-size: 20px;
-  text-align: center !important;
 }
 
 .about-us-span.date {
@@ -284,7 +281,7 @@ li {
 }
 
 .about-us-span-container {
-  width: 10%;
+  width: 13%;
   height: 100%;
   background-color: #630164;
   padding: 0px 5px;
@@ -294,6 +291,7 @@ li {
 }
 
 .about-us-span-date {
+  font-size: 12px;
   width: 100%;
   height: 50%;
   background-color: #630164;
@@ -313,8 +311,9 @@ li {
 }
 
 .about-us-span-text {
-  width: 90%;
+  width: 87%;
   padding-left: 10px;
+  padding-right: 10px;
   font-weight: 400;
 }
 
@@ -1049,11 +1048,130 @@ li {
 
 /* ------------------------ Media Queries ------------------------ */
 
-@media only screen and (max-width: 1000px) {
-  .App {
+@media only screen and (max-width: 880px) {
+  .header-social-media-div {
     display: none;
   }
-  div.temporal-div {
-    display: block;
+  .header-img-anlogo {
+    width: 70px;
+    margin: 15px 0px 15px 20px;
+  }
+  /* ------ AboutUs ------ */
+  .about-us-span-us {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .about-us-span.date {
+    padding: 0px 9vw;
+  }
+  .about-us-ul {
+    padding: 0px 18vw;
+  }
+  .about-us-span-container {
+    width: 14%;
+    padding: 0px 2px;
+  }
+  .about-us-span-text {
+    padding-right: 8px;
+    font-size: 1.8vw;
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  /* ------ AboutUs ------ */
+  .about-us-h2, .about-us-h4 {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+  }
+  .about-us-img {
+    padding: 0px 15vw 0px 20vw;
+  }
+  .about-us-span-us {
+    font-size: 2.7vw;
+  }
+  .about-us-span.date {
+    padding: 0px 9vw;
+    font-size: 2.3vw;
+  }
+  .about-us-ul {
+    padding: 0px 14vw;
+  }
+  .about-us-span-container {
+    width: 16%;
+  }
+  .about-us-span-text {
+    width: 84%;
+  }
+  .about-us-title-logo {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* ------ AboutUs ------ */
+  .about-us-h2, .about-us-h4 {
+    font-size: 1.5em;
+  }
+  .about-us-h4 {
+    padding: 50px 0px 0px;
+  }
+  .about-us-img {
+    padding: 0px 10vw 0px 15vw;
+  }
+  .about-us-span-us {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 3.3vw;
+  }
+  .about-us-span.date {
+    padding: 0px 5vw;
+    font-size: 3vw;
+  }
+  .about-us-ul {
+    padding: 0px 5vw;
+  }
+  .about-us-span-container {
+    width: 17%;
+  }
+  .about-us-span-text {
+    width: 83%;
+    font-size: 2vw;
+  }
+  .about-us-title-logo {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  /* ------ AboutUs ------ */
+  .about-us-h2, .about-us-h4 {
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .about-us-h4 {
+    margin-bottom: 20px;
+  }
+  .about-us-img-div {
+    padding: 60px 10px 15px;
+  }
+  .about-us-span-us {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 4.5vw;
+  }
+  .about-us-span.date {
+    padding: 0px 0px;
+    font-size: 4.5vw;
+  }
+  .about-us-ul {
+    padding: 0px 0px;
+  }
+  .about-us-title-logo {
+    height: 120px;
+  }
+  .about-us-span-text {
+    font-size: 2.5vw;
   }
 }

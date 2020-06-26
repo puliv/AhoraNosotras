@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import howThisWork from "../assets/img/juntassomoscomunidad.png";
-import { Parallax } from "react-parallax";
-import keyDates from "../keyDates.json";
-// import { Menu, Dropdown } from 'antd';
-
+import React, { Component } from "react"
+import howThisWork from "../assets/img/juntassomoscomunidad.png"
+import { Parallax } from "react-parallax"
+import keyDates from "../keyDates.json"
+import { animateScroll as scroll } from 'react-scroll'
+// import { Menu, Dropdown } from 'antd'
 // const menu = (
 //   <Menu style={{ width: "100%", marginTop: "13px", border: "1px solid #630164" }}>
 //     <Menu.Item key="0">
@@ -14,22 +14,23 @@ import keyDates from "../keyDates.json";
 //     </Menu.Item>
 //     <Menu.Item key="2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</Menu.Item>
 //   </Menu>
-// );
+// )
 
 export class AboutUs extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       keyDates,
       dates: [],
-    };
+      width: window.innerWidth,
+      parallaxHeight: 0
+    }
   }
 
   componentDidMount() {
-    const { keyDates } = this.state;
-
-    window.scrollTo(0, 0);
+    const { keyDates, width } = this.state
+    scroll.scrollToTop()
 
     if (keyDates) {
       this.setState({
@@ -42,20 +43,26 @@ export class AboutUs extends Component {
               </span>
               <span className="about-us-span-text">{data.description}</span>
             </li>
-          );
-        }),
-      });
+          )
+        })
+      })
     }
+
+    width > 800 ? this.setState({ parallaxHeight: 600 }) : this.setState({ parallaxHeight: 250 })
   }
 
+
+
   render() {
+    const { parallaxHeight, dates } = this.state
+
     return (
       <div className="about-us-container">
         <Parallax
           bgImage={require("../assets/img/IMAGEN_1.1.png")}
           strength={200}
         >
-          <div style={{ height: "600px" }} />
+          <div style={{ height: parallaxHeight }} />
         </Parallax>
 
         <div className="about-us">
@@ -98,7 +105,7 @@ export class AboutUs extends Component {
               poder. Juntas imaginaremos un Nuevo Chile.
             </span>
             <h4 className="about-us-h4">Fechas Claves</h4>
-            <ul className="about-us-ul">{this.state.dates}</ul>
+            <ul className="about-us-ul">{dates}</ul>
           </div>
         </div>
 
@@ -106,11 +113,11 @@ export class AboutUs extends Component {
           bgImage={require("../assets/img/IMAGEN_1.3.png")}
           strength={200}
         >
-          <div style={{ height: "600px" }} />
+          <div style={{ height: parallaxHeight }} />
         </Parallax>
       </div>
-    );
+    )
   }
 }
 
-export default AboutUs;
+export default AboutUs
