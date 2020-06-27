@@ -1009,6 +1009,10 @@ li {
   padding-top: 20px;
 }
 
+.anticon.footer-icon.social {
+  color: #D969D9;
+}
+
 .footer-img-div-bottom {
   width: 50%;
 }
@@ -1094,6 +1098,16 @@ li {
   .subscribe-form {
     padding: 20px 17vw 0px;
   }
+  /* ------ Footer ------ */
+  .footer-span-div-bottom {
+    width: 35%;
+  }
+  .footer-img-div-bottom {
+    width: 65%;
+  }
+  .anticon.footer-icon.social {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1166,6 +1180,38 @@ li {
     padding: 0px 13vw;
     text-align: center;
   }
+  /* ------ Footer ------ */
+  .footer-img-anlogo {
+    width: 120px;
+  }
+  .anticon.footer-icon.social {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* ------ Footer ------ */
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-img-anlogo {
+    width: 150px;
+  }
+  .footer-span-div-bottom {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+  }
+  .footer-img-div-bottom {
+    width: 100%;
+    height: 50px;
+  }
+  .footer-span {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1223,6 +1269,13 @@ li {
   /* ------ Subscribe ------ */
   .subscribe-form {
     padding: 20px 10vw 0px;
+  }
+  /* ------ Footer ------ */
+  .footer-img-anlogo {
+    width: 160px;
+  }
+  .anticon.footer-icon.social {
+    font-size: 20px;
   }
 }
 
@@ -1293,6 +1346,46 @@ li {
   .subscribe-form {
     padding: 20px 8vw 0px;
   }
+  /* ------ Footer ------ */
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-span-div-bottom {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+  }
+  .footer-img-div-bottom {
+    width: 100%;
+    height: auto;
+  }
+  .footer-span {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-img-div-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-media-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .anticon.footer-icon.social {
+    font-size: 26px;
+  }
+  .footer-img-anlogo {
+    width: 170px;
+    padding: 20px 0px;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -1306,5 +1399,15 @@ li {
   /* ------ Profiles ------ */
   .profile-span {
     font-size: 14px;
+  }
+  /* ------ Footer ------ */
+  .footer-img-anlogo {
+    width: 200px;
+  }
+  .footer-img-rdlogo {
+    padding: 20px 0px;
+  }
+  .anticon.footer-icon.social {
+    font-size: 30px;
   }
 }
