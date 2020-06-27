@@ -1078,6 +1078,9 @@ li {
   .about-us-ul {
     padding: 0px 18vw;
   }
+  .about-us-li {
+    height: 64px;
+  }
   .about-us-span-container {
     width: 14%;
     padding: 0px 2px;
@@ -1121,6 +1124,7 @@ li {
   /* ------ AboutUs ------ */
   .about-us-h2, .about-us-h4 {
     font-size: 1.8em;
+    text-align: center;
   }
   .about-us-img {
     padding: 0px 15vw 0px 20vw;
@@ -1133,13 +1137,17 @@ li {
     font-size: 2.3vw;
   }
   .about-us-ul {
-    padding: 0px 14vw;
+    padding: 0px 12vw;
+  }
+  .about-us-li {
+    height: 66px;
   }
   .about-us-span-container {
     width: 16%;
   }
   .about-us-span-text {
     width: 84%;
+    /* font-size: 2vw; */
   }
   .about-us-title-logo {
     height: 180px;
@@ -1295,7 +1303,6 @@ li {
   /* ------ AboutUs ------ */
   .about-us-h2, .about-us-h4 {
     font-size: 1.5em;
-    text-align: center;
   }
   .about-us-h4 {
     margin-bottom: 20px;
@@ -1395,6 +1402,9 @@ li {
   }
   .how-work {
     padding: 0px 10px;
+  }
+  .about-us-span-text {
+    font-size: 3vw;
   }
   /* ------ Profiles ------ */
   .profile-span {
