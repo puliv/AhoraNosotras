@@ -879,6 +879,7 @@ li {
   width: 103vw;
   height: auto;
   padding-top: 60px;
+  background-color: #1a1a1a;
 }
 
 .subscribe-div-alert {
@@ -919,7 +920,6 @@ li {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #1a1a1a;
 }
 
 .subscribe-h2, .subscribe-span {
@@ -944,7 +944,6 @@ li {
   padding: 20px 22vw 0px;
   display: flex;
   flex-direction: column;
-  background-color: #1a1a1a;
 }
 
 .ant-form-item {
@@ -1091,6 +1090,10 @@ li {
   .profile-div {
     margin: 0px 8px;
   }
+  /* ------ Subscribe ------ */
+  .subscribe-form {
+    padding: 20px 17vw 0px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1155,6 +1158,14 @@ li {
     font-size: 4vw;
     color: #f6f6f6;
   }
+  /* ------ Subscribe ------ */
+  .subscribe-form {
+    padding: 20px 13vw 0px;
+  }
+  .subscribe-span {
+    padding: 0px 13vw;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1208,6 +1219,10 @@ li {
   }
   .profile-text-div {
     bottom: 40px;
+  }
+  /* ------ Subscribe ------ */
+  .subscribe-form {
+    padding: 20px 10vw 0px;
   }
 }
 
@@ -1273,6 +1288,10 @@ li {
   .profile-span {
     padding: 0px 30px;
     font-size: 15px;
+  }
+  /* ------ Subscribe ------ */
+  .subscribe-form {
+    padding: 20px 8vw 0px;
   }
 }
 
