@@ -115,17 +115,15 @@ export class Subscribe extends Component {
       alert,
       alertData,
     } = this.state;
+    const { renderFromHome } = this.props
 
-    const alertStyle = classNames(
-      `subscribe-div-alert alert-${this.state.alertData.type}`,
-      {
-        "subscribe-div-alert-active": alert,
-      }
-    );
+    const alertStyle = classNames(`subscribe-div-alert alert-${this.state.alertData.type}`, { "subscribe-div-alert-active": alert, })
+    const subscribeStyle = classNames(`subscribe`, { "subscribe-active": renderFromHome })
+
 
     return (
       <React.Fragment>
-        <div className="subscribe">
+        <div className={subscribeStyle}>
           {alert && (
             <div className={alertStyle}>
               <span className="subscribe-span-alert">{alertData.message}</span>

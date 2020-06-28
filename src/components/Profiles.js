@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import protagonistas from "../protagonistas.json";
 import { animateScroll as scroll } from 'react-scroll'
+import classNames from "classnames";
+
 
 export class Profiles extends Component {
   constructor(props) {
@@ -45,9 +47,12 @@ export class Profiles extends Component {
   }
 
   render() {
+    const { renderFromHome } = this.props
     const { protag } = this.state;
+    const profileStyle = classNames(`profile`, { "profile-active": renderFromHome, })
+
     return (
-      <div className="profile">
+      <div className={profileStyle}>
         <div className="profile-header">
           <h2 className="profile-h2"> PROTAGONISTAS </h2>
           <span className="profile-span">

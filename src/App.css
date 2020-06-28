@@ -326,7 +326,6 @@ li {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  /* background-color: #f6f6f6; */
 }
 
 .mag-top {
@@ -411,7 +410,6 @@ li {
 .mag-ver-text {
   height: 50%;
   max-height: 150px;
-  /* background-color: #f6f6f6; */
   background-color: #fff;
   box-shadow: 0px 6px 6px #00000028;
   display: flex;
@@ -470,7 +468,6 @@ li {
   width: 100%;
   height: 200px;
   margin-bottom: 15px;
-  /* background-color: #f6f6f6; */
   background-color: #fff;
   padding: 10px;
   box-shadow: 0px 6px 6px #00000028;
@@ -572,7 +569,6 @@ li {
 .learning {
   width: 103vw;
   height: auto;
-  background-color: #f6f6f6;
   display: flex;
   flex-direction: column !important;
   text-align: justify !important;
@@ -581,10 +577,10 @@ li {
 }
 
 .learning-div-talk {
+  width: 100%;
   padding: 60px 10vw;
   display: flex;
   flex-direction: column;
-  background-color: #f6f6f6;
 }
 
 .learning-video-div {
@@ -647,7 +643,7 @@ li {
 }
 
 .intro {
-  padding: 0px 200px;
+  padding: 0px 20vw;
 }
 
 .learning-span-video {
@@ -683,7 +679,7 @@ li {
   width: 180px;
   background-color: #630164;
   display: flex;
-  justify-content: center !important;
+  justify-content: center;
   border-radius: 20px;
   border: solid #630164;
   padding: 10px 20px;
@@ -693,7 +689,7 @@ li {
 .learning-btn:hover {
   background-color: #d969d9;
   border-color: #d969d9;
-  color: #f6f6f6 !important;
+  color: #f6f6f6;
 }
 
 .learning-btn-a:hover, .learning-btn-a {
@@ -701,7 +697,6 @@ li {
 }
 
 .learning-div-pdf {
-  background-color: #f6f6f6;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -737,11 +732,18 @@ li {
   margin-right: 5px;
 }
 
-.pdf-h2, .pdf-span {
+.pdf-h2 {
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center !important;
+  font-family: "Roboto", sans-serif;
+  color: #35cc05;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .pdf-span {
+  margin-bottom: 40px;
   padding: 0px 20px;
   text-align: center !important;
 }
@@ -752,6 +754,10 @@ li {
   width: 103vw;
   height: auto;
   padding-top: 40px;
+}
+
+.profile-active {
+  padding-top: 0px;
 }
 
 .profile-header {
@@ -880,6 +886,10 @@ li {
   height: auto;
   padding-top: 60px;
   background-color: #1a1a1a;
+}
+
+.subscribe-active {
+  padding-top: 0px;
 }
 
 .subscribe-div-alert {
@@ -1090,6 +1100,49 @@ li {
     font-size: 1.8vw;
     width: 86%;
   }
+  /* ------ Learning ------ */
+  .intro {
+    padding: 0px 18vw;
+  }
+  .learning-text {
+    width: 100%;
+    padding: 100px 0px 50px;
+  }
+  .learning-span {
+    font-size: 22px;
+  }
+  .learning-video-text {
+    padding: 0px 11vw;
+  }
+  .learning-div-talk {
+    padding: 40px 9vw 60px;
+  }
+  .learning-video-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .learning-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .learning-div-pdf {
+    padding: 0px 9vw 0px 12vw;
+  }
+  .pdf-h2 {
+    margin-bottom: 30px;
+  }
+  .pdf-span {
+    margin-bottom: 30px;
+    padding: 0px 0px;
+  }
+  /* .learning-pdf-div-icon {
+    width: 20vw;
+  } */
+  .pdf_icon {
+    object-fit: contain;
+  }
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 60px 0px;
@@ -1130,11 +1183,11 @@ li {
     padding: 0px 15vw 0px 20vw;
   }
   .about-us-span-us {
-    font-size: 2.7vw;
+    font-size: 2.5vw;
   }
   .about-us-span.date {
     padding: 0px 9vw;
-    font-size: 2.3vw;
+    font-size: 2.4vw;
   }
   .about-us-ul {
     padding: 0px 12vw;
@@ -1147,11 +1200,21 @@ li {
   }
   .about-us-span-text {
     width: 84%;
-    /* font-size: 2vw; */
+    font-size: 2.1vw;
   }
   .about-us-title-logo {
     height: 180px;
   }
+  /* ------ Learning ------ */
+  .intro {
+    padding: 0px 16vw;
+  }
+  .learning-video-text {
+    padding: 0px 8vw;
+  }
+  /* .learning-pdf-div-icon {
+    max-width: 17vw;
+  } */
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 50px 0px;
@@ -1198,6 +1261,16 @@ li {
 }
 
 @media only screen and (max-width: 650px) {
+  /* ------ Learning ------ */
+  .learning-video-span {
+    flex-direction: column;
+    text-align: center;
+  }
+  .vimeo-logo {
+    object-fit: contain;
+    margin-top: 10px;
+    height: 30px;
+  }
   /* ------ Footer ------ */
   .footer-bottom {
     display: flex;
@@ -1245,11 +1318,11 @@ li {
   .about-us-span-us {
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 3.3vw;
+    font-size: 3.1vw;
   }
   .about-us-span.date {
     padding: 0px 5vw;
-    font-size: 3vw;
+    font-size: 3.1vw;
   }
   .about-us-ul {
     padding: 0px 5vw;
@@ -1259,11 +1332,21 @@ li {
   }
   .about-us-span-text {
     width: 83%;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .about-us-title-logo {
     height: 150px;
   }
+  /* ------ Learning ------ */
+  .intro {
+    padding: 0px 14vw;
+  }
+  .learning-video-text {
+    padding: 0px;
+  }
+  /* .learning-pdf-div-icon {
+    max-width: 15vw;
+  } */
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 40px;
@@ -1320,7 +1403,7 @@ li {
   }
   .about-us-span.date {
     padding: 0px 0px;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
   }
   .about-us-ul {
     padding: 0px 0px;
@@ -1333,7 +1416,14 @@ li {
   }
   .about-us-span-text {
     width: 80%;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
+  }
+  /* ------ Learning ------ */
+  .intro {
+    padding: 0px 14vw;
+  }
+  .learning-h2.talk {
+    margin-bottom: 0px;
   }
   /* ------ Profiles ------ */
   .profile-body {
@@ -1405,6 +1495,10 @@ li {
   }
   .about-us-span-text {
     font-size: 3vw;
+  }
+  /* ------ Learning ------ */
+  .intro {
+    padding: 0px 10vw;
   }
   /* ------ Profiles ------ */
   .profile-span {

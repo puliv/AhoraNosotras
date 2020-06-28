@@ -9,11 +9,12 @@ import { useWindowSize } from "@react-hook/window-size/throttled"
 
 export default function Home() {
   const [width, height] = useWindowSize({ fps: 10 });
-  const videoW = width > 800 ? width - 100 : width - 50
-  const videoH = width > 400 ? height - 200 : height - 450
+  const videoW = width && width > 800 ? width - 100 : width - 50
+  const videoH = width && width > 400 ? height - 200 : height - 450
+
 
   return (
-    < React.Fragment >
+    <React.Fragment>
       <div className="home-scroll-container">
         <div id="home" className="home">
           <Link to="/magazine">
@@ -43,10 +44,10 @@ export default function Home() {
           />
         </div>
         <div id="profiles" className="home-section">
-          <Profiles />
+          <Profiles renderFromHome={true} />
         </div>
         <div id="subscribe" className="home-section">
-          <Subscribe />
+          <Subscribe renderFromHome={true} />
         </div>
       </div>
     </React.Fragment >
