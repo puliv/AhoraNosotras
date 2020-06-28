@@ -16,13 +16,10 @@ import pdf_icon_1 from "../assets/icons/Grupo.svg";
 import pdf_icon_2 from "../assets/icons/Grupo_2.svg";
 import pdf_icon_3 from "../assets/icons/Grupo_3.svg";
 import pdf_icon_4 from "../assets/icons/Grupo_4.svg";
-import { useWindowSize } from "@react-hook/window-size/throttled"
 
 
 
 export default function Learning() {
-  const [width, height] = useWindowSize({ fps: 10 });
-
   return (
     <div className="learning">
       <div className="learning-text">
@@ -46,8 +43,6 @@ export default function Learning() {
             <ReactPlayer
               url="https://vimeo.com/414586386"
               controls
-              width={500}
-            // height={videoH} 
             />
           </div>
           <div className="learning-video-text">
@@ -69,7 +64,6 @@ export default function Learning() {
             <ReactPlayer
               url="https://vimeo.com/411802745"
               controls
-              width={500}
             />
           </div>
           <div className="learning-video-text">

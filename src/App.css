@@ -710,11 +710,15 @@ li {
 }
 
 .learning-pdf-div-icon {
-  width: 50%;
-  max-width: 300px;
+  width: 35%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
+}
+
+.learning-pdf-div-text {
+  width: 65%;
+  padding-left: 40px;
 }
 
 .learning-pdf-a {
@@ -726,10 +730,6 @@ li {
 
 .learning-pdf-author {
   font-style: italic;
-}
-
-.pdf-icon {
-  margin-right: 5px;
 }
 
 .pdf-h2 {
@@ -745,7 +745,11 @@ li {
 .pdf-span {
   margin-bottom: 40px;
   padding: 0px 20px;
-  text-align: center !important;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
 }
 
 /* ---------- Profiles ---------- */
@@ -1112,7 +1116,7 @@ li {
     font-size: 22px;
   }
   .learning-video-text {
-    padding: 0px 11vw;
+    padding: 5vw 3vw 5vw;
   }
   .learning-div-talk {
     padding: 40px 9vw 60px;
@@ -1127,9 +1131,6 @@ li {
     display: flex;
     justify-content: center;
   }
-  .learning-div-pdf {
-    padding: 0px 9vw 0px 12vw;
-  }
   .pdf-h2 {
     margin-bottom: 30px;
   }
@@ -1137,11 +1138,21 @@ li {
     margin-bottom: 30px;
     padding: 0px 0px;
   }
-  /* .learning-pdf-div-icon {
-    width: 20vw;
-  } */
-  .pdf_icon {
+  .learning-div-pdf {
+    padding: 0px 9vw 0px 11vw;
+  }
+  .learning-pdf-div-icon {
+    width: 30%;
+    justify-content: center;
+  }
+  .learning-pdf-div-text {
+    width: 70%;
+    padding-left: 20px;
+  }
+  .pdf-icon {
     object-fit: contain;
+    width: 100%;
+    max-width: 150px;
   }
   /* ------ Profiles ------ */
   .profile-body {
@@ -1210,11 +1221,19 @@ li {
     padding: 0px 16vw;
   }
   .learning-video-text {
-    padding: 0px 8vw;
+    padding: 5vw 3vw 5vw;
   }
-  /* .learning-pdf-div-icon {
-    max-width: 17vw;
-  } */
+  .learning-div-pdf {
+    padding: 0px 8vw 0px 10vw;
+  }
+  .learning-pdf-div-text {
+    width: 70%;
+    padding-left: 15px;
+  }
+  .learning-pdf-div-icon {
+    width: 30%;
+    justify-content: flex-end;
+  }
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 50px 0px;
@@ -1270,6 +1289,12 @@ li {
     object-fit: contain;
     margin-top: 10px;
     height: 30px;
+  }
+  .pdf-h2 {
+    font-size: 1.7em;
+  }
+  .learning-h3 {
+    font-size: 1.5em;
   }
   /* ------ Footer ------ */
   .footer-bottom {
@@ -1342,11 +1367,26 @@ li {
     padding: 0px 14vw;
   }
   .learning-video-text {
-    padding: 0px;
+    padding: 3vw 0px 0px;
   }
-  /* .learning-pdf-div-icon {
-    max-width: 15vw;
-  } */
+  .learning-pdf {
+    margin: 40px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .learning-div-pdf {
+    padding: 0px 7vw 0px 9vw;
+  }
+  .learning-pdf-div-text {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .learning-pdf-div-icon {
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 100%;
+  }
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 40px;
@@ -1423,7 +1463,20 @@ li {
     padding: 0px 14vw;
   }
   .learning-h2.talk {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .learning-pdf {
+    margin: 30px 0px 0px;
+  }
+  .learning-img-women {
+    padding: 0px 10px;
+  }
+  .learning-video {
+    max-height: 300px;
+    align-items: center;
+  }
+  .learning-video-text {
+    padding-top: 4vw;
   }
   /* ------ Profiles ------ */
   .profile-body {
@@ -1499,6 +1552,18 @@ li {
   /* ------ Learning ------ */
   .intro {
     padding: 0px 10vw;
+  }
+  .pdf-h2 {
+    font-size: 1.5em;
+  }
+  .learning-span {
+    font-size: 19px;
+  }
+  .learning-video {
+    max-height: 200px;
+  }
+  .learning-video-text {
+    padding-top: 5vw;
   }
   /* ------ Profiles ------ */
   .profile-span {
