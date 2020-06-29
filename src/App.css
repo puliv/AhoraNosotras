@@ -3,23 +3,9 @@
 /* ---------- App ---------- */
 
 .App {
-  width: 103vw;
+  width: 104%;
   height: 100%;
 }
-
-/* ---------- Temporal ---------- */
-
-/* 
-.temporal-div {
-  display: none;
-  width: 100%;
-  height: auto;
-}
-
-.temporal-img {
-  width: 100%;
-  object-fit: contain;
-} */
 
 /* ---------- Header ---------- */
 
@@ -175,7 +161,7 @@ li {
 /* ---------- About Us ---------- */
 
 .about-us-container {
-  width: 103vw;
+  width: 103%;
   height: auto;
 }
 
@@ -322,7 +308,7 @@ li {
 /* ---------- Magazine ---------- */
 
 .magazine {
-  width: 103vw;
+  width: 103%;
   padding: 80px 0px 0px;
   margin-bottom: 50px;
   height: auto;
@@ -551,7 +537,7 @@ li {
 /* ---------- Learning ---------- */
 
 .learning {
-  width: 103vw;
+  width: 103%;
   height: auto;
   display: flex;
   flex-direction: column !important;
@@ -739,7 +725,7 @@ li {
 /* ---------- Profiles ---------- */
 
 .profile {
-  width: 103vw;
+  width: 103%;
   height: auto;
   padding-top: 40px;
 }
@@ -788,6 +774,7 @@ li {
   font-weight: 400;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  padding: 0px 400px;
 }
 
 .profile-span-hover {
@@ -872,7 +859,7 @@ li {
 
 .subscribe {
   bottom: auto;
-  width: 103vw;
+  width: 103%;
   height: auto;
   padding-top: 60px;
   background-color: #1a1a1a;
@@ -1132,6 +1119,9 @@ li {
     align-content: space-between;
     padding: 10px 10px 5px 10px;
   }
+  .profile-span {
+    padding: 0px 200px;
+  }
 }
 
 @media only screen and (max-width: 880px) {
@@ -1256,6 +1246,9 @@ li {
   .profile-div {
     margin: 0px 8px;
   }
+  .profile-span {
+    padding: 0px 150px;
+  }
   /* ------ Subscribe ------ */
   .subscribe-form {
     padding: 20px 17vw 0px;
@@ -1359,6 +1352,9 @@ li {
   .profile-h3, .profile-span-x {
     font-size: 4vw;
     color: #f6f6f6;
+  }
+  .profile-span {
+    padding: 0px 100px;
   }
   /* ------ Subscribe ------ */
   .subscribe-form {
@@ -1594,7 +1590,7 @@ li {
     bottom: 20px;
   }
   .profile-span {
-    padding: 0px 15px;
+    padding: 0px 20px;
   }
   /* ------ Subscribe ------ */
   .subscribe-form {
@@ -1668,6 +1664,9 @@ li {
     padding-top: 5vw;
   }
   /* ------ Profiles ------ */
+  .profile-span {
+    font-size: 18px;
+  }
   /* ------ Footer ------ */
   .footer-img-anlogo {
     width: 200px;
