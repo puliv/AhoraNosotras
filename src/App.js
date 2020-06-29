@@ -9,7 +9,7 @@ import Magazine from './components/Magazine/Magazine'
 import Profiles from './components/Profiles'
 
 
-import { MobileImage } from './components/MobileImage.js'
+// import { MobileImage } from './components/MobileImage.js'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Subscribe from './components/Subscribe'
 
@@ -30,7 +30,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-      <MobileImage />
+      {/* <MobileImage /> */}
     </Router>
   )
 }
