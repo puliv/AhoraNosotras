@@ -3,6 +3,7 @@ import { Form, Input, Button } from "antd";
 import firebase from "firebase/app";
 import "firebase/database";
 import classNames from "classnames";
+import { animateScroll as scroll } from 'react-scroll'
 
 const { TextArea } = Input;
 
@@ -21,7 +22,7 @@ export class Subscribe extends Component {
   }
 
   componentDidMount() {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
   }
 
   showAlert = (type, message) => {

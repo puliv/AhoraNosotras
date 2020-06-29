@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
+import { animateScroll as scroll } from 'react-scroll'
 
 export class Protagonistas extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
   }
 
   render() {
@@ -82,7 +83,7 @@ export class Protagonistas extends Component {
           </span>
         </div>
 
-        {/* <div className="protag-div-main"> */}
+
         <div className="section-div-split">
           <div className="protag-div-left">
             <span className="protag-span-left">
@@ -194,7 +195,7 @@ export class Protagonistas extends Component {
                 </span>
               </div>
               <div className="crisis-right">
-                <span className="protag-span-right crisis-right-span">
+                <span className=" crisis-right-span">
                   Desde el inicio de la pandemia y al igual que en tiempos
                   pasados, las mujeres han estado en la primera línea del
                   combate al hambre e incertidumbre producto del COVID 19. De
@@ -462,4 +463,4 @@ export class Protagonistas extends Component {
   }
 }
 
-export default Protagonistas;
+export default Protagonistas

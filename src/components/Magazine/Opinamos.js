@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import GoBack from "./GoBack";
-import ReadNext from "./ReadNext";
+import React, { Component } from "react"
+import GoBack from "./GoBack"
+import ReadNext from "./ReadNext"
+import { animateScroll as scroll } from 'react-scroll'
 
 export class Opinamos extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
   }
 
   render() {

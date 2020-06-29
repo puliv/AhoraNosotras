@@ -117,7 +117,7 @@ li {
 /* ---------- Home ---------- */
 
 .home {
-  width: 103vw;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -142,6 +142,7 @@ li {
 }
 
 .home-video {
+  height: 500px;
   background-color: #630164;
   display: flex;
   justify-content: center;
@@ -246,7 +247,7 @@ li {
 
 .about-us-h2, .about-us-h4 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 25px;
   color: #35cc05;
 }
 
@@ -314,6 +315,7 @@ li {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 400;
+  font-size: 15px;
 }
 
 /* ---------- Magazine ---------- */
@@ -601,7 +603,7 @@ li {
   font-family: "Roboto", sans-serif;
   color: #35cc05;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 25px;
   margin-bottom: 50px;
 }
 
@@ -614,7 +616,7 @@ li {
 .learning-h2 {
   color: #35cc05;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 25px;
 }
 
 .learning-span {
@@ -720,7 +722,7 @@ li {
   font-family: "Roboto", sans-serif;
   color: #35cc05;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 25px;
 }
 
 .pdf-span {
@@ -742,7 +744,9 @@ li {
 }
 
 .profile-active {
+  width: 103%;
   padding-top: 0px;
+  margin-right: 0px;
 }
 
 .profile-header {
@@ -874,6 +878,7 @@ li {
 }
 
 .subscribe-active {
+  width: 100%;
   padding-top: 0px;
 }
 
@@ -926,7 +931,7 @@ li {
 }
 
 .subscribe-span {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .subscribe-h2 {
@@ -972,23 +977,22 @@ li {
 /* ---------- Footer ---------- */
 
 .footer {
+  width: 103%;
+  height: auto;
   position: inherit;
   bottom: 0px;
   background-color: #1a1a1a;
-  width: 103vw;
-  height: auto;
 }
 
 .footer-top {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   height: auto;
   padding: 10px 10vw;
 }
 
 .footer-bottom {
-  width: auto;
   height: auto;
   display: flex;
   border-top: solid #D969D9;
@@ -1205,9 +1209,6 @@ li {
     width: 100%;
     padding: 100px 0px 50px;
   }
-  .learning-span {
-    font-size: 22px;
-  }
   .learning-video-text {
     padding: 5vw 3vw 5vw;
   }
@@ -1280,18 +1281,14 @@ li {
   }
   /* ------ AboutUs ------ */
   .about-us-h2, .about-us-h4 {
-    font-size: 1.8em;
     text-align: center;
   }
   .about-us-img {
     padding: 0px 15vw 0px 20vw;
   }
-  .about-us-span-us {
-    font-size: 2.5vw;
-  }
   .about-us-span.date {
     padding: 0px 9vw;
-    font-size: 2.4vw;
+    /* font-size: 2.4vw; */
   }
   .about-us-ul {
     padding: 0px 12vw;
@@ -1330,6 +1327,9 @@ li {
   .learning-pdf-div-icon {
     width: 30%;
     justify-content: flex-end;
+  }
+  .learning-h2-title {
+    margin-bottom: 35px;
   }
   /* ------ Profiles ------ */
   .profile-body {
@@ -1440,11 +1440,9 @@ li {
   .about-us-span-us {
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 3.1vw;
   }
   .about-us-span.date {
     padding: 0px 5vw;
-    font-size: 3.1vw;
   }
   .about-us-ul {
     padding: 0px 5vw;
@@ -1526,7 +1524,7 @@ li {
   }
   /* ------ AboutUs ------ */
   .about-us-h2, .about-us-h4 {
-    font-size: 1.5em;
+    font-size: 25px;
   }
   .about-us-h4 {
     margin-bottom: 20px;
@@ -1540,11 +1538,9 @@ li {
   .about-us-span-us {
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 4.3vw;
   }
   .about-us-span.date {
     padding: 0px 0px;
-    font-size: 4.3vw;
   }
   .about-us-ul {
     padding: 0px 0px;
@@ -1568,7 +1564,7 @@ li {
     padding: 0px 14vw;
   }
   .learning-h2.talk {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .learning-pdf {
     margin: 30px 0px 0px;
@@ -1583,6 +1579,9 @@ li {
   .learning-video-text {
     padding-top: 4vw;
   }
+  .learning-h2-title {
+    margin-bottom: 25px;
+  }
   /* ------ Profiles ------ */
   .profile-body {
     padding: 30px 25px;
@@ -1594,8 +1593,7 @@ li {
     bottom: 20px;
   }
   .profile-span {
-    padding: 0px 30px;
-    font-size: 15px;
+    padding: 0px 15px;
   }
   /* ------ Subscribe ------ */
   .subscribe-form {
@@ -1645,9 +1643,6 @@ li {
 
 @media only screen and (max-width: 390px) {
   /* ------ AboutUs ------ */
-  .about-us-h2, .about-us-h4 {
-    font-size: 1.3em;
-  }
   .how-work {
     padding: 0px 10px;
   }
@@ -1663,10 +1658,7 @@ li {
     padding: 0px 10vw;
   }
   .pdf-h2 {
-    font-size: 1.5em;
-  }
-  .learning-span {
-    font-size: 19px;
+    font-size: 20px;
   }
   .learning-video {
     max-height: 200px;
@@ -1675,9 +1667,6 @@ li {
     padding-top: 5vw;
   }
   /* ------ Profiles ------ */
-  .profile-span {
-    font-size: 14px;
-  }
   /* ------ Footer ------ */
   .footer-img-anlogo {
     width: 200px;

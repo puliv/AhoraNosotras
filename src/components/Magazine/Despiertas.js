@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import ReadNext from "./ReadNext";
-import GoBack from "./GoBack";
+import React, { Component } from "react"
+import ReadNext from "./ReadNext"
+import GoBack from "./GoBack"
+import { animateScroll as scroll } from 'react-scroll'
 
 export class Despiertas extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
   }
 
   render() {
@@ -64,8 +65,8 @@ export class Despiertas extends Component {
         </div>
         <ReadNext section={"despiertas"} />
       </div>
-    );
+    )
   }
 }
 
-export default Despiertas;
+export default Despiertas

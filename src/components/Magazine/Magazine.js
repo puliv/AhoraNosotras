@@ -70,7 +70,8 @@ export class Magazine extends Component {
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">HABLAMOS</h3>
                           <h2 className="mag-h2">
-                            VALDIVIA SOLIDARIA
+                            VALDIVIA
+                                <br /> SOLIDARIA
                               </h2>
                           <h4 className="mag-h4">POR @Vic_tonha_</h4>
                         </div>

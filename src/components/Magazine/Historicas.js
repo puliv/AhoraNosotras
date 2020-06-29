@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
+import { animateScroll as scroll } from 'react-scroll'
 
 export class Historicas extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    scroll.scrollToTop()
   }
 
   render() {
@@ -58,7 +59,7 @@ export class Historicas extends Component {
               "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true"
             }
             alt="Historicas"
-            className="section-img historicas-img"
+            className="historicas-img"
           />
         </div>
 
