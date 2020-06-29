@@ -323,53 +323,38 @@ li {
   padding: 80px 0px 0px;
   margin-bottom: 50px;
   height: auto;
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
 }
 
 .mag-top {
-  width: 103vw;
-  height: auto;
-  display: flex;
-  padding: 0px 15vw;
-  justify-content: center;
+  width: 100%;
+  height: 600px;
+  padding: 0px 13vw;
   background-color: #fff;
   display: flex;
   justify-content: space-evenly;
 }
 
-.mag-scroll-active {
-  height: auto;
-}
-
-.mag-scroll-row-top {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.mag-scroll-left, .mag-scroll-right {
+.mag-scroll-left {
   width: 50%;
   height: 100%;
+  padding: 0px 10px;
 }
 
 .mag-scroll-right {
-  overflow: scroll;
+  width: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 585px;
-}
-
-.mag-img-cover-div {
-  display: flex;
-  width: 450px;
-  height: auto;
-  box-shadow: 0px 6px 6px #00000028;
+  padding: 0px 10px;
 }
 
 .mag-img-cover {
   width: 100%;
+  max-width: 450px;
+  height: auto;
   object-fit: contain;
+  box-shadow: 0px 6px 6px #00000028;
 }
 
 .mag-scroll-row-vertical {
@@ -399,12 +384,6 @@ li {
   object-fit: cover;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-}
-
-.mag-ver-img.-prev {
-  width: 100%;
-  object-fit: cover;
-  height: 150px;
 }
 
 .mag-ver-text {
@@ -1066,6 +1045,88 @@ li {
 
 /* ------------------------ Media Queries ------------------------ */
 
+@media only screen and (max-width: 1250px) {
+  .mag-scroll-right {
+    width: 40%;
+    height: 20vw;
+    padding: 0px 0px;
+  }
+  .mag-scroll-row-vertical {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mag-ver-div-col.left {
+    width: 100%;
+    height: auto;
+  }
+  .mag-ver-div-col.right {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .mag-ver-img {
+    height: 190px;
+  }
+  .mag-ver-text {
+    height: 150px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 10px 10px 5px 10px;
+  }
+  .mag-h3 {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  .mag-h2 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  .mag-h4 {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0px;
+    font-size: 11px;
+  }
+  .mag-scroll-row-horizontal {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+  .mag-hor-div-col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .mag-hor-img {
+    width: 100%;
+    max-width: none;
+    height: 190px;
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .mag-hor-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 10px 10px 5px 10px;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   /* ------ Header ------ */
   .header-social-media-div {
@@ -1103,6 +1164,30 @@ li {
     padding-right: 8px;
     font-size: 1.8vw;
     width: 86%;
+  }
+  /* ------ Magazine ------ */
+  .mag-top {
+    height: auto;
+    max-height: 1200px;
+    padding: 0px 25vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .mag-scroll-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+  .mag-scroll-right {
+    width: 100%;
+    height: 100%;
+  }
+  .mag-img-cover {
+    display: flex;
+    max-width: 500px;
+    object-fit: contain;
   }
   /* ------ Learning ------ */
   .intro {
