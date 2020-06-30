@@ -36,9 +36,19 @@ export class Creamos extends Component {
           <span className="section-span">
             Más aún si el gobierno aumentó en 3 mil millones de dólares su presupuesto 2020. Sin embargo, lógicas de funcionamiento de este tipo de las FF.AA no funciona cuando algo huele o se ve como mapuche. Ejemplo, de ello es que el pasado 4 de junio, Alejandro Treuquil, el werken de la comunidad We Newen de Collipulli, que reivindica tierras en disputa con forestal Arauco, murió asesinado por desconocidos dejando una viuda y tres hijos.
           </span>
-          <span className="section-span">
-            No hubo palabras de aliento a la familia por parte del gobierno, mucho menos una condena tajante ante semejante acto. Hoy, con una investigación en curso, no existen imputados, tan solo el angustiante infortunio de un hombre que nació con el pecado de apellidarse Treuquil y no Luchsinger, de criarse en territorio mapuche y no gringo
-          </span>
+
+          <div className="section-div-split">
+            <div className="section-div-half">
+              <span className="section-div-half-left">
+                No hubo palabras de aliento a la familia por parte del gobierno, mucho menos una condena tajante ante semejante acto. Hoy, con una investigación en curso, no existen imputados, tan solo el angustiante infortunio de un hombre que nació con el pecado de apellidarse Treuquil y no Luchsinger, de criarse en territorio mapuche y no gringo
+            </span>
+            </div>
+            <div className="section-div-half">
+              <span className="section-div-half-right">
+                Las nulas intenciones que tiene el gobierno de darle soluciones políticas a un tema que viene arrastrándose hace décadas como lo es el reconocimiento constitucional a los pueblos originarios, asunto que por cierto no debe ni puede combatirse con milicia.
+            </span>
+            </div>
+          </div>
           <span className="section-span">
             Esta situación no es mejor cuando de mujeres se trata. Casos como el de Lorenza Cayuhan, Francisca Linconao o Macarena Valdés, nos recuerdan que no corre mejor suerte una mujer mapuche, de comunidad y que defiende sus derechos. El Estado utiliza todo su aparato represor para silenciar con cárcel o sicarios a aquellas que con coraje y valentía se atreven a sacar la voz por los suyos y suyas.
           </span>

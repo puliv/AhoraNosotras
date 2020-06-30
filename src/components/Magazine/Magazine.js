@@ -146,7 +146,7 @@ export class Magazine extends Component {
                             HISTÓRICAS
                             </span>
                           <h4 className="mag-h4-historicas">
-                            POR LUISA RIVERA
+                            POR CAMILA ORTEGA
                               </h4>
                         </div>
 

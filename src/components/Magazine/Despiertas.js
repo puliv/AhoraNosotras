@@ -38,53 +38,55 @@ export class Despiertas extends Component {
           </div>
 
           <div className="section-div-span">
-            <div className="section-span">
+            <div className="protag-h2-crisis">
               ¡Sin agua, ni salud!
             </div>
             <div className="section-span">
-              En Chile, en plena pandemia hoy tenemos aproximadamente 1 millón 100 mil de personas con serias dificultades para acceder al agua potable todos los días.
+              En Chile, en plena pandemia hoy tenemos aproximadamente <span style={{ fontWeight: 'bold' }}>
+                1 millón 100 mil de personas con serias dificultades para acceder al agua potable todos los días.
+              </span>
             </div>
             <div className="section-span">
-              Por otra parte, hay 350 mil personas que dependen del sistema de agua potable rural vía camiones aljibes y/o pozos.
+              Por otra parte, hay <span style={{ fontWeight: 'bold' }}>350 mil personas que dependen del sistema de agua potable rural vía camiones aljibes y/o pozos.</span>
             </div>
             <div className="section-span">
-              Aparte del negocio de estos camiones por el alto precio del agua y que son pagados por el Estado chileno, estos no cuentan con fiscalización de la autoridad sanitaria por lo que la calidad biológica de esta agua se desconoce.
+              Aparte del negocio de estos camiones por el alto precio del agua y que son pagados por el Estado chileno, estos no cuentan con fiscalización de la <span style={{ fontWeight: 'bold' }}>autoridad sanitaria por lo que la calidad biológica de esta agua se desconoce.</span>
             </div>
             <div className="section-span">
               Cada vez que una persona se lava las manos gasta de 1 a 2 litros. En lugares como Petorca, cada hectárea de palto permitiría lavarse las manos 42 mil veces.
             </div>
             <div className="section-span">
-              Esta situación de escasez hídrica implica que lavarse las manos frecuentemente sea una tarea imposible.
+              Esta situación de <span style={{ fontWeight: 'bold' }}>escasez hídrica</span> implica que <span style={{ fontWeight: 'bold' }}>lavarse las manos frecuentemente sea una tarea imposible.</span>
             </div>
-            <div className="section-span">
+            <div className="section-span" style={{ fontStyle: 'italic' }}>
               Fuente: Informe Mundial de las Naciones Unidas sobre el Desarrollo de los Recursos Hídricos de 2019, Greenpeace Chile y Modatima
             </div>
-            <div className="section-span">
+            <div className="protag-h2-crisis">
               Mujeres frente al despojo
             </div>
             <div className="section-span">
               En los territorios, las mujeres son las que entregan el agua a sus comunidades.
             </div>
             <div className="section-span">
-              Ejemplo de ello es que 8 de 10 mujeres son recolectoras de agua, entre eso hay niñas incluidas.
+              Ejemplo de ello es que <span style={{ fontStyle: 'bold' }}>8 de 10 mujeres son recolectoras de agua, entre eso hay niñas incluidas.</span>
             </div>
             <div className="section-span">
-              Si bien en el papel las autoridades señalan que entregan 50 litros de agua por habitante, semanalmente hay comunidades que sobreviven solo con entre 15 litros y 20 litros de agua al día.
+              Si bien en el papel las autoridades señalan que entregan <span style={{ fontWeight: 'bold' }}>50 litros de agua por habitante,</span> semanalmente hay comunidades que sobreviven solo con entre 15 litros y 20 litros de agua al día.
             </div>
-            <div className="section-span">
+            <div className="section-span" style={{ fontStyle: 'italic' }}>
               Fuente: Mujeres Modatima
             </div>
-            <div className="section-span">
+            <div className="protag-h2-crisis">
               Plan Nacional de Emergencia ¡Ahora!
             </div>
             <div className="section-span">
               Bajo la Campaña “Suelta el Agua”, movimientos como Greenpeace y Modatima reconocen que las medidas paliativas como la entrega de bidones de agua o alimentos no alcanzan.
             </div>
             <div className="section-span">
-              En el corto plazo demandan un Plan Nacional de Emergencia de Distribución y Liberación para abastecer de agua inmediatamente a todos y todas los que no tienen ni siquiera para lavarse las manos o higienizar sus hogares.
+              En el corto plazo demandan un <span style={{ fontWeight: 'bold' }}>Plan Nacional de Emergencia de Distribución y Liberación</span> para abastecer de agua inmediatamente <span style={{ fontWeight: 'bold' }}>a todos y todas los que no tienen ni siquiera para lavarse las manos o higienizar sus hogares.</span>
             </div>
             <div className="section-span">
-              En el largo plazo y en medio de un proceso constituyente que sigue en curso urge modificar el Código de Aguas del año 1981 para evitar que en Chile los privados tengan más derecho al agua que las personas.
+              En el largo plazo y en medio de un proceso constituyente que sigue en curso urge <span style={{ fontWeight: 'bold' }}>modificar el Código de Aguas del año 1981 para evitar que en Chile los privados tengan más derecho al agua que las personas.</span>
             </div>
           </div>
         </div>

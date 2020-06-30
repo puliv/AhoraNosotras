@@ -24,7 +24,7 @@ export class Opinamos extends Component {
           <div className="section-img-div">
             <img
               src={
-                "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png?raw=true"
+                "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Opinamos.png?raw=true"
               }
               alt="Opinamos"
               className="section-img"
@@ -34,12 +34,22 @@ export class Opinamos extends Component {
             <span className="section-span">
               En 1896, Susan B. Anthony, feminista y sufragista, dijo: “La bicicleta ha hecho más para emancipar a las mujeres que nada en el mundo. Me levanto y me regocijo cada vez que veo a una mujer paseando sobre ruedas. Da a la mujer una sensación de libertad e independencia”. Esta cita, expresada hace 114 años, ya hablaba de la multiplicidad de sus aportes y las diversas dimensiones que comenzaba a revelar su uso.
             </span>
-            <span className="section-span">
-              En medio de dos momentos tan complejos para nuestro país, como el estallido social de octubre y la pandemia mundial, la bicicleta ha emergido como una gran herramienta de prevención y resiliencia humana. En este escenario de complejidades sociales y sanitarias, su relevancia es vital para la construcción de comunidades.
-            </span>
-            <span className="section-span">
-              Según el Departamento de Estudios del Automóvil Club de enero, a partir de octubre 2019 y dadas las graves limitaciones de transporte y movilidad, en solo tres meses se aumentó en un 10 por ciento su uso. Una estadística reveladora, pues en el quinto Índice de Ciclismo Mundial realizado por Eco-Counter y New Cities, ya se había ubicado a nuestro país con un crecimiento del 10 por ciento de uso anual de la bicicleta.
-            </span>
+            <div className="section-div-split">
+              <div className="section-div-half">
+                <span className="section-div-half-right">
+                  En medio de dos momentos tan complejos para nuestro país, como el estallido social de octubre y la pandemia mundial, la bicicleta ha emergido como una gran herramienta de prevención y resiliencia humana. En este escenario de complejidades sociales y sanitarias, su relevancia es vital para la construcción de comunidades.
+                </span>
+              </div>
+              <div className="section-div-half" style={{ display: 'flex', flexDirection: 'column', alignContent: 'space-between' }}>
+                <span className="section-div-half-left" style={{ marginBottom: '10px' }}>
+                  En medio de dos momentos tan complejos para nuestro país, como el estallido social de octubre y la pandemia mundial, la bicicleta ha emergido como una gran herramienta de prevención y resiliencia humana. En este escenario de complejidades sociales y sanitarias, su relevancia es vital para la construcción de comunidades.
+                </span>
+                <span className="section-div-half-left">
+                  Según el Departamento de Estudios del Automóvil Club de enero, a partir de octubre 2019 y dadas las graves limitaciones de transporte y movilidad, en solo tres meses se aumentó en un 10 por ciento su uso. Una estadística reveladora, pues en el quinto Índice de Ciclismo Mundial realizado por Eco-Counter y New Cities, ya se había ubicado a nuestro país con un crecimiento del 10 por ciento de uso anual de la bicicleta.
+                </span>
+              </div>
+            </div>
+
             <span className="section-span">
               Paradójicamente, mientras nos enfrentamos a graves problemas a nivel nacional, de salud física y mental, al hambre, a las problemáticas educacionales, de transporte, distribución de insumos, desempleo, este escenario se convirtió en una oportunidad. A través de la movilidad activa y sustentable es posible mejorar los asentamientos humanos del país y por tanto la vida de las personas.
             </span>

@@ -15,43 +15,28 @@ export class Historicas extends Component {
         <GoBack />
         <div className="section-titles">
           <h3 className="section-h3">HISTÓRICAS</h3>
-          <h1 className="section-h1">Eloísa Díaz e Izkia Siches</h1>
-          <h2 className="section-h2">Ilustración por: Luisa Rivera</h2>
+          <h1 className="section-h1">Berta Cáceres y Macarena Valdés</h1>
+          <h2 className="section-h2">Ilustración por: Camila Ortega</h2>
         </div>
 
         <div className="section-div-span ">
           <span className="section-span">
-            En tiempos de pandemia, las mujeres se han convertido en la primera
-            línea en la defensa de la salud y la vida. Sin embargo, este
-            protagonismo de doctoras, enfermeras y asistentes no es azaroso,
-            sino que se lo debemos a mujeres pioneras que se atrevieron a dar un
-            paso al frente y ser parte de disciplinas del conocimiento
-            históricamente masculinizadas como las ciencias.
+            En Junio como el Mes del Medioambiente hemos decidido mirar a los conflictos a los que se han enfrentado mujeres que se dedican al activismo y lucha socioambiental.
           </span>
           <span className="section-span">
-            Recordemos que, en el siglo XIX la mujer chilena no podía acceder a
-            una educación profesional pues ésta se encontraba limitada por una
-            ley que impedía a las mujeres ingresar a la universidad. Finalmente,
-            en 1877, y después de una larga batalla de las mujeres de la época,
-            se permite a las mujeres poder formarse profesionalmente. Es por
-            ello que, en esta primera versión de históricas, queremos reconocer
-            a Eloísa Díaz, la primera mujer estudiante de medicina de la
-            Universidad de Chile y la primera mujer médico de Chile y América
-            del Sur, quien abrió las puertas para muchas compañeras pudiesen
-            ingresaran a estos campos. Décadas más tarde, podemos decir que el
-            legado de Eloísa sigue vigente gracias a otro liderazgo que ha
-            destacado por su rol en esta crisis.
+            Así llegamos a los casos emblemáticos de Macarena y Berta, ambas mujeres indígenas, reconocidas por su liderazgo y resistencia a los estados opresores y a el amedrentamiento de  a las grandes empresas extractivistas.
           </span>
           <span className="section-span">
-            Hablamos de la Izkia Siches, ariqueña, médica cirujana chilena de la
-            Universidad de Chile, primera presidenta del Colegio Médico de Chile
-            y la más joven en ocupar un cargo que por más de 70 años fue sólo
-            ocupado por hombres. Izkia no sólo ha destacado por ser pionera en
-            este puesto directivo, sino porque lo ha ejercido tenazmente a pesar
-            de la oposición en el propio sector de salud. Su figura ha sido
-            clave para mostrar a la ciudadanía y al gobierno, los caminos más
-            seguros y eficaces en la presente crisis sanitaria.
+            Así es como vemos que la lucha medioambiental está cruzada por una fuerte resistencia de los pueblos originarios que defienden sus territorios, la lucha contra la xenofobia y la discriminación promovida desde el aparato estatal para exigir igualdad y un trato digno.
           </span>
+          <span className="section-span">
+            Berta Cáceres (1971-2016) fue una lideresa indígena lenca, feminista y activista del medio ambiente hondureña y Macarena Valdés (1984-2016) fue activista medioambientalista mapuche, ambas amedrentadas y asesinadas. Se hace evidente lo vulnerable de la situación, en especial si eres mujer e indígena.
+          </span>
+          <span className="section-span">
+            Así temas que han resonado en esta cuarentena se hacen lejanos e incluso irrisorios al ver cómo son tratados en los medios masivos, como el llamado a lavarse las manos (¿como? Si no hay agua) y el caso que ha conmovido a nivel mundial, como fue el asesinato de George Floyd  y el racismo como si ocurriera solo en Estados Unidos (¿acaso no ocurre en chile también?¿qué pasa con Alejandro Treuquil?) nos llaman a hacer reflexiones más profundas.
+
+          </span>
+
         </div>
 
         <div className="historicas-img-div">

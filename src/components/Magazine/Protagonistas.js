@@ -25,7 +25,8 @@ export class Protagonistas extends Component {
           <img
             src={protagonistas}
             alt="protagonistas"
-            className="section-img"
+            /* img-protag es un clase especial para seccion editorial revista 2 */
+            className="section-img img-protag"
           />
         </div>
         <div className="protag-div-aurora">
@@ -53,7 +54,7 @@ export class Protagonistas extends Component {
           <span className="section-span">
             De generación en generación los paisajes fueron cambiando. “Es triste porque mis hijos si bien alcanzaron a bañarse en el río, cuando ellos tenían cinco y siete años el agua les llegaba hasta la cintura no más. No como a mí que, de lo hondo, casi me llegué a ahogar. Agradezco al menos que tuvieron la fortuna de conocer ese lugar”, dice González.
           </span>
-          <span className="section-span">
+          <span className="protag-h2-crisis">
             ¡Profe, baje las revoluciones!
           </span>
           <span className="section-span">
@@ -62,7 +63,7 @@ export class Protagonistas extends Component {
           <span className="section-span">
             La escuela donde trabaja Raquel González tiene 180 estudiantes desde prekinder hasta octavo básico. Ella es profesora de lenguaje pero además tiene jefatura de un curso de sexto año.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿Qué significa para ti como docente educar en un sector rural en medio de un contexto de crisis donde el acceso a la llamada “modernidad” parece que aún no llega en algunos lugares de Chile?
           </span>
           <span className="section-span">
@@ -83,13 +84,13 @@ export class Protagonistas extends Component {
           <span className="section-span">
             “Los profesores hemos sido grandes revolucionarios, hemos sido parte de los cambios sociales porque hemos sido muy maltratados, por eso para mí es importante colegiarse porque no puedo pasarme criticando. Hay que aportar”, señala Raquel González, quien está a punto de cumplir su segundo período como secretaria en el Colegio de Profesores del comunal de Papudo.
           </span>
-          <span className="section-span">
+          <span className="protag-h2-crisis">
             Vencer el miedo
           </span>
           <span className="section-span">
             Hace una década Raquel participó en la primera marcha de mujeres por el agua en La Ligua. Esta manifestación revolucionó la ciudad y el futuro de su vida. Luego de participar en un grupo artístico de la Ligua, Raquel llegó hace una década de lo que se convertiría años más tarde en el Movimiento de Defensa del Agua, la Tierra y la Protección del Medioambiente (Modatima).
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿Cómo fue tu ingreso a modatima?
           </span>
           <span className="section-span">
@@ -101,12 +102,12 @@ export class Protagonistas extends Component {
           <span className="section-span">
             En medio de esta crisis sanitaria, Mujeres Modatima, junto al resto de la organización generaron operativos para entregar bidones de agua de cinco litros a comunidades sin acceso a este suministro vital para la protección y el cuidado de salud.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿Qué acciones han abordado en esta crisis como organización?
           </span>
           <span className="section-span">“Primero llevamos 60 bidones de agua, luego un camión. Nosotros salimos temprano a comprar agua y en la tarde salimos a repartir. No me puedo quedar tranquila pensando que hay familias que no tendrán agua un día. Hay familias donde primero se baña el marido, luego la señora y con la misma agua bañan a los hijos.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             Fue difícil salir porque ustedes también se ponen en riesgo y a su familia...
           </span>
           <span className="section-span">
@@ -115,13 +116,13 @@ export class Protagonistas extends Component {
           <span className="section-span">
             Entonces partimos la campaña "Sólo el pueblo ayuda al pueblo" donde entregamos  bidones de agua y nos encontramos con comunidades muy agradecidas. Nos encontramos con abuelitas de la tercera edad que lloraban para darte las gracias por dos, tres bidones de agua. Sin embargo, como Modatima tenemos más que claro que son medidas paliativas pero teníamos que llegar a la gente. Si el gobierno no se hace cargo, si nadie se hace cargo. Nosotros teníamos que hacerlo.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿Te llena el corazón?
           </span>
           <span className="section-span">
             Es impagable, es impagable.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             Raquel, desde la realidad territorial ¿cómo viven las mujeres en zona de catástrofe la crisis sanitaria?
           </span>
           <span className="section-span">
@@ -136,7 +137,7 @@ export class Protagonistas extends Component {
           <span className="section-span">
             “A nosotros nos da rabia porque después de conocer toda la realidad del interior, los comerciales que muestran en la televisión son una burla. “Lávese las manos veinte veces al día” y tú dices ¿Con qué, si con suerte hay familias que tienen agua para tomar, beber y hacerse comida?”, agrega Raquel González.
           </span>
-          <span className="section-span">
+          <span className="protag-h2-crisis">
             Viudas del Agua
           </span>
           <span className="section-span">
@@ -148,7 +149,7 @@ export class Protagonistas extends Component {
           <span className="section-span">
             El 2019, Las Viudas del Agua alcanzaron a presentar su obra en diferentes lugares, acompañando a la Mesa del Agua en sus reuniones y manifestaciones como la toma del pozo de El Melón. Para nosotras “esta es una forma de aportar desde otros frentes. Las luchas deben ser frontalmente, pero también desde otros espacios como el arte y la cultura”.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿En qué consiste la obra las Viudas del Agua?
           </span>
           <span className="section-span">
@@ -160,7 +161,7 @@ export class Protagonistas extends Component {
           <span className="section-span">
             Para la activista de Mujeres Modatima, “Nosotras nombramos los personeros porque porque tienen nombre y apellido como Eduardo Cerda García, Edmundo Pérez Yoma. Son grandes personeros de la política. Otros como Álamos, Trivelli también estuvieron un rato por estos lados. Y agrega, “El ciclo del agua fue quebrado por esta usurpación. No voy a decir robo. En Chile la usurpación del agua es legal, es con autorización y tampoco hay fiscalización por parte de las autoridades.
           </span>
-          <span className="section-span">
+          <span className="protag-h3">
             ¿Qué consecuencias tuvo para las mujeres ese despojo?
           </span>
           <span className="section-span">

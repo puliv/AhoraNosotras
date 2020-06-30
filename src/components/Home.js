@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Profiles } from '../components/Profiles.js'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import { Subscribe } from './Subscribe.js'
-import portada from '../assets/REVISTA_AHORA_NOSOTRAS/1_PORTADA/portada_revista.jpg'
+import portada from '../assets/REVISTA2/portadax.png'
 import { Link } from 'react-router-dom';
 import ReactPlayer from "react-player";
 import { animateScroll as scroll } from 'react-scroll'
