@@ -33,9 +33,7 @@ export class Historicas extends Component {
           </span>
           <span className="section-span">
             Así temas que han resonado en esta cuarentena se hacen lejanos e incluso irrisorios al ver cómo son tratados en los medios masivos, como el llamado a lavarse las manos (¿como? Si no hay agua) y el caso que ha conmovido a nivel mundial, como fue el asesinato de George Floyd  y el racismo como si ocurriera solo en Estados Unidos (¿acaso no ocurre en chile también?¿qué pasa con Alejandro Treuquil?) nos llaman a hacer reflexiones más profundas.
-
           </span>
-
         </div>
 
         <div className="historicas-img-div">
