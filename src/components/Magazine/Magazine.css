@@ -531,8 +531,10 @@
 
 .despiertas-img {
   width: 100%;
+  min-width: 250px;
+  max-width: 900px;
   height: auto;
-  object-fit: contain;
+  object-fit: contain !important;
 }
 
 /* ---------- Opinamos ---------- */
@@ -578,6 +580,7 @@
 
 .historicas-img {
   width: 100%;
+  min-width: 250px;
   max-width: 500px;
   height: auto;
   object-fit: contain;
