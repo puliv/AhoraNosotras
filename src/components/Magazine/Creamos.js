@@ -38,9 +38,12 @@ export class Creamos extends Component {
           </span>
 
           <div className="section-div-split">
-            <div className="section-div-half">
-              <span className="section-div-half-left">
+            <div className="section-div-half" style={{ display: 'flex', flexDirection: 'column', alignContent: 'space-between' }}>
+              <span className="section-div-half-left" style={{ marginBottom: '10px' }}>
                 No hubo palabras de aliento a la familia por parte del gobierno, mucho menos una condena tajante ante semejante acto. Hoy, con una investigación en curso, no existen imputados, tan solo el angustiante infortunio de un hombre que nació con el pecado de apellidarse Treuquil y no Luchsinger, de criarse en territorio mapuche y no gringo
+            </span>
+              <span className="section-div-half-left">
+                Esta situación no es mejor cuando de mujeres se trata. Casos como el de Lorenza Cayuhan, Francisca Linconao o Macarena Valdés, nos recuerdan que no corre mejor suerte una mujer mapuche, de comunidad y que defiende sus derechos. El Estado utiliza todo su aparato represor para silenciar con cárcel o sicarios a aquellas que con coraje y valentía se atreven a sacar la voz por los suyos y suyas.
             </span>
             </div>
             <div className="section-div-half">
@@ -49,9 +52,6 @@ export class Creamos extends Component {
             </span>
             </div>
           </div>
-          <span className="section-span">
-            Esta situación no es mejor cuando de mujeres se trata. Casos como el de Lorenza Cayuhan, Francisca Linconao o Macarena Valdés, nos recuerdan que no corre mejor suerte una mujer mapuche, de comunidad y que defiende sus derechos. El Estado utiliza todo su aparato represor para silenciar con cárcel o sicarios a aquellas que con coraje y valentía se atreven a sacar la voz por los suyos y suyas.
-          </span>
           <span className="section-span">
             Lamentable esta realidad  acá en la Araucanía es pan de cada día. La amenaza externa en plena pandemia sumada al aumento de presupuesto desproporcionado a las Fuerzas Armadas es una burda excusa. Todo esto nos da cuenta de las nulas intenciones que tiene el gobierno de Sebastián Piñera de darle soluciones políticas a un tema que viene arrastrándose hace décadas como lo es el reconocimiento constitucional a los pueblos originarios, asunto que por cierto no debe ni puede combatirse con milicia.
           </span>

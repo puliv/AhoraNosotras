@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Profiles } from '../components/Profiles.js'
 import howThisWork from '../assets/img/juntassomoscomunidad.png'
 import { Subscribe } from './Subscribe.js'
-import portada from '../assets/REVISTA2/portadax.png'
 import { Link } from 'react-router-dom';
 import ReactPlayer from "react-player";
 import { animateScroll as scroll } from 'react-scroll'
@@ -19,7 +18,7 @@ export class Home extends Component {
           <div id="home" className="home">
             <Link to="/magazine">
               <img
-                src={portada}
+                src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/portadax.png?raw=true"}
                 alt="portada"
                 className="home-cover-img"
               />
