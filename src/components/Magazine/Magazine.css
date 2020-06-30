@@ -525,6 +525,7 @@
 
 .despiertas-div {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
 }
@@ -572,7 +573,7 @@
 /* ---------- Historicas ---------- */
 
 .historicas-img-div {
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
