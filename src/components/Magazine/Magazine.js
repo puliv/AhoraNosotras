@@ -5,7 +5,13 @@ import Hablamos from "./Hablamos";
 import Creamos from "./Creamos";
 import Protagonistas from "./Protagonistas";
 import Despiertas from "./Despiertas";
-import opinamos from "../../assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png";
+import cover from '../../assets/REVISTA2/portadax.png'
+import editorialImg from '../../assets/REVISTA2/Editorial.png'
+import hablamosImg from '../../assets/REVISTA2/Hablamos.png'
+import opinamosImg from '../../assets/REVISTA2/Opinamos.png'
+import creamosImg from '../../assets/REVISTA2/Creamos.png'
+import despiertasImg from '../../assets/REVISTA2/Despiertas.png'
+import backcover from '../../assets/REVISTA2/Historicas.png'
 
 import { Row, Col } from "antd";
 import { animateScroll as scroll } from "react-scroll";
@@ -29,9 +35,7 @@ export class Magazine extends Component {
                 <div className="mag-scroll-left">
                   <Link to="/magazine/protagonistas">
                     <img
-                      src={
-                        "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/1_PORTADA/portada_revista.jpg?raw=true"
-                      }
+                      src={cover}
                       alt="cover"
                       className="mag-img-cover"
                     />
@@ -43,16 +47,14 @@ export class Magazine extends Component {
                     <Col className="mag-ver-div-col left">
                       <Link to="/magazine/editorial">
                         <img
-                          src={
-                            "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png?raw=true"
-                          }
+                          src={editorialImg}
                           alt="mag-img"
                           className="mag-ver-img"
                         />
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">EDITORIAL</h3>
                           <h2 className="mag-h2">
-                            CRIAR Y CUIDAR TAMBIÉN ES TRABAJAR
+                            Un Chile donde la vida esté en el centro
                               </h2>
                           <h4 className="mag-h4">POR ANITA MARTÍNEZ</h4>
                         </div>
@@ -61,19 +63,16 @@ export class Magazine extends Component {
                     <Col className="mag-ver-div-col right">
                       <Link to="/magazine/hablamos">
                         <img
-                          src={
-                            "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/4_HABLAMOS/Hablamos.png?raw=true"
-                          }
+                          src={hablamosImg}
                           alt="mag-img"
                           className="mag-ver-img"
                         />
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">HABLAMOS</h3>
                           <h2 className="mag-h2">
-                            VALDIVIA
-                                <br /> SOLIDARIA
+                            ¿Cómo cuidarnos del virus si no tenemos agua?
                               </h2>
-                          <h4 className="mag-h4">POR @Vic_tonha_</h4>
+                          <h4 className="mag-h4">Por Lorena Donaire</h4>
                         </div>
                       </Link>
                     </Col>
@@ -82,17 +81,16 @@ export class Magazine extends Component {
                     <Link to="/magazine/opinamos">
                       <Col span={24} className="mag-hor-div-col">
                         <img
-                          src={opinamos}
+                          src={opinamosImg}
                           alt="mag-img"
                           className="mag-hor-img"
                         />
                         <div className="mag-hor-text">
                           <h3 className="mag-h3">OPINAMOS</h3>
                           <h2 className="mag-h2">
-                            FALTA DE CORRESPONSABILIDAD: OTRO SÍNTOMA DE UN
-                            MAL PANDÉMICO LLAMADO MACHISMO
+                            La bicicleta, una herramienta comunitaria para un nuevo Chile
                               </h2>
-                          <h4 className="mag-h4">POR PAULA TINA MENTE</h4>
+                          <h4 className="mag-h4">Por Sandra Aguilera</h4>
                         </div>
                       </Col>
                     </Link>
@@ -101,19 +99,17 @@ export class Magazine extends Component {
                     <Col className="mag-ver-div-col left">
                       <Link to="/magazine/creamos">
                         <img
-                          src={
-                            "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/creamos-04.png?raw=true"
-                          }
+                          src={creamosImg}
                           alt="mag-img"
                           className="mag-ver-img"
                         />
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">CREAMOS</h3>
                           <h2 className="mag-h2">
-                            HOMENAJE A<br /> FABIOLA CAMPILLAY
+                            NO ES PANDEMIA, ES PAN DE CADA DÍA
                               </h2>
                           <h4 className="mag-h4">
-                            POR CARO LERIA Y MARGARITA PORTUGUEZ
+                            Por Ericka Ñanco
                               </h4>
                         </div>
                       </Link>
@@ -121,17 +117,14 @@ export class Magazine extends Component {
                     <Col className="mag-ver-div-col right">
                       <Link to="/magazine/despiertas">
                         <img
-                          src={
-                            "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/despiertas-05.png?raw=true"
-                          }
+                          src={despiertasImg}
                           alt="mag-img"
                           className="mag-ver-img despiertas-prev"
                         />
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">DESPIERTAS</h3>
                           <h2 className="mag-h2">
-                            ESO QUE LLAMAN AMOR ES TRABAJO
-                                <br /> NO PAGADO
+                            ¡SUELTEN EL AGUA!
                               </h2>
                           <h4 className="mag-h4">
                             POR EQUIPO AHORA NOSOTRAS
@@ -144,9 +137,7 @@ export class Magazine extends Component {
                     <Link to="/magazine/historicas">
                       <Col span={24} className="mag-backcover-col">
                         <img
-                          src={
-                            "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true"
-                          }
+                          src={backcover}
                           alt="backcover"
                           className="mag-backcover-img"
                         />

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "0",
+    "name": "Camila Castillo",
+    "from": "Iquique",
+    "rollover": "Encargada de Comunicaciones, Directiva Regional RD Tarapacá",
+    "rollover_two": "Directora regional ABOFEM",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/img/IMAGEN_4.1.png?raw=true"
+  },
+  {
+    "id": "1",
+    "name": "Bárbara Bustos",
+    "from": "Valdivia",
+    "rollover": "Integrante de Valdivia Solidaria",
+    "rollover_two": "Apoya a familias afectadas por la pandemia",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/img/IMAGEN_4.2.jpeg?raw=true"
+  },
+  {
+    "id": "2",
+    "name": "Paz Gajardo",
+    "from": "San Bernardo",
+    "rollover": "Parte de Unidad Social San Bernardo y Cooperativa Ecolety",
+    "rollover_two": "Autogestión de mujeres a partir del reciclaje de telas",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/img/IMAGEN_4.3.jpeg?raw=true"
+  },
+  {
+    "id": "3",
+    "name": "Marcela Aguilera",
+    "from": "San Pedro de la Paz",
+    "rollover": "Participante de red San Pedro Aprueba",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/img/IMAGEN_4.4.jpeg?raw=true"
+  }
+]

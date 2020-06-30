@@ -16,9 +16,9 @@ export class Hablamos extends Component {
         <div className="section-titles">
           <h3 className="section-h3">HABLAMOS</h3>
           <h1 className="section-h1">
-            VALDIVIA SOLIDARIA: ABRIR LA PUERTA Y CERRAR EL PRIVILEGIO.
+            ¿Cómo cuidarnos del virus si no tenemos agua?
           </h1>
-          <h2 className="section-h2">Por @Vic_tonha_</h2>
+          <h2 className="section-h2">Por Lorena Donaire, Vocera y encargada Nacional Mujeres Modatima </h2>
         </div>
 
         <div className="section-img-div">
@@ -32,126 +32,50 @@ export class Hablamos extends Component {
         </div>
         <div className="section-div-span">
           <span className="section-span">
-            La emergencia sanitaria, por el Covid-19, me hizo saber que
-            prontamente viviría en un Valdivia con mayores inequidades. Pero a
-            la vez me mantenía inquieta pensando en cómo íbamos a trabajar
-            socialmente en este nuevo contexto y así comenzó la solidaridad.
+            A causa de un modelo extractivista instalado brutalmente a mediados de los ochenta, la provincia de Petorca es un lugar que vive en crisis hace más de 15 años por falta de agua. Una provincia que tiene una alta población de adultos mayores concentrados principalmente en las localidades rurales.
           </span>
 
           <span className="section-span">
-            La pandemia me mostró que la trabajadora de parquímetro de la
-            empresa de Cristián Coronel no tenía el derecho de quedarse en casa
-            para cuidar de su salud y la de su familia. También me hacía
-            escuchar a la señora Bernarda, dirigenta social de un barrio popular
-            de la comuna, decir que algunos “no morirán por el coronavirus pero
-            sí de hambre”.
+            Una provincia con habitantes que han dado paso a la resignación y a la resiliencia  de vivir en un territorio privado de agua y en permanente despojo. Una provincia que ha sido por siempre el patio trasero de la región de Valparaíso, donde políticos del duopolio y empresarios son cómplices de un modelo que vulnera sistemáticamente el derecho humano al agua.
           </span>
           <span className="section-span">
-            Situaciones como estas fueron forjando Valdivia Solidaria, una red
-            que busca generar distintos apoyos a quienes por la pandemia se han
-            visto afectados. Con dedicación, con mis compañeras y compañeros de
-            militancia creamos campañas donde articulamos la sanitización del
-            comercio barrial, mascarillas y recolección de alimentos. A partir
-            de esta instancia, les cuento que todos los viernes, haciendo caso
-            estricto a los protocolos de seguridad, salimos en busca de
-            donaciones.
+            La crisis sanitaria llega en el peor momento. Si bien desde el año 2008 la Provincia de Petorca fue declarada como zona de catástrofe hídrica, hoy nos consume el temor, la rabia y la impotencia que provoca el COVID - 19. Sin el agua suficiente para las acciones ni herramientas básicas de prevención somos presa fácil para el virus.
           </span>
           <span className="section-span">
-            Pese a mi preocupación, los primeros días estaba contenta y sonreí
-            al recibir mensajes de personas queriendo sumarse a la causa. Luego
-            de eso, mi celular sonaba y ya no era grato contestar. Por el
-            contrario, mi mandíbula se apretaba, mi estómago dolía y mi
-            respiración agitada me hacían saber que alguien con mucha
-            complicaciones económicas nos escribía o llamaba para pedir ayuda.
+            Desde la primera declaración de catástrofe hídrica, el agua prometida y entregada es muy diferente. De acuerdo a la Organización Mundial de la Salud (OMS), la higienización de manos debe ser mínimo 20 veces al día con el agua corriendo al menos 30 segundos. Esto nos impide limpiar y desinfectar con frecuencia las superficies de contacto diario.
           </span>
           <span className="section-span">
-            El sentido de injusticia se ha hecho presente con mayor fuerza en
-            esta emergencia sanitaria, desnudando a un Chile brutalmente
-            desigual y a un Valdivia que día a día vuelve su brecha social más
-            grande. Un mes después y con este pesar, mapa en mano salimos a
-            repartir las canastas que logramos reunir junto a valdivianas y
-            valdivianos llegando a articulamos con más de 250 familias.
+            Simplemente esto es imposible con los 50 litros de agua que se nos prometen. En la actualidad hay territorios que reciben menos de 20 litros de agua por día y que no cumplen con la calidad internacionalmente esperada.
           </span>
           <span className="section-span">
-            Fue ejemplificador ver cómo dirigentas y dirigentes de las
-            organizaciones de la sociedad civil conocen a su gente, sabiendo con
-            claridad sus necesidades. Este proceso reafirmó que con el
-            conocimiento popular no puede haber indiferencia ni olvido. Lo digo
-            porque en el proceso de asignación de recursos quedó claro quién
-            tiene el saber requerido para hacer las cosas bien.
+            La crisis sanitaria por COVID - 19 vino a develar todas las problemáticas asociadas al desabastecimiento. Ante inconsistencia en la forma y continuidad del abastecimiento hídrico, se profundizó una incertidumbre que no permite a la población rural de la Provincia de Petorca cubrir sus necesidades básicas de consumo e higiene personal, doméstica y seguridad alimentaria.
           </span>
           <span className="section-span">
-            Con Valdivia Solidaria logramos concretar relaciones horizontales
-            colaborativas con líderes y lideresas sociales. Hay algo que me
-            parece hermoso y que debiese estar más en política es hacer visible
-            las voces que han sido negadas por el Estado chileno y por esa
-            maquinaria asistencialista que solo busca negar derechos.
+            A lo que se suman altas tasas de informalidad laboral y de trabajo e ingresos precarios, campesinos empobrecidos, etc. Sin poder sostener sus actividades de sustento económico, ni cumplir con las recomendaciones de higiene que demanda la prevención del COVID-19  y que afectan de igual manera a un gran número de personas en la región.
           </span>
           <span className="section-span">
-            En este momento de preguntas aparece una humilde convicción que
-            viene de cuna, desde mi padre rescatista y una madre despierta
-            socialmente. Ambos me enseñaron el significado de la solidaridad:
-            hacer algo de manera desinteresada por otra persona cuando hay
-            situaciones de aprieto. Así se fue forjando en mí el principio de
-            ayudar para mejorar la calidad de vida de las personas
-            contradiciendo el principio neoliberal de la responsabilidad
-            individual y que espero después de esta crisis sanitaria comience a
-            terminarse.
+            A fin de frenar la rápida propagación de esta enfermedad y proteger a toda la población, es urgente que todas las personas, sobre todo los grupos de alto riesgo, tengan la oportunidad de acceder al agua potable para evitar la saturación de los centros de salud.
           </span>
           <span className="section-span">
-            Una de las contradicciones de esta pandemia ha sido la tensión entre
-            solidaridad versus individualismo. Por décadas, nos hicieron creer
-            que los intentos del neoliberalismo por producir personas
-            individualistas habían resultado. Por otra parte, desde los primeros
-            días de esta crisis hablamos que el momento requiere de colaboración
-            para salir de ella. Entonces, ante un Estado que muestra una total
-            desprotección con la ciudadanía ¿no piensan que es hora de poner en
-            entredicho al individualismo a través de la creación y
-            multiplicación de redes de solidaridad?
+            Esta situación ha provocado un sin fin de emociones. Hemos pasado desde el temor, la rabia y la impotencia hasta la rebeldía y valentía de romper con el confinamiento para ir apoyar a las comunidades que sufren estrés hídrico.
           </span>
           <span className="section-span">
-            Pasado unos días retomo mi relato… y comienzo a escribir
-            quebrantada. Vividas las primeras entregas cómo no declararme
-            indignada ¡Sí casa tras casa juntamos nuevas y dolorosas razones
-            para que Valdivia Solidaria perdure en el tiempo! Como no sentirme
-            rebelde y serlo si la realidad me golpea con cada historia que
-            aparece ante nosotros.
+            A través de operativos hemos entregado agua de calidad y certificada a aquellas localidades que han sido más golpeadas. Llevamos 9 salidas a terreno con más de 16 mil litros de agua entregados. Si bien sabemos que estas medidas no son suficientes, no podemos quedarnos sentados en nuestras zonas de confort sabiendo que nuestra gente vive en permanente riesgo.
           </span>
           <span className="section-span">
-            El Coronavirus dejará a Valdivia en un lugar del que será difícil
-            salir, los años de estancamiento están quedando al descubierto. Solo
-            hemos tenido administraciones municipales y no gobiernos locales,
-            sin existir un proyecto comunal que nos piense. No podemos permitir
-            que esta pandemia nos herede mayores inequidades, no puedo
-            permitirme hacer nada ante esto. Gritaré que es injusto lo que le
-            sucede a doña María, gritaré guturalmente que este ¡no es el
-            Valdivia que merecemos!
+            Junto a las compañeras y compañeros de Modatima decidimos levantar esta campaña porque era un deber moral para nosotros y nosotras, quienes hemos sido defensores/as permanentes de la recuperación del agua y de los bienes naturales comunes.
           </span>
           <span className="section-span">
-            Hoy me doy cuenta que mi puerta se cierra pero también se abre para
-            responder al rol que la política demanda de cada una de nosotras.
-            Las invito a activarse y a que Valdivia Solidaria se replique por
-            distintas comunas del país. Nosotras somos quienes tenemos la
-            responsabilidad de articular redes de trabajo que permitan la
-            solidaridad.
+            Por otro lado, hoy en mi rol de dirigenta social, como parte de Revolución Democrática y como Coordinadora Territorial del equipo del Senador Juan Ignacio Latorre, hemos levantando iniciativas de cooperación con quienes más ha golpeado esta pandemia, con proyectos que van en apoyo de distintas comunidades de la Provincia de Petorca y Aconcagua.
           </span>
           <span className="section-span">
-            Este hilo de emociones termina con una Tonha profundamente
-            agradecida de muchos y muchas que han hecho posible la solidaridad.
-            Diciendo que una mujer puede liderar un proceso como el que Valdivia
-            Solidaria ha levantado, poniendo mayor diversidad en la toma de
-            decisiones. Esto ya ha sido evidenciado en los países cuyos
-            liderazgos femeninos están llevando la crisis sanitaria por la
-            pandemia Covid-19. Por ahora, me despido privilegiada de estar junto
-            a quienes luchan para poder ayudar.
+            Sin duda esta crisis nos dejará lecciones en distintos frentes, pero si hay algo claro es que no podemos volver a lo de antes. Si bien nos ha golpeado fuertemente como sociedad, este momento nos da paso a reflexionar sobre cómo dejar atrás la visión antropocéntrica que tenemos de la naturaleza. Esa visión no es factible con la vida. No se puede seguir funcionando como si la contaminación de la Tierra fuera un dato más.
           </span>
           <span className="section-span">
-            De ahora en adelante es tiempo que las voces negadas y oprimidas
-            sean aquellas que entregan conducción a los espacios. Tenemos la
-            responsabilidad de generar rupturas y continuidades como seres
-            políticas en el trabajo territorial, seguir pre- alimentando nuestra
-            relación con dirigentes y dirigentas y, finalmente, seguir sin
-            entrar en las prácticas asistencialistas.
+            Este es un gran desafío que tenemos a través de una nueva Constitución, que pueda relevar a la naturaleza como un sujeto de derecho y  compatibilizar esto con una economía más estable y  más justa.
+          </span>
+          <span className="section-span">
+            En términos de enfoque de género y derechos, la crisis sanitaria golpea fuertemente a las mujeres en muchos aspectos. Pero también viene a evidenciar muchas vulneraciones que no son prioridad en las discusiones legislativas y que hoy se hacen urgentes. En condiciones totalmente adversas, una vez más cae sobre nuestros hombros la gran responsabilidad de sostener la economía de cuidados. Esto me lleva junto a mis compañeras a seguir levantando mi puño en esta interminable lucha por la recuperación de todos nuestros derechos.
           </span>
         </div>
 

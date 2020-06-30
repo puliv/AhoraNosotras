@@ -12,8 +12,8 @@ export class Editorial extends Component {
     return (
       <div className="section editorial">
         <GoBack />
-
         <div className="section-titles">
+
           <h3 className="section-h3">EDITORIAL</h3>
           <h1 className="section-h1">
             Criar y cuidar también es trabajar, queremos seguridad social
@@ -34,86 +34,44 @@ export class Editorial extends Component {
         </div>
         <div className="section-div-span">
           <span className="section-span">
-            No cabe duda, la pandemia y el confinamiento revelaron de forma
-            ineludible que limpiar y cuidar es trabajar. Podríamos pasar horas
-            en cualquiera de estas labores sin que nadie lo reconociera, tal y
-            como lo han hecho, históricamente, millones de mujeres en dobles y
-            triples jornadas laborales. Solo que hoy, más que nunca, se hizo
-            visible y nadie desconoce que en el hogar “se trabaja”. ¿Qué clase
-            de trabajo es ese? ¿Por qué a esta sociedad le parecen labores tan
-            irrelevantes que ni siquiera las considera en su Producto Interno
-            Bruto? Lo cierto es que se ha decidido vivir bajo esa tamaña ceguera
-            de forma deliberada, nos acomoda dar por sentado que el sacrificio
-            es casi una cualidad natural en algunas personas, por regla general,
-            mujeres. Nos tranquiliza creer que son tareas secundarias, de poco
-            estatus, que podría hacer cualquiera a un precio barato.
+            “No es sequía, es saqueo”, decían miles de carteles en la revuelta popular ocurrida en Octubre de 2019. Se trata, entonces, de una verdad que ya no se puede tapar y que carga la mayoría de sus costos sobre las espaldas de las mujeres. Según datos de Modatima, en los territorios con crisis hídrica las mujeres son las que principalmente entregan el agua a sus comunidades. Ejemplo de ello es que 8 de 10 mujeres son recolectoras de agua, donde entre eso hay niñas incluidas.
           </span>
 
           <span className="section-span">
-            Sin embargo, tú y yo sabemos que son esas labores las que han
-            garantizado la subsistencia, desarrollo y estabilidad emocional de
-            cualquier habitante en este mundo. Lo sabemos mucho antes de esta
-            pandemia, porque esta crisis solo vino a recordarnos el orden bajo
-            lo que todo se encuentra estructurado. Existen quienes dominan y
-            quienes son oprimidos/as en base a la clase, etnia y, por supuesto,
-            al género que les constituye. A partir de eso habrá vidas más o
-            menos valiosas, gente con más o menos hambre, personas con distintos
-            niveles de exposición a la contaminación y seres más o menos
-            susceptibles a la violencia y explotación.
+            Pero el modelo neoliberal y extractivista no solo ha sacrificado la calidad de vida de miles de familias, sino que también ha respondido con amenazas y el asesinato de cientos de dirigentas que, a lo largo de todo el mundo, han decidido defender sus territorios y a la naturaleza, en tanto patrimonio. Volviéndolo una verdadera afrenta entre dos visiones que se contraponen.
           </span>
         </div>
-        <div className="section-div-split">
+
+        {/* <div className="section-div-split">
           <div className="section-div-half">
             <span className="section-div-half-right">
-              Más de la mitad de las mujeres se está haciendo cargo sola de las
-              labores de cuidado y domésticas.
             </span>
           </div>
           <div className="section-div-half">
             <span className="section-div-half-left">
-              Bajo el orden sexo-género imperante, el cuidado y el trabajo
-              doméstico no remunerado prácticamente no tienen valoración y
-              nuevamente, en plena cuarentena, se encuentra ejercido
-              principalmente por nosotras. Quienes no solo nos hemos vuelto la
-              primera línea del cuidado, sino que hemos tenido que seguir
-              rindiendo igual o más en el teletrabajo remunerado y en trabajos
-              informales. Tanto, que más de la mitad de las mujeres se está
-              haciendo cargo sola de las labores de cuidado y domésticas, según
-              la encuesta Ipso-La Tercera. Tanto, que se están “llevando un peso
-              que si no lo dosificamos, nos podría quebrar”, anuncia la
-              psicóloga Paula Saez.
             </span>
           </div>
-        </div>
+        </div> */}
 
         <span className="section-span">
-          Así, esta pandemia puede ser esta temida distopía que - tristemente-
-          se hace realidad, pero también la oportunidad de quitarnos el vendaje.
-          Y esa apertura no puede ser en solitario, porque si hay algo que nos
-          ha legado el movimiento feminista ha sido, precisamente, la capacidad
-          de cuestionarnos el mundo en el que vivimos, criticarlo e incomodarlo,
-          nombrando lo que nadie se atreve a nombrar. En ese camino de
-          superación del patriarcado y sus distintas formas de dominación, las
-          redes de mujeres han cumplido y cumplirán un rol vital, porque nos
-          enseñan de solidaridad, pero también porque la pobreza, el dolor y la
-          esperanza se viven mejor compartidas.
+          Por un lado, una que pone en el centro un modelo capitalista neoliberal y su dictámenes, entre ellos: la invisibilización y devaluación del trabajo doméstico y de cuidados, aun cuando sean estos los que sostienen la tan ansiada productividad del modelo; junto a la idea infinitud de los recursos naturales, en tanto se asume que se dispone de ellos de forma inagotable y sin límites.
         </span>
         <span className="section-span">
-          En esa tarea los hombres también han de participar, porque este modelo
-          se ha de derrumbar asumiendo ellos también esa toma de consciencia. No
-          tenemos duda, otro Chile es posible si los cuidados y el trabajo
-          doméstico no remunerado son reconocidos y valorizados; sin son
-          asumidos como una responsabilidad colectiva de una sociedad que pone
-          en el centro la vida, garantizando la seguridad social de todos
-          quienes la componen, sin distinción.
+          Y por el otro, una visión que entiende a la humanidad solo como una parte más de la naturaleza y por tanto, pone énfasis en la forma en cómo ambas se conectan y son interdependientes. Algo que nuestros pueblos originarios tuvieron siempre presente. Tanto que les significó ser despojados de sus tierras, cultura y cosmovisión por el mismo aparato estatal, quien también se encargó de implantar el actual modelo.
         </span>
         <span className="section-span">
-          #AhoraNosotras pretende ser, entonces, no solo una revista feminista,
-          sino que ese espacio de construcción entre mujeres, en que todas y
-          todes estamos invitadas a sacar la voz. A relatar nuestra vida en
-          primera persona. Porque la experiencia de cada una es también nuestra
-          y nos permite delinear un nuevo futuro alegre, justo y digno.
+          Sin embargo, la fragilidad de ese modelo y de nuestra propia existencia quedaron demostrados en esta pandemia. No solo porque somos seres que dependemos de la naturaleza, sino que también porque requerimos del cuidado de otra y nos relacionamos entre nosotras mediante ese trabajo y cuidado. No asumir esta realidad nos impide notar que el tiempo se nos acaba,  y que el coronavirus pareciera ser una más de una seguidillas de crisis que se avecinan, entre ellas, la Crisis Climática.
         </span>
+        <span className="section-span">
+          Vale preguntarse entonces, ¿Cómo pensamos reactivar la economía y reconstruir Chile sin que eso implique el sacrificio de zonas completas y de quienes las habitan?, ¿Qué o quiénes permiten que el mundo funcione de la forma en cómo lo solíamos hacer? Y finalmente, superada esta crisis, ¿Es posible seguir adelante sin que la tierra ni las mujeres sean territorios de conquista?
+        </span>
+        <span className="section-span">
+          Así, en el contexto de una de las crisis sanitarias más graves de las últimas décadas y el desplome el sistema económico vigente junto al desamparo de miles de trabajadoras por el Estado, resulta fundamental nuestra capacidad de trazar el nuevo horizonte que imaginamos para Chile. Y en este la vida debe estar en el centro y esto considera especialmente la forma en cómo la humanidad se relaciona y valora a la naturaleza.
+        </span>
+        <span className="section-span">
+          Proponemos, entonces, al ecofeminismo como piedra angular para la reconstrucción de un nuevo Chile, en tanto teoría política que cuestiona a un modelo económico basado en el crecimiento por acumulación y en cómo este reproduce la vida bajo sociedades capitalistas neoliberales. Solo esto nos permitirá dejar de intentar sobrevivir a cada una de estas crisis y empezar a pensar, en serio, en una sostenibilidad humana que sea consistente con una ecológica. Porque el sistema económico ha de estar a disposición de quienes habitamos este mundo y no limitando nuestra existencia dentro de él.
+        </span>
+
         <div className="credits">
           <img
             src={

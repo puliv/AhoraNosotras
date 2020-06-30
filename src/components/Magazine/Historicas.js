@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
+import historicas from '../../assets/REVISTA2/Historicas.png'
 
 export class Historicas extends Component {
   componentDidMount() {
@@ -55,9 +56,7 @@ export class Historicas extends Component {
 
         <div className="historicas-img-div">
           <img
-            src={
-              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true"
-            }
+            src={historicas}
             alt="Historicas"
             className="historicas-img"
           />

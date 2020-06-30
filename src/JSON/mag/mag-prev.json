@@ -1,0 +1,55 @@
+[
+  {
+    "id": "0",
+    "name": "cover",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/1_PORTADA/portada_revista.jpg?raw=true",
+    "mag_number": "1"
+  },
+  {
+    "id": "1",
+    "name": "editorial",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/2_EDITORIAL/editorial.png?raw=true",
+    "section": "EDITORIAL",
+    "title": "CRIAR Y CUIDAR TAMBIÉN ES TRABAJAR",
+    "made_by": "EQUIPO AHORA NOSOTRAS"
+  },
+  {
+    "id": "2",
+    "name": "hablamos",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/4_HABLAMOS/Hablamos.png?raw=true",
+    "section": "HABLAMOS",
+    "title": "VALDIVIA SOLIDARIA",
+    "made_by": "@Vic_tonha_ Y CAMILA CASTILLO GUERRERO"
+  },
+  {
+    "id": "3",
+    "name": "opinamos",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/8_OPINAMOS/opinamos.png?raw=true",
+    "section": "OPINAMOS",
+    "title": "FALTA DE CORRESPONSABILIDAD: OTRO SÍNTOMA DE UN MAL PANDÉMICO LLAMADO MACHISMO",
+    "made_by": "PAULA TINA MENTE"
+  },
+  {
+    "id": "4",
+    "name": "creamos",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/creamos-04.png?raw=true",
+    "section": "CREAMOS",
+    "title": "HOMENAJE A FABIOLA CAMPILLAY",
+    "made_by": "EQUIPO AHORA NOSOTRAS"
+  },
+  {
+    "id": "5",
+    "name": "despiertas",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/6_DESPIERTAS/despiertas-05.png?raw=true",
+    "section": "DESPIERTAS",
+    "title": " ESO QUE LLAMAN AMOR ES TRABAJO NO PAGADO",
+    "made_by": "@Vic_tonha_ Y CAMILA CASTILLO GUERRERO"
+  },
+  {
+    "id": "6",
+    "name": "backover",
+    "img": "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/7_CONTRAPORTADA/ahoranosotras.png?raw=true",
+    "title": "HISTORICAS",
+    "made_by": "LUISA RIVERA"
+  }
+]

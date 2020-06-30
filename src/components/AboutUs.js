@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import howThisWork from "../assets/img/juntassomoscomunidad.png"
 import { Parallax } from "react-parallax"
-import keyDates from "../keyDates.json"
+import keyDates from "../JSON/key-dates.json"
 import { animateScroll as scroll } from 'react-scroll'
 // import { Menu, Dropdown } from 'antd'
 // const menu = (

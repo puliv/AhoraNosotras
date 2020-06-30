@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import protagonistas from "../protagonistas.json";
+import protagonistas from "../JSON/protagonistas.json";
 import { animateScroll as scroll } from 'react-scroll'
 import classNames from "classnames";
 

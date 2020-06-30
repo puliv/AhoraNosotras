@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
+import creamos from '../../assets/REVISTA2/Creamos.png'
 import { animateScroll as scroll } from 'react-scroll'
 
 export class Creamos extends Component {
@@ -14,102 +15,38 @@ export class Creamos extends Component {
         <GoBack />
         <div className="section-titles">
           <h3 className="section-h3">CREAMOS</h3>
-          <h1 className="section-h1">Homenaje a Fabiola Campillay</h1>
-          <h2 className="section-h2">Por Carolina Leria y Margarita Portuguez</h2>
+          <h1 className="section-h1">NO ES PANDEMIA, ES PAN DE CADA DÍA</h1>
+          <h2 className="section-h2">Por Ericka Ñanco, vocera de Asamblea de Mujeres Ngulumapu 2018 - 2019</h2>
         </div>
 
-        <div className="section-div-span">
-          <span className="section-span">
-            Creamos es una sección pensada como un espacio de expresión,
-            encuentro y desahogo entre compañeras por medio de la creatividad.
-            En este primer número de la Revista Ahora Nosotras dedicado al
-            reconocimiento de las mujeres trabajadoras de nuestro país,
-            realizamos un homenaje a Fabiola Campillay. Con 36 años y 3 hijos,
-            esta vecina de la población Cinco Pinos de San Bernardo, que en
-            octubre se desempeñaba como operaria de Carozzi, se convirtió en una
-            de las primeras mujeres víctimas de trauma ocular que dejó la
-            revuelta social de Octubre 2019. Tras el impacto de una bomba
-            lacrimógena lanzada por el represivo actuar de Carabineros, a menos
-            de 20 metros de su rostro, perdió sus dos ojos y exige justicia.
-          </span>
-        </div>
-
-        <div className="creamos-subtitles">
-          <h2 className="creamos-h2-micro">Ilustración</h2>
-          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>Por Carolina Leria</h3>
-        </div>
-
-        <div className="creamos-div-img">
+        <div className="section-img-div">
           <img
-            src={
-              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA_AHORA_NOSOTRAS/5_CREAMOS/FABIOLA_CAMPILLAY.png?raw=true"
-            }
+            src={creamos}
             alt="creamos"
-            className="creamos-img "
+            className="section-img"
           />
         </div>
-
-        <div className="creamos-subtitles">
-          <h2 className="creamos-h2-micro">Microcuento</h2>
-          <h3 className="creamos-h3-micro" style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>
-            Por Margarita Portuguez G. Dirigenta Sindical
-          </h3>
-        </div>
-
-        <div className="creamos-text-div-micro">
-          <div className="creamos-div-left">
-            <span className="creamos-span">
-              Un martes de noviembre, camino al turno de noche a Carozzi donde
-              trabajaba de operaria, el destino de Fabiola Campillay y su
-              familia se selló para siempre. ¿La razón? Una bomba lacrimógena
-              lanzada por las Fuerzas Especiales de Carabineros de Chile.
-            </span>
-            <span className="creamos-span">
-              La prensa le llama el “Estallido Social”, otros preferimos decirle
-              la Revuelta Popular. La comuna de San Bernardo donde vive Fabiola
-              no está ajena a ese reclamo. Había protestas, había necesidades.
-              Ella misma en su calidad de dirigente social organizó bingos, a
-              ratos únicas formas de financiamiento que tienen las mayorías de
-              las familias de Chile para enfrentar alguna enfermedad o
-              imponderable económico.
-            </span>
-          </div>
-          <div className="creamos-div-right">
-            <span className="creamos-span-fabiola">
-              Fabiola es una heroína como muchas mujeres que luchan día a día
-              por su bienestar personal, familiar y también por su población, su
-              barrio y a fin de cuentas, por su país.
-            </span>
-          </div>
-        </div>
-
-        <div className="creamos-text-div">
+        <div className="section-div-span">
           <span className="section-span">
-            Fabiola tenía un bajo sueldo, debía cumplir turnos extenuantes y una
-            familia de quien preocuparse. Sin embargo, eso no fue impedimento
-            para asumir otras responsabilidades o compromisos como dirigenta
-            vecinal. También apagaba incendios como bombera y daba los pases gol
-            en los campeonatos de fútbol en su trabajo. Fabiola se vinculaba
-            activamente en su entorno y era capaz no sólo de ver más allá de sus
-            propias carencias, sino de trabajar y ayudar al prójimo
-            anónimamente. Fabiola en esos momentos ya es una heroína.
+            Durante estas últimas semana, en plena crisis sanitaria, los ministros del Interior y de Defensa nos sorprendieron a través de los medios de comunicación al anunciar públicamente un reforzamiento militar de la Unidad Fundamental de Orden Público (UFO) a las regiones del Bío Bío y Araucanía, dizque para “combatir” la delincuencia en el territorio.
           </span>
           <span className="section-span">
-            Por ahora Fabiola, mujer de sangre diaguita, madre de 3 hijos, hija
-            de María Isabel, hermana de Ana María y compañera de Marco tendrá
-            otros desafíos en el día a día y percibirá el mundo de formas que
-            muchos desconocemos. Por eso, Fabiola no debe ser sólo recordada
-            como un símbolo de la represión policial en el gobierno de Sebastián
-            Piñera. Fabiola es una heroína como muchas mujeres que luchan día a
-            día por su bienestar personal, familiar y también por su población,
-            su barrio y a fin de cuentas, por su país.
+            Si consideramos que el rol de las fuerzas armadas en Chile es “preservar la paz, garantizar la soberanía nacional, mantener la integridad territorial y proteger a la población e instituciones frente a cualquier amenaza externa, así como constituir una importante herramienta de la política exterior de Chile”, lo más sensato sería pensar que este arsenal de militares se presenten a ser un aporte en contra de la única amenaza externa que hoy nos aqueja como país: el COVID-19.
           </span>
           <span className="section-span">
-            Si queremos avanzar juntas en la construcción de un Chile consciente
-            y sustentable, la reparación y justicia para Fabiola Campillay es
-            indispensable y necesaria.
+            Más aún si el gobierno aumentó en 3 mil millones de dólares su presupuesto 2020. Sin embargo, lógicas de funcionamiento de este tipo de las FF.AA no funciona cuando algo huele o se ve como mapuche. Ejemplo, de ello es que el pasado 4 de junio, Alejandro Treuquil, el werken de la comunidad We Newen de Collipulli, que reivindica tierras en disputa con forestal Arauco, murió asesinado por desconocidos dejando una viuda y tres hijos.
+          </span>
+          <span className="section-span">
+            No hubo palabras de aliento a la familia por parte del gobierno, mucho menos una condena tajante ante semejante acto. Hoy, con una investigación en curso, no existen imputados, tan solo el angustiante infortunio de un hombre que nació con el pecado de apellidarse Treuquil y no Luchsinger, de criarse en territorio mapuche y no gringo
+          </span>
+          <span className="section-span">
+            Esta situación no es mejor cuando de mujeres se trata. Casos como el de Lorenza Cayuhan, Francisca Linconao o Macarena Valdés, nos recuerdan que no corre mejor suerte una mujer mapuche, de comunidad y que defiende sus derechos. El Estado utiliza todo su aparato represor para silenciar con cárcel o sicarios a aquellas que con coraje y valentía se atreven a sacar la voz por los suyos y suyas.
+          </span>
+          <span className="section-span">
+            Lamentable esta realidad  acá en la Araucanía es pan de cada día. La amenaza externa en plena pandemia sumada al aumento de presupuesto desproporcionado a las Fuerzas Armadas es una burda excusa. Todo esto nos da cuenta de las nulas intenciones que tiene el gobierno de Sebastián Piñera de darle soluciones políticas a un tema que viene arrastrándose hace décadas como lo es el reconocimiento constitucional a los pueblos originarios, asunto que por cierto no debe ni puede combatirse con milicia.
           </span>
         </div>
+
         <ReadNext section={"creamos"} />
       </div>
     );
