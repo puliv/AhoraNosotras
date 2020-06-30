@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import ReadNext from "./ReadNext"
 import GoBack from "./GoBack"
 import { animateScroll as scroll } from 'react-scroll'
-import despiertas from '../../assets/REVISTA2/Despiertas.png'
 
 export class Despiertas extends Component {
   componentDidMount() {
@@ -31,7 +30,7 @@ export class Despiertas extends Component {
 
           <div className="despiertas-div">
             <img
-              src={despiertas}
+              src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Despiertas.png?raw=true"}
               alt="despiertas"
               className="despiertas-img"
             />

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
-import creamos from '../../assets/REVISTA2/Creamos.png'
 import { animateScroll as scroll } from 'react-scroll'
 
 export class Creamos extends Component {
@@ -21,7 +20,7 @@ export class Creamos extends Component {
 
         <div className="section-img-div">
           <img
-            src={creamos}
+            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Creamos.png?raw=true"}
             alt="creamos"
             className="section-img"
           />
