@@ -3,6 +3,8 @@ import anlogo from '../assets/logos/ahora-nosotras.png'
 import logo_ug from '../assets/logos/logo_ug.png'
 import rdlogo from '../assets/logos/revolucion-democratica.png'
 import { InstagramOutlined, FacebookFilled, TwitterOutlined, LinkedinFilled } from '@ant-design/icons'
+import { Link } from "react-router-dom"
+import { animateScroll as scroll } from "react-scroll"
 
 
 export default function Footer() {
@@ -11,11 +13,14 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-img-div-top">
-          <img
-            src={anlogo}
-            alt="Ahora Nosotras"
-            className="footer-img-anlogo"
-          />
+          <Link to="/">
+            <img
+              src={anlogo}
+              alt="Ahora Nosotras"
+              className="footer-img-anlogo"
+              onClick={() => scroll.scrollToTop()}
+            />
+          </Link>
         </div>
         <div className="footer-social-media-div">
           <a href="https://www.facebook.com/AhoraNosotrasRD/" target="_blank" rel="noopener noreferrer">
