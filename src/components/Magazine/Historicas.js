@@ -42,7 +42,7 @@ export class Historicas extends Component {
 
         <div className="historicas-img-div">
           <img
-            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Historicas.png?raw=true"}
+            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/contraportada.jpg?raw=true"}
             alt="Historicas"
             className="historicas-img"
           />

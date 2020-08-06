@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
-import protagonista from '../../assets/REVISTA3/protagonistas.png'
+
 
 export class Protagonistas extends Component {
   componentDidMount() {
@@ -23,7 +23,7 @@ export class Protagonistas extends Component {
 
         <div className="section-img-div">
           <img
-            src={protagonista}
+            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/protagonistas.png?raw=true"}
             alt="protagonistas"
             /* img-protag es un clase especial para seccion editorial revista 2 */
             className="section-img img-protag"

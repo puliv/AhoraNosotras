@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import GoBack from "./GoBack"
 import ReadNext from "./ReadNext"
 import { animateScroll as scroll } from 'react-scroll'
-import opinamos from '../../assets/REVISTA3/opinamos.png'
+
 
 export class Opinamos extends Component {
   componentDidMount() {
@@ -24,7 +24,7 @@ export class Opinamos extends Component {
 
           <div className="section-img-div">
             <img
-              src={opinamos}
+              src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/opinamos.png?raw=true"}
               alt="Opinamos"
               className="section-img"
             />

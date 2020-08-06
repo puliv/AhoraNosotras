@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
-import hablamosAlejandra from '../../assets/REVISTA3/hablamos_alejandratoledo.png'
-import hablamosCamila from '../../assets/REVISTA3/hablamos_camilacastillo1.png'
+
 
 export class Hablamos extends Component {
   componentDidMount() {
@@ -26,7 +25,7 @@ export class Hablamos extends Component {
 
         <div className="section-img-div">
           <img
-            src={hablamosAlejandra}
+            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/hablamos_alejandratoledo.png?raw=true"}
             alt="hablamos"
             className="section-img "
           />
@@ -101,7 +100,7 @@ export class Hablamos extends Component {
 
         <div className="section-img-div">
           <img
-            src={hablamosCamila}
+            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/hablamos_camilacastillo1.png?raw=true"}
             alt="hablamos"
             className="section-img "
           />
