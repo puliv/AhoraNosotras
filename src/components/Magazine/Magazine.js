@@ -5,13 +5,13 @@ import Hablamos from "./Hablamos";
 import Creamos from "./Creamos";
 import Protagonistas from "./Protagonistas";
 import Despiertas from "./Despiertas";
-import cover from '../../assets/REVISTA2/portadax.png'
-import editorialImg from '../../assets/REVISTA2/Editorial.png'
-import hablamosImg from '../../assets/REVISTA2/Hablamos.png'
-import opinamosImg from '../../assets/REVISTA2/Opinamos.png'
-import creamosImg from '../../assets/REVISTA2/Creamos.png'
-import despiertasImg from '../../assets/REVISTA2/Despiertas.png'
-import backcover from '../../assets/REVISTA2/Historicas.png'
+import cover from '../../assets/REVISTA3/portada-3.png'
+import editorialImg from '../../assets/REVISTA3/editorial.png'
+import hablamosImg from '../../assets/REVISTA3/hablamos_alejandratoledo.png'
+import opinamosImg from '../../assets/REVISTA3/opinamos.png'
+import creamosImg from '../../assets/REVISTA3/creamos.jpg'
+import despiertasImg from '../../assets/REVISTA3/despiertas.png'
+import backcover from '../../assets/REVISTA3/contraportada.jpg'
 
 import { Row, Col } from "antd";
 import { animateScroll as scroll } from "react-scroll";
@@ -54,7 +54,7 @@ export class Magazine extends Component {
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">EDITORIAL</h3>
                           <h2 className="mag-h2">
-                            Un Chile donde la vida esté en el centro
+                            PODER DECIDIR, PARA NO MORIR
                               </h2>
                           <h4 className="mag-h4">POR ANITA MARTÍNEZ</h4>
                         </div>
@@ -70,9 +70,9 @@ export class Magazine extends Component {
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">HABLAMOS</h3>
                           <h2 className="mag-h2">
-                            ¿Cómo cuidarnos del virus si no tenemos agua?
+                            DE OSCURIDAD Y LUZ
                               </h2>
-                          <h4 className="mag-h4">Por Lorena Donaire</h4>
+                          <h4 className="mag-h4">Por Alejandra Toledo</h4>
                         </div>
                       </Link>
                     </Col>
@@ -88,9 +88,9 @@ export class Magazine extends Component {
                         <div className="mag-hor-text">
                           <h3 className="mag-h3">OPINAMOS</h3>
                           <h2 className="mag-h2">
-                            La bicicleta, una herramienta comunitaria para un nuevo Chile
+                            OBLIGADAS AL ENCIERRO
                               </h2>
-                          <h4 className="mag-h4">Por Sandra Aguilera</h4>
+                          <h4 className="mag-h4">Por Valeria Cárcamo</h4>
                         </div>
                       </Col>
                     </Link>
@@ -106,10 +106,10 @@ export class Magazine extends Component {
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">CREAMOS</h3>
                           <h2 className="mag-h2">
-                            NO ES PANDEMIA, ES PAN DE CADA DÍA
+                            MADRE DE CINCO
                               </h2>
                           <h4 className="mag-h4">
-                            Por Ericka Ñanco
+                            Por Nancy Cereceda
                               </h4>
                         </div>
                       </Link>
@@ -124,7 +124,7 @@ export class Magazine extends Component {
                         <div className="mag-ver-text">
                           <h3 className="mag-h3">DESPIERTAS</h3>
                           <h2 className="mag-h2">
-                            ¡SUELTEN EL AGUA!
+                            EDUCACIÓN, ANTICONCEPTIVOS Y ABORTO LEGAL ¡AHORA!
                               </h2>
                           <h4 className="mag-h4">
                             POR EQUIPO AHORA NOSOTRAS
@@ -145,9 +145,9 @@ export class Magazine extends Component {
                           <span className="mag-h2-historicas">
                             HISTÓRICAS
                             </span>
-                          <h4 className="mag-h4-historicas">
-                            POR CAMILA ORTEGA
-                              </h4>
+                          {/* <h4 className="mag-h4-historicas">
+                            POR ????
+                              </h4> */}
                         </div>
 
                       </Col>

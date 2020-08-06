@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import GoBack from "./GoBack"
 import ReadNext from "./ReadNext"
 import { animateScroll as scroll } from 'react-scroll'
+import opinamos from '../../assets/REVISTA3/opinamos.png'
 
 export class Opinamos extends Component {
   componentDidMount() {
@@ -16,69 +17,58 @@ export class Opinamos extends Component {
 
           <div className="section-titles">
             <h3 className="section-h3">OPINAMOS</h3>
-            <h1 className="section-h1">La bicicleta, una herramienta comunitaria para un nuevo Chile
+            <h1 className="section-h1">OBLIGADAS AL ENCIERRO
             </h1>
-            <h2 className="section-h2">Por Sandra Aguilera</h2>
+            <h2 className="section-h2">Por Valeria Cárcamo, Vocera Coordinadora 8M Valparaíso</h2>
           </div>
 
           <div className="section-img-div">
             <img
-              src={
-                "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Opinamos.png?raw=true"
-              }
+              src={opinamos}
               alt="Opinamos"
               className="section-img"
             />
           </div>
           <div className="section-div-span">
             <span className="section-span">
-              En 1896, Susan B. Anthony, feminista y sufragista, dijo: “La bicicleta ha hecho más para emancipar a las mujeres que nada en el mundo. Me levanto y me regocijo cada vez que veo a una mujer paseando sobre ruedas. Da a la mujer una sensación de libertad e independencia”. Esta cita, expresada hace 114 años, ya hablaba de la multiplicidad de sus aportes y las diversas dimensiones que comenzaba a revelar su uso.
+              Ha sido cada vez más difícil definir el paso siguiente en esta pandemia. Más pesado con cada actuar del ministerio de la Mujer y Equidad de Género que, con su silencio, nos condena a todas a la violencia que ha sostenido constantemente el sistema. Cuando cierran las puertas de nuestros hogares, nos encierran en el círculo de violencia más común: el “intrafamiliar”.
             </span>
+            <span className="section-span">
+              Mientras esto ocurre, en cientos de hogares, el gobierno avanza solo en políticas superficiales como medidas de prevención de la violencia machista. Ejemplo de ello fue la campaña de “mascarilla 19” que jamás dio frutos o teléfonos de ayuda como el 1455 que solo quedó precisamente en llamadas.
+            </span>
+            <span className="section-span">
+              Otro punto problemático es que estas políticas, al ser pocas, van dirigidas principalmente hacia mujeres cis heterosexuales. Esto deja en el olvido políticas públicas efectivas para las mujeres lesbianas, bisexuales, trans y gays, quienes en sus “hogares” son víctimas de violencia o discriminaciòn producto de su expresión de género y/u orientación sexual.
+            </span>
+
+            {/* Destacado */}
             <div className="section-div-split">
               <div className="section-div-half">
+                {/* Negrita */}
                 <span className="section-div-half-right">
-                  En medio de dos momentos tan complejos para nuestro país, como el estallido social de octubre y la pandemia mundial, la bicicleta ha emergido como una gran herramienta de prevención y resiliencia humana. En este escenario de complejidades sociales y sanitarias, su relevancia es vital para la construcción de comunidades.
-                </span>
+                  Nadie piensa en ellas y quedan desamparadas de las medidas sociales frente al escenario actual.
+            </span>
               </div>
-              <div className="section-div-half" style={{ display: 'flex', flexDirection: 'column', alignContent: 'space-between' }}>
-                <span className="section-div-half-left" style={{ marginBottom: '10px' }}>
-                  En medio de dos momentos tan complejos para nuestro país, como el estallido social de octubre y la pandemia mundial, la bicicleta ha emergido como una gran herramienta de prevención y resiliencia humana. En este escenario de complejidades sociales y sanitarias, su relevancia es vital para la construcción de comunidades.
-                </span>
+              <div className="section-div-half">
                 <span className="section-div-half-left">
-                  Según el Departamento de Estudios del Automóvil Club de enero, a partir de octubre 2019 y dadas las graves limitaciones de transporte y movilidad, en solo tres meses se aumentó en un 10 por ciento su uso. Una estadística reveladora, pues en el quinto Índice de Ciclismo Mundial realizado por Eco-Counter y New Cities, ya se había ubicado a nuestro país con un crecimiento del 10 por ciento de uso anual de la bicicleta.
-                </span>
+                  La correctividad y la discriminación son indicadores de violencias marcadas en las palabras diarias con las que deben lidiar las mujeres de la comunidad LGTBI y bajo la misma presión, poder llevar el transcurso del día. Nadie piensa en ellas y quedan desamparadas de las medidas sociales frente al escenario actual.
+            </span>
               </div>
             </div>
 
             <span className="section-span">
-              Paradójicamente, mientras nos enfrentamos a graves problemas a nivel nacional, de salud física y mental, al hambre, a las problemáticas educacionales, de transporte, distribución de insumos, desempleo, este escenario se convirtió en una oportunidad. A través de la movilidad activa y sustentable es posible mejorar los asentamientos humanos del país y por tanto la vida de las personas.
+              Durante mucho tiempo, hablar de nuestras cuerpas ha sido todo un desafío, porque planteamos la idea de que tenemos autonomía sobre ella y podemos decidir cómo queremos vivir nuestra sexualidad.
             </span>
             <span className="section-span">
-              Si bien siempre había estado en la en la dimensión más comunitaria, la bicicleta volvió a aparecer. Por eso, hoy no solo debe ser comprendida como un vehículo, es un vínculo entre diversas realidades. La bicicleta es un conector que nos permite estar en una escala diferente de aporte al desarrollo de la vida.
+              Esto ha sido foco de represión, persecución y discriminación. La idea de la mujer empoderada, cis, diversa y disidente, ha llevado a empujar la invisibilización cada vez de nuestras demandas, porque al vernos decidiendo sobre nuestra reproducción, ven también que dominamos nuestra situación en la subordinación de derechos.
             </span>
             <span className="section-span">
-              Desde octubre surgieron múltiples iniciativas desde la sociedad civil. Las acciones de agrupaciones ciclistas y activistas se volcaron a enseñar. Muchos talleres gratuitos emergieron en diversos sectores para explicar cómo reparar tu bicicleta, cómo cuidarte en tu traslado o cómo planificar la ruta. Si aumentaba la cantidad de viajes, también debían aumentar las iniciativas para que los y las más novatas pudieran circular sin contratiempos en sus trayectos
+              Bajo este crudo panorama, las organizaciones sociales feministas y frentes de las diversidades y disidencias sexuales somos quienes hemos tenido que solventar las falencias del trabajo que debía impulsar el gobierno, quienes jamás han desarrollado un enfoque de género íntegro, capaz de combatir la violencia.
             </span>
             <span className="section-span">
-              Esos talleres de mecánica básica, pasaron a ser talleres sociales de mecánica, porque ya no solo se aprendía unilateralmente a reparar algo. Se generó un intercambio de saberes y de experiencias. Se compartieron historias humanas y territoriales en cada encuentro. Finalmente, ambas partes regresaban con un aprendizaje práctico y de valor incalculable.
+              En ese sentido, las autoridades polìticas deben tomar un rol principal en la preveción, comprender la interseccionalidad, entender que existen múltiples focos de discriminación contra las mujeres y no seguir invisibilizando realidades.
             </span>
             <span className="section-span">
-              La bicicleta no solo es un vehículo para servicios delivery. No bastaba usarla como herramienta de prevención y de fomento de alguna actividad física, para mantenernos sanos y sanas. En el contexto actual, se adhirió su potencial para solucionar las problemáticas de logística y distribución.
-            </span>
-            <span className="section-span">
-              En un trabajo colaborativo y bien articulado entre la población de riesgo y quiénes pueden prestar asistencia, diversas agrupaciones ciclistas aportan en el retiro y entrega de donaciones a amplios sectores de las ciudades. En la comuna de Independencia, el trabajo asociativo es entre la comunidad ciclista, cocineras y cocineros comunitarios, muchos de ellos migrantes, y la Municipalidad, para semanalmente repartir decenas de almuerzos.
-            </span>
-            <span className="section-span">
-              Esa cocina comunitaria, se expresa como un círculo virtuoso de identidad territorial y de apoyo mutuo. Integra a las personas en la asistencia a otras e integra elementos transversales como la bicicleta y así genera un proyecto colectivo y una red que hace frente a la emergencia.
-            </span>
-            <span className="section-span">
-              En otros ámbitos cotidianos, afectados por la crisis sanitaria, son múltiples las historias de profesoras y profesores que recorren varios kilómetros en bicicleta, para llegar a sus estudiantes con sus tareas y materiales de aprendizaje. Enfocándose principalmente en aquellos y aquellas que no cuentan con internet, en una especie de ejercicio para combatir las desigualdades, digitales y sociales, donde la bicicleta vuelve a ser un medio transversal y sencillo de conexión.
-            </span>
-            <span className="section-span">
-              Si estuviéramos pensando en el futuro inmediato pos pandemia, se podrían generar reactivaciones de barrios y lograr fomentar economías locales en equilibrio. Una opción sería que los mismos hogares entreguen sus residuos orgánicos para generación de compost y avanzar hacia la producción de huertas locales, administradas por vecinas y vecinos, vendidas a precios justos y entregadas en los hogares en bicicleta.
-            </span>
-            <span className="section-span">
-              Esta es solo una, de las infinitas actividades probables, para generar algo tan necesario como es la salud comunitaria de nuestros territorios. Sobre un siglo después, y tal como dijo Susan B. Anthony, nosotras continuamos aprendiendo sobre el valor de la bicicleta y cómo logra conectar lo social con lo humano
+              Junto con la necesidad de eliminar la violencia contra nosotras en tiempos de pandemia, también crece la necesidad de tomar conciencia de ello y cambiar la forma de pensar las políticas públicas, abarcar la transversalidad en demandas de mujeres cis, disidentes y diversas para crear un espacio protector por y para nosotras.
             </span>
           </div>
 

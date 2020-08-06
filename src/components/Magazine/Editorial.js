@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
+import editorial from '../../assets/REVISTA3/editorial.png'
 
 export class Editorial extends Component {
   componentDidMount() {
@@ -16,7 +17,7 @@ export class Editorial extends Component {
         <div className="section-titles">
           <h3 className="section-h3">EDITORIAL</h3>
           <h1 className="section-h1">
-            Un Chile donde la vida esté en el centro
+            PODER DECIDIR, PARA NO MORIR
           </h1>
           <h2 className="section-h2">
             Por Anita Martínez, Directora Revista Ahora Nosotras
@@ -24,9 +25,7 @@ export class Editorial extends Component {
         </div>
         <div className="section-img-div">
           <img
-            src={
-              "https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Editorial.png?raw=true"
-            }
+            src={editorial}
             alt="editorial"
             className="section-img"
           />
@@ -35,43 +34,32 @@ export class Editorial extends Component {
         {/* BODY */}
         {/* <div className="section-div-span"> */}
         <span className="section-span">
-          “No es sequía, es saqueo”, decían miles de carteles en la revuelta popular ocurrida en Octubre de 2019. Se trata, entonces, de una verdad que ya no se puede tapar y que carga la mayoría de sus costos sobre las espaldas de las mujeres. Según datos de Modatima, en los territorios con crisis hídrica las mujeres son las que principalmente entregan el agua a sus comunidades. Ejemplo de ello es que 8 de 10 mujeres son recolectoras de agua, donde entre eso hay niñas incluidas.
+          Julio de 2020 no se parece al de años anteriores. Estamos encerradas y no pudimos participar de la octava marcha por el Aborto libre, legal, seguro y gratutito. Junto a ello,  fuimos las impotentes espectadoras de la audiencia de formalización de Martín Pradenas en el caso de Antonia Barra y esto nos removió y abrió viejas heridas.
           </span>
 
         <span className="section-span">
-          Pero el modelo neoliberal y extractivista no solo ha sacrificado la calidad de vida de miles de familias, sino que también ha respondido con amenazas y el asesinato de cientos de dirigentas que, a lo largo de todo el mundo, han decidido defender sus territorios y a la naturaleza, en tanto patrimonio. Volviéndolo una verdadera afrenta entre dos visiones que se contraponen.
+          Lo paradigmático de este caso no es solo la violencia sexual que acecha a miles de mujeres de manera cotidiana, sino que también todo el entramado de machismo y cultura de la violación que gatillan la fatídica decisión de Antonia. Lo que termina por remecer a nuestra sociedad y abre importantes preguntas en torno al consentimiento, la autonomía sexual y el continuo de violencia que es ejercido contra las mujeres durante todas las etapas de su desarrollo.
           </span>
-        {/* </div> */}
-
-        {/* <div className="section-div-split">
-          <div className="section-div-half">
-            <span className="section-div-half-right">
-            </span>
-          </div>
-          <div className="section-div-half">
-            <span className="section-div-half-left">
-            </span>
-          </div>
-        </div> */}
 
         <span className="section-span">
-          Por un lado, una que pone en el centro un modelo capitalista neoliberal y su dictámenes, entre ellos: la invisibilización y devaluación del trabajo doméstico y de cuidados, aun cuando sean estos los que sostienen la tan ansiada productividad del modelo; junto a la idea infinitud de los recursos naturales, en tanto se asume que se dispone de ellos de forma inagotable y sin límites.
+          Así, la cosificación que realiza la sociedad respecto a las niñas y mujeres se manifiesta en cuestiones concretas que van desde ser clasificadas acorde a su belleza por su pares varones hasta ser juzgadas por las decisiones que toman en torno a cuándo y cómo desean vivir su sexualidad. Paralelamente, los hombres aprenden desde pequeños a subordinar a las mujeres y esperar su sumisión y en lo que respecta a vivir su sexualidad, encuentran parte importante de su aprendizaje en la pornografía.
         </span>
         <span className="section-span">
-          Y por el otro, una visión que entiende a la humanidad solo como una parte más de la naturaleza y por tanto, pone énfasis en la forma en cómo ambas se conectan y son interdependientes. Algo que nuestros pueblos originarios tuvieron siempre presente. Tanto que les significó ser despojados de sus tierras, cultura y cosmovisión por el mismo aparato estatal, quien también se encargó de implantar el actual modelo.
+          De esta manera, el orden de género es claro en sus intentos de disciplinar las decisiones sobre autonomía sexual y reproductiva y muchas veces su desobediencia trae aparejada una respuesta violenta, la que también se manifiesta en el abandono u omisión que realiza el Estado al no resguardar los derechos sexuales y reproductivos de niñas y mujeres. Es lo que está ocurriendo hoy, de forma aún más grave, en esta crisis sanitaria debido al desabastecimiento y alza de precios en anticonceptivos y a los obstáculos de acceso tanto en la atención ginecológica como en la práctica de abortos
         </span>
         <span className="section-span">
-          Sin embargo, la fragilidad de ese modelo y de nuestra propia existencia quedaron demostrados en esta pandemia. No solo porque somos seres que dependemos de la naturaleza, sino que también porque requerimos del cuidado de otra y nos relacionamos entre nosotras mediante ese trabajo y cuidado. No asumir esta realidad nos impide notar que el tiempo se nos acaba,  y que el coronavirus pareciera ser una más de una seguidillas de crisis que se avecinan, entre ellas, la Crisis Climática.
+          Esta ausencia del Estado y en particular, para el gobierno de Sebastián Piñera demuestra que la vida de las mujeres no es una prioridad, porque la maternidad no es un asunto del que las mujeres puedan decidir de forma libre y autónoma. Se trata de un destino obligado o al menos una materia que no requiere de acciones urgentes, reafirmando la idea de que las mujeres pueden ser postergadas, incluso tratándose de algo tan trascendente en su proceso vital como lo es la decisión sobre ser o no madres.
         </span>
         <span className="section-span">
-          Vale preguntarse entonces, ¿Cómo pensamos reactivar la economía y reconstruir Chile sin que eso implique el sacrificio de zonas completas y de quienes las habitan?, ¿Qué o quiénes permiten que el mundo funcione de la forma en cómo lo solíamos hacer? Y finalmente, superada esta crisis, ¿Es posible seguir adelante sin que la tierra ni las mujeres sean territorios de conquista?
+          De esta forma el escenario que se augura es de los más demoledores. Según datos de la ONU habrá más de 7 millones de embarazos no deseados en todo el mundo y además, un número importante de mujeres que desesperadas tomarán la decisión de interrumpir sus embarazos mediante abortos clandestinos que pondrán en riesgo sus vidas.
         </span>
 
         <span className="section-span">
-          Así, en el contexto de una de las crisis sanitarias más graves de las últimas décadas y el desplome el sistema económico vigente junto al desamparo de miles de trabajadoras por el Estado, resulta fundamental nuestra capacidad de trazar el nuevo horizonte que imaginamos para Chile. Y en este la vida debe estar en el centro y esto considera especialmente la forma en cómo la humanidad se relaciona y valora a la naturaleza.
+          Y si bien esta situación límite en que se encuentran miles de mujeres pareciera ser irrelevante a los ojos de este gobierno. Lo cierto es que, aún en la peor crisis sanitaria del siglo, existe un movimiento feminista que resiste y que demuestra su fuerza tanto en un histórico 8 de marzo como en la reivindicación de los derechos de las mujeres frente a la inexistencia de una Ministra de la Mujer y Equidad de Género y en la exigencia de Justicia para Antonia.
+
         </span>
         <span className="section-span">
-          Proponemos, entonces, al ecofeminismo como piedra angular para la reconstrucción de un nuevo Chile, en tanto teoría política que cuestiona a un modelo económico basado en el crecimiento por acumulación y en cómo este reproduce la vida bajo sociedades capitalistas neoliberales. Solo esto nos permitirá dejar de intentar sobrevivir a cada una de estas crisis y empezar a pensar, en serio, en una sostenibilidad humana que sea consistente con una ecológica. Porque el sistema económico ha de estar a disposición de quienes habitamos este mundo y no limitando nuestra existencia dentro de él.
+          La conmemoración por el Aborto libre, legal, seguro y gratuito de este año no fue la excepción, porque las feministas sabemos que el reconocimiento y resguardo de nuestra  autonomía reproductiva es, en la práctica, lo que pone en jaque al patriarcado, ya que implica el reconocimiento de nuestra calidad de sujetas de derecho y deseo. Y hoy, más que nunca, sabemos que llegó el momento de conquistar ese futuro para hacerlo nuestro.
         </span>
 
         {/* CREDITOS */}

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
+import protagonista from '../../assets/REVISTA3/protagonistas.png'
 
 export class Protagonistas extends Component {
   componentDidMount() {
@@ -15,165 +16,163 @@ export class Protagonistas extends Component {
         <div className="section-titles">
           <h3 className="section-h3">PROTAGONISTAS</h3>
           <h1 className="section-h1">
-            Raquel González, integrante de Mujeres Modatima: “En Chile la usurpación del agua es legal”
+            GLORIA MAIRA: LA REPRODUCCIÓN DE LAS MUJERES ES DONDE EL PATRIARCADO HUNDE SUS UÑAS
           </h1>
           <h2 className="section-h2">Por Javiera López Layana</h2>
         </div>
 
         <div className="section-img-div">
           <img
-            src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA2/Protagonistas.png?raw=true"}
+            src={protagonista}
             alt="protagonistas"
             /* img-protag es un clase especial para seccion editorial revista 2 */
             className="section-img img-protag"
+            style={{ objectPosition: "0 -80px" }}
           />
         </div>
         <div className="protag-div-aurora">
-          <span className="section-span">
-            Hubo una época en la vida de Raquel que en vez de denunciar frente a los  escenarios a los responsables de la tierra seca y quebradiza disfrutó de grandes ríos. En este segundo número de la Revista Ahora Nosotras dedicado a “Mujeres, crisis climática y defensa de los territorios” conversamos sobre el despojo del agua en la Provincia de Petorca con Raquel González, profesora de la Escuela Rural de Pullally y dirigenta de Mujeres Modatima
+          <span className="section-span" style={{ fontStyle: "italic" }}>
+            En un Julio donde las marchas por un aborto libre y seguro pasaron de las calles hacia lo virtual producto de la pandemia, en este nuevo número de Ahora Nosotras conversamos con Gloria Maira, ex directora del Sernam y actual coordinadora de la Mesa de Acción por el Aborto sobre el estado de los derechos sexuales y reproductivos en tiempos de crisis y los desafíos del movimiento feminista de cara al proceso constituyente.
           </span>
           <span className="section-span">
-            “¡Álamos, Pérez Yoma, Triveri, Gazmuri, Yuleman, Ruiz Tagle, Bosch!”, grita vestida de negro, Raquel González Espinoza (45), directora de “Viudas del Agua”, obra de teatro que representa el despojo del agua en la Provincia de Petorca.
+            Gloria Maira Vargas (62) se define como una mujer política. Nacida al calor de un hogar donde los conflictos sociales eran parte de las conversaciones de la mesa, la actual coordinadora de la Mesa de Acción por el Aborto en Chile creció en un época de tensiones. Vivió la Unidad Popular, el golpe militar, la dictadura y el exilio y desde esas experiencias reconoce que ha tenido “una vida muy tocada por los tiempos”.
           </span>
           <span className="section-span">
-            En entrevista con la Revista Ahora Nosotras su mente se inunda con recuerdos de infancia. A mediados de los ochenta, recorrió junto a su familia el interior de la quinta región arriba de una camioneta Ford. Uno de sus destinos preferidos era El Trapiche, una localidad ubicada 77 kilómetros al norte de La Serena y 17 km de la localidad de La Higuera.
+            Integrante de una generación donde la vinculación con la política era un paso lógico para la juventud, la militancia para Gloria Maira llegó desde los catorce años. Participó en trabajos voluntarios y en movilizaciones en la Alameda.“Siempre he pensado en la política como una herramienta que te sirve para transformar, para analizar, para conversar, para acordar, para construir, para resistir”, reflexiona Maira.
             </span>
           <span className="section-span">
-            “En esa zona se recolectaban pepitas de oro e incluso habían camarones de río. Nosotros íbamos a pillar truchas con la mano, no con anzuelo. Así no más, a todo campo”. ¡Eran tremendas las pozas en el río, gigantes! El agua corría y nosotros nos bañamos”, relata Raquel González.
+            Su defensa por los derechos sexuales y reproductivos de las mujeres también llegó desde temprano. “Desde cabra  estuve vinculada al aborto porque yo también he abortado. Lo hice en la clandestinidad y también cuando estaba legalizado. Tú llegabas y le decías al doctor «mire, quiero terminar con este embarazo». Adquirí una perspectiva donde lo incorporé como parte de mis necesidades en términos de reconocimiento de la libertad de decidir para las mujeres sobre su futuro”, dice.
+          </span>
+          {/* Sub-titulo */}
+          <span className="protag-h2-crisis" style={{ marginTop: "20px" }}>
+            Mala negociadora
           </span>
           <span className="section-span">
-            Más que en tono de nostalgia piensa en esos recuerdos como una tragedia. Precisamente porque en lugares como El Trapiche, Río Tinto o la Poza de los Loros en Chincolco, donde aprendió a nadar y casi se ahogó cuando era pequeña, hoy solo hay piedras.
+            Gloria Maira reconoce que primero llegó a la izquierda y luego, al feminismo.  A los veinte años y producto de una crisis personal que le permitió revisar su propia historia sintió que era una mala negociadora. “Al principio, el malestar lo traducía en que yo no hacía buenas negociaciones. ¿Me entiendes? No pensaba que era un problema de discriminación, sino que era yo la que no hacía buenas negociaciones”, recuerda.
           </span>
-          <span className="section-span">
-            “Era otra época, otros tiempos. Tú te podías venir caminando desde Chincolco hasta Río Tinto, pero tú vas ahora y en esos lugares que antes eran fértiles no hay nada. En la Poza de Los Loros habían orificios donde vivían los loros tricahue. Mis papás se conocieron allá y se casaron”, agrega la activista.
-          </span>
-          <span className="section-span">
-            También recuerda sus vacaciones. “En Chincolco fuese invierno o verano en la mañana tú te levantabas y te mandaban a comprar la leche. Pero ahora ¿dónde encuentras leche? No hay po', o es muy escasa. Lo mismo que los quesos o los pejerreyes. Con toda la falta de agua han muerto muchos animales”, reflexiona la dirigenta.
-          </span>
-          <span className="section-span">
-            De generación en generación los paisajes fueron cambiando. “Es triste porque mis hijos si bien alcanzaron a bañarse en el río, cuando ellos tenían cinco y siete años el agua les llegaba hasta la cintura no más. No como a mí que, de lo hondo, casi me llegué a ahogar. Agradezco al menos que tuvieron la fortuna de conocer ese lugar”, dice González.
-          </span>
-          <span className="protag-h2-crisis">
-            ¡Profe, baje las revoluciones!
-          </span>
-          <span className="section-span">
-            Raquel González (45) es profesora de la Escuela Rural de Pullally, una localidad que se encuentra en la entrada del interior de la quinta región y en la que vive hace más de quince años. Este rincón es reconocido por su parque y sus salinas, formaciones geológicas de reconocido valor turístico para la comuna de Papudo.
-          </span>
-          <span className="section-span">
-            La escuela donde trabaja Raquel González tiene 180 estudiantes desde prekinder hasta octavo básico. Ella es profesora de lenguaje pero además tiene jefatura de un curso de sexto año.
-          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿Qué significa para ti como docente educar en un sector rural en medio de un contexto de crisis donde el acceso a la llamada “modernidad” parece que aún no llega en algunos lugares de Chile?
+            ¿Frente a otros compañeros?
           </span>
           <span className="section-span">
-            Por deber humano los profesores y profesoras tenemos un rol social muy importante. Siempre es difícil. Ya es complejo sin pandemia porque los recursos no llegan donde tienen que llegar, que es a los niños, a la escuela. Recuerdo que en 2016 pasamos el invierno con treinta y tres vidrios menos y con mucho frío. Hoy día, en tiempos de pandemia, es el triple de difícil.
+            Sí, en las militancias políticas o en las relaciones afectivas. Pensaba que no hacía bien la negociación, pero después ya me di cuenta que el problema era estructural, no era yo, formaba parte de algo más grande.
           </span>
-          <span className="section-span">
-            También hay casos de estudiantes que no se han conectado con nosotros o por Whatsapp y que debemos derivar a la profesora de convivencia escolar. Hace poco implementamos clases online con séptimo y octavo y de repente no funciona la conexión, aún así teniéndola en casa.
-          </span>
-          <span className="section-span">
-            Raquel González es una mujer de esas que llaman creativas e inagotables. Es profesora, activista, directora de las Viudas del Agua, integrante de Mujeres Modatima y militante de Revolución Democrática.
-          </span>
-          <span className="section-span">
-            “Hay veces que mis alumnas más jóvenes me dicen 'yapo, profe, baje las revoluciones' ”, comenta entre risas. Después de criar a sus hijos, de 25 y 27 años respectivamente, se siente más libre para decidir dónde y con quién trabajar. Al preguntarle qué la llevó a organizarse en diferentes espacios sociales reconoce la influencia de una cultura familiar que lleva en las venas.
-          </span>
-          <span className="section-span">
-            “Mi papá fue electo muchas veces como presidente provincial del Colegio de Profesores. Vienen muchos años de lucha y también un legado que te invita a ser parte de los cambios. No solamente a pensarlo, idearlo o quedarte en casa. Hay que hacer algo para que el cambio se genere. Entonces, es ahí cuando decido buscar espacios de participación”, explica Raquel.
-          </span>
-          <span className="section-span">
-            “Los profesores hemos sido grandes revolucionarios, hemos sido parte de los cambios sociales porque hemos sido muy maltratados, por eso para mí es importante colegiarse porque no puedo pasarme criticando. Hay que aportar”, señala Raquel González, quien está a punto de cumplir su segundo período como secretaria en el Colegio de Profesores del comunal de Papudo.
-          </span>
-          <span className="protag-h2-crisis">
-            Vencer el miedo
-          </span>
-          <span className="section-span">
-            Hace una década Raquel participó en la primera marcha de mujeres por el agua en La Ligua. Esta manifestación revolucionó la ciudad y el futuro de su vida. Luego de participar en un grupo artístico de la Ligua, Raquel llegó hace una década de lo que se convertiría años más tarde en el Movimiento de Defensa del Agua, la Tierra y la Protección del Medioambiente (Modatima).
-          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿Cómo fue tu ingreso a modatima?
+            Y donde posiblemente habían muchas malas negociadoras…
           </span>
           <span className="section-span">
-            A raíz de los contactos con el vocero nacional de Modatima, Rodrigo Mundaca, participamos en una Marcha por Agua que se hizo en Valparaíso. Fue una marcha gigante. Luego viajamos al sur, a Temuco, a una marcha plurinacional. Luego a Concepción y así. Desde nuestra agrupación que era más pequeña era muy importante apoyar a Modatima Entonces, este movimiento como nace en la Provincia de Petorca, tú lo sientes tuyo, es tu movimiento y dice, ¿cómo no vas a colaborar?
+            Exactamente, todas éramos malas negociadoras. Entonces, cuando el feminismo entra a mi vida. Te entra, se queda y no sale nunca más. No sale nunca más porque te ubica en un lugar distinto para leer el mundo, tu propia vida, la vida con tu entorno y lo que quieres hacer es transformarlo. De ahí, he estado generalmente trabajando en ámbitos que tienen que ver con derechos de las mujeres, desde el ámbito de los derechos humanos, en los derechos sexuales y reproductivos y en el aborto, siempre presente.
+          </span>
+          {/* Sub-titulo */}
+          <span className="protag-h2-crisis" style={{ marginTop: "20px" }}>
+            Derechos sexuales y reproductivos en crisis
           </span>
           <span className="section-span">
-            Un día me llamó Lorena Donaire para participar y conversamos. Así nace Mujeres Modatima que también era de acá. Nos decíamos  “Nosotras tenemos un rol fundamental y fuimos aprendiendo desde los movimientos sociales. Si bien Teresa Flores, tal vez no sabía leer, fue un gran mujer y levantó una lucha en el mundo del salitre ¿por qué nosotras no?”.
+            Este 30 de julio, la octava marcha por un aborto libre, seguro, legal y gratuito se realizó de manera virtual y desde sus organizaciones convocantes como la Mesa de Acción por el Aborto o la Coordinadora de Feministas en Lucha se instaló como consigna “Mi cuerpo, mi decisión”.
           </span>
-          <span className="section-span">
-            En medio de esta crisis sanitaria, Mujeres Modatima, junto al resto de la organización generaron operativos para entregar bidones de agua de cinco litros a comunidades sin acceso a este suministro vital para la protección y el cuidado de salud.
-          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿Qué acciones han abordado en esta crisis como organización?
+            En entrevista con El Mostrador señalaste que “las mujeres no podemos postergar la entrega de los anticonceptivos o el aborto legal, porque hay consecuencias que son permanentes en la vida.  Gloria, ¿cuándo la sexualidad será una prioridad?
           </span>
-          <span className="section-span">“Primero llevamos 60 bidones de agua, luego un camión. Nosotros salimos temprano a comprar agua y en la tarde salimos a repartir. No me puedo quedar tranquila pensando que hay familias que no tendrán agua un día. Hay familias donde primero se baña el marido, luego la señora y con la misma agua bañan a los hijos.
+          <span className="section-span">
+            El movimiento feminista y los feminismos han estado movilizados desde hace varios años. Siento que somos uno de los sujetos políticos y sociales que con mayor fuerza se instala en la disputa nacional abierta. En eso, tenemos el Mayo de 2018 como una cosa súper interesante. Pero, no es la primera. Hay que mirar nuestras propias trayectorias e ir ligándolas a la sexualidad.
           </span>
+          <span className="section-span">
+            La primera gran marcha, desde el fin de la dictadura fue la del pildorazo. Lo que pasa es que como éramos veinte mil y ahora somos dos millones y se ve como una cosita en el tiempo, pero esa cosita en ese momento tuvo un tremendo impacto.  El pildorazo mostró las ansias de libertad instaladas en las mujeres y en la población en general. Creo que fue súper importante ubicar en el imaginario público una calle de gente pidiendo libertad, derecho a decidir sobre el cuerpo. En los últimos 8M yo decía: "¡somos dos millones y además copamos las ciudades!".
+          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            Fue difícil salir porque ustedes también se ponen en riesgo y a su familia...
+            Perdimos el miedo...
           </span>
           <span className="section-span">
-            Exacto. A nosotras con nuestros compañeros nos costó mucho salir la primera vez.  Cuando decidimos empezar con la campaña, que partimos muy pudorosamente dijimos ¿qué hacemos? Un día nos organizamos vía zoom y nuestro vocero junto a alrededor de diez personas dijimos ¡vamos! Nos mandamos a hacer mascarillas y partimos con guantes gruesos a las zonas.
+            Ante la falta de respuesta del Estado, y particularmente de este gobierno, a lo que han sido las necesidades de la población en la pandemia, han sido los movimientos sociales y el movimiento feminista particularmente, no solamente, el que ha asumido, el que ha desarrollado, el que ha trabajado por construir, fortalecer la solidaridad y politizar.
           </span>
           <span className="section-span">
-            Entonces partimos la campaña "Sólo el pueblo ayuda al pueblo" donde entregamos  bidones de agua y nos encontramos con comunidades muy agradecidas. Nos encontramos con abuelitas de la tercera edad que lloraban para darte las gracias por dos, tres bidones de agua. Sin embargo, como Modatima tenemos más que claro que son medidas paliativas pero teníamos que llegar a la gente. Si el gobierno no se hace cargo, si nadie se hace cargo. Nosotros teníamos que hacerlo.
+            Creo que en esa lucha la sexualidad y la reproducción son absolutamente medulares a lo que el sistema ha sido de dominación, o sea, es en el cuerpo y es en el control de la sexualidad y la reproducción de las mujeres donde el patriarcado hunde sus uñas y muerde de la manera más feroz. Sí tengo derecho a voto pero no tengo derecho a abortar, ¿qué clase de ciudadanía es esa?
           </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿Te llena el corazón?
+            Si uno hace una revisión, ese énfasis también lo hacían las feministas del Movimiento Pro-Emancipación de las Mujeres de Chile en los años treinta...
           </span>
           <span className="section-span">
-            Es impagable, es impagable.
+            Claro, ellas hablaban de la emancipación de la maternidad, y las feministas siempre lo han hecho. Separemos las cosas. Tiene que ver con la autonomía que es esencial y si eso no está colocado como un sine qua non en la conversación social, no podemos hablar de las mujeres como un sector liberado. Entonces, yo siento que esa pelea es una pelea larga y es una pelea permanente.
           </span>
+          <span className="section-span">
+            Es un tema que tiene que ver con la política, que tiene que ver con la dominación y la subordinación de las mujeres, que tiene que ver con esos roles tradicionales que se esperan o fruiciones esenciales que siempre van a estar en disputa y claro, se encarna en el cuerpo de las mujeres pero no solo en el cuerpo de las mujeres.
+          </span>
+          <span className="section-span">
+            Siento que cuando hablamos de una Nueva Constitución y hablamos de la necesidad de que los derechos sexuales y reproductivos formen parte de los derechos reconocidos. Ese reconocimiento que tiene que estar acompañado con garantías de ejercicio y esto es algo que beneficia a todas las personas, no solamente a las mujeres.
+          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            Raquel, desde la realidad territorial ¿cómo viven las mujeres en zona de catástrofe la crisis sanitaria?
+            Poner en el centro la vida...
           </span>
           <span className="section-span">
-            Campesinas o esposas de campesinos tienen una visión muy particular de lo que es ser mujer y algunas no pueden hablar. Nosotras visibilizamos y nos convertimos en la voz de un sector que por miedo o temor no puede hablar porque le trabaja al patrón. Hay gente que piensa que si va a hablar la van a despedir y se quedarán sin su sustento.
+            La vida. Eso está en el centro de esa política para la vida, cómo construyes nuevos acuerdos de convivencia, donde lo que pones en el centro son la protección y la felicidad de las personas. Por tanto, la sexualidad y la reproducción, que son dimensiones que nos constituyen como seres humanos y se reconocen como algo que forma parte de la intimidad, que forma parte del desarrollo personal y que tiene que ser protegido, más allá de las discusiones sobre población que pueda tener el país.
           </span>
-          <span className="section-span">
-            Las mujeres viven con sobrecarga: desde trabajar desde la casa, cocinar, hacer aseo, además ver a niños o no tener internet para cumplir a las tareas. Sumale a esto la problemática del agua y las consecuencias en salud mental por eso es importante la solidaridad y unión entre compañeras.
-          </span>
-          <span className="section-span">
-            Para Raquel la labor que cumplen desde Mujeres Modatima trasciende la entrega de suministros básicos como el agua. “Nosotros entre todas las labores cumplimos un rol de contención. No podemos solo traer “el agüita” y chao. A la gente tu tienes que escucharla, porque hay gente que quiere decir, hablar. Acá la gente está viviendo con 50 litros de agua al día cuando la Organización Mundial de la Salud recomienda 100 litros”, dice.
-          </span>
-          <span className="section-span">
-            “A nosotros nos da rabia porque después de conocer toda la realidad del interior, los comerciales que muestran en la televisión son una burla. “Lávese las manos veinte veces al día” y tú dices ¿Con qué, si con suerte hay familias que tienen agua para tomar, beber y hacerse comida?”, agrega Raquel González.
-          </span>
-          <span className="protag-h2-crisis">
-            Viudas del Agua
-          </span>
-          <span className="section-span">
-            En las Viudas del Agua se reúnen mujeres y niñas desde los cuatro hasta los cincuenta y ocho años. Hay estudiantes, dueñas de casa, presidentas del Centro de Padres, profesoras y pobladoras. Inspiradas en los relatos de “La privatización del agua”, libro escrito por el reconocido dirigente socioambiental, Rodrigo Mundaca, construyeron la obra de teatro.
-          </span>
-          <span className="section-span">
-            “Primero partimos desde la alegría de antaño cuando teníamos agua. Tenemos muchas remembranzas y recuerdos bonitos de los río y, valles preciosos. Luego pasamos al tema de la sobre explotación de los recursos, el extractivismo y los monocultivos que empezaron a depredar lo poco que nos quedaba”, explica la activista.
-          </span>
-          <span className="section-span">
-            El 2019, Las Viudas del Agua alcanzaron a presentar su obra en diferentes lugares, acompañando a la Mesa del Agua en sus reuniones y manifestaciones como la toma del pozo de El Melón. Para nosotras “esta es una forma de aportar desde otros frentes. Las luchas deben ser frontalmente, pero también desde otros espacios como el arte y la cultura”.
-          </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿En qué consiste la obra las Viudas del Agua?
+            ¿Cuáles son las dificultades en concreto a las que se han visto enfrentadas las mujeres en esta pandemia?
           </span>
           <span className="section-span">
-            Las Viudas del Agua relatan cuando teníamos el código de antes de 1965 donde no estaba esta división, donde no existía esta separación del agua del dominio de la tierra y, además, era un bien de uso público, por lo tanto no habían dueños del agua. El dueño era el Estado de Chile. Entonces, Las Viudas del Agua reflejan esta alegría de haber vivido hasta cuando viene el despojo y nos empiezan a quitar el agua. Cuando sufrimos y nos duele todo porque por más que rasguemos el suelo no va a salir agua.
-          </span>
-          <span className="section-span">
-            El Código de Aguas de 1981 separa el agua del dominio de la tierra. “En Chile hay dueños de agua sin tierra y dueños de tierra sin agua”, añade Raquel González con determinación.
-          </span>
-          <span className="section-span">
-            Para la activista de Mujeres Modatima, “Nosotras nombramos los personeros porque porque tienen nombre y apellido como Eduardo Cerda García, Edmundo Pérez Yoma. Son grandes personeros de la política. Otros como Álamos, Trivelli también estuvieron un rato por estos lados. Y agrega, “El ciclo del agua fue quebrado por esta usurpación. No voy a decir robo. En Chile la usurpación del agua es legal, es con autorización y tampoco hay fiscalización por parte de las autoridades.
-          </span>
+            En Chile tenemos un sistema de salud donde la apuesta, en general, de construcción del sistema, ha estado más en los hospitales que en la atención primaria en salud. Siento que una de las grandes lecciones que deja el coronavirus es la necesidad de hacer de la atención primaria la columna vertebral del sistema de salud. Es ahí donde trabajas prevención, en donde trabajas promoción, donde puedes, con mayor efectividad, trabajar en transformaciones culturales, que tienen que ver con el bienestar y la salud que deben ser fortalecidos.           </span>
+          {/* Pregunta */}
           <span className="protag-h3">
-            ¿Qué consecuencias tuvo para las mujeres ese despojo?
+            El tú a tú…
           </span>
           <span className="section-span">
-            Las Viudas del Agua son la muestra de mujeres, donde sus maridos tuvieron que salir de su hogar, de su campo agrícola a trabajar porque fue necesario. Algunas se quedaron viudas de verdad, otras se quedaron solteras siendo jefas de familia y lidiando con todo lo que este rol conlleva.
+            Puedes incorporar mucho más fácilmente lo que son las necesidades específicas que vienen de pueblos originarios, o de pueblos afro o las mismas poblaciones migrantes. La atención primaria es una esponja que puede realmente absorber y trabajar en una perspectiva mucho más inclusiva, en favor de la salud de la población en general.
           </span>
           <span className="section-span">
-            Si antes el marido estaba dedicado a trabajar en la agricultura y con eso les alcanzaba para vivir y subsistir, hoy día no es suficiente. Nosotras vemos cómo las mujeres también tienen que salir a trabajar, cómo las mujeres tienen que sembrar lo poco y nada de tierra que aún queda y si es que tienen agua.
+            En esta pandemia se ha repetido que las prestaciones en salud sexual y reproductiva se tiran pa' la cola, se ven como no necesarias, como no esenciales. La evidencia muestra que tratarlas como marginales o de segundo orden de necesidad lo que hace es profundizar las desigualdades que ya existían previo al desastre con el que estás lidiando. Cuando sales de este proceso tan doloroso, lo que haces es tener sectores de la población, en este caso, las mujeres, sobre todo las mujeres que tienen una vida mucho más precaria en términos de acceso a recursos, trabajo, viviendo, en fin, aún en condiciones de mayor precariedad.
+          </span>
+          {/* Pregunta */}
+          <span className="protag-h3">
+            Y con más bocas que alimentar...
           </span>
           <span className="section-span">
-            Finalmente, en esta pandemia, Modatima junto al Centro por la Justicia y el Derecho Internacional (Cejil) presentaron medidas cautelares ante la Comisión Interamericana de Derechos humanos a favor de las comunidades rurales con escasez hídrica. “La justicia es injusta contra el pueblo pobre y sencillo. Sobre todo con las mujeres más vulnerables”, señala la profesora.
+            Los niveles de precariedad se te complican. Agrégale que en tiempos de pandemia, lo que ha surgido con mucha fuerza es el aumento brutal de la violencia contra las mujeres. Eso incluye violencia sexual. También vas a tener ahí casos de embarazos forzados, en las niñas, en las jóvenes, producto de la agresión sexual de los entornos familiares, de las mujeres que viven en pareja y que viven violencia intrafamiliar también. Cuando decimos que las consecuencias son permanentes, son permanentes, porque además, en este momento, difícilmente puedes acceder a un aborto particularmente por razón de violación.
+          </span>
+          {/* Sub-titulo */}
+          <span className="protag-h2-crisis" style={{ marginTop: "20px" }}>
+            Constitución feminista
           </span>
           <span className="section-span">
-            “Nosotros no nos quedamos con excusas como “es inconstitucional” “no, que depende del Ejecutivo”. Si antes era importante defender el agua como derecho humano, como bien público, hoy es tres veces más importante”, sentencia Raquel González, dirigenta que, como muchas a lo largo y ancho de Chile, hace de la creatividad una herramienta de supervivencia para paliar la crisis.
+            Producto del exilio, Gloria Maira se forjó como feminista en Ecuador junto a compañeras como Nela Meriguet o Tatiana Cordero. Desde ese lugar de habla se reconoce como feminista del sur del mundo, donde al calor del trabajo con mujeres de sectores populares de los barrios de Quito poco a poco incorporó este pensamiento a su práctica cotidiana.
+          </span>
+          <span className="section-span">
+            En la entrevista agradece el rol del "Taller de Comunicación Mujer" en su formación. En los ochentas, esta escuela se sumó a otros grandes referentes de la región como La Morada en Chile o Manuela Ramos y Flora Tristán en Perú. En Ecuador aprendió sobre procesos constituyentes latinoamericanos y desde esa experiencia opina sobre el plebiscito de octubre 2020, que se realizará un año más tarde del inicio de la revuelta.
+          </span>
+          {/* Pregunta */}
+          <span className="protag-h3">
+            La Corporación Humanas dice que un nuevo contrato social viene de la mano a pensar en un nuevo contrato sexual ¿Cuáles serán las batallas que el movimiento feminista deberá salir a conquistar en este proceso constituyente y cuál será el rol de aquellas que nos reconocemos como feministas en la disputa de esos contenidos?
+          </span>
+          <span className="section-span">
+            A propósito de la pandemia, la crisis de los cuidados y en toda la línea, dentro y fuera de la casa ha demostrado que el cuidado o el cuido de las  personas tiene que ser central a la función del Estado y el sentido del Estado.  Si colocas “el cuido” como un elemento central, que inspira la construcción constitucional, evidentemente estás visualizando otra cosa.  Esa pelea que hay que dar lo que hace es marcar un nuevo lugar de construcción, la posibilidad de otros diálogos, la posibilidad de otros caminos, pero que no van a estar exentos de disputa y de lucha.
+          </span>
+          <span className="section-span">
+            Que la norma constitucional ponga el cuidado de la persona y de las familias en el centro del sentido del Estado, pero eso no significa que al otro día amanecimos en otro país. Hay una cosa que se llama romanticismo constitucional donde dices "así va a ser" y ahí en adelante es como llegar al Edén, al Nirvana, al Olimpo, una cosa donde todo está resuelto. Que algo quede en la Constitución significa que te permite cambiar el eje. De lo que se puede, a lo que no se puede hacer. Los conflictos van a seguir ocurriendo. Demora unas buenas décadas de trabajo mirarse en una posibilidad distinta de convivencia en la práctica, más allá de lo que diga la formulación constitucional.
+          </span>
+          {/* Pregunta */}
+          <span className="protag-h3">
+            Gloria, en medio de este proceso de deliberación ¿Cuáles son tus irrenunciables?
+          </span>
+          <span className="section-span">
+            Uno de esos es que el cuidado tiene que ser fundamentalmente colocado en la Constitución. No es como "un derecho más", sino como un sentido de la construcción social, económica y política, la protección y el cuidado de las personas, de la naturaleza. Los derechos sexuales y reproductivos, los derechos sociales también son un irrenunciable. Todo lo que tenga que ver con la profundización de la democracia es irrenunciable. Una ciudadanía que forma parte de una democracia tiene que tener muchas más herramientas en términos de incidencia de las que existen ahora.
+          </span>
+          <span className="section-span">
+            Evidentemente, la interrogación al sistema neoliberal, que es fundamento en nuestra Constitución también es un irrenunciable, o sea nunca más podemos nosotras y nosotros encontrarnos de frente con un Estado que le dé preferencia al mercado por sobre la vida misma. Que no pueda controlar los precios, no pueda efectivamente decir "no se pagan los servicios básicos" o que todo eso es inconstitucional. Siento que los fundamentos neoliberales que hoy tiene la Constitución se tienen que modificar radicalmente.
+          </span>
+          {/* Pregunta */}
+          <span className="protag-h3">
+            Dicen que las decisiones de hoy día van a determinar cómo vamos a ser en unos años más, ¿hay algún aprendizaje que debemos tomar como país y que ha quedado en descubierto en esta pandemia?
+          </span>
+          <span className="section-span">
+            Un aprendizaje tiene que ver con la solidaridad y tiene que ver con el tejido social. La solidaridad como un elemento fundante de lo que es nuestro sistema institucional de protección social, de distribución de riquezas y de relacionamiento entre las personas. Quien finalmente está garantizado hoy que las personas puedan comer, aunque sea un plato al día, es precisamente tener un sentido de la solidaridad, un sentido de lo que es vivir en sociedad y hacernos todos y todas y todes cargo de lo que son las necesidades de las personas.
+          </span>
+          <span className="section-span">
+            Yo creo que eso es un tremendo aprendizaje.
           </span>
         </div>
         <ReadNext section={"protagonistas"} />
