@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
-import creamos from '../../assets/REVISTA3/creamos.jpg'
 
 export class Creamos extends Component {
   componentDidMount() {
