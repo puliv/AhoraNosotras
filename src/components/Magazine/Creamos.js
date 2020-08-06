@@ -3,9 +3,6 @@ import ReadNext from "./ReadNext";
 import GoBack from "./GoBack";
 import { animateScroll as scroll } from 'react-scroll'
 import creamosImg from '../../assets/REVISTA3/creamos.png'
-import aborto from '../../assets/REVISTA3/Creamos_aborto.jpg'
-import isabella from '../../assets/REVISTA3/Creamos_IsabellaAlzamora.jpg'
-import paula from '../../assets/REVISTA3/Creamos_PaulaMena.png'
 
 
 export class Creamos extends Component {
@@ -40,15 +37,15 @@ export class Creamos extends Component {
 
         <div className="section-div-images">
           <div className="section-div-tercio">
-            <img src={aborto} alt="creamos" className="img-creamos" />
+            <img src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/Creamos_aborto.jpg?raw=true"} alt="creamos" className="img-creamos" />
             <h2 className="section-h2">Ilustración: Catalina Potocnjak</h2>
           </div>
           <div className="section-div-tercio">
-            <img src={isabella} alt="creamos" className="img-creamos" />
+            <img src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/Creamos_IsabellaAlzamora.jpg?raw=true"} alt="creamos" className="img-creamos" />
             <h2 className="section-h2">Ilustración: Por Isabella Alzamora</h2>
           </div>
           <div className="section-div-tercio">
-            <img src={paula} alt="creamos" className="img-creamos" />
+            <img src={"https://github.com/puliv/AhoraNosotras/blob/master/src/assets/REVISTA3/Creamos_PaulaMena.png?raw=true"} alt="creamos" className="img-creamos" />
             <h2 className="section-h2">Ilustración: Por Paula Mena</h2>
           </div>
         </div>
