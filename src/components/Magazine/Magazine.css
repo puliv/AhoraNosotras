@@ -113,6 +113,26 @@
   font-size: 18px;
 }
 
+/* ---------- Estilo para imagenes  ---------- */
+
+.section-div-images {
+  width: 100%;
+}
+
+.section-div-tercio {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-creamos {
+  object-fit: contain;
+  width: 80%;
+  height: auto;
+}
+
 /* ---------- Editorial ---------- */
 
 .edit-text-span {

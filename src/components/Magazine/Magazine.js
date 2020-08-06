@@ -9,7 +9,7 @@ import cover from '../../assets/REVISTA3/portada-3.png'
 import editorialImg from '../../assets/REVISTA3/editorial.png'
 import hablamosImg from '../../assets/REVISTA3/hablamos_alejandratoledo.png'
 import opinamosImg from '../../assets/REVISTA3/opinamos.png'
-import creamosImg from '../../assets/REVISTA3/creamos.jpg'
+import creamosImg from '../../assets/REVISTA3/creamos.png'
 import despiertasImg from '../../assets/REVISTA3/despiertas.png'
 import backcover from '../../assets/REVISTA3/contraportada.jpg'
 
